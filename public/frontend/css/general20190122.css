@@ -1,0 +1,44 @@
+/*slides*/
+.glyphicon-chevron-right{
+    background-image: url("http://phongkhamviendong.vn/images/btn-right.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+}
+.glyphicon-chevron-right:before {
+    content: "";
+}
+.glyphicon-chevron-left{
+    background-image: url("http://phongkhamviendong.vn/images/btn-left.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+}
+.glyphicon-chevron-left:before {
+    content: "";
+}
+.carousel:hover .glyphicon-chevron-right{
+    opacity: 1;
+    margin-right:5%;
+}
+.carousel:hover .glyphicon-chevron-left{
+    opacity: 1;
+    margin-left:5%;
+}
+.banner_img{
+    text-align: center;
+}
+.banner_img img{
+    margin: auto;
+}
+.carousel-indicators li{
+    background: rgba(0, 0, 0, 0.46);
+}
+.carousel-indicators li.active{
+    background: rgba(0, 0, 0, 0.76);
+}
+/*end sides*/

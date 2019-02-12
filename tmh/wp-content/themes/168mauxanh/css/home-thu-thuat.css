@@ -1,0 +1,63 @@
+.thu-thuat{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.thu-thuat .col-1{
+	width: 480px;
+}
+.thu-thuat .col-2{
+	width: 495px;
+	margin-left: 25px;
+}
+.thu-thuat .col-2 a.title-1{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+	line-height: 16pt;
+	font-size: 14pt;
+	color: #078353;
+}
+.thu-thuat .col-2 a.title-1:hover{
+	color: #ec6f23;
+}
+.thu-thuat .col-2 >div{
+	margin-bottom: 11px;
+}
+.thu-thuat .col-2 >div span{
+	color: #333;
+	display: inline-block;
+	width: 390px;
+	float: left;
+	padding: 5px;
+	margin-left: 5px;
+	line-height: 15pt;
+}
+.thu-thuat .col-2 a.title-2{
+	display: inline-block;
+	padding: 5px;
+	background-color:#ae9c83;
+	text-transform: uppercase;
+	color: #fff; 
+	float: left;
+	width: 95px;
+	text-align: center;
+}
+.thu-thuat .list a{
+	display: inline-block;
+	background-color: #e7e7e7;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	color: #444;
+	margin-bottom: 5px;
+	line-height: 15pt;
+	text-decoration: none;
+	width: 162px;
+}
+.thu-thuat .list a.active{
+	background-color: #ff4f49;
+	color: #fff;
+}

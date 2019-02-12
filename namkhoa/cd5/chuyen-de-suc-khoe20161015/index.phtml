@@ -1,0 +1,296 @@
+<?php
+require_once '../../Mobile_Detect.php';
+$detect = new Mobile_Detect;
+$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
+$user_agent = $detect->getUserAgent();
+require_once('../../define.php');
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$line_chat=line_chat();
+$dbHost =Host;
+$dbUsername = User_db;
+$dbPassword = Pass_db;
+$dbDatabase = Name_db;
+$mysqli=new mysqli($dbHost, $dbUsername, $dbPassword,$dbDatabase) or die ("Unable to connect to Database Server.");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khuyến Mại Nam Khoa</title>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <base target="_blank">
+    <?= ico_shortcut;?>
+</head>
+<body>
+<div id="wapper">
+    <div class="banner">
+        <img src="image/banner.jpg">
+    </div>
+    <div class="menu">
+        <div id="menu_top">
+            <div class="main_item">
+                <ul>
+                    <li><a href="<?= $domain;?>">Trang chủ</a></li>
+                    <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a></li>
+                    <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a></li>
+                    <li><a href="<?= $link_diachi;?>">Địa chỉ</a></li>
+                    <li><a href="<?= $link_tuvan;?>">Đăng ký khám</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background: #dddddd;">
+        <div class="main_item">
+            <div id="mota">
+                <div id="mota_text">
+                    <p>
+                        <!--Cảm ơn bạn và người thân đã luôn tin tưởng phòng khám của chúng tôi, chúng tôi luôn nỗ lực vì sức khỏe của cộng đồng. Nhân ngày phụ nữ Việt Nam, phòng khám đa khoa 168 Hà Nội tổ chức hoạt động <b>"Đồng hành cùng sức khỏe của bạn"</b>, một người khỏe mạnh, cả gia đình hạnh phúc. Trên con đường sức khỏe, phòng khám đa khoa 168 Hà Nội luôn đồng hành cùng bạn. Bạn có thể tư vấn trực tuyến hoặc gọi điện vào số điện thoại: <?/*= $phone1;*/?> - <?/*= $phone2;*/?> để đăng ký tới khám, hoạt động này chỉ áp dụng đối với những bệnh nhân đăng ký qua điện thoại và qua mạng.-->
+                        Nhằm tri ân những người bệnh đã luôn tin tưởng phòng khám chúng tôi trong thời gian qua, nhân dịp kỷ niệm 62 năm ngày Giải phóng thủ đô Hà Nội (10/10/1954 – 10/10/2016), Phòng khám đa khoa 168 Hà Nội tổ chức hoạt động ưu đãi khám chữa bệnh cực sốc đối với những bệnh nhân đăng ký qua mạng và qua số điện thoại. Ưu đãi này áp dụng từ ngày 1 đến ngày 10/10/2016, chính vì thế, ngay từ bây giờ hãy tư vấn trực tuyến hoặc nhanh tay gọi điện cho chúng tôi theo đường dây nóng <?= $phone1;?> - <?= $phone2;?> để được hưởng nhiều ưu đãi hấp dẫn.
+                    </p>
+                </div>
+            </div>
+            <div class="clear2"></div>
+            <div id="khuyenmai">
+                <div id="km_content">
+                    <div id="km_title">
+                        <div id="km_title_left">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 1</span>
+                        </div>
+                        <div id="km_title_right">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 2</span>
+                        </div>
+                    </div>
+                    <div id="km_mienphi">
+                        <div id="km_mienphi_left">
+                            <p class="km"><span style="color: red;">miễn phí</span> toàn bộ</p>
+                            <p>phí đặt mã số khám</p>
+                        </div>
+                        <div id="km_mienphi_right">
+                            <p class="km">ưu đãi giảm <span style="color: red;font-size: 30px;">50%</span></p>
+                            <p>phí kiểm tra</p>
+                        </div>
+                    </div>
+                    <div id="km_mota">
+                        <div id="km_mota_left">
+                            <div id="km_mota_left_2">
+                                Chỉ cần là bệnh nhân đặt hẹn <br/> trên mạng đến phòng khám <p>đều được miễn phí toàn</p> bộ phí đặt mã số khám
+                            </div>
+                        </div>
+                        <div id="km_mota_right">
+                            <div id="km_mota_right_2">
+                                Chỉ cần là bệnh nhân đặt <br>hẹn trên mạng đến <br> phòng khám  được <br>giảm 50% tất cả <br>phí kiểm tra
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chitiettuvan"><a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_tuvanchitiet.png"></a></div>
+                    <div id="km_title2">
+                        <div id="km_title_left2">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 3</span>
+                        </div>
+                        <div id="km_title_right2">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 4</span>
+                        </div>
+                    </div>
+                    <div id="km_mienphi2">
+                        <div id="km_mienphi_left2">
+                            <p class="km_left km_title">Ưu đãi giảm <span style="color: red;font-size: 30px;">50%</span></p>
+                            <p class="km_left">phí thủ thuật</p>
+                            <div id="km_left_ct">Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám đều được giảm 50% phí thủ thuật</div>
+                        </div>
+                        <div id="km_mienphi_right2">
+                            <p class="km_right km_title">ưu đãi giảm <span style="color: red;font-size: 30px;">30%</span></p>
+                            <p class="km_right">phí điều trị</p>
+                            <div id="km_right_ct">Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám  được giảm 30% tất cả chi phí điều trị</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row tit_item">
+        <div class="main_item">
+            <div class="tuvan_top">
+                <div class="tuvan_top_left">
+                    <p><a href="">Đội ngũ bác sỹ giỏi tại Hà Nội</a></p>
+                </div>
+                <div class="tuvan_top_right">
+                    <div><p><a>điều trị an toàn hiệu quả</a></p></div>
+                    <div><a href="<?= $link_tuvan;?>" target="_blank" style="margin-left: 50px;"><img src="image/bt_tuvan.png" style="margin-top: 10px;"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background: #ffffff;">
+        <div class="clear2"></div>
+        <div class="main_item">
+            <div id="tuvan_img"><img src="image/nv_pk.jpg" alt="tu van" style="width: 917px;height: 290"></div>
+            <div class="clear2"></div>
+            <div id="tuvan_content">
+                <p >&nbsp&nbsp&nbsp&nbsp Bác sỹ nam khoa với hơn 30 năm kinh nghiệm, tiến hành đưa ra các phương án điều trị và các hạng mục kiểm tra cho các anh em. Bác sỹ nam khoa Phòng Khám 168 Hà Nội tiến hành hội chuẩn đối với những bệnh lý nan giải phức tạp, làm cho nhưng gia đình sống tại Hà Nội không cần phải đi xa mới có thể tìm thấy bác sỹ giỏi,  mọi người được hưởng dịch vụ y tế chất lượng cao.</p>
+            </div>
+            <div id="tuvan_foot"></div>
+        </div>
+    </div>
+    <div class="row tit_item">
+        <div class="main_item">
+            <div class="tuvan_top">
+                <div class="tuvan_top_left">
+                    <p><a href="">Khám bệnh cần thận trọng</a></p>
+                </div>
+                <div class="tuvan_top_right">
+                    <div><p><a>không nên lựa chọn mù quáng</a></p></div>
+                    <div><a href="<?= $link_tuvan;?>" target="_blank" style="margin-left: 25px;"><img src="image/bt_tuvan.png" style="margin-top: 10px;"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background: #ddd;">
+        <div class="clear2"></div>
+        <div class="main_item" style="height: 930px;">
+            <div id="tieuchuan_img"><img src="image/img_tieuchuan2.png" alt="tieu chuan"></div>
+            <div id="sdt">
+                <a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_tuvanchuyengia.png"></a>
+                <p>điện thoại tư vấn</p>
+                <span><?= phone1;?> - <?= phone2;?></span>
+            </div>
+        </div>
+    </div>
+    <div class="row tit_item">
+        <div class="main_item">
+            <div class="tuvan_top">
+                <div class="tuvan_top_left" style="width: 600px;">
+                    <p><a href="">ĐẶT HẸN QUA MẠNG VÀ NHỮNG PHÚC LỢI ĐƯỢC HƯỞNG</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="dangkykham" style="background: #ddd;">
+        <div class="clear2"></div>
+        <div class="main_item">
+            <div class="row" style="margin-left: -15px;margin-right: -15px;display: table;width: 1030px;">
+                <div class="col-lg-4">
+                    <div class="dathen_left" id="dathen1" style="height: 406px;">
+                        <div class="title_sub" style="text-transform: uppercase">Hẹn khám qua mạng (đăng ký khám)<br> hưởng 4 phúc lợi sau: </div>
+                        <p style="padding: 15px 5px 15px 10px;"><b style="color:#177fc8;">1.Được ưu tiên khám trước</b>: đăng kí khám qua mạng sẽ được ưu tiên khám trước, không cần phải xếp hàng chờ đợi.</p>
+                        <p style="padding: 5px 5px 15px 10px;"><b style="color:#177fc8;">2.Đến là được khám ngay</b>: chỉ cần hẹn khám qua mạng bạn có thể lựa chọn thời gian thăm khám thuận tiện nhất cho mình</p>
+                        <p style="padding: 5px 5px 15px 10px;"><b style="color:#177fc8;">3.Được lựa chọn bác sỹ</b>: khi hẹn khám qua mạng sẽ căn cứ vào tình trạng bệnh của người bệnh để sắp xếp bác sỹ khám bệnh phù hợp cho bạn. </p>
+                        <p style="padding: 5px 5px 15px 10px;"><b style="color:#177fc8;">4.Được hưởng ưu đãi</b>: đăng kí khám qua mạng có thể được hưởng những ưu đãi liên quan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" id="dathen2" style="height: 406px;">
+                    <div class="dathen_img">
+                        <img src="http://khamphukhoa168.com/2015/chuyen-de-phu-khoa-thang-7/images/img_dathen.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dathen_right" id="dathen3" style="height: 406px;">
+                        <div class="title_sub">ĐẶT HẸN KHÁM TRỰC TIẾP QUA MẠNG</div>
+                        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+                        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+                        <form name="frm" method="post" action="" target="_self">
+                            <ul>
+                                <li><label>Họ và tên <b style="color: red;">(*)</b>:</label><label><input type="text" name="hoten"></label></li>
+                                <li><label>Khoa khám:</label><label><input type="text" name="khoakham"></label></li>
+                                <li><label>Thời gian khám:</label><label><input type="text" name="thoigian" id="thoigian"></label></li>
+                                <li><label>Số điện thoại <b style="color: red;">(*)</b>:</label><label><input type="number" name="dienthoai"></label></li>
+                                <li><label>Mô tả bệnh:</label><label><textarea name="mota" cols="22" rows="3"></textarea></label></li>
+                                <li><label></label><label><input type="submit" name="submit" class="btn btn-info" style="background:#177fc8; " value="Đặt hẹn"></label></li>
+                            </ul>
+                        </form>
+                        <script>
+                            $(function() {
+                                $('#thoigian').datepicker({ dateFormat: 'yy-mm-dd',
+                                    monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+                                });
+                            });
+                        </script>
+                        <?php if(isset($_POST['submit'])){
+                            $hoten=$_POST['hoten'];
+                            $khoakham=$_POST['khoakham'];
+                            $thoigian=$_POST['thoigian'];
+                            $dienthoai=$_POST['dienthoai'];
+                            $mota=$_POST['mota'];
+                            $channel='cd5/chuyen-de-suc-khoe/';
+                            $created_at=date('Y-m-d');
+                            $updated_at=date('Y-m-d');
+                            if(empty($hoten) || empty($dienthoai)){
+                                echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+                            }else{
+                                $uri='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                                $link=link_dangkykham().'data=';
+                                $data=array(
+                                    'uri'=>$uri,
+                                    'hoten'=>$hoten,
+                                    'khoakham'=>$khoakham,
+                                    'thoigian'=>$thoigian,
+                                    'dienthoai'=>$dienthoai,
+                                    'mota'=>$mota,
+                                );
+                                $json=json_encode($data);
+                                $str_en=base64_encode($json);
+                                $link=$link.$str_en;
+                                echo "<script>window.location.href='".$link."';</script>";
+                                exit;
+                                //$sql="insert into tbldangky(hoten,dienthoai,khoakham,thoigian,mota,created_at,channel) values (N'".$hoten."',N'".$dienthoai."',N'".$khoakham."',N'".$thoigian."',N'$mota',N'".$created_at."',N'".$channel."')";
+                                /*$sql="insert into tbldangky(hoten,dienthoai,khoakham,thoigian,mota,channel,device,user_agent,created_at,updated_at) values (N'".$hoten."',N'".$dienthoai."',N'".$khoakham."',N'".$thoigian."',N'$mota',N'$channel',N'$deviceType',N'$user_agent',N'$created_at',N'$updated_at')";
+                                $rs=$mysqli->query($sql);
+                                if($rs=="1"){
+                                    echo "<script>alert('Bạn đã đặt hẹn thành công.');</script>";
+                                    refresh();
+                                }else{
+                                    echo "<script>alert('Bạn đặt hẹn không thành công.Mời bạn đặt hẹn lại.');</script>";
+                                }*/
+                            }
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear2"></div>
+    </div>
+    <div id="footer">
+        <div class="footer_main">
+            <div class="button_tv">
+                <ul>
+                    <li><a href="<?= $link_tuvan;?>"><img src="image/footer/f_tv.png"><br>Tư vấn</a> </li>
+                    <li><a href="<?= $link_tuvan;?>"><img src="image/footer/f_hk.png"> <br>Hẹn khám</a> </li>
+                    <li><a href="skype:bacsy_tuvan168?chat"><img src="image/footer/f_skype.png"> <br>Skype</a> </li>
+                    <li><a href="<?= $domain;?>"><img src="image/footer/f_home.png"> <br>Trang chủ</a> </li>
+                </ul>
+            </div>
+            <div class="clear2" style="float: left"></div>
+            <div class="footer_txt">
+                <p>KM 1 2 - Ngọc Hồi - Thanh Trì - Hà Nội</p>
+                <p>Điện thoại: <?= $phone1;?> - <?= $phone2;?></p>
+                <p>Email: phongkhamdakhoa168@gmail.com</p>
+                <p><i>Thông tin trên website mang tính chất tham khảo</i></p>
+                <p><i>không là căn cứ y tế và chẩn đoán</i></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var max_height = 0;
+        //Duyệt qua 3 cột
+        $("#div1,#div2,#right").each(function(){
+            if($(this).height() > max_height)
+            max_height = $(this).height();
+        });
+        $("#div1,#div2,#right").height(max_height);
+    });
+</script>
+</body>
+</html>
+<?= $line_chat;?>

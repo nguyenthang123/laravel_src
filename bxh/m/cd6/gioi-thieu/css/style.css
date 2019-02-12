@@ -1,0 +1,628 @@
+html{
+    font-size: 1.25rem;
+}
+body{
+    font-family: arial;
+    font-size: 75%;
+}
+.h1{
+    font-size: 1.3rem;
+}
+.clear{
+    width: 100%;
+    height: 0.5rem;
+}
+.clear2{
+    width: 100%;
+    height: 1rem;
+}
+/*chinh theo kich thuoc man hinh*/
+@media screen and (min-width: 320px){
+    html {
+        font-size: 0.75rem;
+    }
+}
+@media screen and (min-width: 400px){
+    html {
+        font-size: 0.875rem;
+    }
+}
+@media screen and (min-width: 480px){
+    html {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 560px){
+    html {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 600px){
+    html {
+        font-size: 1.125rem;
+    }
+}
+/*het phan chinh theo kich thuoc man hinh*/
+.bg_xanh{
+    background: #1993a6;
+}
+a{
+    color: #000000;
+}
+a:hover{
+    text-decoration: none;
+}
+.padding_x15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container{
+    max-width: 600px;
+    background: #ffffff;
+    padding: 0;
+    font-size: 1rem;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+.main_item{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+/*.main_header*/
+.main_header{
+    width: 100%;
+    background: #1993a6;
+    float: left;
+    border-bottom: 2px solid #b8b8b8;
+}
+.main_header .header_left{
+    width: 10%;
+    float: left;
+    position: relative;
+}
+.main_header .header_left a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main_header .header_left span{
+    cursor: pointer;
+    position: relative;
+    display: inline-table;
+}
+.main_header .header_left img{
+    padding-top: 15px;
+}
+.header_left .menu_main{
+    position: absolute;
+    width: 500%;
+    background: #1993a6;
+    padding-top: 15px;
+    z-index: 10;
+    display: none;
+}
+.header_left span.active .menu_main{
+    display: block;
+}
+.header_left .menu_main ul.menu_main_lv1 li:first-child{
+    border-top: 2px solid #b8b8b8;
+}
+.header_left .menu_main ul.menu_main_lv1 li{
+    padding: 8px 0px 8px 15px;
+    border-bottom: 2px solid #b8b8b8;
+}
+.main_header .header_right{
+    width: 15%;
+    line-height: 80px;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.main_header .header_content{
+    width: 80%;
+    float: left;
+}
+.header_content h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+}
+.logo_top{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 85%;
+}
+.logo_top img{
+    max-width: 100%;
+}
+/*.main_content*/
+.main_content{
+    padding: 0 15px;
+    background: #ffffff;
+}
+.logo{
+    background:#1993a6 ;
+    text-align: center;
+    padding: 0;
+}
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo img{
+    width: 70%;
+    padding: 1rem 0;
+}
+.logo p{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.about{
+    padding-right: 0;
+    padding-left: 0.5rem;
+}
+.tuvan{
+    height: 6rem;
+    width: 100%;
+    text-align: center;
+}
+.tuvan a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+.tuvan img{
+    width: 30%;
+}
+.tuvan a span{
+    display: inline-table;
+    padding-left: 0.3rem;
+}
+.kythuat{
+    width: 100%;
+}
+.kythuat a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.kythuat img{
+    width: 50%;
+}
+.kythuat .kythuat1,.kythuat .kythuat2{
+    background: #39bcd0;
+    width: 49%;
+    text-align: center;
+    float: left;
+    padding: 1rem 0;
+    height: 6rem;
+}
+.kythuat .kythuat2{
+    float: right;
+}
+/*.main_tit*/
+.main_tit{
+    background: #1993a6;
+    height: 2.5rem;
+    padding: 0.5rem 15px 0px 15px;
+}
+.main_tit_txt{
+    color: #fff;
+    text-transform: uppercase;
+    height: 2rem;
+    display: inline-block;
+}
+.main_tit_tv{
+    float: right;
+}
+.main_tit_tv img{
+    height: 1.7rem;
+}
+.main_item_tit{
+    background: #1993a6;
+    margin: 0 -15px;
+    padding: 0.8rem 0;
+    color: #ffffff;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+/*.gioithieu*/
+.gioithieu{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.gioithieu h1{
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1993a6;
+}
+.gioithieu_main img{
+    max-width: 50%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+}
+.gioithieu_item{
+    width: 100%;
+    overflow: hidden;
+}
+.gioithieu ul{
+    list-style: none;
+    width: 100%;
+}
+.gioithieu ul li{
+    float: left;
+    width: 23.5%;
+    margin-left: 2%;
+    background: #39bcd0;
+    text-align: center;
+}
+.gioithieu ul li:first-child{
+    margin-left: 0;
+}
+.gioithieu .gioithieu_item_ico{
+    width: 100%;
+    height: 4rem;
+    padding-top: 0.5rem;
+}
+.gioithieu .gioithieu_item_ico img{
+    max-width: 80%;
+    max-height: 100%;
+}
+.gioithieu ul li p{
+    color: #ffffff;
+    margin: 0;
+    height: 51px;
+}
+/*.phongkham_des*/
+.phongkham_des{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    overflow: hidden;
+    text-transform: lowercase;
+}
+.phongkham_des_l{
+    float: left;
+    width: 45%;
+    text-align: center;
+    padding-right: 1rem;
+}
+.phongkham_des_l img{
+    max-width: 100%;
+}
+.phongkham_des_r{
+    float: left;
+    width: 55%;
+}
+.phongkham_des_txt{
+    border-left: 1px dashed #fff;
+    color: #fff;
+    text-align: justify;
+    padding-left: 1rem;
+    text-transform: none;
+}
+.phongkham_main{
+    display: table;
+    border-spacing:15px 0;
+    margin: 0 -15px;
+    margin-bottom: 1rem;
+}
+.phongkham_main .phongkham_item{
+    width: 50%;
+    display: table-cell;
+    border: 1px solid #000000;
+}
+.phongkham_item_img{
+    text-align: center;
+    padding: 0.2rem;
+}
+.phongkham_item_img img{
+    max-width: 100%;
+}
+.phongkham_item_tit{
+    width: 100%;
+    background: #39bcd0;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.3rem 0;
+}
+.phongkham_item_txt{
+    padding-left: 0.3rem;
+}
+.phongkham_tv{
+    width: 100%;
+    overflow: hidden;
+}
+.phongkham_tv_l,.phongkham_tv_r{
+    width:48% ;
+    height: 3rem;
+    float: left;
+}
+.phongkham_tv_l{
+    margin-right: 4%;
+    background: #1993a6;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+.phongkham_tv_l img{
+    max-width: 40%;
+    max-height: 80%;
+    margin-top: -1.7rem;
+}
+.phongkham_tv_l span{
+    display: inline-block;
+    color: #ffffff;
+}
+.phongkham_tv_r{
+    background: #ffbe41;
+    text-align: center;
+    line-height: 3rem;
+    padding-top: 0.5rem;
+}
+.phongkham_tv_r img{
+    max-width: 80%;
+    max-height: 80%;
+}
+.phongkham_des_txt2{
+    border: none;
+    padding-left: 0;
+    color: #ffffff;
+}
+/*.kientri*/
+.kientri{
+    width: 100%;
+}
+.kientri_item_tit{
+    background: #17ac33;
+    color: #ffffff;
+    padding-left: 0.2rem;
+    text-transform: uppercase;
+}
+.kientri_item_tit b{
+    font-size: 30px;
+}
+.kientri_item_txt{
+    margin-top: 1rem;
+}
+.kientri_item_txt p{
+    background: url("../images/ico_v_xanh.png") no-repeat;
+    background-position: top left;
+    background-size: 1.5rem;
+    padding-left: 2rem;
+}
+.kientri_item:nth-child(2) .kientri_item_tit{
+    background: #e19f1f;
+}
+.kientri_item:nth-child(2) .kientri_item_txt p{
+    background: url("../images/ico_v_vang.png") no-repeat;
+    background-position: top left;
+    background-size: 1.5rem;
+}
+.kientri_item:nth-child(3) .kientri_item_tit{
+    background: #129d9b;
+}
+.kientri_item:nth-child(3) .kientri_item_txt p{
+    background: url("../images/ico_v_xanhdam.png") no-repeat;
+    background-position: top left;
+    background-size: 1.5rem;
+}
+.kientri_tuvan{
+    background: #39bcd0;
+    text-align: center;
+    padding: 0.2rem 0;
+}
+.kientri_tuvan a{
+    color: #ffffff;
+    display: inline-flex;
+}
+.kientri_tuvan a img{
+    padding-right: 0.8rem;
+}
+.kientri_tuvan a b{
+    font-size: 1.3rem;
+}
+/*.chuyenkhoa*/
+.chuyenkhoa{
+    width: 100%;
+    margin-top: 1rem;
+    background: #eeeeee;
+}
+.chuyenkhoa_tit_b1,.chuyenkhoa_tit_b2{
+    border-left: 2px solid #ffffff;
+    padding-left: 0.2rem;
+}
+.chuyenkhoa_main{
+    background: #eeeeee;
+    overflow: hidden;
+    margin: 0 -15px;
+    padding: 0 15px;
+}
+.chuyenkhoa_item{
+    width: 48%;
+    background: #fff;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+.chuyenkhoa_item:nth-child(2n+1){
+    margin-right: 4%;
+}
+.chuyenkhoa_item img{
+    max-width: 100%;
+}
+/*.doingu*/
+.doingu_main{
+    text-align: center;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.doingu_main img{
+    max-width: 100%;
+}
+.doingu_txt{
+    text-indent: 20px;
+}
+/*.chatluong*/
+.chatluong{
+    max-width: 100%;
+}
+.chatluong_item{
+    overflow: hidden;
+    margin: 0px -15px 0px -15px;
+    background: #eee;
+    padding: 15px;
+}
+.chatluong .chatluong_item:nth-child(3){
+    background: #fff;
+}
+.chatluong_item_l{
+    width: 30%;
+    float: left;
+}
+.chatluong_item_l_img{
+    text-align: center;
+}
+.chatluong_item_l_img img{
+    max-width: 100%;
+}
+.chatluong_item_r{
+    width: 67%;
+    float: left;
+    margin-left: 3%;
+}
+.chatluong_item_r_tit{
+    width: 100%;
+    background: #39bcd0;
+    padding: 0.2rem 0px 0.2rem 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.chatluong_item_r_txt{
+    text-indent: 15px;
+    margin-top: 8px;
+}
+.chatluong_btn-tuvan{
+    background: #e19f1f;
+    color: #ffffff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+/*.dichvu*/
+.dichvu{
+    width: 100%;
+}
+.dichvu_main{
+    margin: 0 -15px;
+    background:#eee;
+}
+.dichvu_main:last-child{
+    padding-bottom: 15px;
+}
+.dichvu_row{
+    display: table;
+    border-spacing: 15px 0;
+    padding-top: 15px;
+}
+.dichvu_col{
+    display: table-cell;
+    width: 48%;
+    background: #ffffff;
+}
+.dichvu_img{
+    text-align: center;
+}
+.dichvu_img img{
+    max-width: 100%;
+    padding: 0.2rem;
+}
+.dichvu_txt{
+    text-indent: 15px;
+    padding: 0.2rem;
+}
+/*.vankhoa*/
+.vanhoa_img{
+    text-align: center;
+    margin-top: 15px;
+}
+.vanhoa_img img{
+    max-width: 100%;
+}
+.vanhoa_des{
+    text-align: center;
+    margin: 1rem 0;
+}
+.vanhoa_txt{
+    text-indent: 15px;
+}
+/*.dathen*/
+.dathen{
+    margin-top: 15px;
+}
+.dathen_item{
+    background: #ececec;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.dathen_item_tit {
+    background: #1993a6;
+    color: #ffffff;
+    border-radius: 0.5rem;
+}
+.dathen_item_tit p {
+    text-align: center!important;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    color: #fff!important;
+}
+.dathen_item p b {
+    color: #1993a6;
+}
+.btn_dathen {
+    background: #1993a6;
+}
+form#dathen{
+    margin-bottom: 7.2rem;
+}
+/*.footer*/
+.footer{
+    width: 100%;
+    background:#1993a6;
+    max-width: 600px;
+    height: 6.2rem;
+}
+.footer_item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.footer_item a{
+    display: block;
+    height: 5rem;
+}
+.footer_item a img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.footer_item:nth-child(1) a,.footer_item:nth-child(4) a{
+    border-right: 1px solid #000000;
+}
+.footer_item p{
+    color: #ffffff;
+    margin-top: 5px;
+    line-height: 1.2rem;
+}

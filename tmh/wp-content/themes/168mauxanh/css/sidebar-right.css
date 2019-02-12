@@ -1,0 +1,46 @@
+.sidebar.sidebar-right{margin-left:20px;}
+.sidebar.sidebar-right .thiet-bi-sidebar{margin-top:10px;}
+.sidebar.sidebar-right .thiet-bi-sidebar img{width:100%;display:block;height:282px;}
+.sidebar.sidebar-right .zj{width:100%;margin:10px auto;height:282px;overflow:hidden;margin-top:0px;}
+.sidebar.sidebar-right .zj_list a{blr:expression(this.onFocus=this.blur());outline:none;}
+.sidebar.sidebar-right .zj_list{width:100%;height:282px;position:relative;overflow:hidden;margin:0 auto;}
+.sidebar.sidebar-right .zj_1 li{display:block;width:100%;height:282px;position:relative;}
+.sidebar.sidebar-right .zj_1 li a{display:block;width:100%;height:282px;}
+.sidebar.sidebar-right .zj_1 li span{display:block;position:absolute;bottom:0px;left:1px;width:100%;height:40px;background:#000;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;color:#FFF;line-height:40px;text-align:center;}
+.sidebar.sidebar-right .zj_list .prev,
+.sidebar.sidebar-right .zj_list .next{display:none;width:44px;height:120px;position:absolute;top:40px;}
+.sidebar.sidebar-right .zj_list .prev{left:0;background:url(../images/left_btn.png) no-repeat;}
+.sidebar.sidebar-right .zj_list .next{right:0px;background:url(../images/right_btn.png) no-repeat;background-position:right;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep .nguyen-nhan img{display:block;width:100%;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep .nguyen-nhan p{position:relative;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep .nguyen-nhan span.bg{background-color:#7f7f7f;display:block;position:absolute;height:36px;width:100%;top:-36px;opacity:0.8;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep .nguyen-nhan p a.txt{display:block;text-align:center;color:#fff;padding:5px;width:100%;position:absolute;top:-38px;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li{line-height:40px;height:40px;padding-left:10px;overflow:hidden;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li:nth-child(2n){background-color:#eeeeee;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li span{vertical-align:15px;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li img{display:inline-block;margin-right:5px;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li a{display:inline-block;max-width:230px;overflow:hidden;text-overflow:ellipsis;}
+.sidebar.sidebar-right .ky-thuat-chuyen-nghiep ul.list li a:hover{color:#ff4f49;}
+.sidebar.sidebar-right .tu-van-xem-them{background-image:url('../images/tuvan-xemthem.png');background-size:100% 100%;height:30px;width:195px;color:#fff;margin:20px auto;position:relative;}
+.sidebar.sidebar-right .tu-van-xem-them a.tuvan{position:absolute;top:6px;left:25px;}
+.sidebar.sidebar-right .tu-van-xem-them a.tuvan:hover{color:#ff0;}
+.sidebar.sidebar-right .tu-van-xem-them a.xemthem{position:absolute;top:6px;left:115px;}
+.sidebar.sidebar-right .tu-van-xem-them a.xemthem:hover{color:#ff0;}
+.ky-thuat-chuyen-nghiep.style2{margin-top:20px;}
+.ky-thuat-chuyen-nghiep.style2 .ky-thuat-article{box-sizing:border-box;padding:10px 4px;padding-left:10px;line-height:20px;color:#333;}
+.ky-thuat-chuyen-nghiep.style2 .ky-thuat-article:first-child{margin-top:-3px;}
+.ky-thuat-chuyen-nghiep.style2 .ky-thuat-article:nth-child(2n+1){border-left:3px solid #098554;background-color:#f2f2f2;}
+.ky-thuat-chuyen-nghiep.style2 .ky-thuat-article:nth-child(2n+2){border-left:3px solid #ff6600;background-color:#dfdfdf;}
+.ky-thuat-chuyen-nghiep.style2 .ky-thuat-article a:hover{color:red;}
+
+
+.nrlb_r{margin-top: 40px;text-transform: uppercase;}
+.nrlb_r h5{ border:1px solid #fc709d;}
+.nrlb_r ul li{ margin-top:10px; border:1px solid #ededed; height:104px;}
+.nrlb_r li h4{ padding:30px 0 0 90px; line-height:20px; font-size:14px;}
+.nrlb_r .li1{ background:url('../img/nrlb_r_img2.jpg') no-repeat;}
+.nrlb_r .li2{ background:url('../img/nrlb_r_img3.jpg') no-repeat;}
+.nrlb_r .li3{ background:url('../img/nrlb_r_img7.jpg') no-repeat;}
+.nrlb_r .li4{ background:url('../img/nrlb_r_img5.jpg') no-repeat;}
+.nrlb_r .li5{ background:url('../img/nrlb_r_img6.jpg') no-repeat;}
+.nrlb_r .li6{ background:url('../img/nrlb_r_img4.jpg') no-repeat;}

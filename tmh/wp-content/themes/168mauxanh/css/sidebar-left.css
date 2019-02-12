@@ -1,0 +1,28 @@
+.sidebar.sidebar-left{
+	margin-right: 20px;
+}
+
+.sidebar.sidebar-left .list-page a{
+	display: block;
+    background-color: #eaeaea;
+    color: #666;
+    padding: 12px 0px;
+    font-size: 12pt;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.sidebar.sidebar-left .list-page a.active,.sidebar.sidebar-left .list-page a:hover{
+	background-color: #078353;
+	color: #fff;
+}
+
+.sidebar.sidebar-left .tu-van-sidebar{
+	margin-top: 30px;
+}
+.sidebar.sidebar-left .txt.mau-xanh{
+	text-align: left;
+	color: #fff;
+}
+.sidebar.sidebar-left .icon-call{
+	margin-bottom: 20px;
+}

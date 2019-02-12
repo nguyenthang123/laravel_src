@@ -1,0 +1,50 @@
+/* jssor slider bullet navigator skin 11 css */
+        /*
+        .jssorb11 div           (normal)
+        .jssorb11 div:hover     (normal mouseover)
+        .jssorb11 .av           (active)
+        .jssorb11 .av:hover     (active mouseover)
+        .jssorb11 .dn           (mousedown)
+        */
+        .jssorb11 {
+            position: absolute;
+        }
+        .jssorb11 div, .jssorb11 div:hover, .jssorb11 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 11px;
+            height: 11px;
+            background: url('b11.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb11 div { background-position: -10px -10px; }
+        .jssorb11 div:hover, .jssorb11 .av:hover { background-position: -40px -10px; }
+        .jssorb11 .av { background-position: -70px -10px; }
+        .jssorb11 .dn, .jssorb11 .dn:hover { background-position: -100px -10px; }
+
+        /* jssor slider arrow navigator skin 19 css */
+        /*
+        .jssora19l                  (normal)
+        .jssora19r                  (normal)
+        .jssora19l:hover            (normal mouseover)
+        .jssora19r:hover            (normal mouseover)
+        .jssora19l.jssora19ldn      (mousedown)
+        .jssora19r.jssora19rdn      (mousedown)
+        */
+        .jssora19l, .jssora19r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            background: url('a19.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora19l { background-position: -5px -35px; }
+        .jssora19r { background-position: -65px -35px; }
+        .jssora19l:hover { background-position: -125px -35px; }
+        .jssora19r:hover { background-position: -185px -35px; }
+        .jssora19l.jssora19ldn { background-position: -245px -35px; }
+        .jssora19r.jssora19rdn { background-position: -305px -35px; }

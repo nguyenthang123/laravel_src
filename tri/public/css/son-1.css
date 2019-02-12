@@ -1,0 +1,33 @@
+.container {
+	width: 1000px;
+	padding: 0;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float:left;
+	padding:0;
+}
+.site-site .site-bar {
+	min-height: 1000px;
+	background: #ddd;
+
+}
+.site-site {
+		border:1px solid #ccc;
+	border-radius:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.row{
+	margin:0;
+	padding:0;
+}
+.cat-site .col-md-3 {
+    border: 1px solid #ccc;
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

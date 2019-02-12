@@ -1,0 +1,107 @@
+@charset "utf-8";
+body{ margin:0px; padding:0px; font-size:12px;color:#898989;line-height:24px; background:#f1f1f1;}
+ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,ol,form{ margin:0px; padding:0px;}
+ul,li{ list-style:none}
+img{border:0px; padding:0px;}
+a{ color:#5c5c5c; text-decoration:none;}
+a:hover{ color:#8e2239;text-decoration:none;}
+.clear{ clear:both;font-size:0px; line-height:0px}
+.divleft{ float:left}
+.divright{ float:right}
+.hidden{display:none;}
+*html{background-image:url(d); background-attachment:fixed;}
+.swt-right-index{ width:131px; height:334px; position:fixed; right:-84px; top:18%;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+200));z-index:10000;}
+.swt-right-index ul{}
+.swt-right-index li{ width:131px; height:57px; line-height:0px; line-height:0px; font-size:0px; position:absolute;}
+.swt-right-index a{ width:131px;}
+.swt-right-index1{ top:0px;}
+.swt-right-index1 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) no-repeat;}
+.swt-right-index1 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) no-repeat;}
+.swt-right-index2{ top:59px;}
+.swt-right-index2 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) 0px -49px no-repeat;}
+.swt-right-index2 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) 0px -49px no-repeat;}
+.swt-right-index3{top:118px;}
+.swt-right-index3 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) 0px -98px no-repeat;}
+.swt-right-index3 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) 0px -98px no-repeat;}
+.swt-right-index4{ top:177px}
+.swt-right-index4 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) 0px -147px no-repeat;}
+.swt-right-index4 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) 0px -147px no-repeat;}
+.swt-right-index5{ top:236px;}
+.swt-right-index5 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) 0px -196px no-repeat;}
+.swt-right-index5 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) 0px -196px no-repeat;}
+.swt-right-index6{ top:295px;}
+.swt-right-index6 a{height:49px; display:block; background:url(../imgs/swt-right-pic1.jpg) 0px -245px no-repeat;}
+.swt-right-index6 .swt-hover{ height:49px; background:url(../imgs/swt-right-pic2.jpg) 0px -245px no-repeat;}
+
+
+
+/*-----------------------底部版权样式----------------------------*/
+.ggpcb_tool{width:100%; height:55px; position:fixed;background-color:#f7f7f7; border-top:3px solid #c03427; bottom:0px; left:0px;_position:absolute;
+    _top:expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight) :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight-this.clientHeight)); left:0px; z-index:99999;}
+.ggpcb_tool_a{width:1000px; height:55px; margin:auto; position:relative;}
+.ggpcb_tool_a p.aa1{width:46px; height:41px; position:absolute; top:7px; left:5px; text-indent:0;}
+.ggpcb_tool_a p.aa2{width:496px; height:42px; position:absolute; top:7px; left:270px; background:url(../swt2014/btool_tel_bg.gif) no-repeat; text-indent:0;}
+.ggpcb_tool_a div#ggpcb_tool{width:200px; height:36px; position:absolute; top:9px; left:65px; overflow:hidden;}
+.ggpcb_tool_a div#ggpcb_tool ul li{width:200px; height:36px; float:left;}
+.ggpcb_tool_a div#ggpcb_tool ul li h3{width:200px; height:20px; line-height:20px; font-size:14px; color:#333333; float:left;}
+.ggpcb_tool_a div#ggpcb_tool ul li p{width:200px; height:15px; line-height:15px; font-size:12px; color:#333; float:left; text-indent:0;}
+.ggpcb_tool_a p.aa3{width:110px; height:20px; background:url(../swt2014/btool_tel_ico.gif) no-repeat 0 3px; line-height:20px; text-indent:17px; font-size:14px; color:#c03427; position:absolute; top:18px; left:285px;}
+.ggpcb_tool_a p.aa4{width:160px; height:30px; position:absolute; top:6px; left:385px; text-indent:0;}
+.ggpcb_tool_a .inputdh{width:142px; height:21px; margin:0; padding:0; border:none; position:absolute; top:15px; left:559px; color:#989898; outline:none;}
+.ggpcb_tool_a .zxzx{width:63px; height:25px; line-height:25px; background:#922633; text-align:center; color:#fff; position:absolute; top:13px; left:703px; border:none;  outline:none; cursor:pointer;}
+.ggpcb_tool_a .zxzx:hover{ color:#FF6;}
+.ggpcb_tool_a ul.aa1{width:205px; height:55px;position:absolute; bootom:0; right:0; top:0px; background:url(../swt2014/btool_zx.gif) no-repeat #922633;}
+.ggpcb_tool_a ul.aa1 a{width:102px; height:20px; line-height:20px; cursor:pointer; padding-top:30px; text-align:center; color:#fff; float:left;}
+.ggpcb_tool_a ul.aa1 a:hover{color:#ff0;}
+a.ggpcb_tool_x{width:19px; height:19px; background:url(../swt2014/btool_X.gif) no-repeat; position:absolute; top:3px; right:5px; cursor:pointer;}
+a:hover.ggpcb_tool_x{background:url(../swt2014/btool_Xa.gif) no-repeat;}
+
+
+/**微信滚动条**/
+.qrcode{
+    -webkit-animation-name: qrcode;
+    -moz-animation-name: qrcode;
+    -o-animation-name: qrcode;
+    animation-name: qrcode;
+
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@-moz-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@-o-keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}
+@keyframes qrcode {
+    0% {top:-17px;opacity: 1;}
+    50% {top:160px;opacity: 1;}
+    100% {top:-17px;opacity: 1;}
+}

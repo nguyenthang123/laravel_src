@@ -1,0 +1,352 @@
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+ul, h1, h2, h3, li, p, img, input {
+    list-style: none outside none;
+    outline: medium none;
+}
+body {
+    font: 15px Arial;
+}
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*  Custom by quyentv88 */
+body{
+    background: none repeat scroll 0 0 #F0EDED;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#container{
+    width: 990px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.full-w{ width: 990px;}
+
+#header .top{
+    height: 61px;
+    background: url("../images/bg-logo.png") no-repeat;
+}
+#header .top h1{
+    float: left;
+    height: 61px;
+}
+#header .top .col-2{
+    height: 61px;
+    float: right;
+}
+#header .slider{
+    /*height: 264px;*/
+}
+
+
+#nav {
+    background: url("../images/bg-nav-top.png") repeat-x #E95488;
+    height: 35px;
+}
+#nav ul {
+    float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 980px;
+}
+#nav ul li {
+    display: inline;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+}
+#nav ul li:hover {
+}
+#nav ul li a {
+    background: url("../images/arr-1.png") right center no-repeat;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 50px 10px 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+#nav ul li:last-child a {
+    background: none repeat scroll 0 0 transparent;
+}
+#nav ul li a:hover {
+}
+
+#content .special{
+    height: 65px;
+    line-height: 65px;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    padding-left: 130px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+img.m{
+    border: 1px solid #c4c4c4;
+}
+img.r{
+    float: right;
+    padding: 7px;
+    border: 1px solid #c4c4c4;
+    margin: 5px;
+    margin-left: 10px;
+}
+img.l{
+    float: left;
+    padding: 7px;
+    margin: 5px;
+    margin-right: 10px;
+    box-shadow: 3px 5px 5px #C4C4C4;
+}
+
+.p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+p.j{
+    text-indent: 30px;
+}
+
+
+h2.t{
+    background: url("../apxe-hau-mon/bg-title-box.png") no-repeat;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.box-1 .wr{
+    padding: 10px;
+}
+.box-1 .wr p.col img{
+    margin: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.box-2 .wr{
+    margin: 10px;
+    padding: 10px;
+}
+.box-2 .wr p{
+    margin-bottom: 10px;
+}
+
+span.hidden{
+    position: absolute;
+    top: -99999px;
+}
+
+.box-3 .wr {
+    background: url("../tri-noi/bg-box-trieu-trung.png") no-repeat;
+    min-height: 272px;
+    padding-left: 26px;
+}
+.box-3 .wr p{
+    width: 423px;
+    float: left;
+    margin-right: 5px;
+    padding: 10px;
+    min-height: 120px;
+    overflow: hidden;
+}
+.box-3 .wr p{
+    font-size: 14px;
+}
+
+
+.box-4 .wr{
+    background: url("../tri-noi/bg-box-tac-hai.png") no-repeat;
+    height: 164px;
+    overflow: hidden;
+    border: 1px solid #7cbb70;
+    margin-top: 10px;
+    padding-left: 32px;
+    padding-right: 202px;
+    padding-top: 27px;
+}
+.box-4 .wr .sub{
+    padding-left: 105px;
+    background: url("../tri-ngoai/bg-num-1.png") no-repeat;
+    margin-bottom: 13px;
+    height: 186px;
+    overflow: hidden;
+    border: 1px solid #c4c4c4;
+}
+.box-4 .wr h3.mgt10{
+    margin-top: 7px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.box-5 strong{
+    font-size: 13.5px;
+}
+
+.box-5 .wr{
+    padding: 10px;
+}
+.box-5 .wr p.col{
+    width: 300px;
+    float: left;
+    padding-left: 40px;
+    background: url("../tri-ngoai/dot.png") no-repeat;
+    min-height: 26px;
+
+}
+
+
+#image-carousel h2{
+    height: 30px;
+    line-height: 30px;
+    background: #0d83ba;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+div.mr-top{
+    margin-top: 15px;
+}
+
+
+.nav-bottom {
+    background: url("../images/bg_menu_bottom.png") repeat-x;
+}
+.nav-bottom ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 44px;
+}
+.nav-bottom ul li{
+    line-height: 44px;
+    height: 44px;
+    display: inline;
+}
+.nav-bottom ul li a{
+    padding: 10px 24px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav-bottom ul li a:hover{
+    color: #EE8E51;
+}
+#footer .info{
+    padding-top: 15px;
+}
+
+.f-left{
+    float: left;
+    width: 500px;
+}
+.f-left img{
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.f-right{
+
+    float: right;
+}
+p.a-custom a{
+    color: blue;
+    font-size: 12px;
+}
+
+.mgt5{
+    margin-top: 5px;
+}
+.mgt10{
+    margin-top: 10px;
+}
+.mgt20{
+    margin-top: 20px;
+}
+
+div.c{
+    clear: both;
+}
+
+
+
+
+/*  Tab custom css*/
+.center {
+    width:60%;
+    margin:20px auto 0 auto;
+}
+
+.marginbot {
+    margin-bottom:15px;
+}
+
+ul.list li {
+    list-style-type:none;
+    margin-left:20px;
+}
+
+ul.tabs {
+    width:100%;
+    overflow:hidden;
+}
+
+ul.tabs li {
+    list-style-type:none;
+    display:block;
+    float:left;
+    color:#fff;
+    padding:8px;
+    margin-right:2px;
+    border-bottom:2px solid #2f2f2f;
+    background-color:#1f5e6f;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    cursor:pointer;
+}
+
+ul.tabs li:hover {
+    background-color:#43b0ce;
+}
+
+ul.tabs li.current {
+    border-bottom:2px solid #43b0ce;
+    background-color:#43b0ce;
+    padding:8px;
+}
+
+.tabscontent {
+    border-top:2px solid #43b0ce;
+    padding:8px 0 0 0;
+    display:none;
+    width:100%;
+    text-align:justify;
+}

@@ -1,0 +1,334 @@
+@charset "utf-8";
+#nav .nav_list ul.txt li a span{ line-height:14px;}
+body{font-size:14px; color:#333333; line-height:22px;}
+.btn_tvtt{
+    width:190px;
+    height:34px;
+    border:1px #177fc8 solid;
+    border-radius:30px;
+    color:#177fc8;
+    font-weight:bold;
+    display:block;
+    line-height:34px;
+    background:#f2f2f2;
+}
+.btn_tvtt:hover{
+    background: #177fc8;
+    color: #fff;
+}
+#banner{ height:440px; width:100%;}
+/*#banner .banner1{ height:100px; width:100%; background:url(banner.jpg) no-repeat center;}
+#banner .banner2{ height:100px; width:100%; background:url(banner2.jpg) no-repeat center;}
+#banner .banner3{ height:100px; width:100%; background:url(banner3.jpg) no-repeat center;}
+#banner .banner4{ height:100px; width:100%; background:url(banner4.jpg) no-repeat center;}
+#banner .banner5{ height:120px; width:100%; background:url(banner5.jpg) no-repeat center;}*/
+#banner .banner_item{
+    width: 1500px;
+    margin: auto;
+}
+#banner .banner_item img{
+    max-width: 100%;
+}
+#banner .banner5 .mian{width:1500px; height:auto; margin:0 auto;}
+#banner .banner5 .mian span a{
+    float:left;
+    margin:-57px 671px;
+    width:150px;
+    height:25px;
+    border:1px #ff0000 solid;
+    border-radius:25px;
+    line-height:28px;
+    text-align:center; color:#ff0000;
+    font-size:13px;
+    font-weight: bold;
+    position: absolute;
+}
+#banner .banner5 .mian span a:hover{background:#ff0000; color:#fff;}
+#title{width:1000px; height:auto; margin:0 auto;}
+#title .tt{width:100%; height:auto; overflow:hidden; text-align:center;}
+#title .tt p{width:100%; line-height:26px; height:26px;}
+#title .tt font a{width:128px; height:34px; border:1px #177fc8 solid; border-radius:30px; color:#177fc8; font-weight:bold; display:block; line-height:34px; margin:8px 486px 30px;}
+#title .tt font a:hover{background:#177fc8; color:#fff;}
+#title .mian{width:100%; margin:0 auto; background:url(mian_bg.jpg) no-repeat center center; height:192px;}
+#title .mian .left{float:left;width: 335px;}
+#title .mian .left p{width:auto; height:44px; line-height:44px; margin-bottom:26px;text-align: right}
+#title .mian .right{float:right; text-align:left;width: 335px;}
+#title .mian .right p{width:auto; height:44px; line-height:44px; margin-bottom:26px;}
+#title2{width:1000px; background:#f8f8f8; height:534px;margin: auto}
+#title2 .mian{width:100%; height:auto; margin:0 auto; clear:both;}
+#title2 .mian .left{float:left; width:450px; height:460px; background:#fff; margin:40px 20px 0 0;}
+#title2 .mian .left span{width:auto; height:auto; margin:15px; float:left;}
+#title2 .mian .left h3{margin-left:20px; height:68px; border-bottom:1px #ccc dashed; width:420px; float:left;}
+#title2 .mian .left p{
+    line-height:20px;
+    margin-top:9px;
+    text-align: left;
+}
+#title2 .mian .right{width:530px; height:auto; overflow:hidden; float:right; margin:40px 0 0;}
+#title2 .mian .right .box{width:100%; height:136px; background:url(mian_line.jpg) no-repeat bottom; float:left; margin-bottom:25px;}
+#title2 .mian .right .box span{width:auto; height:auto; float:left; margin-right:10px;}
+#title2 .mian .right .box h3{font-size:14px; color:#177fc8; line-height:18px; min-height:35px; float:left; width:315px;}
+#title2 .mian .right .box font{float:right; color:red; line-height:18px;}
+#title2 .mian .right .box p{float:left; width:395px;}
+#title3{width:1000px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title3 .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title3 .tt p{width:420px;margin: auto; line-height:26px; height:26px;}
+#title3 .tt font a{margin: auto;margin-top:55px;display:block;}
+#title3 .tt font a:hover{background:#177fc8; color:#fff;}
+#title3 .left{float:left; width:600px; height:332px; border-right:1px #ccc solid;}
+#title3 .left h3{float:left; width:auto; height:auto; margin-bottom:20px;}
+#title3 .left p a{
+    width:134PX;
+    height:67PX;
+    text-align:center;
+    line-height:20px;
+    background:#f2f2f2;
+    float:left;
+    margin:0 16px 21px 0;
+    padding-top: 25px;
+}
+#title3 .left p a:hover{background:#177fc8; color:#fff;}
+#title3 .left font a{width:585px; height:48px; background:#f2f2f2; text-align:center; line-height:48px; display:block; float:left; font-weight:bold; color:#177fc8;}
+#title3 .left font a:hover{background:#177fc8; color:#fff;}
+#title3 .right{float:right; width:385px;}
+#title3 .right h3{float:left; width:438px; height:auto; margin-bottom:20px;}
+#title3 .right .box{float:left; width:375px; height:263px; border:5px #e1e1e1 solid; }
+#title3 .right .box span{margin:20px 0px 27px; float:left;}
+#title3 .right .box font a{
+    width:168px;
+    height:48px;
+    float:left;
+    background:#ff0000;
+    color:#FFF;
+    font-weight:bold;
+    margin-left:110px;
+    text-align:center;
+    line-height:22px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+#title3 .right .box font a:hover{background:#ea2525;}
+#title4{width:100%; height:745px; background:#177fc8; margin-top:50px;}
+#title4 .mian{width:1000px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title4 .mian .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title4 .mian .tt p{width:100%; color:#fff; float:left; margin:5px 0 0; height:auto; overflow:hidden;}
+#title4 .mian .tt font a{
+    width:190px;
+    height:34px;
+    border:1px #fff solid;
+    border-radius:30px;
+    color:#177fc8;
+    font-weight:bold;
+    display:block;
+    line-height:34px;
+    background:#fff;
+    float:left;
+    font-size:14px;
+    margin-left: 400px;
+}
+#title4 .mian .tt font a:hover{background:#177fc8; color:#fff;}
+#title4 .mian span{float:left; width:auto; height:auto; overflow:hidden;}
+#title4 .mian font a{width:270px; height:48px; border:1px #bae3ff solid; display:block; float:left; margin:15px 350px; font-size:20px; color:#ffff00; line-height:48px; text-align:center;}
+#title4 .mian font a:hover{background:#bae3ff; color:#177fc8;}
+#title5{width:1000px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title5 .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title5 .tt strong{color:#ff0000; line-height:26px;}
+#title5 .tt p{width:100%; height:auto; float:left;}
+#title5 .tt font a{
+    display:block;
+    margin: auto;
+}
+#title5 .tt font a:hover{background:#177fc8; color:#fff;}
+#title5 .box{width:100%; height:300px; border-bottom:1px #ccc solid; float:left; margin-bottom:40px;}
+#title5 .box .left{width:auto; height:auto; float:left;}
+#title5 .box .right{width:500px; float:right; height:auto; overflow:hidden;}
+#title5 .box .right span{float:left; margin:23px 0 30px 0; width:auto; height:auto; overflow:hidden;}
+#title5 .box .right h3{float:left; font-size:20px; color:#177fc8; line-height:28px; width:594px; font-weight:normal;}
+#title5 .box .right strong{
+    float:left;
+    width:594px;
+    color:#ff0000;
+    margin-bottom:110px;
+    font-weight:normal;
+    line-height:26px;
+}
+#title5 .box .right p{float:left; width:594px; margin-bottom:20px;}
+#title5 .box .right font a{
+    width:190px;
+    height:42px;
+    border:1px #177fc8 solid;
+    border-radius:30px;
+    display:block;
+    float:left;
+    text-align:center;
+    line-height:42px;
+    color:#177fc8;
+}
+#title5 .box .right font a:hover{background:#177fc8; color:#fff;}
+#title5 .box2{width:100%; height:310px; float:left;}
+#title5 .box2 .left{width:500px; float:left; height:auto; overflow:hidden;}
+#title5 .box2 .left span{float:left; margin:23px 0 30px 0; width:auto; height:auto; overflow:hidden;}
+#title5 .box2 .left h3{float:left; font-size:20px; color:#177fc8; line-height:28px; width:594px; font-weight:normal;}
+#title5 .box2 .left strong{float:left; width:594px; color:#ff0000; margin-bottom:105px; font-weight:normal; line-height:26px;}
+#title5 .box2 .left p{float:left; width:594px; margin-bottom:20px;}
+#title5 .box2 .left font a{
+    width:190px;
+    height:42px;
+    border:1px #177fc8 solid;
+    border-radius:30px;
+    display:block;
+    float:left;
+    text-align:center;
+    line-height:42px;
+    color:#177fc8;
+}
+#title5 .box2 .left font a:hover{background:#177fc8; color:#fff;}
+#title5 .box2 .right{width:auto; height:auto; float:right;}
+#title6{width:100%; background:#f8f8f8;}
+#title6 .mian{width:1000px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title6 .mian .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title6 .mian .tt p{width:84%; margin:5px auto 0; height:auto; overflow:hidden;}
+#title6 .mian .tt font a:hover{background:#177fc8; color:#fff;}
+#title6 .mian .box{width:160px; height:auto; overflow:hidden; text-align:center; float:left; margin:0 20px;}
+#title6 .mian .box span{width:auto; height:auto;}
+#title6 .mian .box h3{width:160px; height:50px; line-height:50px; border-bottom:1px #ccc solid; font-size:15px; color:#177fc8; font-weight:normal; margin-bottom:8px;}
+#title7{width:1000px; height:auto; margin:0 auto; clear:both; text-align:center;}
+#title7 h3{
+    text-align: center;
+}
+#title7 p{float:left; margin-bottom:20px; width:1098px; height:auto;}
+table.tab{border-collapse:collapse; width:1000px; margin:0 auto;}
+table.tab td,table.tab th{border:1px #CCCCCC solid;}
+table.tab td.t1{
+    width:200px;
+    padding-left:23px;
+    font-weight:bold;
+}
+table.tab td.t2{
+    width:388px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+table.tab td.t2 span.dong2,table.tab td.t3 span.dong2{
+    margin-top: 8px;
+}
+table.tab td.t2 span{
+    float:left;
+    margin-right: 15px;
+    width:20px;
+    height:35px;
+}
+table.tab td.t3{
+    width:454px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+table.tab td.t3 span{
+    float:left;
+    margin-right: 15px;
+    width:20px;
+    height:35px;
+}
+#title8{width:1000px; height:auto; margin:0 auto;overflow: hidden;}
+#title8 .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title8 .tt p{width:100%; line-height:26px; height:26px;}
+#title8 .tt font a{margin: auto;}
+#title8 .tt font a:hover{background:#177fc8; color:#fff;}
+#title8 .left{
+    float:left;
+    margin-bottom:30px;
+    width: 480px;
+}
+#title8 .right{float:left; background:#f8f8f8; height:377px; width:520px;}
+#title8 .right h3{font-size:20px; font-weight:normal; color:#177fc8; float:left; margin:20px 0 5px 56px; line-height:20px; width:470px; height:auto; overflow:hidden;}
+#title8 .right span{float:left; margin:16px 0 0 56px;}
+#title8 .right p{line-height:49px; border-bottom:1px #ccc dashed; width:410px; float:left;}
+#title8 .right font a{
+    float:left;
+    margin:70px 35px 0 -30px;
+    height:35px;
+    width:200px;
+    border:1px #177fc8 solid;
+    border-radius:30px;
+    display:block;
+    line-height:16px;
+    text-align:center;
+    color:#177fc8;
+    font-weight:bold;
+    padding-top: 5px;
+}
+#title8 .right font a:hover{background:#177fc8; color:#fff;}
+#title8 .right strong a{
+    float:left;
+    margin:70px 0 0;
+    height:35px;
+    width:192px;
+    border-radius:30px;
+    display:block;
+    line-height:16px;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    background:#177fc8;
+    padding-top: 5px;
+}
+#title8 .right  strong a:hover{background:#299def;}
+table.tab2{border-collapse:collapse; width:1000px; margin:auto; text-align:center;}
+table.tab2 td,table.tab2 th{
+    border:1px #CCCCCC solid;
+    padding: 0 10px;
+}
+table.tab2 tr.t1{background:#67bcf7; height:48px; line-height:48px; color:#fff; font-weight:bold;}
+table.tab2 tr.t2{height:74px; border:1px #CCCCCC solid;}
+#title9{width:1000px; height:auto; margin:0 auto; clear:both; overflow:hidden;}
+#title9 .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title9 .tt p{width:100%; line-height:26px; height:26px;}
+#title9 .tt font a{margin: auto;}
+#title9 .box{
+    width:313px;
+    padding: 0 10px;
+    text-align:center;
+    float:left;
+    height:auto;
+    overflow:hidden;
+}
+#title9 .box p{text-align: justify;}
+#title9 .box span{width:auto; height:155px; float:left; margin:0 90px;}
+#title9 .box h3{
+    width:265px;
+    height:44px;
+    border-bottom:1px #ccc solid;
+    margin:0 25px;
+    float:left;
+    margin-bottom:8px;
+    font-size:18px;
+    color:#177fc8;
+    font-weight:normal;
+}
+#title10{width:100%; height:600px; background:#f8f8f8; margin:50px 0;}
+#title10 .mian{width:1000px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title10 .mian .tt{width:100%; height:auto; overflow:hidden; margin:50px 0 0; text-align:center;}
+#title10 .mian .tt p{width:60%; height:auto; overflow:hidden;margin: auto}
+#title10 .mian .tt font a{margin: auto;}
+#title10 .mian .box{width:500px; height:180px; background:#fff; float:left; margin:0 0 20px 0;}
+#title10 .mian .box span{width:230px; height:160px; margin:10px; float:left;}
+#title10 .mian .box span img{max-width: 100%;}
+#title10 .mian .box strong{width:250px; line-height:36px; float:left;}
+#title10 .mian .box p{float:left; width:240px; margin-bottom:20px;}
+#title10 .mian .box font a{text-align:center; float:left;}
+#title10 .mian .box2{width:500px; height:180px; background:#fff; float:right; margin:0 0 20px 0;}
+#title10 .mian .box2 span{width:230px; height:160px; margin:10px; float:left;}
+#title10 .mian .box2 span img{max-width: 100%;}
+#title10 .mian .box2 strong{width:250px; line-height:36px; margin:20px 0 0; float:left;}
+#title10 .mian .box2 p{float:left; width:240px; margin-bottom:20px;}
+#title10 .mian .box2 font a{text-align:center; float:left;}
+
+
+
+
+
+
+
+
+
+

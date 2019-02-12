@@ -1,0 +1,378 @@
+<?php
+require_once('../../define.php');
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$ico_shortcut=ico_shortcut;
+$line_chat=line_chat();
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> phòng khám đa khoa chuyên nghiệp</title>
+    <meta name="keywords" content="phong kham da khoa chuyen nghiep, phong kham 168,phong kham da khoa 168">
+    <meta name="description" content="phong kham da khoa 168 ha noi dieu tri chuyen nghiep">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/wow.js"></script>
+    <?= $ico_shortcut;?>
+    <base target="_blank">
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<?= popup();?>
+<div class="banner_top">
+    <div class="main_item">
+        <div class="logo_top">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="sdt_top">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <img src="images/ico_dt_top.png" alt="dt">
+                Điện thoại tư vấn<br>
+                <b><?= $phone1;?> - <?= $phone2;?></b>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <div class="main_item">
+        <ul>
+            <li><a href="<?= $domain;?>">Trang chủ</a> </li>
+            <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a> </li>
+            <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a> </li>
+            <li><a href="<?= $link_tuvan;?>">Bác sỹ tư vấn</a> </li>
+            <li><a href="<?= $link_diachi;?>">Liên hệ</a> </li>
+            <li><a href="<?= $link_tuvan;?>">Đăng ký trực tuyến</a> </li>
+        </ul>
+    </div>
+</div>
+<div class="banber">
+    <!--<div class="main_item banber_main">
+        <div class="banner_img wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInUp">
+            <img src="images/ico_ga.png" alt="ga">
+        </div>
+    </div>-->
+    <!--<p style="margin-top: -60px;font-size: 20;color: #f5ff00;margin-bottom: 30px;">Thời gian áp dụng đến hết 31-01-2017</p>-->
+    <img src="images/banner.jpg" alt="img">
+    <script src="http://phongkham168.com/cd/js/date.js"></script>
+</div>
+<div class="main_item1">
+    <div class=" main_item">
+        <div class="main_item1_tit">
+            <label>Giúp bạn yên tâm khám và chữa bệnh</label>
+            <div class="main_item1_tit_img">
+                <img src="images/main_item1_tit.png" alt="img">
+            </div>
+        </div>
+        <div class="main_item1_main">
+            <div class="main_item1_item wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;">
+                <div class="main_item1_img">
+                    <img src="images/main_item_img1.jpg" alt="img">
+                </div>
+                <div class="main_item1_c">
+                    <div class="main_item1_l">
+                        <label>Ưu đãi lớn</label>
+                        <p>Chi phí đăng ký khám</p>
+                        <span><b>Miễn phí</b></span>
+                    </div>
+                    <div class="main_item1_r">
+                        <div class="main_item1_click">
+                            <a href="<?= $link_tuvan;?>">Đăng ký<br><b>Click</b> >>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_item1_item wow zoomInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInLeft;">
+                <div class="main_item1_img">
+                    <img src="images/main_item_img2.jpg" alt="img">
+                </div>
+                <div class="main_item1_c">
+                    <div class="main_item1_l">
+                        <label>Ưu đãi lớn</label>
+                        <p>Chi phí kiểm tra</p>
+                        <span>Giảm <b>50%</b></span>
+                    </div>
+                    <div class="main_item1_r">
+                        <div class="main_item1_click">
+                            <a href="<?= $link_tuvan;?>">Đăng ký<br><b>Click</b> >>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_item1_item wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;">
+                <div class="main_item1_img">
+                    <img src="images/main_item_img3.jpg" alt="img">
+                </div>
+                <div class="main_item1_c">
+                    <div class="main_item1_l">
+                        <label>Ưu đãi lớn</label>
+                        <p>Chi phí thủ thuật</p>
+                        <span>Giảm <b>30%</b></span>
+                    </div>
+                    <div class="main_item1_r">
+                        <div class="main_item1_click">
+                            <a href="<?= $link_tuvan;?>">Đăng ký<br><b>Click</b> >>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_item1_item wow zoomInLeft" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomInLeft;">
+                <div class="main_item1_img">
+                    <img src="images/main_item_img4.jpg" alt="img">
+                </div>
+                <div class="main_item1_c">
+                    <div class="main_item1_l">
+                        <label>Ưu đãi lớn</label>
+                        <p>Chi phí điều trị</p>
+                        <span>Giảm <b>30%</b></span>
+                    </div>
+                    <div class="main_item1_r">
+                        <div class="main_item1_click">
+                            <a href="<?= $link_tuvan;?>">Đăng ký<br><b>Click</b> >>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= $link_tuvan;?>"><img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?></a>
+        </div>
+    </div>
+</div>
+<div class="main_item2">
+    <div class="main_item">
+        <div class="main_item2_tit">
+            <div class="main_item_tit_img">
+                <img src="images/main_item1_tit2.png" alt="img">
+            </div>
+            <label>Hiểu rõ nguyên nhân bệnh, điều trị chính xác</label>
+        </div>
+        <div class="main_item2_main">
+            <ul>
+                <li class="wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                    <div class="main_item2_img">
+                        <img src="images/main_item2_img1.jpg" alt="img">
+                    </div>
+                    <div class="main_item2_txt">
+                        Chỉ kiểm tra những hạng mục phù hợp với bệnh tình của bạn, bác sỹ chuyên khoa sẽ đưa ra những hạng mục kiểm tra, tính toán chi tiết giúp bạn tiết kiệm chi phí nhất có thể. Đảm bảo cho mỗi bệnh nhân yên tâm khám chữa bệnh.
+                    </div>
+                </li>
+                <li class="wow" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+                    <div class="main_item2_img">
+                        <img src="images/main_item2_img2.jpg" alt="img">
+                    </div>
+                    <div class="main_item2_txt">
+                        Tất cả các mục kiểm tra đều áp dụng thiết bị kỹ thuật khoa học, độ chính xác cao đạt 99%, trong thời gian gần đây nếu đã đi kiểm tra và có kết quả thì phòng khám sẽ không cần kiểm tra lại lần 2, tuyệt đối không để cho người bệnh mất đi mất lại nhiều loại chi phí.
+                    </div>
+                </li>
+                <li class="wow" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomIn;">
+                    <div class="main_item2_img">
+                        <img src="images/main_item2_img3.jpg" alt="img">
+                    </div>
+                    <div class="main_item2_txt">
+                        Phòng khám đa khoa 168 Hà Nội sử dụng thiết bị y tế tiên tiến, kỹ thuật hiện đại giúp người bệnh yên tâm 100%, đảm bảo kiểm tra chính xác không sai sót. Đảm bảo an toàn trong thủ thuật và hiệu quả điều trị.
+                    </div>
+                </li>
+            </ul>
+            <div class="main_item_tv">
+                <a href="<?= $link_tuvan;?>"><img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main_item3">
+    <div class="main_item">
+        <div class="main_item1_tit">
+            <label>Đảm bảo hiệu quả cho mỗi ca thủ thuật và điều trị</label>
+            <div class="main_item1_tit_img">
+                <img src="images/main_item3_tit.png" alt="img">
+            </div>
+        </div>
+        <div class="main_item3_main wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInUp;">
+            <div class="main_item3_img">
+                <img src="images/main_item3_img.jpg" alt="doi ngu bac sy">
+            </div>
+            <div class="main_item3_txt">
+                Phòng khám đa khoa 168 Hà Nội tập trung rất nhiều các y bác sỹ chuyên nghiệp, phòng khám hàng năm có rất nhiều bác sỹ chuyên nghiệp khám và điều trị, kinh nghiệm lâm sàng phong phú, kỹ thuật chuyên nghiệp, luôn làm theo khoa học quốc tế, khái niệm y tế vận dụng linh hoạt tiên tiến nhất trong thực tiễn lâm sàng.
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= $link_tuvan;?>"><img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?></a>
+        </div>
+    </div>
+</div>
+<div class="main_item4">
+    <div class="main_item">
+        <div class="main_item2_tit">
+            <div class="main_item_tit_img">
+                <img src="images/main_item4_tit.png" alt="img">
+            </div>
+            <label>Mọi người lựa chọn 168 an toàn yên tâm hơn</label>
+        </div>
+        <div class="main_item4_main">
+            <ul>
+                <li class="wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img1.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Khám bệnh riêng tư
+                    </div>
+                    <div class="main_item4_txt">
+                        Thiết lập quy mô khám bệnh “một bác sĩ một bệnh nhân”. Thuận tiện cho việc trao đổi giữa bác sĩ và người bệnh, nâng cao chất lượng khám chữa, đảm bảo sự riêng tư cho bệnh nhân.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn ></a>
+                    </div>
+                </li>
+                <li class="wow" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img2.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Phụ  trách khám đầu tiên
+                    </div>
+                    <div class="main_item4_txt">
+                        Bác sỹ phụ trách khám tiếp nhận khám bệnh bước đầu, mỗi một thủ thuật đều được chính bác sĩ thực hiện, để nâng cao chất lượng thủ thuật
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn ></a>
+                    </div>
+                </li>
+                <li class="wow" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomIn;">
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img3.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Khám buổi tối
+                    </div>
+                    <div class="main_item4_txt">
+                        Thấu hiểu nỗi lo về thời gian của người bệnh, phòng khám tiếp nhận thăm khám buổi tối với chất lượng thăm khám như ban ngày.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn ></a>
+                    </div>
+                </li>
+                <li class="wow" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomIn;">
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img4.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Y tá tận tình
+                    </div>
+                    <div class="main_item4_txt">
+                        Rút ngắn thời gian thăm khám, đồng thời nếu có bất cứ thắc mắc đều có thể nhận được sự tư vấn tận tình của đội ngũ y tá, giảm bớt áp lực tâm lý cho nữ giới.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn ></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="main_item_tv">
+                <a href="<?= $link_tuvan;?>"><img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main_item5">
+    <div class="main_item">
+        <div class="main_item1_tit">
+            <label>Đảm bảo quyền riêng tư cho mỗi bệnh nhân</label>
+            <div class="main_item1_tit_img">
+                <img src="images/main_item5_tit.png" alt="img">
+            </div>
+        </div>
+        <div class="main_item5_main">
+            <div class="main_item5_img wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+                <img src="images/main_item5_img.png" alt="img">
+            </div>
+            <div class="main_item5_txt">
+                <p>Phòng khám đa khoa 168 Hà Nội nâng cao quan niệm phục vụ, tạo môi trường khám chữa bệnh thoải mái cho người bệnh, tôn trọng người bệnh, tôn trọng sự riêng tư. Thực hiện khám chữa bệnh “ một bác sỹ, một người bệnh, một phòng” thể hiện sự tôn trọng, hiểu và quan tâm người bệnh.</p>
+                <div class="main_item5_dt">
+                    <img src="images/ico_dt.png" alt="dien thoai">
+                    <p>
+                        <span>Điện thoại tư vấn<br>
+                        <b><?= $phone1;?> - <?= $phone2;?></b>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= $link_tuvan;?>"><img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?></a>
+        </div>
+    </div>
+</div>
+<div class="main_item6 wow" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+    <div class="main_item">
+        <div class="main_item6_tit">
+            Lựa chọn của bạn, lời hứa của chúng tôi
+        </div>
+    </div>
+</div>
+<div class="row" style="background: #38bcd1;padding: 30px 0;">
+    <style>
+        .trungtam ul li{float: left;width: 100%;height: 30px;line-height: 30px;}
+        .trungtam ul li a{color: #ffffff;font-size: 12px;}
+    </style>
+    <div class="clear2"></div>
+    <div class="footer" style="width: 1055px;margin: auto;overflow: hidden;">
+        <div class="logo_f" style="width:300px;height: 205px; float: left;border-right: 1px solid #fff;text-align: center">
+            <img src="http://benhxahoi168.net/public/frontend/img/home/flogo.png" alt="benh xa hoi 168">
+            <div class="clear"></div>
+            <div style="text-transform: uppercase;color: #ffffff">
+                <b style="font-size: 16px;">phòng khám đa khoa 168 hà nội</b>
+                <div class="clear"></div>
+                <p style="font-size: 11px;">--- phòng khám uy tín ở hà nội ---</p>
+            </div>
+        </div>
+        <div class="trungtam" style="width: 222px;height:205px;float:left;text-transform: uppercase;color: #ffffff;padding-left: 20px;border-right: 1px solid #fff;">
+            <h3 style="font-size: 16px;font-weight: bold;">Trung tâm có uy tín</h3>
+            <ul style="list-style: none;">
+                <li><a href="<?= $link_gioithieu;?>">giới thiệu phòng khám</a> </li>
+                <li><a href="<?= $link_thietbi;?>">thiết bị hiện đại</a> </li>
+                <li><a href="<?= $link_tuvan;?>">tư vấn chi phí</a> </li>
+                <li><a href="<?= $link_tuvan;?>">liên hệ với chúng tôi</a> </li>
+                <li><a href="<?= $link_tuvan;?>">đăng ký trực tuyến</a> </li>
+            </ul>
+        </div>
+        <div class="thongtin" style="float:left;width:533px;text-transform: uppercase;color: #ffffff;padding-left: 20px;">
+            <h3 style="font-size: 16px;font-weight: bold;">Liên hệ chúng tôi</h3>
+            <div class="clear2"></div>
+            <div style="overflow: hidden">
+                <a href="<?= $link_tuvan;?>" style="color: #fff;float: left;margin-right: 50px;font-size: 13px;">
+                    <img src="images/ico_dienthoai_f.png" alt="dt" style="margin-right: 5px;float: left">điện thoại tư vấn miễn phí<br><b style="font-size: 20px;">1800 6166</b>
+                </a>
+                <a href="skype:bacsy_tuvan168?chat"><img src="http://benhxahoi168.net/public/frontend/img/home/skypef.png" alt="skype"></a>
+            </div>
+            <div class="clear2"></div>
+            <div style="overflow: hidden" class="btn_f">
+                <a href="<?= $link_tuvan;?>"><img src="images/ico_tv_f.png" alt="benh tinh"> Hỏi bệnh tình</a>
+                <a href="<?= $link_tuvan;?>"><img src="images/ico_dt_f.png" alt="benh tinh"> Hỏi điều trị</a>
+                <a href="<?= $link_tuvan;?>"><img src="images/ico_cp_f.png" alt="benh tinh"> Hỏi Chi phí</a>
+            </div>
+            <div class="clear2"></div>
+            <div>
+                <p style="text-transform: none;">Copyright @ 2009-2016. Phong Kham Da Khoa 168 Ha Noi. All rights reserved</p>
+                <p>ĐỊA CHỈ: KM 12 NGỌC HỒI - THANH TRÌ - HÀ NỘI</p>
+            </div>
+        </div>
+    </div>
+</div>
+<?= $line_chat;?>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khuyến Mại Nam Khoa</title>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <base target="_blank">
+</head>
+<?php
+require_once('../../define.php');
+$link_tuvan=link_tuvan;
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_kythuat=link_kythuat;
+$link_thietbi=link_thietbi;
+$link_diachi=link_diachi;
+$link_skype=link_skype;
+$link_tuvan2=line_chat();
+$Addleft=cd_Addleft();
+?>
+<body>
+<div style=" text-align: center; position: inherit; z-index: -10;">
+    <img src="image/bg.png" style="width: 100%;">
+</div>
+<div id="wapper">
+    <div id="main">
+        <div id="main_top">
+            <div id="menu_left">
+                <ul>
+                    <li><a href="<?= $domain;?>" target="_blank">trang chủ</a></li>
+                    <li class="phancach">|</li>
+                    <li><a href="<?= $link_gioithieu;?>" target="_blank">giới thiệu</a></li>
+                    <li class="phancach">|</li>
+                    <li><a href="<?= $link_thietbi;?>" target="_blank"> thiết bị</a></li>
+                </ul>
+            </div>
+            <div id="menu_right">
+                <ul>
+                    <li><a href="<?= $link_kythuat;?>" target="_blank">kỹ thuật</a></li>
+                    <li class="phancach">|</li>
+                    <li><a href="<?= $link_tuvan;?>" target="_blank">tư vấn</a></li>
+                    <li class="phancach">|</li>
+                    <li><a href="<?= $link_diachi;?>" target="_blank">liên hệ</a></li>
+                </ul>
+            </div>
+            <div id="qua">
+                <div id="qua_text">
+                    <div id="khoidong">Khởi động mùa hè, đã mạnh khỏe lại có quà</div>
+                    <div id="qua_time"><script src="http://phongkham168.com/cd/js/date.js"></script></div>
+                </div>
+                <div id="qua_ico"></div>
+            </div>
+        </div>
+        <div id="main_content">
+            <div id="mota">
+                <div id="mota_text">
+                    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Mùa hè đã đến gần, cơ thể bắt đầu rơi vào trạng thái mệt mỏi, các loại dịch bệnh bắt đầu xâm nhập cơ thể, hoặc do bạn hàng ngày quá bận bịu công việc không có thời gian tập luyện, cũng không có nhiều thời gian tập trung chăm sóc sức khỏe bản thân, không thu xếp được thời gian đến bệnh viện làm kiểm tra sức khỏe toàn diện, cơ thể bạn bắt đầu lên tiếng nhắc nhở. Nhằm giúp đông đảo bạn bè có thể bảo vệ sức khỏe của mình một cách toàn diện trong mùa hè, phòng khám đa khoa 168 Hà Nội giới thiệu chương trình chăm sóc sức khỏe cộng đồng quy mô lớn mang tên<span style="color: white;">”khởi động mùa hè, sức khỏe đồng hành với bạn”</span></p>
+                </div>
+            </div>
+            <div id="khuyenmai">
+                <div id="km_content">
+                    <div id="km_title">
+                        <div id="km_title_left">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 1</span>
+                        </div>
+                        <div id="km_title_right">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 2</span>
+                        </div>
+                    </div>
+                    <div id="km_mienphi">
+                        <div id="km_mienphi_left">
+                            <p class="km"><span style="color: red;">miễn phí</span> toàn bộ</p>
+                            <p>phí đặt mã số khám</p>
+                        </div>
+                        <div id="km_mienphi_right">
+                            <p class="km">ưu đãi giảm <span style="color: red;font-size: 30px;">50%</span></p>
+                            <p>phí kiểm tra</p>
+                        </div>
+                    </div>
+                    <div id="km_mota">
+                        <div id="km_mota_left">
+                            <div id="km_mota_left_2">
+                                Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám đều được miễn phí toàn bộ phí đặt mã số khám
+                            </div>
+                        </div>
+                        <div id="km_mota_right">
+                            <div id="km_mota_right_2">
+                                Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám  được giảm 50% tất cả phí kiểm tra
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chitiettuvan"><a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_tuvanchitiet.png"></a></div>
+                    <div id="km_title2">
+                        <div id="km_title_left2">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 3</span>
+                        </div>
+                        <div id="km_title_right2">
+                            <span>QUÀ TẶNG ƯU ĐÃI THỨ 4</span>
+                        </div>
+                    </div>
+                    <div id="km_mienphi2">
+                        <div id="km_mienphi_left2">
+                            <p class="km_left km_title">Ưu đãi giảm <span style="color: red;font-size: 30px;">30%</span></p>
+                            <p class="km_left">phí kiểm tra</p>
+                            <div id="km_left_ct">Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám đều được giảm 30% phí thủ thuật</div>
+                        </div>
+                        <div id="km_mienphi_right2">
+                            <p class="km_right km_title">ưu đãi giảm <span style="color: red;font-size: 30px;">30%</span></p>
+                            <p class="km_right">phí điều trị</p>
+                            <div id="km_right_ct">Chỉ cần là bệnh nhân đặt hẹn trên mạng đến phòng khám  được giảm 30% tất cả chi phí điều trị</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tuvan">
+                <div class="tuvan_top">
+                    <div class="tuvan_top_left">
+                        <p><a href="">Đội ngũ y bác sỹ hà nội</a></p>
+                    </div>
+                    <div class="tuvan_top_right">
+                        <div><p><a>đảm bảo hiệu quả điều trị</a></p></div>
+                        <div><a href="<?= $link_tuvan;?>" target="_blank" style="margin-left: 50px;"><img src="image/bt_tuvan.png" style="margin-top: 10px;"></a></div>
+                    </div>
+                </div>
+                <div id="tuvan_img"><img src="image/nv_pk.jpg" alt="tu van" style="width: 917px;height: 290"></div>
+                <div id="tuvan_content">
+                    <p >&nbsp&nbsp&nbsp&nbsp Bác sỹ với hơn 30 năm thăm khám, tiến hành đưa ra các phương án điều trị và các hạng mục kiểm tra cho các anh em. Bác sỹ nam khoa Phòng Khám 168 Hà Nội tiến hành hội chuẩn đối với những bệnh lý nan giải phức tạp, làm cho nhưng gia đình sống tại Hà Nội không cần phải đi xa mới có thể tìm thấy bác sỹ giỏi,  mọi người được hưởng dịch vụ y tế chất lượng cao. (đây chỉ là một số bác sỹ và nhân viên của phòng khám)</p>
+                </div>
+                <div id="tuvan_foot"></div>
+            </div>
+            <div id="tieuchuan">
+                <div class="tuvan_top">
+                    <div class="tuvan_top_left">
+                        <p><a href="">Khám bệnh cần thận trọng</a></p>
+                    </div>
+                    <div class="tuvan_top_right">
+                        <div><p><a>không nên lựa chọn mù quáng</a></p></div>
+                        <div><a href="<?= $link_tuvan;?>" target="_blank"><img src="image/bt_tuvan.png" style="margin-top: 10px;"></a></div>
+                    </div>
+                </div>
+                <div id="tieuchuan_img"><img src="image/img_tieuchuan2.png" alt="tieu chuan"></div>
+
+                <div id="sdt">
+                    <a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_tuvanchuyengia.png"></a>
+                    <p>điện thoại tư vấn</p>
+                    <span><?= phone1;?> - <?= phone2;?></span>
+                </div>
+            </div>
+            <div class="baiviet">
+                <div class="baiviet_title">
+                    <h2>Giới thiệu bài viết</h2>
+                    <div class="click_tuvan">
+                        <a href="<?= $link_tuvan;?>">click tư vấn</a>
+                    </div>
+                </div>
+                <div class="baiviet_content">
+                    <div class="bv_content_left">
+                        <div class="bv_img"><img src="image/img_bv_left.png"></div>
+                        <div class="bv_list" id="div1">
+                            <a href="http://benhtri168.com/tri-noi-do-4-va-cach-chua" target="_blank">- Trĩ nội độ 4 và cách chữa</a>
+                            <a href="http://benhtri168.com/chua-benh-tri-noi-do-3-nhu-the-nao" target="_blank">- Chữa bệnh trĩ nội độ 3 như thế nào?</a>
+                            <a href="http://benhtri168.com/bieu-hien-cua-benh-tri-noi-o-nam-gioi" target="_blank">- Biểu hiện của bệnh trĩ nội ở nam giới</a>
+                            <a href="http://benhtri168.com/nhung-dieu-can-chu-y-khi-bi-tri-noi" target="_blank">- Những điều cần chú ý khi bị trĩ nội</a>
+                            <a href="http://benhtri168.com/thoi-quen-de-gay-ra-benh-tri" target="_blank">- Thói quen dễ gây ra bệnh trĩ</a>
+                        </div>
+                    </div>
+                    <div class="bv_content_right">
+                        <div class="bv_img"><img src="image/img_bv_right.png"></div>
+                        <div class="bv_list" id="div2">
+                            <a href="http://benhtri168.com/4-nguy-hai-lon-tu-benh-tri-noi" target="_blank">- 4 nguy hại lớn từ bệnh trĩ nội</a>
+                            <a href="http://benhtri168.com/cac-cap-do-va-cach-chua-tri-noi" target="_blank">- Các cấp độ và cách chữa trĩ nội</a>
+                            <a href="http://benhtri168.com/benh-tri-co-tai-phat-khong" target="_blank">- Bệnh trĩ có tái phát không?</a>
+                            <a href="http://benhtri168.com/benh-tri-noi-va-cac-giai-doan-phat-trien" target="_blank">- Bệnh trĩ nội và các giai đoạn phát triển</a>
+                            <a href="http://benhtri168.com/tim-hieu-ve-benh-tri-noi-do-2" target="_blank">- Tìm hiểu về bệnh trĩ nội độ 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main_footer"></div>
+    </div>
+    <div class="footer">
+        <div class="footer_left">
+            <div class="f_left">
+                <img src="image/logo_footer2.png">
+                <p>Phòng khám đa khoa 168 hà nội</p>
+                <span>sức khỏe của bạn là tâm nguyện của chúng tôi</span>
+            </div>
+
+        </div>
+        <div style="float: left;margin-top: 40px;"><img src="image/chia_footer.jpg"></div>
+        <div class="footer_right">
+            <div class="f_right">
+                <div class="ico_f">
+                    <a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_tuvan.jpg"></a>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><img src="image/ico_henkham.jpg"></a>
+                    <a href="<?= $link_skype;?>" target="_blank"><img src="image/ico_skype.jpg"></a>
+                    <a href="<?= $domain;?>"><img src="image/ico_trangchu.jpg"></a>
+                </div>
+            </div>
+            <div class="clr"></div>
+            <p><?= phone1;?> - <?= phone2;?></p>
+            <div class="clr"></div>
+            <span>KM 12-NGỌC HỒI-THANH TRÌ-HÀ NỘI</span>
+            <div class="clr"></div>
+            <span>Website:benhtri168.com</span>
+            <div class="clr"></div>
+            <span>Email:phongkhamdakhoa168@gmail.com</span>
+            <div class="clr"></div>
+            <span>Thời gian làm việc: Từ 8h-20h (kể cả ngày lễ và chủ nhật)</span>
+            <div class="clr"></div>
+            <span>Thông tin website chỉ cung cấp tham khảo không là căn cứ y tế chuẩn đoán</span>
+            <div class="clr"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var max_height = 0;
+        //Duyệt qua 3 cột
+        $("#div1,#div2,#right").each(function(){
+            if($(this).height() > max_height)
+            max_height = $(this).height();
+        });
+        $("#div1,#div2,#right").height(max_height);
+    });
+</script>
+</body>
+</html>
+<!--<div class="banner-son-1" style="top:153px; left:10px;position: fixed;width: 135px;z-index:100000">
+<embed style="  height: 480px;  width: 150px;" src="http://khamnamkhoa168.com/images/son-new.swf"/>
+</div-->
+<?= $Addleft;?>
+<?= $link_tuvan2;?>

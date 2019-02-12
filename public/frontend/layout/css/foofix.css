@@ -1,0 +1,49 @@
+.copyright {
+    margin-bottom: 76px;
+}
+.footer_fix{
+    width: 100%;
+    background: #0a7f86;
+    position: fixed;
+    bottom: 0;
+}
+.foofix_main{
+   width: 1100px;
+    margin: auto;
+}
+.foofix_main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 16px 0;
+}
+.foofix_main ul li:first-child{
+    width: 12%;
+    display: block;
+    float: left;
+    height: 42px;
+    text-align: left;
+}
+.foofix_main ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 17.6%;
+    display: inline-block;
+    text-align: center;
+}
+.foofix_main ul li a{
+    display: inline-block;
+}
+.foofix_main ul li img{
+    float: left;
+}
+.foofix_main ul li img.ico_nguoi{
+    position: absolute;
+    margin-top: -58px;
+}
+.foofix_main ul li span{
+    color: #fff;
+    display: inline-block;
+}

@@ -1,0 +1,252 @@
+a:hover{
+    transition: color 1s;
+    -moz-transition: color 1s;
+    -webkit-transition: color 1s;
+    -o-transition: color 1s;
+}
+.box_bodder{
+    height:auto;
+    overflow:hidden;
+    border-bottom:1px #dadada solid;
+    border-left:1px #eeeeee solid;
+    border-right:1px #eeeeee solid;
+    padding:4px;border-radius:2px;
+    -moz-border-radius:2px;
+    background:#FFFFFF;
+}
+.tien_liet_tuyen .cha_jj{
+    height:195px;
+    overflow:hidden;
+    background:url(../img/tien-liet-tuyen/pk_bg.png) no-repeat right bottom #FFFFFF;
+    margin-bottom:20px;
+}
+.tien_liet_tuyen .cha_jj .txt{
+    height:auto;
+    overflow:hidden;
+    padding:0px 0 30px 105px;
+    width:680px;
+}
+.tien_liet_tuyen .cha_jj .txt h2{
+    font-size:14px;
+    font-weight:normal;
+    height:auto;
+    overflow:hidden;
+    margin-bottom:8px;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+.tien_liet_tuyen .cha_jj .txt p{ color:#666666; line-height:20px;}
+/*cha_list*/
+.tien_liet_tuyen .cha_list{ height:auto; overflow:hidden; margin-bottom:5px;}
+.tien_liet_tuyen .cha_list .left{
+    width:285px;
+    float: left;
+}
+.tien_liet_tuyen .cha_list .left .cha_zj{ text-align:center; line-height:20px; margin-bottom:20px;}
+.tien_liet_tuyen .cha_list .left .cha_zj .pic{ height:auto; overflow:hidden; margin-bottom:5px; height:338px; width:275px; overflow:hidden; position:relative;}
+.tien_liet_tuyen .cha_list .left .cha_zj .pic .cha_zj_left{ height:338px; width:40px; position:absolute; left:5px; top:0; background:url(../img/tien-liet-tuyen/lico6.png) no-repeat center; cursor:pointer;}
+.tien_liet_tuyen .cha_list .left .cha_zj .pic .cha_zj_right{
+    height:338px;
+    width:40px;
+    position:absolute;
+    right:5px;
+    top:0;
+    background:url(../img/tien-liet-tuyen/lico5.png) no-repeat center;
+    cursor:pointer;
+}
+.tien_liet_tuyen .cha_list .left .cha_zj .pic .cha_zj_con{ height:338px; overflow:hidden;}
+.tien_liet_tuyen .cha_list .left .cha_zj .pic li{ height:338px; overflow:hidden; width:275px; float:left; text-align:center;}
+.tien_liet_tuyen .cha_list .left .cha_zj h2{
+    font-size:12px;
+    margin-top: 10px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zj span{ color:#FF0000; padding:0 4px;}
+.tien_liet_tuyen .cha_list .left .cha_zj p{ padding-bottom:7px;}
+/*cha_zz*/
+.tien_liet_tuyen .cha_list .left .cha_zz .tit{
+    margin:0 auto;
+    height:38px;
+    line-height:16px;
+    padding:4px 0;
+    /*background:url(../img/tien-liet-tuyen/cico2.gif) no-repeat center;*/
+    background: #177fc8;
+    border-radius: 20px;
+    width: 215px;
+    font-size:12px;
+    text-align:center;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zz ul{ height:auto; overflow:hidden; padding:0 2px; margin-bottom:12px;}
+.tien_liet_tuyen .cha_list .left .cha_zz li{
+    height:46px;
+    line-height:34px;
+    border-bottom:1px #CCCCCC dashed;
+    letter-spacing: -1px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zz li.dong2{
+    line-height: 16px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zz li .stt{
+    width: 22px;
+    background: #177fc8;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zz .ts{
+    height:65px;
+    line-height:20px;
+    background:url(../img/tien-liet-tuyen/cico9.gif) no-repeat 10px center;
+    padding:6px 0 10px 60px;
+    color:#cc0000;
+    font-size:14px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+.tien_liet_tuyen .cha_list .left .cha_zz .ts b{
+   text-transform: uppercase;
+    text-align: center;
+}
+/*div.right*/
+.tien_liet_tuyen .cha_list .right{
+    width:715px;
+    float: left;
+}
+.tien_liet_tuyen .cha_list .right .tit{ height:auto; overflow:hidden; padding-left:17px; color:#424242;}
+.tien_liet_tuyen .cha_list .right .tit span{
+    display:block;
+    font-size:18px;
+    height:auto;
+    overflow:hidden;
+    padding:5px 0 5px 0;
+    border-bottom:1px #CCCCCC solid;
+    margin-bottom:15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+/*clist*/
+.tien_liet_tuyen .cha_list .right .clists{
+    height:363px;
+    width:342px;
+    margin-left:15px;
+    overflow:hidden;
+    margin-bottom:12px;
+    float:left;
+}
+.tien_liet_tuyen .cha_list .right .clists dl{
+    height:355px;
+    overflow:hidden;
+    border-bottom:1px #dadada solid;
+    border-left:1px #eeeeee solid;
+    border-right:1px #eeeeee solid;
+    padding:4px;border-radius:2px;
+    -moz-border-radius:2px;
+    background:#FFFFFF;
+}
+.tien_liet_tuyen .cha_list .right .clists.hover{
+    /*background:url(../img/tien-liet-tuyen/cico19.gif) no-repeat center top;*/
+    background: url("../img/tien-liet-tuyen/bg_bottom.jpg") no-repeat center bottom;
+}
+.tien_liet_tuyen .cha_list .right .clists.hover dl{
+    /*border:none;*/
+    background:none;
+    cursor:pointer;
+
+}
+.tien_liet_tuyen .cha_list .right .clists dt.t{
+    font-size:14px;
+    text-align:center;
+    padding-bottom:15px;
+    /*background:url(../images/cico18.gif) no-repeat center bottom;*/
+    margin-bottom:10px;
+}
+.tien_liet_tuyen .cha_list .right .clists dt.t p{
+    text-align:center;
+    height:auto;
+    overflow:hidden;
+    padding:15px 0 10px 0;
+}
+.tien_liet_tuyen .cha_list .right .clists dt.t p.dong2{
+    padding:0px 0 5px 0;
+}
+.tien_liet_tuyen .cha_list .right .clists dt.t .pic{ margin-bottom:10px;}
+.tien_liet_tuyen .cha_list .right .clists dt.t a{
+    color:#424242;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.tien_liet_tuyen .cha_list .right .clists dt.t a:hover{ color:#FF0000;}
+.tien_liet_tuyen .cha_list .right .clists dd{ height:35px; line-height:35px; width:250px; margin:0 auto; border-bottom:1px #CCCCCC dashed; padding-left:15px; background:url(../img/home/ihot_ico3.gif) no-repeat left center;}
+.tien_liet_tuyen .cha_list .right .clists dt.more{ height:auto; text-align:right; padding:20px 5px 0 0;}
+.tien_liet_tuyen .cha_list .right .clists dt.more span{ padding-bottom:3px; border-bottom:1px #666666 solid;}
+.tien_liet_tuyen .cha_list .right .clists dt.more a{
+    color:#666666;
+    border-bottom:1px #CCCCCC solid;
+    padding:2px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tien_liet_tuyen .cha_list .right .clists dt.more a span{ font-family:"宋体"; color:#999999; border:none;}
+.tien_liet_tuyen .cha_list .right .clists dt.more a:hover{ color:#FF0000; text-decoration:none; border-bottom:1px #FF0000 solid;}
+.tien_liet_tuyen .cha_list .right .clists dt.more a:hover span{ color:#FF0000;}
+/*div .cha_zxbtn*/
+.tien_liet_tuyen .cha_zxbtn{ height:auto;
+    overflow:hidden;
+    margin-bottom:0px;}
+.tien_liet_tuyen .cha_zxbtn .left{
+    width:284px;
+    border: 1px solid #eee;
+    float: left;
+}
+.tien_liet_tuyen .cha_zxbtn .left dl{
+    height:auto;
+    overflow:hidden;
+    background:#FFFFFF;
+    margin-bottom: 0px;
+}
+.tien_liet_tuyen .cha_zxbtn .left dd{
+    width:74px;
+    text-align:center;
+    padding:20px 0 10px 0;
+    float:left;
+}
+.tien_liet_tuyen .cha_zxbtn .left dd p{ font-size:16px; color:#1b7bbf; height:auto; overflow:hidden; padding:8px 0 14px 0;}
+.tien_liet_tuyen .cha_zxbtn .left dt{
+    height:65px;
+    text-align:center;
+    clear:both;
+    padding:6px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #1b7bbf;
+}
+.tien_liet_tuyen .cha_zxbtn .left dt b{
+    font-size: 17px;
+}
+.tien_liet_tuyen .cha_zxbtn .right{
+    width:715px;
+    float: left;
+    padding-left: 15px;
+}
+/*========YEU SINH LY=======*/
+.tien_liet_tuyen .hamuc_yeusinhly .cha_list .right .clists{
+    width: 223px;
+}
+.tien_liet_tuyen .hamuc_yeusinhly .cha_list .right .clists dd{
+    height:35px;
+    line-height:35px;
+    width:217px;
+    margin:0 auto;
+    border-bottom:1px #CCCCCC dashed;
+    padding-left:15px;
+    background:url(../img/home/ihot_ico3.gif) no-repeat left center;
+}
+/*=====END YEU SINH LY=====*/

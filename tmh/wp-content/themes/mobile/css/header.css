@@ -1,0 +1,93 @@
+.site-header{
+}
+.phone-tuvan >p{
+	margin-top: 0px;
+}
+.phone-tuvan{
+	height: 40px;
+	background-color: #008c56;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.phone-tuvan span{
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left:10px; 
+	line-height: 40px;
+	font-weight: bold;
+}
+.phone-tuvan a{
+	display: inline-block;
+	height: 40px;
+	color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.phone-tuvan .call-me{
+	display: inline-block;
+    background-color: #ffff00;
+    padding: 11px 2px;
+    text-decoration: center;
+    line-height: 0px;
+    color: #333;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.site-header .logo{
+	text-align: center;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.site-header .logo h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.menu {
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #008c56;
+    text-align: center;
+    font-size: 14px;
+}
+.menu .w1{
+	width:10.9%;
+	display: inline-block;
+	background-image: url('images/header-1.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	float: left;
+}
+.menu .w1 i{
+	font-size: 25px;
+	line-height: 0px;vertical-align: middle;
+}
+.menu .w2{
+	width:22.26%;
+	display: inline-block;
+	background-image: url('images/header-1.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	float: left;
+}
+.menu .w2:last-child{
+	background-image: none;
+}
+.menu a.active{
+	background-color: #ff5649;
+}
+.slider-header{
+	margin-top: 5px;
+}
+.slider-header ul{
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+}
+/*fix responsive*/

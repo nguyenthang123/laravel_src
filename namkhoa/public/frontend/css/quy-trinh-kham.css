@@ -1,0 +1,145 @@
+.box_bodder{
+    height:auto;
+    overflow:hidden;
+    border-bottom:1px #dadada solid;
+    border-left:1px #eeeeee solid;
+    border-right:1px #eeeeee solid;
+    padding:4px;border-radius:2px;
+    -moz-border-radius:2px;
+    background:#FFFFFF;
+}
+.quytrinhkham .lylx_ts {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 60px 0 40px 15px;
+}
+.content_main{
+    background: url("../img/quy-trinh-kham/bg.png");
+}
+.quytrinhkham .lylx_ts p {
+    height: 75px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 16px;
+    padding-left: 120px;
+    background: url(../img/quy-trinh-kham/ttnhacnho.png) no-repeat left center;
+    width: 755px;
+    float: left;
+}
+.quytrinhkham .lylx_ts .btn {
+    float: right;
+    width: 215px;
+    height: 40px;
+    padding: 23px 20px 0 0;
+}
+.quytrinhkham .lylx_ts .btn a {
+    display: block;
+    font-size: 16px;
+    line-height: 38px;
+    border-bottom: 2px #95050a solid;
+    color: #FFFFFF;
+    background: #da0f16;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.quytrinhkham .con {
+    background: url(../img/quy-trinh-kham/lylx_ico3.gif) repeat-x left bottom #f7f7f7;
+    margin-bottom: 30px;
+}
+.quytrinhkham .tit {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000000;
+    background: #FFFFFF;
+}
+.quytrinhkham .tit span {
+    display: block;
+    width: 270px;
+    text-align: center;
+    background: #f7f7f7;
+    font-size: 15px;
+}
+.quytrinhkham .lx1 {
+    background: url(../images/quy-trinh-kham/ha1.png) no-repeat 20px 40px;
+    height: 370px;
+    padding: 30px 0 0 380px;
+}
+.quytrinhkham h2 {
+    height: auto;
+    font-size: 24px;
+    color: #177fc8;
+    padding: 10px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.quytrinhkham  .p1 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.quytrinhkham  .lx1 .p1{
+    background: url(../images/quy-trinh-kham/lylx_pic4.jpg) no-repeat left center;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 110px;
+}
+.quytrinhkham  .p2 {
+    height: 51px;
+    line-height: 60px;
+    padding-left: 35px;
+    background: url(../img/quy-trinh-kham/lylx_ico2.gif) no-repeat left center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.quytrinhkham  p {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.quytrinhkham .lx2 {
+    height: 310px;
+    background: url(../images/quy-trinh-kham/ha2.png) no-repeat 725px 5px;
+    padding-left: 250px;
+}
+.quytrinhkham .lx2 h2{
+    padding: 0;
+    margin-top: 5px;
+}
+.quytrinhkham .lx2 .p1 {
+    background: url("../images/quy-trinh-kham/ico_tulaixe.png") no-repeat;
+    padding-top: 20px;
+    padding-left: 100px;
+    height: 90px;
+}
+.quytrinhkham .lx2 .p2{
+    margin-top: 60px;
+}
+.quytrinhkham .lx3 {
+    background: url(../images/quy-trinh-kham/ha3.png) no-repeat 20px 40px;
+    height: 337px;
+    padding-left: 380px;
+    padding-top: 65px;
+}
+.quytrinhkham .con2 {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: #f7f7f7;
+}
+.quytrinhkham .tit {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000000;
+    background: #FFFFFF;
+}
+.quytrinhkham .tit span {
+    display: block;
+    width: 150px;
+    text-align: center;
+    background: #f7f7f7;
+    text-transform: uppercase;
+}
+

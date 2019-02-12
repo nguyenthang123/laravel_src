@@ -1,0 +1,457 @@
+﻿<?php include_once('../../../define.php');
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cắt bao quy đầu.</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+</head>
+<?php
+$Addtop=Addtop();
+$domain=domain;
+$link_tuvan=link_tuvan;
+$link_gioithieu=link_gioithieu;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$cd_Addleft=Addleft();
+?>
+<?= $Addtop;?>
+<body>
+<div class="row">
+    <style>
+            /*.home_top*/
+        .home_main_item {
+            width: 1100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .home_top{
+            height: 100px;
+            padding-top: 15px;
+        }
+        .home_top_logo{
+            float: left;
+        }
+        .home_top_right{
+            float: right;
+        }
+        .home_top_right ul{
+            list-style: none;
+            padding-top: 10px;
+        }
+        .home_top_right ul li{
+            float: left;
+        }
+    </style>
+    <div class="home_top">
+        <div class="home_main_item">
+            <div class="home_top_logo">
+                <a href="<?= $domain;?>">
+                    <img src="/public/frontend/img/home/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="home_top_right">
+                <ul>
+                    <li>
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="/public/frontend/img/home/home_top_dt.png" alt="dt">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="/public/frontend/img/home/home_top_hk.png" alt="hk">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= link_quytrinhphongkham;?>">
+                            <img src="/public/frontend/img/home/home_top_dc.png" alt="dc">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <style>
+                /*div .menu*/
+            .menu{
+                width: 100%;
+                background: #0555ae;
+            }
+            .menu_content{
+                width: 1000px;
+                margin: auto;
+                background: #7f579d;
+            }
+            .navbar-default{
+                background: #0555ae;
+                border: none;
+            }
+            ul.navbar-nav li{
+
+            }
+            .navbar{
+                margin-bottom: 0px;
+            }
+            ul.navbar-nav li a{
+                color: #ffffff!important;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding-left: 45px;
+                padding-right: 45px;
+                display: block;
+            }
+            ul.navbar-nav li a:hover{
+                text-decoration: underline;
+                background-color: #02428a!important;
+            }
+        </style>
+        <div class="menu_content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="<?php echo $domain;?>">Trang chủ</a></li>
+                            <li><a href="<?php echo $link_gioithieu;?>">Giới thiệu</a></li>
+                            <li><a href="<?php echo $link_thietbi;?>">Thiết bị</a></li>
+                            <li><a href="<?php echo $link_kythuat;?>">Kỹ thuật</a></li>
+                            <li><a href="<?php echo $link_tuvan;?>">Bác sỹ</a></li>
+                            <li><a href="<?php echo $link_lienhe;?>">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="banner-s">
+    <div class="container" style="width:100%;background: #0976cb;">
+        <div style="width: 1200px;margin: auto;">
+            <img style="width:100%" class="featurette-image img-responsive" title="" alt="" src="images/banner.png">
+            <a href="<?= $link_tuvan;?>" target="_blank">
+                <img style="position: absolute;padding-left: 500px;margin-top: -120px;" class="featurette-image img-responsive" title="" alt="" src="images/chuyen-gia-tu-van-1.png">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="banner-s "
+     style="padding-bottom: 30px;background:url('images/phong-kham-168.png') top center no-repeat;padding-top: 34px;margin-top: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9" style="padding-left: 45px;">
+                <p>Thủ thuật cắt bao quy đầu không đau bằng công nghệ Châu Âu là thủ thuật cắt bao quy đầu phù hợp ở Việt Nam.
+                    Thủ thuật này có những ưu thế như: thiết bị định vị hiển vi Nano, quá trình thủ thuật giảm tối đa cảm giác đau đớn, chỉ
+                    khâu tự tiêu, vết thương dễ dàng hồi phục....
+                    có thể nâng cao rõ rệt chức năng sinh lý nam, cải thiện chất lượng quan hệ tình dục,
+                    có thể đáp ứng đầy đủ mọi yêu cầu của đa số bệnh nhân bao quy đầu dài và hẹp bao quy đầu... </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="banner-s "
+     style="padding-bottom: 30px;background:url('images/tu-kiem-tra.png') top center no-repeat;padding-top: 34px;margin-top: 20px;">
+    <div class="container">
+        <div class="row boy-boy" style="padding-left: 170px;padding-right: 170px;padding-top:126px;">
+            <div class="col-md-2">
+                <p>bao quy đầu dài</p>
+            </div>
+            <div class="col-md-2">
+                <p>giả hẹp bao quy đầu </p>
+            </div>
+            <div class="col-md-2">
+                <p>tắc mạch bao quy đầu </p>
+            </div>
+            <div class="col-md-2">
+                <p>tắc mạch bao quy đầu</p>
+            </div>
+            <div class="col-md-2">
+                <p>thực bao quy đầu</p>
+            </div>
+            <div class="col-md-2">
+                <p>thực bao quy đầu</p>
+            </div>
+        </div>
+        <a href="<?= $link_tuvan;?>" target="_blank">
+            <img style="position: absolute;
+padding-left: 886px;
+margin-top: -90px;" class="featurette-image img-responsive" title="" alt="" src="images/123-tu-van.png">
+        </a>
+    </div>
+</div>
+<div class="banner-s "
+     style="padding-bottom: 30px;background:url('images/van-de-suc-khoe.png') top center no-repeat;padding-top: 120px;">
+    <div class="container" style="">
+        <div class="row row-nam-gioi">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 " style="padding:0px;padding-right: 50px;">
+                <div class="row row-b-s">
+                    <p><b> <img src="images/he-qua-1.png"/></b> Bề mặt bên ngoài trơn nhẵn đều không?</p>
+
+                    <p><b> <img src="images/he-qua-2.png"/> </b>Bề mặt bên ngoài không có sẹo rõ rệt không?</p>
+
+                    <p><b> <img src="images/he-qua-3.png"/> </b>Thủ thuật có phải làm một lần là thành công không?</p>
+
+                    <p><b> <img src="images/he-qua-4.png"/> </b>Sau thủ thuật có ảnh hưởng đến cuộc sống và chất lượng
+                        cuộc sống không?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top:430px;padding-left:190px;">
+            <p style="color:8e5400"> 1,Thủ thuật bao quy đầu nhất định phải chọn phòng khám chuyên khoa.</p>
+
+            <p style="color:8e5400"> 2,Chi phí thủ thuật bao quy đầu thấp không đáng tin cậy, lựa chọn phương pháp thủ
+                thuật an toàn mới là điều an tâm.</p>
+        </div>
+    </div>
+</div>
+<div class="banner-s "
+     style="padding-bottom: 30px;background:url('images/phuong-phap-phau-thuat.png') top center no-repeat;padding-top: 75px;">
+    <div class="container" style="">
+        <div class="row row-nam-gioi">
+            <div class="col-md-5" style="padding-left: 40px;">
+                <img src="/cd6/chinh-hinh/cat-bao-quy-dau/images/anh_video.jpg">
+                <div class="row" style="margin-top: 52px;background:#e0ebf6">
+                    <p style="color:#000">
+                        Bác sỹ phẫu thuật với nhiều năm kinh nghiệm phong phú thủ thuật bao quy đầu chỉ là một tiểu phẫu nhỏ tính an toàn cao, áp dụng theo nguyên tắc giảm đau, vết thương đẹp tự nhiên, đạt tiêu chuẩn, sau thủ thuật tự nhiên, đẹp hầu như không để lại sẹo...Áp dụng phương pháp kỹ thuật mới nhất vết thương nhanh lành, chỉ tự tiêu không để lại sẹo, đều đẹp độ thẩm mỹ cao, không giống phương pháp thủ thuật truyền thống phải cắt chỉ, giúp kéo dài thời gian quan hệ, cải thiện tình trạng liệt dương, vấn đề xuất tinh sớm, nâng cao chất lượng cuộc sống.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-7 " style="padding: 0px;padding-top: 128px;padding-right: 26px;text-align: justify;">
+                <div class="row row-b-s">
+                    <p style="color:#333;">
+                        Căn cứ theo đặc điểm sinh lý nam giới ở việt nam,theo đường kính và chiều dài của dương vật tiến hành 3 phương diện đo tính toán khoa học bao quy đầu “tỷ lệ vàng”, lựa chọn loại bỏ da bao quy đầu thừa, đem lại hiệu quả lý tưởng sau thủ thuật bao quy đầu, bảo vệ chức năng sinh lý và độ mỹ quan hệ thống bộ phận sinh dục nam giới
+                    </p>
+
+                    <p style="color:#333;margin-top: 63px;">
+                        Phẫu thuật bằng phương pháp châu âu không đau thay thế phương pháp thủ thuật dao điện,có hiệu quả trong việc ngăn ngừa trong việc chảy máu và đau đớn.Đồng thời giảm thiểu những đau đớn tổn thương về da, mạch máu, thần kinh và những mô mềm khác. Đồng thời áp dụng phương pháp thủ thuật không đau bằng phương pháp Châu Âu ccó hiệu quả trong việc ngăn chặn con đường lây nhiễm, vết thương nhanh lành.
+                    </p>
+
+                    <p style="color:#333;margin-top: 77px;">
+                        Trong nguyên tắc an toàn thủ thuật do các bác sỹ thủ thuật nhiều năm kinh nghiệm thực hiện, sau thủ thuật có ưu điểm: mỹ quan, hài hòa, hầu như không nhìn thấy sẹo. Áp dụng phương pháp kỹ thuật mới, chỉ khâu tự tiêu làm cho vết thương đều đẹp, tránh vấn đề giống thủ thuật truyền thống là phải cắt chỉ. Có hiệu quả trong việc kéo dài thời gian quan hệ, cải thiện liệt dương, tình trạng xuất tinh sớm, nâng cao chất lương quan hệ tình dục.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 3px;padding-left: 210px;padding-right: 50px;">
+            <p style="color:8e5400">Bạn còn có thắc mắc nào không? Không biết lựa chọn như thế nào? Phòng khám đa khoa
+                Nhân Ái có thể trả lời những câu hỏi trực tuyến, đặt lịch và phục vụ điều trị</p>
+        </div>
+    </div>
+</div>
+<div class="banner-s "
+     style="padding-bottom: 30px;height:945px;background:url('images/so-sanh-uu-the.png') top center no-repeat;padding-top: 75px;">
+    <div class="container" style="">
+
+    </div>
+</div>
+<div class="banner-s "
+     style="margin-top:20px;padding-bottom: 30px;height:690px;background:url('images/an-toan-khong-dau.png') top center no-repeat;padding-top: 75px;">
+    <div class="container" style="">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <p style="padding-right: 44px;padding-left: 40px;text-align: justify;">phòng khám đa khoa Giải Phóng đã thực hiện rất nhiều ca thủ thuật bao quy đầu, đã đạt được những ưu điểm: vết thương nhỏ, an toàn, ít gây đau, nhanh khỏi, cải thiện đáng kể chức năng sinh lý...</p>
+            </div>
+            <div class="col-md-3">
+                <p><a href="<?= $link_tuvan;?>" target="_blank">
+                    <img style="margin:0 auto;margin-top: 66px;" alt="" src="images/123-tu-van.png"> </a>
+                </p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 145px;padding-left: 56px;padding-right: 48px;text-align: justify;">
+            <p>phòng khám đa khoa Giải Phóng Hà Nội áp dụng phương pháp Thủ thuật cắt bao quy đầu không đau công nghệ Châu Âu kết hợp với thủ thuật cắt bao quy đầu, thủ thuật thẩm mỹ bao quy đầu, kỹ thuật khâu chỉ tự tiêu và kỹ thuật khâu hầu như không để lại sẹo, kết hợp sinh lý vốn có của đàn ông, sử dụng phương pháp thủ thuật cắt bao quy đầu không đau công nghệ Châu Âu quốc tế tiên tiến thay vì thủ thuật bằng dao điện, giảm thiểu đau đớn, vết thương thẳng đều. Sau thủ thuật vết thương nhanh lành hơn với thủ thuật thông thường.</p>
+        </div>
+        <div class="row" style="padding-top: 43px;padding-left: 78px;padding-right: 48px;text-align: justify;">
+            <div class="col-md-6" style="padding-right: 32px;">
+                <p> Bác sỹ đích thân làm thủ thuật đảm bảo thủ thuật an toàn</p>
+
+                <p style="margin-top: 18px;"> Thủ thuật cắt bao quy đầu không đau công nghệ Châu Âu</p>
+
+                <p style="margin-top: 18px;"> Thủ thuật thẩm mỹ chỉnh hình cắt bao quy đầu mỹ quan hài hòa </p>
+
+                <p style="margin-top: 26px;"> Quy phạm chuyên nghiệp, chất lượng kỹ thuật tốt ở mọi phương diện</p>
+            </div>
+            <div class="col-md-4" style="padding-top: 45px;padding-left: 28px;padding-right: 65px;text-align: justify;">
+                <p >Thủ thuật cắt bao quy đầu không đau công nghệ Châu Âu điều trị dài bao quy đầu, hẹp bao quy đầu, nhẹ nhàng giảm thiểu đau đớn, không cần nằm viện.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row s_mau-1"
+     style="background: #fff url('images/dieu-tri-ve-benh.png') top center no-repeat;padding-top: 82px;margin-bottom: 20px;">
+    <div class="container" style="">
+        <div class="row" style="min-height:440px">
+            <div class="noi-dung-son-1">
+                <div class="menu-son">
+                    <ul style="padding-left:48px;">
+                        <li class="lison hovered"
+                            style="background: url(http://khamnamkhoa168.com/2014/cat-bao-quy-dau/images/123-hover-bg.png);">
+                            <p><b><img src="images/1.png"></b>
+                                <a href="#" style="color:#fff">Lời nhắc<br/>của chuyên gia</a>
+                            </p>
+                        </li>
+                        <div class="son1 hovered"
+                             style="margin-top: -104px;background: #fff url('images/11.png') bottom right no-repeat;">
+                            <div class="row row-bg" style="margin-bottom:10px;">
+                                <p style="">phòng khám đa khoa Giải Phóng Hà Nội mỗi một ca thủ thuật đều tiến hành
+                                    trong phòng thủ thuật được vô khuẩn, loại bỏ không có tình trạng viêm
+                                    nhiễm, loại bỏ biến chứng sau thủ thuật.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 row-bg row-bg-1">
+                                    <p style="padding: 0px;">phòng khám đa khoa Giải Phóng Hà Nội, địa chỉ: SỐ 709 - GIẢI PHÓNG - HOÀNG MAI - HÀ NỘI. Phòng khám căn cứ theo mô hình phát triển quốc tế hóa nam
+                                        khoa, đẩy mạnh mô hình phục vụ hàng không hóa và chế độ quản lý quốc tế hóa tiên
+                                        tiến, phân ngành sâu về các bệnh nam khoa như: tiền liệt tuyến, rối loạn chức
+                                        năng sinh lý, vô sinh, xâm lấn tối thiểu ngoại khoa, viêm nhiễm bộ phận sinh
+                                        dục, chỉnh hình bộ phận sinh dục... Tôn trọng thực hiện nghiêm ngặt về thái độ
+                                        khoa học để phục vụ góp phần đảm bảo an toàn cho sức khỏe nam giới.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <li class="lison" style="">
+                            <p><b><img src="images/2.png"></b>
+                                <a href="#" style="color: #fff;">Thiết bị<br/>tiên tiến</a>
+                            </p>
+                        </li>
+                        <div class="son1"
+                             style="margin-top: -208px;background: #fff url('images/555.png') bottom right no-repeat;">
+                            <div class="row row-bg" style="margin-bottom:10px;">
+                                <p style=""> Thiết bị y tế tiên tiến xây dựng nền tảng khám chữa bệnh quốc tế hóa.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 row-bg row-bg-1">
+                                    <p style="padding: 0px;">Thiết bị là điều kiện cơ bản trong việc chẩn đoán điều trị
+                                        bệnh triển khai những thủ thuật lớn. Thiết bị y tế tiên tiến có thể nâng cao tỷ
+                                        lệ chính xác trong việc chẩn đoán điều trị bệnh, tỷ lệ điều trị thành công, sức
+                                        khỏe bệnh nhân hồi phục nhanh. phòng khám đa khoa Giải Phóng Hà Nội là phòng khám
+                                        duy nhất nhập thiết bị trị liệu hiệu ứng đa chức năng tiền liệt tuyến. Điều trị
+                                        kiểm tra hiệu quả cao những bệnh nam khoa như yếu sinh lý, viêm nhiễm bộ phận
+                                        sinh dục, và điều trị các bệnh về tiền liệt tuyến.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <li class="lison" style="">
+                            <p><b><img src="images/3.png"></b>
+                                <a href="#" style="color: #fff;">Nghiên cứu<br/>học thuật</a>
+                            </p>
+                        </li>
+                        <div class="son1 "
+                             style="margin-top: -312px;background: #fff url('images/666.png') bottom right no-repeat;">
+                            <div class="row row-bg" style="margin-bottom:10px;">
+                                <p > Quan tâm các bệnh nam khoa, tích cực tham gia nghiên cứu học thuật nam khoa
+                                    tạo nên viện nghiên cứu điều trị chuyên khoa nam khoa
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 row-bg row-bg-1">
+                                    <p style="padding: 0px;">phòng khám đa khoa Giải Phóng Hà Nội là phòng khám có thể giải
+                                        quyết điều trị những vấn đề về sức khỏe sinh lý nam giới, xây dựng các khoa
+                                        trọng điểm như: tiền liệt tuyến, yếu sinh lý, viêm nhiễm bộ phận sinh dục, chỉnh
+                                        hình bộ phận sinh dục, vô sinh nam... phòng khám đa khoa Giải Phóng Hà Nội đã trở thành
+                                        phòng khám chuyên điều trị bệnh nam khoa được thành phố Hà Nội công nhận.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <li class="lison" style="">
+                            <p><b><img src="images/4.png"></b>
+                                <a href="#" style="color: #fff;">Môi trường<br/>thủ thuật</a>
+                            </p>
+                        </li>
+                        <div class="son1"
+                             style="margin-top:-416px;background: #fff url('images/777.png') bottom right no-repeat;">
+                            <div class="row row-bg" style="margin-bottom:10px;">
+                                <p style=""> Thủ thuật các bệnh nam khoa có yêu cầu khá cao đối với môi trường thủ thuật
+                                    và kỹ thuật của các bác sỹ.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 row-bg row-bg-1">
+                                    <p style="padding: 0px;">phòng khám đa khoa Giải Phóng Hà Nội - mỗi một bệnh nhân đến khám
+                                        đều được các bác sỹ tiến hành toàn bộ quá trình khám, bác sỹ thực hiện thủ
+                                        thuật, hàng vạn ca thủ thuật không xảy ra bất cứ sự cố nào, đồng thời kết hợp
+                                        với phòng thủ thuật vô khuẩn, làm cho thủ thuật một lần thành công, loại bỏ lây
+                                        nhiễm trong bệnh viện, đặt lịch miễn phí qua mạng, chuyên gia trực tuyến 24h để
+                                        giải đáp những câu hỏi khó, sau khi đến bênh viện không cần xếp hàng mà trực
+                                        tiếp được khám, toàn bộ quá trình được nhân viên hướng dẫn, trước và sau thủ
+                                        thuật đều có bác sỹ tư vấn sức khỏe và hỗ trợ tâm lý. Người bệnh có thể căn cứ
+                                        vào tình hình của bản thân để lựa chọn cho mình phương pháp thủ thuật phù hợp
+                                        nhất.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background:#e5e5e5;margin-bottom:20px;margin:0 auto;padding-top:30px">
+    <div class="container">
+        <div class="row" style="background:none">
+
+            <div class="col-md-6" style="text-align: center;">
+                <img style="margin:0 auto;" alt="" src="images/logo-1.png">
+            </div>
+            <div class="col-md-6 row-son-tuvan" style="">
+                <p><a href="<?= $link_tuvan;?>" target="_blank">
+                    <img style="margin:0 auto;" alt="" src="images/tv-1.png"> </a>
+                </p>
+
+                <p><a href="<?= $link_tuvan;?>" target="_blank">
+                    <img style="margin:0 auto;" alt="" src="images/tv-2.png"> </a>
+                </p>
+
+                <p><a href="<?= link_skype;?>" target="_blank">
+                    <img style="margin:0 auto;" alt="" src="images/tv-3.png"> </a>
+                </p>
+
+                <p><a href="<?= $domain;?>" target="_blank">
+                    <img style="margin:0 auto;" alt="" src="images/tv-4.png"> </a>
+                </p>
+
+                <div class="row" style="clear:both;background:none">
+                    <h3>phòng khám đa khoa Giải Phóng Hà Nội </h3>
+                    <p>Địa chỉ: Số 709 - Giải Phóng - Hoàng Mai - Hà Nội</p>
+                    <p>Ðiện thoại: <?= phone1;?> - <?= phone2;?></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js" type="text/javascript"></script>
+<?= $cd_Addleft;?>
+<?= popup();?>
+<?= line_chat();?>
+<script type="text/javascript" language="JavaScript">
+    $(document).ready(function () {
+        $("#banner-close").click(function () {
+            $(".banner-son").hide();
+        });
+
+    })
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        setTimeout(function () {
+                    $(".s-hide").slideUp(2000);
+                }
+                , 15000);
+    });
+</script>

@@ -1,0 +1,348 @@
+<?php
+
+require_once('../../define.php');
+
+$domain=domain;
+
+$link_gioithieu=link_gioithieu;
+
+$link_thietbi=link_thietbi;
+
+$link_kythuat=link_kythuat;
+
+$link_diachi=link_diachi;
+
+$link_tuvan=link_tuvan;
+
+$link_skype=link_skype;
+
+$phone1=phone1;
+
+$phone2=phone2;
+
+$line_chat=line_chat();
+
+?>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>sức khỏe của bạn</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/ext.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/wow.js"></script>
+
+    <base target="_blank">
+
+    <?= ico_shortcut;?>
+
+    <script>
+
+        new WOW().init();
+
+    </script>
+
+</head>
+
+<body>
+
+<?= Addleft();?>
+
+<?= popup();?>
+
+<div class="clear1"></div>
+
+<div class="row margin_0">
+
+    <div class="main_item">
+
+        <img src="imgs/logo.png">
+
+    </div>
+
+</div>
+
+<div class="clear2"></div>
+
+<div class="row margin_0" style="/*position: fixed;width: 100%;z-index: 9999;margin-top: -60px;*/">
+
+    <div id="menu_top">
+
+        <div class="main_item">
+
+            <ul>
+
+                <li><a href="<?= $domain;?>">Trang chủ</a></li>
+
+                <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a></li>
+
+                <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a></li>
+
+                <li><a href="<?= $link_diachi;?>">Địa chỉ</a></li>
+
+                <li><a href="<?= $link_tuvan;?>">Đăng ký khám</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row margin_0" style="/*margin-top: 60px;*/">
+        <div class="banner margin_xy zoomIn wow" style="text-align: center;">
+            <img src="imgs/banner.jpg" alt="banner">
+        </div>
+</div>
+<div class="clear2"></div>
+<div class="row margin_0">
+    <div class="main_item main_item1 rollIn wow" data-wow-delay="0.5s">
+        <div class="main_item1_txt">
+            <script src="http://phongkham168.com/cd/js/des.js"></script>
+        </div>
+    </div>
+</div>
+<div class="clear2"></div>
+<div class="row margin_0" style="background: #f0f0f0; padding-top: 25px;">
+    <div class="main_item main_item2">
+        <div class="main_item2_1 wow fadeInLeftBig" data-wow-delay="0.3s">
+            <div class="mian_item2_txt">
+                <label style="margin-top: 42px;border-bottom: 1px solid;"><span style="font-size: 50px;">Miễn phí</span><span style="font-size: 18px;"> đăng ký khám</span></label>
+                <p>Bệnh nhân chỉ cần hẹn khám qua mạng hoặc qua điện thoại đều được miễn phí phí đăng ký khám.</p>
+            </div>
+            <div class="clear2" style="float: left"></div>
+        </div>
+        <div class="main_item2_2 fadeInRightBig wow" data-wow-delay="0.6s">
+            <div class="mian_item2_txt" style="color: #fbba94;">
+                <label style="border-bottom: 1px solid;"><span>Giảm </span><b style="font-size: 50px;">50</b><span style="font-size: 30px;">%</span><span> Chi phí kiểm tra</span></label>
+                <p>Bệnh nhân chỉ cần hẹn khám qua mạng hoặc qua điện thoại đều được miễn phí phí đăng ký khám.</p>
+            </div>
+            <div class="clear2" style="float: left"></div>
+        </div>
+        <div class="main_item2_3 wow fadeInLeftBig" data-wow-delay="0.9s">
+            <div class="mian_item2_txt" style="color: #513fa5;">
+                <label style="border-bottom: 1px solid;"><span>Giảm </span><b style="font-size: 50px;">50</b><span style="font-size: 30px;">%</span><span>phí thủ thuật</span></label>
+                <p>Thủ thuật do các bác sỹ có nhiều năm kinh nghiệm trực tiếp tiến hành, đảm bảo hiệu quả điều trị và an toàn trong thủ thuật.</p>
+            </div>
+            <div class="clear2" style="float: left"></div>
+        </div>
+
+        <div class="main_item2_4 fadeInRightBig wow"  data-wow-delay="1.2s" style="border-bottom: none">
+
+            <div class="mian_item2_txt">
+
+                <label style="border-bottom: 1px solid;"><span>Giảm </span><b style="font-size: 50px;">50</b><span style="font-size: 30px;">%</span><span> Chi phí điều trị</span></label>
+
+                <p>Thiết bị điều trị đầy đủ và chuyên nghiệp giúp bạn phục hồi nhanh hơn, điều trị hiệu quả tốt hơn.</p>
+
+            </div>
+
+            <div class="clear2" style="float: left"></div>
+
+        </div>
+
+        <div class="main_item tvct">
+
+            <p><a href="<?= $link_tuvan;?>" class="btn btn_tvct">Click tư vấn - <?= $phone1;?> - <?= $phone2;?></a> </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row margin_0" style="background: #dfdfdf;">
+
+    <div class="clear2"></div>
+
+    <div class="main_item">
+
+        <div class="row bg_tit_item margin_0">
+
+            <b><img src="imgs/txt_tit3.png" alt="title 3"></b>
+
+        </div>
+
+    </div>
+
+    <div class="main_item main_item4 rollIn wow" id="doingubacsy" data-wow-delay="0.5s">
+
+        <div class="doingubacsy_txt">
+
+            <p>Bác sỹ phụ khoa với hơn 30 năm thăm khám,tiến hành đưa ra các phương án điều trị và các hạng mục kiểm tra cho các chị em.Bác sỹ phụ khoa Phòng Khám 168 Hà Nội tiến hành hội chẩn đối với những bệnh lý nản giải phức tạp,giúp cho những gia đình sống tại Hà Nội không cần phải đi xa mới có thể tìm được bác sỹ giỏi,mọi người được hưởng dịch vụ y tế chất lượng cao.</p>
+
+        </div>
+
+    </div>
+
+    <div class="clear2"></div>
+
+    <div class="main_item tvct">
+
+        <p><a href="<?= $link_tuvan;?>" class="btn btn_tvct">Click tư vấn - <?= $phone1;?> - <?= $phone2;?></a> </p>
+
+    </div>
+
+</div>
+
+	<div id="section3-bg">
+        <div id="section3">
+            <div id="s3-title"><img src="imgs/s3-title.png"></div>
+            <div id="s3-main" class="wow zoomIn" data-wow-delay="0.7s">
+                <div class="main_item tvct">
+                    <p><a href="http://chat.phongkham168.com/LR/Chatpre.aspx?id=KRX41100266&lng=en" class="btn" style="color: black;font-weight: bold;font-size: 20px;">Click tư vấn <br><?= $phone1;?><br><?= $phone2;?></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section5-bg">
+    	<div id="section5">
+    	<div id="s5-title"><img src="imgs/s5-title.png"></div>
+        <div class="main8">
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+            	<!-- Latest compiled and minified CSS -->
+               <form method="post"> 
+                    <div class="main8-main">
+                        <div class="main8-left wow fadeInUp" data-wow-delay="0s">
+                            <div class="main8-h3">hẹn khám qua mạng(đăng ký khám)<br />hưởng 4 phúc lợi sau:</div>
+                            <div class="main8-content">
+                            <strong>1. Được ưu tiên khám trước:</strong>đăng ký khám qua mạng sẽ được ưu tiên khám trước, không phải xếp hàng chờ đợi<br />
+                            <strong>2. Đến là được khám ngay:</strong> Chỉ cần hẹn khám qua mạng, bạn có thể lựa chọn thời gian thăm khám thuận tiện nhất cho mình.<br />
+                            <strong>3. Được lựa chọn bác sỹ</strong> khi hẹn khám qua mạng sẽ căn cứ vào tình trạng bệnh của ngời bệnh để sắp xếp bác sỹ khám bệnh phù hợp cho bạn.<br />
+                            <strong>4. Được hưởng ưu đãi:</strong> đăng kĩ khám qua mạng có thể được hưởng những ưu đãi liên quan
+                            </div>
+                        </div>
+                        <div class="main8-center wow fadeInUp" data-wow-delay="0.2s">
+                            <img style="margin-left:10px;" src="imgs/main8-center.png" />
+                        </div>
+                        <div class="main8-right wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="main8-h3r">ĐẶt hẹn trực tiếp qua mạng</div>
+                            <div class="main8-form">
+                                <table>
+                                    <tr>
+                                        <td class="text">Họ và tên <span>(*)</span> :</td>
+                                        <td><input type="text" name="hoten"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">Khoa khám:</td>
+                                        <td><input type="text" name="khoakham" width="175px" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text">Thời gian khám:</td>
+                                        <td><input type="text" id="thoigian" name="thoigian" width="175px" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text" style="word-spacing:0.6px;">Số điện thoại <span>(*)</span>:</td>
+                                        <td><input type="text" name="dienthoai" width="175px" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text" name="mota" class="area" style="line-height:70px;">Mô tả bệnh:</td>
+                                        <td><textarea></textarea></td>
+                                    </tr>
+                                    <tr>
+                                         <td colspan="2" class="main8-btn">
+                                         <script>
+                                            $(document).ready(function(e) {
+                                                $('.sub').click(function(){
+                                                        alert('Bạn đã đặt hẹn thành công');});
+                                            });                                     
+                                         </script>
+                                            <input type="submit" name="submit" style="width:70px; position:absolute; left:90px; top:330px; background:#159FCB;" class="sub" style="" value="Đặt hẹn"/>
+                                            <input type="reset" name="reset" style="width:70px; position:absolute; left:170px; top:330px; background:#159FCB;" class="" style="" value="Nhập lại"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+               </form> 
+               <script>
+
+	$(function() {
+		$('#thoigian').datepicker({ dateFormat: 'yy-mm-dd',
+			monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+		});
+	});
+</script>
+<?php if(isset($_POST['submit'])){
+	$hoten=$_POST['hoten'];
+	$khoakham=$_POST['khoakham'];
+	$thoigian=$_POST['thoigian'];
+	$dienthoai=$_POST['dienthoai'];
+	$mota=$_POST['mota'];
+	$channel='cd5/chuyen-de-suc-khoe/';
+	$created_at=date('Y-m-d');
+	$updated_at=date('Y-m-d');
+	if(empty($hoten) || empty($dienthoai)){
+		echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+	}else{
+		$uri='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		$link=link_dangkykham().'data=';
+		$data=array(
+			'uri'=>$uri,
+			'hoten'=>$hoten,
+			'khoakham'=>$khoakham,
+			'thoigian'=>$thoigian,
+			'dienthoai'=>$dienthoai,
+			'mota'=>$mota,
+		);
+		$json=json_encode($data);
+		$str_en=base64_encode($json);
+		$link=$link.$str_en;
+		echo "<script>window.location.href='".$link."';</script>";
+		exit;
+	}
+}
+?>
+            </div>
+    </div>
+</div>
+<!-- end section5 -->
+    <div id="footer">
+        <div class="footer_main">
+            <div class="button_tv">
+                <ul>
+                    <li><a href="<?= $link_tuvan;?>"><img src="imgs/footer/f_tv.png"><br>Tư vấn</a> </li>
+                    <li><a href="<?= $link_tuvan;?>"><img src="imgs/footer/f_hk.png"> <br>Hẹn khám</a> </li>
+                    <li><a href="skype:bacsy_tuvan168?chat"><img src="imgs/footer/f_skype.png"> <br>Skype</a> </li>
+                    <li><a href="<?= $domain;?>"><img src="imgs/footer/f_home.png"> <br>Trang chủ</a> </li>
+                </ul>
+            </div>
+            <div class="clear2" style="float: left"></div>
+            <div class="footer_txt">
+                <p>KM 1 2 - Ngọc Hồi - Thanh Trì - Hà Nội</p>
+                <p>Điện thoại: <?= $phone1;?> - <?= $phone2;?></p>
+                <p>Email: phongkhamdakhoa168@gmail.com</p>
+                <p><i>Thông tin trên website mang tính chất tham khảo</i></p>
+                <p><i>không là căn cứ y tế và chẩn đoán</i></p>
+            </div>
+        </div>
+    </div>
+</div>
+<?= $line_chat;?>
+<script type="text/javascript">
+    $(document).ready(function(){
+        setInterval(function(){
+            $('.tvct').toggleClass('background-hue');
+        },1500)
+    });
+</script>
+</body>
+
+</html>

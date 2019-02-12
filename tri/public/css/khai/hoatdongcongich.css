@@ -1,0 +1,263 @@
+body{
+    background: white;
+    color: #000000;
+    font-size: 15px;
+}
+.khainv_clear{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+#nav {
+    top: 0px;
+}
+#head{
+    height: 43px;
+}
+.nav-l-span{
+    text-transform: uppercase;
+}
+.nav-ul li a{
+    text-transform: uppercase;
+}
+.main1-l {
+    width: 233px;
+}
+.main1-l1{
+    text-align: center;
+    height: 292px;
+}
+.main1-l1 p{
+    font-size: 12px;
+}
+.main1-l1 dd {
+    height: 138px;
+}
+.main1-l1 dt h3 {
+    text-align: center;
+}
+.main1-l2 li {
+    text-transform: uppercase;
+}
+.main1-l2 li a {
+    font-size: 12px;
+    font-weight: bold;
+}
+.cha-l-1t {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cha-l-1c dl{
+    width: 77px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cha-l-1c dt {
+    width: 100%;
+}
+.cha-l-1c dt a {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 15px;
+}
+.cha-l-1c dd{
+    width: 100%;
+    margin-left: 15px;
+}
+.his-center1-t1 {
+    background: url(../imgs/his-center1-t1.png) 0px 0px no-repeat;
+}
+.expert-list-wz h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.expert-list-wz p {
+    font-size: 13px;
+    padding-left: 7px;
+}
+.g-project1-c-l ul li span p {
+    font-size: 13px;
+}
+.g-project1-c-l {
+    width: 330px;
+}
+.g-project1-c-r {
+    width: 375px;
+}
+.g-project1-c-r-c{
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    background: #998f86;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+}
+.g-project1-c-r-c:hover {
+    background:#8a8077;
+    transition: all 0.3s linear 0s;
+}
+.g-project1-c-r-c h3{
+    font-size: 11px;
+    text-transform: uppercase;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    padding-top: 78px;
+    height: 25px;
+}
+.g-project1-c-r-c p{
+    font-size: 10px;
+    display: block;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin: auto;
+    height: 20px;
+}
+.g-project1-c-r-c span a{
+    margin-top: 10px;
+}
+.g-project3-t{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.g-project3-b div dl dt p a{
+    font-size: 12px;
+}
+.g-project3-b div dl dt.item1{
+    width: 560px;
+}
+/*hoat dong cong ich*/
+.community2-t {
+    width: 706px;
+    height: auto;
+}
+.community1 ul li{
+    height: 200px;
+}
+.brand1 .brand1l{
+    width: 432px;
+    height: 200px;
+    float: left;
+    background: #eaeaea;
+}
+.brand1 .brand1r{
+    background: #eaeaea;
+    float: right;
+    width: 278px;
+}
+.brand1 .brand1r1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    height: 104px;
+}
+.brand1 .brand1r1 b{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.brand1 .brand1r2{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    height: 94px;
+}
+.brand1 .brand1r2 .brand1r2_line{
+    width: 100%;
+    height: 60px;
+    color: white;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.brand1 .brand1r2 .brand1r2_line_item{
+    float: left;
+    width: 60px;
+    height: 43px;
+    text-align:center;
+    border-radius: 60px;
+    line-height: 14px;
+    padding-top: 6px;
+    margin-left: 23px;
+}
+.brand1 .brand1r2 .brand1r2_line1{
+    background: #e13738;
+}
+.brand1 .brand1r2 .brand1r2_line2{
+    background: #7b9965;
+}
+.brand1 .brand1r2 .brand1r2_line3{
+    background: #5d7c91;
+}
+.community2-t h3 {
+    font-size: 18px;
+}
+.community2-c-1-l {
+    width: 70px;
+    text-align: center;
+}
+/*end hoat dong cong ich*/
+/*old*/
+.bottom-ksnav li span {
+    width: 58px;
+}
+bottom-ksnav li #a1{
+    background-position: -60px -6px;
+}
+#a4 {
+    background-position: -192px -54px;
+}
+bottom-ksnav li:hover #a1 {
+    background-position: -60px -6px;
+}
+.bottom-ksnav li:hover #a4 {
+    background-position: -191px 0px;
+}
+.bottom-ksnav li:nth-child(1){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(2){
+    width: 200px;
+}
+.bottom-ksnav li:nth-child(3){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(4){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(5){
+    width: 210px;
+    line-height: 20px;
+}
+.foot_main {
+    width: 1300px;
+}
+.foot h6 {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.w565{
+    width: 660px;
+    text-transform: uppercase;
+}
+.w565 ul{
+    width: 190px;
+}
+.w565 ul li{
+    width: 100%;
+    text-align: left;
+}
+.w565 ul.w100{
+    width: 200px;
+}
+.w565 ul.w100 li {
+    width: 100%;
+}
+.footer_r {
+    width: 330px;
+    float: left;
+    margin-left: 18px;
+    color: #b7a88f;
+}
+.copy {
+    padding-bottom: 0px;
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>chuyen de benh tri</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <base target="_blank">
+</head>
+<?php
+require_once('../../define.php');
+$link_tuvan=link_tuvan;
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_kythuat=link_kythuat;
+$link_thietbi=link_thietbi;
+$link_diachi=link_diachi;
+$link_skype=link_skype;
+$link_tuvan2=line_chat();
+$Addleft=cd_Addleft();
+?>
+
+<body>
+
+
+<div id="background">
+	<div id="menu-bar">
+    	<ul id="menu">
+        	<a href="<?= $domain;?>" target="_blank"><li class="menu-item">Trang chủ</li></a>
+            <a href="<?= $link_gioithieu;?>" target="_blank"><li class="menu-item">Giới thiệu</li></a>
+            <a href="<?= $link_kythuat;?>" target="_blank"><li class="menu-item">Kỹ thuật</li></a>
+            <a href="<?= $link_diachi;?>"><li class="menu-item" target="_blank">Địa Chỉ</li></a>
+            <a href="<?= $link_tuvan;?>" target="_blank"><li class="menu-item">Đăng ký khám</li></a>
+        </ul>
+    </div>
+    <div class="clear"></div>
+	<div id="header">
+    	<div id="banner-bg">
+        	<div id="banner">
+            	<div id="banner-title1">Bị mắc bệnh trĩ rồi phải không? </div>
+            	<div id="banner-text1">Mụn<br />hậu môn</div>
+                <div id="banner-text2">Đau <br />hậu môn</div>
+                <div id="banner-text3">Đi ngoài<br />ra máu </div>
+                <div id="banner-but"> <a href="<?= $link_tuvan;?>" target="_blank">>>Click xem</a> </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <div id="main">
+    	<div id="section1-bg">
+        	<div id="section1">
+            	<div id="s1-title1">Có phải bạn đang phải chịu đựng những triệu chứng khó chịu này? </div>
+                <div id="s1-title2">Cạnh vùng hậu môn có một nốt nhỏ, xin hỏi đó là cái gì ?  </div>
+                <div id="s1-hbs"><a href="<?= $link_tuvan;?>" target="_blank">Hỏi bác sỹ >></a></div>
+                <div id="s1-text1">Nếu bạn có những triệu chứng dưới đây ...</div>
+                <div id="s1-item-up">
+                	<a href="#"><div class="s1-item-up" id="s1-item-up1">Đi ngoài lẫn máu </div></a>
+                    <a href="#"><div class="s1-item-up" id="s1-item-up2">Búi trĩ hậu môn </div></a>
+                    <a href="#"><div class="s1-item-up" id="s1-item-up3">Nứt hậu môn </div></a>
+                    <a href="#"><div class="s1-item-up" id="s1-item-up4">Dị hình hậu môn</div></a>
+                </div>
+                <div id="s1-item-down">
+                	<a href="#"><div class="s1-item-down" id="s1-item-down1">Trĩ hỗn hợp</div></a>
+                    <a href="#"><div class="s1-item-down" id="s1-item-down2">Polyp hậu môn </div></a>	
+                </div>
+                <div id="s1-bsnn">Bác sỹ trực tràng: đây là những biểu hiện điển hình của bệnh trĩ, xuất hiện những triệu chứng này có nghĩa là bạn đã mắc bệnh trĩ. </div>
+                <div id="s1-nhacnho">Nhắc nhở:</div>
+                <div id="s1-ndnn">Những thói quen sinh hoạt này sẽ dễ mắc phải bệnh trĩ: mệt mỏi quá độ, ngồi lâu, đứng lâu, ngồi xổm lâu, ăn quá nhiều thịt mỡ, ăn nhiều đồ cay nóng, uống nhiều rượu... Ngồi xổm đi vệ sinh nhiều, thói quen vệ sinh không tốt...</div>
+                <div id="s1-tttt"><a href="<?= $link_tuvan;?>" target="_blank">>>Tình trạng tương tự là như thế nào? </a></div>
+                <div id="s1-vde"><a href="<?= $link_tuvan;?>" target="_blank">>>>Bạn có những vấn đề trên không, phải làm như thế nào?</a></div>
+                <div id="s1-title3">Tôi thuộc loại nào? Ở mức độ nào?</div>
+                <a href="<?= $link_tuvan;?>" target="_blank"><div id="s1-but">>>>Nếu không rõ, click hỏi chuyên gia </div></a>
+            </div>
+        </div>
+        <!-- end section1 -->
+        <div id="section2-bg">
+        	<div id="section2">
+            <script>
+            	$(document).ready(function(e) {
+                    
+					$('#s2-title1').mouseenter(function(){
+						$('#s2-title1').css({'opacity':'1'});
+						$('#s2-title2').css({'opacity':'0'});
+						$('#s2-title3').css({'opacity':'0'});;
+						$('#s2-trinoi').css({'display':'block'});
+						$('#s2-tringoai').css({'display':'none'});
+						$('#s2-trihonhop').css({'display':'none'});
+						});
+					$('#s2-title2').mouseenter(function(){
+						$('#s2-title1').css({'opacity':'0'});
+						$('#s2-title2').css({'opacity':'1'});
+						$('#s2-title3').css({'opacity':'0'});;
+						$('#s2-trinoi').css({'display':'none'});
+						$('#s2-tringoai').css({'display':'block'});
+						$('#s2-trihonhop').css({'display':'none'});
+						})
+					$('#s2-title3').mouseenter(function(){
+						$('#s2-title1').css({'opacity':'0'});
+						$('#s2-title2').css({'opacity':'0'});
+						$('#s2-title3').css({'opacity':'1'});;
+						$('#s2-trinoi').css({'display':'none'});
+						$('#s2-tringoai').css({'display':'none'});
+						$('#s2-trihonhop').css({'display':'block'});
+						})	
+                });
+            </script>
+            
+            	<div id="s2-title">
+                	<div id="s2-title1" class="s2-title">TRĨ NỘI</div>
+                    <div id="s2-title2" class="s2-title ">TRĨ NGOẠI</div>
+                    <div id="s2-title3" class="s2-title">TRĨ HỖN HỢP</div>
+                </div>
+                <div class="clear"></div>
+                <div id="s2-trinoi" class="s2-content ">
+                	<div class="s2-content-title">Triệu chứng trĩ nội như sau: </div>
+                    <div class="s2-content-text"><strong style="color:red;">Độ I:</strong>    &nbsp;&nbsp;Búi trĩ nhỏ mềm, chảy máu thường là do đại tiện chà sát vào búi trĩ, không sa ra ngoài, không  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;đau, sau đại tiện không chảy máu. <br />
+                                                <strong style="color:red;">Độ II</strong>:   Búi trĩ to lên, mềm, màu hồng tươi hoặc tím nhạt, sa ra ngoài, sau khi đi đại tiện tự co lên<br />
+                                                <strong style="color:red;">Độ III:</strong>  Chảy ít máu, có cảm giác vướng tức ở hậu môn. Búi trĩ to lên, mệt mỏi và áp lực vùng      	   	           bụng tăng &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lên, búi trĩ sa ra ngoài, phải dùng tay đẩy vào mới co lên được. <br />
+                                                <strong style="color:red;">Độ IV:</strong> Búi trĩ sa ra không co lại được. Khi đi, ngồi, đứng búi trí sa ra ngoài hậu môn. Khi nằm ngửa  		 đẩy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;búi trĩ mới có thể co vào được!
+                    </div>
+                </div>
+                <div id="s2-tringoai" class="s2-content displaynone">
+                	<div class="s2-content-title">Triệu chứng trĩ ngoại như sau: </div>
+                    <div class="s2-content-text">1.Nếp gấp mô liên kết trĩ ngoại to lên, ở lỗ hậu môn xuất hiện búi trĩ hình vòng có thể sờ thấy được.<br /> 
+                                               2.Trĩ ngoại hình huyết khối sẽ gây ra đau đớn, cảm giác trướng tức, sưng phù nề cạnh hậu môn và  	   có cục cứng, sờ vào rất đau. <br />
+                                                3.Trĩ ngoại viêm nhiễm, nhiềm trùng làm cho nếp gấp phù nề viêm nhiễm, khi đại tiện đau hậu môn 	   chảy mảu, có kèm ít dịch. <br />
+                                                4.Trĩ ngoại giãn tĩnh mạch, quanh hậu môn sưng lên hình bầu dục, rặn khi đi đại tiện có thể nhìn 	   	   thấy cục màu tím sẫm, sau khi đi đại tiện nghỉ ngơi có thể co nhỏ lại. 
+                    </div>
+                </div>
+                <div id="s2-trihonhop" class="s2-content displaynone">
+                	<div class="s2-content-title">Triệu chứng trĩ hỗn hợp như sau:  </div>
+                    <div class="s2-content-text">1.Đại tiện ra máu: đa phần là do lau chùi làm rách niêm mạc khi đi đại tiện hoặc dùng lực mạnh gây ra chảy máu do giãn tĩnh mạch hoặc rách tĩnh mạch<br />
+                                               2.Búi trĩ sa xuống: ở giai đoạn cuối búi trĩ to lên, dần dần tách ra khỏi lớp cơ, khi đi đại tiện thường 	   bị sa ra ngoài hậu môn. Người bị nặng cần dùng tay để đẩy búi trĩ vào trong. <br />
+                                               3.Ngứa: búi trĩ hỗn hợp sa ra ngoài và giãn cơ ống hậu môn, thường có lẫn dịch chảy ra, quanh hậu 	   môn xuất hiện các nốt ngứa.  <br />
+                                                4.Tràn dịch nhầy: niêm mạc trực tràng chịu kích thích của búi trĩ trong thời gian dài, gây ra dịch 	    	   viêm, làm cho dịch tăng lên nhiều, xuất hiện tràn dịch nhầy. Sau khi nghỉ ngơi có thể tự co lại. 
+                    </div>
+                </div>
+                <div id="s2-slide">
+                	  <div class="slide" style="width:965px; margin:auto;">
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide1.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide2.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide3.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide4.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide5.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide6.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide1.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide2.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide3.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide4.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide5.jpg" /></a></div>
+                        <div class="s2-slide-item"><a href="<?= $link_tuvan;?>" target="_blank"><img src="images/s2-slide6.jpg" /></a></div>
+                      </div>
+                </div>
+                <div id="s2-bsnn">
+                	<div id="s2-bsnn-img"><img src="images/s2-bs.png" /></div>
+                    <div id="s2-bsnn-title">bác sĩ nhắc nhở</div>
+                    <div id="s2-bsnn-text">Nếu xác định chính xác loại trĩ mình mắc phải và mức độ bệnh, bất luận là nặng hay không cũng phải đến sớm bệnh viện để kiểm tra điều trị.</div>
+                    <div id="s2-bsnn-but"><a href="<?= $link_tuvan;?>" target="_blank">>>> Tư vấn trực tuyến</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- end section2 -->
+        <div id="section3-bg">
+        	<div id="section3">
+            	
+            </div>
+        </div>
+        <!-- eng section3 -->
+        <div id="section4-bg">
+        	<div id="section4">
+            	<div id="s4-title">Có phải bạn mắc bệnh trĩ và đang phải chịu đựng sự tàn phá đau đớn</div>
+                <div id="s4-text1">Trĩ gây ra nguy hại rất lớn đối với thể chất và tinh thần phải không? </div>
+                <div id="s4-hbs"><a href="<?= $link_tuvan;?>" target="_blank">>>> Hỏi bác sỹ </a></div>
+                <div class="clear"></div>
+                <div id="s4-main">
+                	<div id="s4-side">Có<br /> thể<br /> gây<br /> ra <br />sự <br />tàn<br /> phá<br /> đa <br />phương <br />diện<br />
+                     về<br /> mặt<br /> sinh<br /> lý,<br /> dẫn <br />tới <br />thương <br />tổn <br />nghiêm<br /> trọng<br /> về<br /> mặt<br /> tâm<br /> lý. </div>
+                    <div id="s4-content">
+                
+                        <div id="s4-content-up">
+                        	<div id="s4-content-up1" class="s4-content-up">
+                            	<div class="s4-content-up-title">Dễ dẫn tới thiếu máu </div>
+                                <div class="s4-content-up-img"><img src="images/s4-1.jpg"></div>
+                                <div class="s4-content-up-text">Mất mắt là triệu chứng chủ yếu của người mắc bệnh trĩ, xuất hiện thiếu máu, nghiêm trọng còn dẫn tới giảm chí lực, giảm chí nhớ...</div>
+                            </div>
+                            <div id="s4-content-up2" class="s4-content-up">
+                            	<div class="s4-content-up-title">Dễ dẫn tới mọc mụn</div>
+                                <div class="s4-content-up-img"><img src="images/s4-2.jpg"></div>
+                                <div class="s4-content-up-text">Do búi trĩ sa ra và dịch cơ vòng giãn ra chảy ra ngoài hậu môn, kích thích biểu mô xung quanh, dễ dẫn tới ngứa và mọc mụn,...</div>
+                            </div>
+                            <div id="s4-content-up3" class="s4-content-up">
+                            	<div class="s4-content-up-title">hậu môn bất thường </div>
+                                <div class="s4-content-up-img"><img src="images/s4-3.jpg"></div>
+                                <div class="s4-content-up-text">Do nhiễm trùng hậu môn tái phát, lâu không điều trị, dẫn tới co thắt hậu môn, khó khăn khi đại tiện, tác động vào cơ vòng, ....</div>
+                            </div>
+                            <div id="s4-content-up4" class="s4-content-up">
+                            	<div class="s4-content-up-title">dẫn tới giảm chức năng </div>
+                                <div class="s4-content-up-img"><img src="images/s4-4.jpg"></div>
+                                <div class="s4-content-up-text">Bệnh nhân bị bệnh trĩ thường giảm cảm giác nhạy cảm, tăng cảm giác đau... Gây ra giảm ham muốn tình dục, xuất hiện liệt dương ....
+</div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div id="s4-content-down">
+                        	<div id="s4-content-down1" class="s4-content-down">
+                            	<div class="s4-content-down-title">Tham gia pary đột nhiên<br /> ngất xỉu, thật khó coi!</div>
+                                <div class="s4-content-down-img"><img src="images/s4-5.jpg"></div>
+                                <div class="s4-content-down-text">Thật không dễ mới có thời gian tham dự sinh nhật, đúng lúc vui vẻ thì đột nhiên ngất xỉu, làm cho tất cả bạn bè lo lắng, thiếu máu do bệnh trĩ gây ra thật đáng sợ!</div>                                
+                            </div>
+                            <div id="s4-content-down2" class="s4-content-down">
+                            	<div class="s4-content-down-title">Khi đi họp, phía bên dưới <br />ngứa ngáy rất khó chịu!</div>
+                                <div class="s4-content-down-img"><img src="images/s4-6.jpg"></div>
+                                <div class="s4-content-down-text">Do mỗi lần họp ít nhất phải kéo dài 2 tiếng, thời gian ngồi lâu, vùng trĩ phía dưới dẫn tới mọc mụn, ngứa ngáy vô cùng!</div>                                
+                            </div>
+                            <div id="s4-content-down3" class="s4-content-down">
+                            	<div class="s4-content-down-title">Đại tiện khôngkiểm soát,<br />ảnh hưởngđến cuộcsống</div>
+                                <div class="s4-content-down-img"><img src="images/s4-7.jpg"></div>
+                                <div class="s4-content-down-text">Bạn không thể tưởng tượng một người bình thường mà không dám đi vệ sinh, luôn cảm thấy bất an, khó khăn khi đại tiện, mỗi lần đều mất nửa tiếng!</div>                                
+                            </div>
+                            <div id="s4-content-down4" class="s4-content-down">
+                            	<div class="s4-content-down-title">Vợ muốn ly hôn, <br />thật mệt mỏi!</div>
+                                <div class="s4-content-down-img"><img src="images/s4-8.jpg"></div>
+                                <div class="s4-content-down-text">Thật không ngờ rằng bệnh trĩ lại nguy hại nhiều như vậy, gần đây nặng hơn, ảnh hưởng tới cuộc sống vợ chồng, ....</div>                                
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div id="s4-bsnn">
+                	<div id="s4-bsnn-title">bác sỹ nhắc nhở :</div>
+                    <div id="s4-bsnn-text">Trong tầm soát ung thư trực tràng đa phần là giai đoạn cuối ung thư trực tràng, trong số những người này đa phần có triệu chứng đi ngoài ra máu. Khi mới bị đa số cho đó là bệnh trĩ. Các chuyên gia khuyên mọi người chú trọng kiểm tra xét nghiệm máu trong phân, không nên coi nhẹ mà kéo dài bệnh tình. </div>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><div id="s4-bsnn-but">>>>Tư vấn trực tuyến</div></a>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- eng section4 -->
+        <div id="section5-bg">
+        	<div id="section5">
+            	<div id="s5-title">Có phải bạn đã thoát khỏi của bệnh trĩ?</div>
+                <div id="s5-title2">
+                	<div id="s5-title2-title">Thủ thuật xâm lấn tối thiểu <span style="color:red;">HCPT</span>, giải quyết thành công những phiền toán của bệnh cho cho bệnh nhân.  </div>
+                    <div id="s5-title2-link">
+                    	<div id="s5-title2-link1"><a href="<?= $link_tuvan;?>" target="_blank">Thủ thuật xâm lấn tối thiểu HCPT là gì ? </a></div>
+                        <div id="s5-title2-link1"><a href="<?= $link_tuvan;?>" target="_blank">Điều trị bệnh trĩ như thế nào ? </a></div>
+                    </div>
+                    <div id="s5-title2-click"><a href="<?= $link_tuvan;?>" target="_blank">>>>Click xem</a></div>
+                    <div class="clear"></div>
+                </div>
+                <div id="s5-content">
+                	<div id="s5-content-left">
+                    	<div class="s5-content-left" id="s5-content-left1">
+                        	<div id="s5-content-left1-img"><img src="images/s5-1.png"></div>
+                            <div id="s5-content-left1-content">
+                            	<div class="s5-left-title">Bệnh nhân Mai Ly cho biết</div>
+                                <div class="s5-left-text">Khỏi bệnh rồi! Khi giao tiêp tôi không còn phải lo lắng sự khó chịu của bệnh trĩ , tham gia bữa tiệc tôi sẽ là nhân vật chính!</div>
+                            </div>
+
+                        </div>
+                        <div class="clear"></div>                        
+                        <div class="s5-content-left" id="s5-content-left2">
+                        	<div id="s5-content-left2-img"><img src="images/s5-2.png"></div>
+                            <div id="s5-content-left2-content">
+                            	<div class="s5-left-title">Bệnh nhân Phương Linh cho biết </div>
+                                <div class="s5-left-text">Khỏi bệnh rồi! Tôi không còn phải lo lắng sự khó chịu do bệnh trĩ gây ra nữa rồi!</div>
+                            </div>
+                            
+                        </div>
+                        <div class="clear"></div>
+                        <div class="s5-content-left" id="s5-content-left3">
+                        	<div id="s5-content-left3-img"><img src="images/s5-3.png"></div>
+                            <div id="s5-content-left3-content">
+                            	<div class="s5-left-title">Bệnh nhân Phương Chi cho biết</div>
+                                <div class="s5-left-text">Khỏi bệnh rồi! Tôi không còn phải lo lắng khi họp lâu nữa, họp bao lâu cũng được, không còn ngứa ngáy khó chịu nữa. </div>
+                            </div>
+                           
+                        </div>
+                         <div class="clear"></div>
+                        <div class="s5-content-left" id="s5-content-left4">
+                        	<div id="s5-content-left4-img"><img src="images/s5-4.png"></div>
+                            <div id="s5-content-left4-content">
+                            	<div class="s5-left-title">Bệnh nhân Đặng Quân cho biết</div>
+                                <div class="s5-left-text">Khỏi bệnh rồi! Chuyện “yêu” trở lại bình thường, vợ tôi cũng có tâm trạng tốt hơn, tình cảm trở lại, cảm giác giống như khi mới cưới vậy!</div>
+                            </div>
+                            
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="s5-content-right">
+                    	<div id="s5-content-right-title">Bệnh nhân phản hồi gần đây</div>
+                        <div id="s5-content-right-content">
+                        	<div class="s5-content-right" id="s5-content-right1">
+                                <div class="s5-content-right-img"><img src="images/s5-cm1.jpg"></div>
+                                <div class="s5-content-right-text">Hiệu quả của thủ thuật xâm lấn tối thiểu HCPT thật không tệ! Không có cảm giác đau trong thủ thuật! - Ông Vương </div>
+                            </div>
+                            <div class="s5-content-right">
+                                <div class="s5-content-right-img"><img src="images/s5-cm2.jpg"></div>
+                                <div class="s5-content-right-text">Khoa trực tràng hậu môn của phòng khám đa khoa 168 Hà Nội rất lợi hại -- ông Trương </div>
+                            </div>
+                            <div class="s5-content-right">
+                                <div class="s5-content-right-img"><img src="images/s5-cm3.jpg"></div>
+                                <div class="s5-content-right-text">Trước khi điều trị tôi còn nghi ngờ, sau khi điều trị thấy dịch vụ thân thiện chu đáo làm tôi hài lòng - Bà Trịnh </div>
+                            </div>
+                            <div class="s5-content-right">
+                                <div class="s5-content-right-img"><img src="images/s5-cm4.jpg"></div>
+                                <div class="s5-content-right-text">Trước kia chưa điều trị, tôi còn muốn chết khi nghĩ đến đau, nhưng bây giờ thoải mái nhẹ nhàng rồi - Ông Lưu</div>
+                            </div>
+                        </div>
+                        <a href="<?= $link_tuvan;?>" target="_blank"><div id="s5-content-right-but">>>> Click tư vấn bác sỹ </div></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div id="s5-bsnn">
+                	<div id="s5-bsnn-title">Nhắc nhở :</div>
+                    <div id="s5-bsnn-text">để thuận tiện cho người bệnh đến khám, phòng khám triển khai dịch vụ <a href="<?= $link_tuvan;?>" target="_blank">hẹn khám trực tuyến.</a> </div>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><div id="s5-bsnn-but1">Đăng ký qua mạng </div></a>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><div id="s5-bsnn-but2">Hưởng ưu đãi</div></a>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><div id="s5-bsnn-but3">1 bác sỹ 1 bệnh nhân </div></a>
+                    <a href="<?= $link_tuvan;?>" target="_blank"><div id="s5-bsnn-but4">>>> Click hẹn khám</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main -->
+    <div class="clear"></div>
+	<div id="footer-bg">
+    	<div id="footer">
+        	<div id="footer-sdt"><?= phone1;?> - <?= phone2;?></div>
+            <div id="footer-text">KM 1 2 - Ngọc Hồi - Thanh Trì - Hà Nội<br />Email: phongkhamdakhoa168@gmail.com<br /><span style="font-style:italic">Thời gian làm việc từ 8h - 20h (kể cả ngày lễ và chủ nhật)</span><br /><span style="font-style:italic;">Chú ý: Thông tin website chỉ cung cấp tham khảo, không là căn cứ ý tế và chẩn đoán</span></div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript">
+$('.slide').slick({
+    infinite: true,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
+  });
+</script>
+</html>
+
+<?= AddRight();?>
+<?= popup();?>
+<?= line_chat();?>

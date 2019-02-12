@@ -1,0 +1,352 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+	color: #333333;
+}
+.description{
+	color: #333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.pos-rel{
+	position: relative;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.flex{
+	display: flex;
+}
+.mau1{
+	color: #1b6b9f;
+}
+.mau0{
+	color: #f66a74;
+}
+.border0{
+	border:1px dashed #7e7f7e;
+	margin:0px 5px;
+}
+.site-header{
+	margin-top: 0px;
+}
+/*-----------------uu diem  --------------*/
+.uudiem{
+	height: 65px;
+	line-height: 65px;
+	font-size: 24px;
+	margin:0 auto;
+	text-align: center;
+}
+.uudiem1{
+	width: 500px;
+	border:1px dashed #333;
+}
+/*----------------tuvan-----------------------------*/
+.tuvan {
+	text-align: center;
+}
+.tuvan >a{
+	display: inline-block;
+	text-align: center;
+	background-color: #f35b4d;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 0px 20px;font-weight: bold;
+}
+/*-------------------------tieude--------------------*/
+.tieude{
+	text-align: center;
+}
+.tieude h2{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 0px;
+	display: inline-block;
+	padding: 0px 5px;color: #444;
+}
+
+/*---------------------menu--------------------*/
+.menu{
+	background-color: #1b6b9f;
+	height: 70px;
+	margin-top: 20px;
+}
+.menu .flex >div{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+	align-self: center; 
+}
+.menu .flex >div a{
+	display: block;
+	height: 70px;
+	padding: 15px;line-height: 20px;
+	background-image: url('img/0.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+.menu .flex >div a:hover{
+	background-color: #ff6600;
+	text-decoration: none;
+}
+/*----------------nen1-------------------*/
+.nen1{
+	background-color: #5b7da9;
+	padding:65px 0;
+}
+.nen1 .flex1{
+	justify-content: space-between;
+}
+.nen1 .flex1 >div.col1{
+	flex-basis: 485px;
+	height: 330px;
+	background-image: url('img/2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 160px;padding-right: 10px;
+}
+.nen1 .flex1 >div.col2{
+	flex-basis: 485px;
+	height: 330px;
+	background-image: url('img/3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 160px;padding-right: 10px;
+}
+.nen1 .flex1 >div > h2{
+	font-size: 30px;
+	font-family: 'UTMFacebook';
+	margin-bottom: 10px;
+}
+.nen1 .flex1 >div > a{
+	display:block;
+	background-color: #f35b4d;
+	color: #fff;text-align: center;
+	padding: 5px;
+}
+/*----------------nen2--------------*/
+
+/*------------------nen3----------------------*/
+.nen3{
+	background-image: url('img/nen3-bg.png');
+	background-size: 1899px 695px;
+	height: 600px;
+}
+.nen3 .tieude h2{
+	margin-top: 40px;
+}
+.nen3 .flex4{
+	margin-top: 20px;
+	justify-content: space-between;
+}
+.nen3 .flex4 >div.col1{
+	flex-basis: 480px;
+}
+.nen3 .flex4 >div.col2{
+	flex-basis: 480px;
+}
+.nen3 .flex4 >div:nth-child(2) p:nth-child(1){
+	background-color: #1b6b9f;
+	padding:5px 15px;
+	color: #fff;
+	margin-top: 0px;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	text-align: left;
+}
+.nen3 .flex4 >div:nth-child(2) p:nth-child(n+2){
+	color: #333333;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	line-height: 18px;
+}
+.nen3 .flex4 >div:nth-child(2) p:nth-child(n+2) strong{
+	color: #1b6b9f;
+}
+/*----------------nen4----------------*/
+.nen4{
+	padding: 50px 0px;
+}
+.nen4 .description{
+	margin-top: 30px;
+	line-height: 20px;
+	text-align: justify;
+}
+.nen4 .flex5{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.nen4 .flex5 >div{
+	background-repeat: no-repeat;
+	background-position: center;
+	flex-basis: 320px;
+	color: #333333;
+	padding: 220px 15px 0px 20px;
+}
+.nen4 .flex5 >div p{
+	font-size: 13.2px;
+	line-height: 19px;
+	margin:5px;
+} 
+.nen4 .flex5 >div p:nth-child(2){
+	background-color: #ff8030;
+	color: #fff;
+	padding:5px 20px;
+	display: inline-block;
+}
+.nen4 .flex5 >div:nth-child(3) p:nth-child(2){
+	background-color: #b0b0b0;
+}
+.nen4 .flex5 >div:nth-child(1){
+	background-image: url('img/nen4-1.png');
+	height: 551px;
+	background-size: 320px 100%;
+}
+.nen4 .flex5 >div:nth-child(2){
+	background-image: url('img/nen4-2.png');
+	height: 551px;
+	background-size: 320px 100%;
+}
+.nen4 .flex5 >div:nth-child(3){
+	background-image: url('img/nen4-3.png');
+	height: 551px;
+	background-size: 320px 100%;
+}
+
+/*-------------------nen5-----------------------*/
+.nen5{
+	background-color: #ebebeb;
+	padding: 40px 0px;
+}
+.flex6{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	text-align: center;
+}
+.flex6 >div{
+	flex-basis: 451px;
+}
+.flex6 >div p span{
+	display: inline-block;
+	background-color: #1b6b9f;
+	color: #fff;padding: 3px 10px;
+	min-width: 220px;text-align: center;
+}
+/*-------------------nen51-------------------*/
+.nen51{
+	background-color: #56819d;
+	padding: 40px;
+}
+.nen51 h2{
+	color: #fff;
+}
+.nen51 p,.nen51 h3{
+	color: #fff;
+}
+.nen51 h3{
+	text-align: center;
+	margin-top: 30px;
+	border: 1px solid #fff;
+    border-radius: 3px; 
+    padding: 15px;
+    font-size: 20px;
+    height: 70px;
+}
+.nen51 .flex51 >div p:nth-child(5){
+	color: #fcff00;
+}
+.nen51 .flex51 >div{
+	flex-basis: 500px;
+	padding: 20px 20px;
+}
+/*------------------nen 61-------------------*/
+.nen61{
+	background-color: #fff;
+	padding:30px 0px;
+}
+.nen61 .description{
+	margin-top: 30px;
+	line-height: 20px;
+}
+/*---------------nen 6---------------------*/
+.nen6{
+	padding: 0px 0px 20px 0px;
+	background-color: #fff;
+}
+.nen6 .flex7{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	align-content: flex-start;
+}
+.nen6 .flex7 p{
+	color: #fff;
+}
+.nen6 .flex7 >div{
+	flex-basis: 313px;
+	background-color: #39b6d4;
+	padding: 10px;
+	color: #fff;
+	line-height: 22px;
+	height: 500px;
+}
+.nen6 .flex7 >div >p:nth-of-type(1){
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #fff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.nen6 .flex7 >div:nth-child(2){
+	margin-top: 80px;
+}
+.nen6 .flex7 >div:nth-child(1){
+	background-color: #2b719e;
+}
+.nen6 .flex7 >div:nth-child(2){
+	background-color: #2483c1;
+}
+.nen6 .flex7 >div:nth-child(3){
+	background-color: #085588;
+}
+/*----------------*/
+.flex8{
+	justify-content: space-between;
+	margin-top: 70px;
+	position: relative;
+	z-index: 1;
+}
+.flex8 >div{
+}
+.maunau{
+	background-color: #f6f6f6;
+	position: relative;
+	z-index: 0;
+	top: -92px;
+	height: 158px;
+}
+/*------------------------*/
+a:hover{
+	text-decoration: underline;
+}
+body .site-footer{
+	margin-top: -92px;
+}

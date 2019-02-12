@@ -1,0 +1,20 @@
+
+<?php $__env->startSection('content'); ?>
+<div class="main_content">
+    <div class="main_item categories">
+        <?= m_CateOption();?>
+        <?//= CateSubOption($cate);?>
+    </div>
+    <div class="clear2"></div>
+    <div class="main_item main_tit2"><?= $keyword;?></div>
+    <div class="main_item articel">
+        <ul class="articel">
+            <?php foreach($news as $val){?>
+                <li><a href="<?= $val['new_rewrite'];?>"><?= $val['new_name'];?></a> </li>
+            <?php }?>
+        </ul>
+        <?php echo $news->render(); ?>
+    </div>
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('frontend.layouts.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

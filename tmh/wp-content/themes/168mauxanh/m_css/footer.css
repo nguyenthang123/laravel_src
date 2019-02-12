@@ -1,0 +1,89 @@
+/*footer*/
+.footer{
+	background-color: #077e50;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: -8px;
+}
+.footer h2{
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+} 
+.footer .address{
+	font-size: 12px;
+	margin:6px auto;
+}
+.footer .khoataimuihong{
+	font-size: 15px;
+	margin: 0px auto;
+	text-transform: capitalize;
+}
+.footer p{
+	margin: 3px auto;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.footer a{
+	font-weight: bold;
+}
+
+.footer-bottom{
+	/*position: fixed;*/
+	bottom: 0px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	text-transform: capitalize;
+	white-space: nowrap;
+	width: 100%;
+}
+.footer-bottom .w33 a{
+	display: block;
+	padding: 15px 10px;
+}
+.footer-bottom .fa{
+	font-size: 20px;
+	padding-right: 5px;
+}
+.footer-bottom .comment{
+	background-color: #008c56;
+}
+.footer-bottom .phone{
+	background-color: #ff5649;
+}
+.footer-bottom .calendar2{
+	background-color: #008c56;
+}
+/*-------------popup--------------------*/
+#my_popup{
+	border:2px solid #008c56;
+	background-color: #fff;
+	padding: 20px;
+	text-align: center!important;
+	border-radius: 5px;
+}
+#my_popup p{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 14px;
+}
+#my_popup a{
+	display: inline-block;
+	padding: 5px 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+#my_popup a:nth-child(2){
+	background: #008c56;
+    color: #fff;font-size: 14px;
+}
+#my_popup a:nth-child(3){
+	background: #ff5649;
+	color: #fff;
+	margin-left: 10px;font-size: 14px;
+}

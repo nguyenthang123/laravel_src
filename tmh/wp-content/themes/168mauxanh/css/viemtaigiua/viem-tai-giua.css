@@ -1,0 +1,431 @@
+.page-viem-tai-giua * {
+    box-sizing: border-box;
+}
+.col-6{
+	float: left;
+	width: 50%;
+}
+body{
+	margin:0px;
+	font-family: Arial;
+}
+ul{
+	padding-left:0px;
+}
+.container{
+	width: 1000px;
+	margin:0px auto;
+}
+.clearfix:after,.row:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.color1{
+	color: #2f4f8a;
+}
+.color2{
+	color: #ff6600;
+}
+p{
+	text-align: justify;
+	line-height: 19px;
+	font-size: 14px;
+}
+.left{
+	float: left;
+	display: inline-block;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.site-header{
+	padding-top: 20px;
+}
+.menu{
+	min-height: 70px;
+	background-color: #2f4f8a;
+	margin-top: 20px;
+}
+.menu li{
+	display: inline-block;
+	background-image: url('images/viemmui_16.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: left;
+}
+.menu li a{
+	color: #fff;
+	font-size: 11pt;
+	text-align: center;
+	display: inline-block;
+	padding: 18px;
+	line-height: 17px;
+	width: 106.85px;
+	box-sizing: content-box;
+}
+.menu li a:hover{
+	background-image: url('images/header-menu-bg-hover.png');
+	background-repeat: no-repeat;
+	background-size: 141px;
+	background-position: 2px 0px;
+}
+.menu li a.active{
+	background-image: url('images/header-menu-bg-hover.png');
+	background-position: 2px 0px;
+	background-size: 141px;
+	background-repeat: no-repeat;
+}
+.top-banner{
+	margin: 0px auto;
+}
+.top-banner a{
+	display: block;
+	margin:0px auto;
+}
+.txt-just{
+	text-align: justify;
+}
+div.title{
+	background-image: url('images/img-2.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	text-align: center;
+	padding-bottom: 20px;
+}
+div.title h2{
+	margin-bottom: 5px;
+}
+div.title h5{
+	color: #555;
+	font-size: 17px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+.nguyen-nhan-phan-loai .bg1{
+	background-image: url('images/img-3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	min-width: 1000px;
+	margin: 0px auto;
+	height: 502px;
+	padding-top: 50px;
+	margin-top: -5px;
+}
+.nguyen-nhan-phan-loai h2{
+	margin-top: 0px;
+}
+.viem-tai-giua-la .txt1{
+	width: 600px;
+	margin-left: 390px;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: bold;
+}
+.viem-tai-giua-la .txt2{
+	color: #fff;
+	width:270px;
+	text-align: center;
+	height: 60px;
+	line-height:60px;
+	margin-left: 390px;
+	margin-top: 93px; 
+}
+.viem-tai-giua-mu .bg1{
+	background-image: url('images/img-4.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 457px;
+	margin: 0px auto;
+	min-width: 1000px;
+}
+.viem-tai-giua-mu h4{
+	color: #fff;
+	padding-top: 40px;
+	font-size: 17px;
+	padding-left: 40px;
+	margin-top: 0px;
+}
+.viem-tai-giua-mu .txt1{
+	width: 210px;
+	text-align: center;
+	padding-left:10px;
+	padding-right: 10px; 
+	color: #274694;
+	padding-top: 12px;
+}
+.viem-tai-giua-mu .row1 .txt1{
+	padding-top: 0px;
+}
+.viem-tai-giua-mu .row1 .txt2{
+	margin-top: 3px;
+}
+.viem-tai-giua-mu .row2 .txt1{
+	margin-top: 25px;
+}
+.viem-tai-giua-mu .row2 .txt2{
+	margin-top: 26px;
+}
+.viem-tai-giua-mu .txt2{
+	width: 450px;
+	margin-left: 10px;
+	color: #fff;
+}
+.viem-tai-giua-mu .row4 .txt2{
+	/*width: 600px;*/
+}
+.tuvan{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #ff6600;
+	font-size: 16px;
+	color: #fff;
+}
+.tuvan1{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.kiem-tra-viem-tai-giua .title{
+	position: relative;
+	z-index: 1;
+}
+.kiem-tra-viem-tai-giua .bg1{
+	background-image: url('images/img-5.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 661px;
+	min-width: 1000px;
+	margin: 0px auto;
+	position: relative;
+	top: -36px;
+}
+.kiem-tra-viem-tai-giua .col{
+	width: 33%;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 420px;
+	color: #444;
+}
+.kiem-tra-viem-tai-giua .col2 p{
+	padding-left: 20px;
+}
+.kiem-tra-viem-tai-giua .col3{
+	padding-left: 40px;
+	padding-right: 0px;
+}
+.tuvan2 h2{
+	margin-top: 0px;
+}
+.title1{
+	margin-top: -20px;
+}
+.des1 p{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+.dieu-tri-viem-tai-giua .bg1{
+	background-image: url('images/img-6.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 824px;
+	min-width: 1000px;
+	margin: 0px auto;
+}
+.dieu-tri-viem-tai-giua .bg1 .col{
+	width: 20%;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 250px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col h3{
+	font-size: 16px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col p{
+	font-size: 13px;
+	line-height: 17px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col1{
+	padding-left: 15px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col2{
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col4{
+	padding-left: 25px;
+}
+.dieu-tri-viem-tai-giua .bg1 .col5{
+	padding-left: 35px;
+}
+.tuvan3{
+	margin-top: 100px;
+}
+.title2{
+	margin-bottom: 30px;
+}
+.net-doc-dao-trong-phuong-phap .bg1{
+	background-image: url('images/img-7.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 1000px;
+	margin: 0px auto;
+	height: 331px;
+}
+.net-doc-dao-trong-phuong-phap .bg1 h3{
+	margin-top: 0px;
+	padding-top: 86px;
+	padding-left: 532px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 15px;
+}
+.net-doc-dao-trong-phuong-phap .bg1 p{
+	padding-left: 499px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.net-doc-dao-trong-phuong-phap .bg2{
+	background-image: url('images/img-8.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 1000px;
+	margin: 0px auto;
+	height: 360px;
+	position: relative;
+}
+.net-doc-dao-trong-phuong-phap .bg2 h3{
+	margin-top: -8px;
+    padding-top: 90px;
+    padding-left: 40px;
+    width: 516px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.net-doc-dao-trong-phuong-phap .bg2 p{
+	color: #fff;
+	width: 555px;
+	padding-left:10px; 
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding-right: 0px;
+}
+.net-doc-dao-trong-phuong-phap .bg3{
+	background-image: url('images/img-9.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 1000px;
+	margin: 0px auto;
+	height: 428px;
+	margin-top: -10px;
+}
+.net-doc-dao-trong-phuong-phap .bg3 h3{
+	margin-top: 0px;
+	margin-left: 537px;
+    padding-top: 86px;
+	padding-right: 10px;
+	font-size: 15px;
+	color: #fff;
+}
+.net-doc-dao-trong-phuong-phap .bg3 p{
+	margin-left: 500px; 
+	margin-top: 10px;
+	line-height: 20px;
+}
+.net-doc-dao-trong-phuong-phap .tuvan{
+	margin-top: 30px;
+}
+.list-cau-hoi{
+	margin-top: 20px;
+}
+.list-cau-hoi div.left{
+	width: 490px;
+}
+.list-cau-hoi div.left .question{
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background-color: #2f4f8a;
+	text-align: center;
+	font-size: 19px;
+}
+.list-cau-hoi div.left .answer{
+	text-transform: uppercase;
+	color: #fff;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background-color: #959595;
+	text-align: center;
+	font-size: 19px;
+	margin-top: 0px;
+}
+.list-cau-hoi div.left .txt2{
+	display: inline-block;
+	float: left;
+    min-height: 20px;
+    width: 450px;
+    padding-left: 10px;
+    margin-top: 19px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.list-cau-hoi div.left p.bg1{
+	min-height: 30px;
+}
+.list-cau-hoi div.left .bg1 .txt2{
+	background-color: #94b7f8;
+}
+.list-cau-hoi .left.mar{
+	margin-left: 20px;
+}
+.list-cau-hoi > .clearfix{
+}
+.list-cau-hoi div.left >div:nth-child(2) .txt2{
+	margin-top: 0px;
+}
+.cuoi-cung{
+	background-color: #d9f2f6;
+	min-height: 190px;
+	margin-top: 30px;
+	font-size: 14px;
+}
+.cuoi-cung .row{
+	padding: 10px 10px;
+}
+.cuoi-cung .row .txt1{
+	color: #ff0000;
+	font-weight: bold;
+}
+.cuoi-cung .row .txt2 span{
+	font-weight: bold;
+	color: #0096aa;
+}
+.cuoi-cung .txt2{
+	line-height: 19px;
+}
+.net-doc-dao-trong-phuong-phap .title h2{
+	margin-top: 40px;
+}
+.qa .title h2{
+	margin-top: 40px;
+}

@@ -1,0 +1,90 @@
+* {
+	 margin:0px;
+	 padding:0px;
+}
+.tt_nhacnho {
+	 padding: 20px;
+	 border: 2px dashed #078353;
+}
+.tt_trantrong {
+	 color: #078353;
+	 font-size: 16px;
+	 text-transform: uppercase;
+}
+.mau2 {
+	 color: #ff6300;
+	 font-size: 16px;
+	 text-transform:  uppercase;
+}
+.des_trantrong {
+	 font-size: 15px;
+	 color: black;
+	 padding: 12px 0px;
+}
+button.btn.btn-danger.dk_kham {
+	 background: #ff6300;
+	 margin-top:  -20px;
+	 width:  20%;
+	 height: 39px;
+	 text-transform:  uppercase;
+	 border:  none;
+}
+span.mau1 {
+	 color: #155263;
+	 font-size: 17px;
+	 text-transform:  uppercase;
+	 position: relative;
+}
+.ct_go {
+  margin-top:10px;
+  font-weight:  bold;
+  margin-bottom:  37px;
+ }
+ span.mau1:after{
+ 	 content: "";
+ 	 width: 93%;
+ 	 height: 2px;
+ 	 background: #155263;
+ 	 position: absolute;
+ 	 left:  0px;
+ 	 top:  22px;
+ }
+
+
+
+ /* khối nd 2 */
+ .khoind_row2 {
+ 	 background: #f5f5f5;
+ 	 padding:40px;
+ }
+ span.tlx {
+ 	 color: #1b8c60;
+ 	 font-size: 16px;
+ 	 text-transform:  uppercase;
+ 	 font-weight:  bold;
+ }
+ .text-lx {
+ 	 font-size: 16px;
+ 	 color: black;
+ 	 margin-top: 15px;
+ }
+ .therhr {
+ 	 width: 100%;
+ 	 border-bottom: 1px dashed #1b8c60;
+ 	 margin-top: 10px;
+ }
+/* khoi nd 3 */
+.khoind_3 {
+	 padding: 40px;
+}
+.text7 {
+	 font-size: 16px;
+	 color: black;
+	 margin:10px;
+}
+.therhr.hai {
+	 margin-top: 30px;
+}
+.therhr.ba {
+	 margin-top: 287px;
+}

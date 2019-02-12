@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    DirectoryIndex ^(.*) /$1/index.php index.phtml index.html index.htm
+    RewriteCond %{REQUEST_URI} !^/index\.php
+</IfModule>
+RewriteRule ^cd6/ke-hoach-hoa/([a-zA-Z0-9_-]+)$ cd5/ke-hoach-hoa/$1
+

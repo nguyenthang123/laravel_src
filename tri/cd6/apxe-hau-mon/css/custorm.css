@@ -1,0 +1,218 @@
+.banner_c{
+    width: 1060px;
+    height: 488px;
+    background: url("../images/bg_banner.png") no-repeat top center;
+    margin: auto;
+}
+.banner_c .tvbs{
+    width: 100%;
+    height: 35px;
+    overflow: hidden;
+    padding-top: 347px;
+}
+.tvbs a.dkqm{
+    width: 115px;
+    height:100% ;
+    display: block;
+    float: left;
+    margin-left: 177px;
+}
+.tvbs a.bstv{
+    width: 115px;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-left: 45px;
+}
+.fram .nav_bg {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #81d4fe , #208bc1,#81d4fe); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #81d4fe , #208bc1,#81d4fe); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #81d4fe , #208bc1,#81d4fe); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #81d4fe , #208bc1,#81d4fe); /* Standard syntax */
+}
+.fram .nav_1 a {
+    font-size: 16px;
+    float: left;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+.head {
+    width: 100%;
+    height: auto;
+}
+.head .nav {
+    width: 100%;
+    height: 95px;
+    background: #281614;
+}
+.head .nav_bg {
+    width: 1400px;
+    height: 95px;
+    margin: auto;
+    background: none;
+}
+.head .nav_bg .logo {
+    width: 300px;
+    float: left;
+    height: 68px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.head .nav_bg .nav_1 {
+    width: 700px;
+    text-transform: uppercase;
+    height: 76px;
+    margin-top: 8px;
+    line-height: 76px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+}
+.head .nav_bg .nav_1 ul li {
+    width: 130px;
+    text-align: center;
+    background: url(http://trihanoi.com/cd6/dai-tien-ra-mau/images/nav_li.gif) right no-repeat;
+    float: left;
+}
+.head .nav_1 a {
+    width: 126px;
+}
+.commbt {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+}
+.commbt span {
+    font-size: 18px;
+    color: #595757;
+}
+.m1a_bt {
+    text-transform: uppercase;
+}
+.m2dd1 {
+    font-size: 12px;
+}
+.m2dd3 {
+    line-height: 18px;
+    text-align: justify;
+    height: 90px;
+}
+.m2dd4,.m2dd5{
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+.m2dd4 font,.m2dd5 font{
+    float: right;
+}
+.main3b {
+    line-height: 20px;
+}
+.main4 .m4bt h3 {
+    width: 740px;
+}
+.main4 .m4bt ul li{
+    background: #bce3ff;
+    margin: 0 10px;
+    height: 40px;
+    padding-top: 5px;
+}
+/*footer*/
+.foot, .flink {
+    background: #271613;
+    height: auto;
+}
+.w1000, .project ul, .foot_main, .feature, .flink ul {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.foot_main {
+    border-bottom: 1px solid #3d3120;
+}
+.foot_main, .feature, .flink ul {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot_main ol {
+    margin: 30px 0;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.foot_logo {
+    width: 133px;
+    height: 131px;
+    float: left;
+    margin-left: 76px;
+    overflow: hidden;
+    background: url(http://trihanoi.com/public/images/logo-bottom.png) no-repeat 0 0;
+    animation: mclogo 5s ease-out 1s infinite;
+    margin-bottom: 15px;
+    -webkit-animation: mclogo 5s ease-out 1s infinite;
+}
+.foot_text {
+    height: 90px;
+    overflow: hidden;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.w565 {
+    width: 586px !important;
+    overflow: hidden;
+    float: left;
+    border-left: 1px dashed #3d3120;
+}
+.w565 ul {
+    margin-left: 25px;
+    _margin-left: 25px;
+    width: 162px;
+    overflow: hidden;
+    float: left;
+    width: 190px;
+}
+.foot h6 {
+    width: auto;
+    height: 31px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #b7a88f;
+    white-space: nowrap;
+    border-bottom: 1px solid #3d3120;
+}
+.w565 ul li {
+    width: 100%;
+    text-align: left;
+}
+.w565 ul li {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+ul, ol, li {
+    list-style: none;
+}
+.w565 ul li a {
+    color: #8d6e69;
+}
+.right, .more, .list_more, .w355 ol ul li span, .qrcode, .intro, .list_info {
+    float: right;
+    display: inline;
+}
+.qrcode {
+    width: 297px;
+    float: left;
+}
+.qrpic {
+    width: 124px;
+    height: 124px;
+    background: url(http://trihanoi.com/public/images/deo-biet.jpg) no-repeat;
+    float: left;
+}

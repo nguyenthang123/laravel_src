@@ -1,0 +1,586 @@
+﻿<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chuyên đề sùi mào gà</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!--[if IE 8]>
+<link href="css/ie8.css" rel="stylesheet"  >
+<![endif]-->
+	<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet"  >
+<![endif]-->
+	<!--[if IE 6]>
+<link href="css/ie7.css" rel="stylesheet"  >
+<![endif]-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+<base target="_blank" />
+</head>
+<?php
+include('../../../define.php');
+$dbHost =Host;
+$dbUsername = User_db;
+$dbPassword = Pass_db;
+$dbDatabase = Name_db;
+$mysqli=new mysqli($dbHost, $dbUsername, $dbPassword,$dbDatabase) or die ("Unable to connect to Database Server.");
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_tuvan=link_tuvan;
+$link_diachi=link_diachi;
+$link_skype=link_skype;
+$popup=popup();
+$line_chat=line_chat();
+$Addleft=Addleft();
+$Addtop=Addtop();
+?>
+<body>
+<?= $Addtop;?>
+<style>
+        /*.home_top*/
+    .home_main_item {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_top{
+        height: 100px;
+        padding-top: 15px;
+    }
+    .home_top_logo{
+        float: left;
+    }
+    .home_top_right{
+        float: right;
+    }
+    .home_top_right ul{
+        list-style: none;
+        padding-top: 10px;
+    }
+    .home_top_right ul li{
+        float: left;
+    }
+</style>
+<div class="home_top">
+    <div class="home_main_item">
+        <div class="home_top_logo">
+            <a href="<?= $domain;?>">
+                <img src="http://khamnamkhoahanoi.vn/public/frontend/img/home/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="home_top_right">
+            <ul>
+                <li>
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="http://khamnamkhoahanoi.vn/public/frontend/img/home/home_top_dt.png" alt="dt">
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="http://khamnamkhoahanoi.vn/public/frontend/img/home/home_top_hk.png" alt="hk">
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= link_lotrinhphongkham;?>">
+                        <img src="http://khamnamkhoahanoi.vn/public/frontend/img/home/home_top_dc.png" alt="dc">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="menu_head" style="background:#0066cc;">
+	<div class="container">
+		<div class="row" style="background: #0066cc;">
+			<ul class="nav nav-pills pull-left col-xs-pull-4" >
+				  <li ><a href="<?= $domain;?>" target="_blank">Trang chủ</a></li>
+				  <li><a href="<?= $link_gioithieu;?>" target="_blank">Giới thiệu</a></li>
+				  <li><a href="<?= $link_tuvan;?>" target="_blank">Chuyên gia</a></li>
+				  <li><a href="<?= $link_tuvan;?>" target="_blank">Đăng ký khám bệnh</a></li>
+				  <li><a href="<?= $link_kythuat;?>" target="_blank">Kỹ thuật</a></li>
+				  <li><a href="<?= $link_thietbi;?>" target="_blank">Thiết bị</a></li>
+				   <li><a href="<?= link_lotrinhphongkham;?>" target="_blank">Địa chỉ</a></li>
+			</ul>
+		</div>	
+	</div>
+</div>
+<div class="content-kaka" style="background:#fff">
+		<div class="container tong-hop" style="border-left:1px solid #ccc;border-right:1px solid #ccc; padding-bottom:20px;" >
+			<div class="row ty-le-mac-benh" style=" min-height: 160px;margin-top: 10px;background:url('images/ty-le-mac-benh.png') top left no-repeat">
+				<div class="col-md-2">
+				
+				</div>
+				<div class="col-md-7" style="  padding: 0px;padding-top: 10px;">
+					<p style="">Hội nghiên cứu y học Việt Nam công bố, những năm gần đây ở Việt Nam tỉ lệ mắc bệnh xã hội mỗi năm tăng 15% - 20%. </p>
+					<p style="">Trong đó, tỉ lệ mắc sùi mào gà đứng sau bệnh lậu, nhưng tỉ lệ tăng trưởng hàng năm vượt quá 100%, là bệnh phát triển nhanh  trong tất cả các loại bệnh. Cách thức lây các bệnh xã hội như lậu, giang mai, sùi mào gà cũng khác nhau, bệnh sùi mào gà ngoài lây qua đường tình dục, thì có tới 30% - 40% là tiếp xúc qua chất có lây nhiễm gây nên.</p>
+				</div>
+				
+				
+			</div>
+			<div class="row" style="border:1px solid #ccc;padding:8px">
+				<p>
+				<b>Bệnh sùi mào gà</b>chủ yếu phát triển ở độ tuổi thanh trung niên 18-35 tuổi, thường thông qua khoảng nửa tháng đến 8 tháng, bình quân khoảng tầm sau 3 tháng ủ bệnh là phát tác.
+				</p>
+				<div class="col-md-12" style="padding:0px">
+					<img class="anh-hien-thi "  src="images/1.png"/>
+					<img class="anh-hien-thi "  src="images/2.png">
+					<img class="anh-hien-thi "  src="images/3.png">
+					<img class="anh-hien-thi nhay-cam"  src="images/4.png">
+					<img class="anh-hien-thi nhay-cam"  src="images/5.png">
+					<img class="anh-hien-thi nhay-cam" src="images/6.png">
+				</div>
+				<div class="col-md-6" style="width: 532px; background: url('images/1-bg.png');  margin-top: -122px;  padding-top: 45px;" > 
+					<p style="  margin-bottom: 0px;font-size:18px;color:#fff">Thời gian đầu </p>
+					<p style="color:#fff">Một hoặc nhiều nốt sần nhỏ mầu đỏ nhạt, đầu nhỏ mền, dần dần tăng nhiều, lan rộng, nối liền nhau.</p>
+				</div>
+				<p style="margin-top: 138px;">
+				<b style="color:red;">Bộ phận dễ phát sinh:</b>bộ phận sinh dục nam, bao quy đầu, quy đầu, môi lớn môi bé âm đạo, tầng sinh môn và vùng da xung quanh hậu môn.. Giữa nách, rốn, khoang miệng, giữa các ngón chân.., và vị trí khác trên cơ thể cũng có thể gặp phải.
+				</p>
+			</div>
+			<div class="row" style="text-align:right; min-height: 60px;margin-top: 10px;background:url('images/7-bg.png') top left no-repeat">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 20px;  padding-right: 13px;" src="images/7.png"/> </a>
+			</div>
+			<div class="row nguy-hai-lon" style="border:1px solid #ccc;margin-top:8px;margin-bottom:8px;">
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px; padding-top: 10px;padding-left: 180px;background:url('images/10.png') top left no-repeat">
+					<p style="  color: #fff;  font-size: 18px;  margin-bottom: 0px;">Tỉ lệ mắc ung thư cao </p>
+					<p style="color:#fff;padding-right:5px;">U ác tính là các biến chứng nghiêm trọng  của sùi mào gà, sau khi lây nhiễm virut HPV16,18, rất có khẳ năng gây ung thư dương vật, ung thư cổ tử cung.., u ác tính, nguy hại rất lớn, hậu quả nghiêm trọng.</p>
+				</div>
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px;border-left:1px solid #ccc">
+					<div class="col-md-6 nguy-hai-lon-1" style="  width: 320px;">
+					<p style="font-size: 18px;  margin-bottom: 0px; ">Lây nhiễm qua đường tình dục cao </p>
+					<p style=" margin-bottom: 0px; " >Những đôi vợ chồng nếu 1 trong 2 người mắc bệnh sùi mào gà thì người còn lại khẳ năng mắc bệnh cao trên 90%. Còn có thể thông qua tiếp xúc mật thiết hàng ngày truyền nhiễm cho những người khác trong gia đình, nguy hại đến sức khỏe của mọi người. </p>
+					</div>
+					<img class="" style=" float:right;" src="images/11.png"/> 
+				</div>
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px; ">
+
+					<img  class="nhay-cam"  style=" float:left;" src="images/12.png"/> 
+					<div class="col-md-6 nguy-hai-lon-1" style="  width: 320px;">
+					<p style="font-size: 18px;  margin-bottom: 0px; ">Dẫn đến lở loét, chảy máu </p>
+					<p style=" margin-bottom: 0px; " >Sùi mào gà phát bệnh ở các bộ phận như: đầu khấc, quy đầu, bao quy đầu, môi lớn môi bé và xung quanh hậu môn... Những bộ phận này rất dễ bị lây truyền vi sinh nhật mầm bệnh, dễ gây lở loét, có mủ, xuất huyết, có mùi hôi khó chịu...</p>
+					</div>					
+				</div>
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px;border-left:1px solid #ccc">
+					<div class="col-md-6 nguy-hai-lon-1" style="  width: 320px;">
+					<p style="font-size: 18px;  margin-bottom: 0px; ">Ảnh hưởng tới đời sau </p>
+					<p style=" margin-bottom: 0px; " >Sùi mào gà có thể thông qua mẹ truyền cho thai nhi, hoặc khi sinh e bé thông qua âm đạo mà bị lây nhiễm. </p>
+					</div>
+					<img class="" style=" float:right;" src="images/13.png"/> 
+				</div>	
+
+
+
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px;border-bottom:0px ">
+
+					<img  class="nhay-cam"  style=" float:left;" src="images/14.png"/> 
+					<div class="col-md-6 nguy-hai-lon-1" style="  width: 320px;">
+					<p style="font-size: 18px;  margin-bottom: 0px; ">Gây nên các bệnh về mắt và khoang miệng</p>
+					<p style=" margin-bottom: 0px; " >Thông qua tiếp xúc trực tiếp hoặc gián tiếp tiếp xúc với vật lây nhiễm, có thể dẫn đến papillomas kết mạc và khoang miệng, dễ gây ra những hậu quả nghiêm trọng.</p>
+					</div>					
+				</div>
+				<div class="col-md-6 nguy-hai-lon-0" style="  min-height: 157px;border-left:1px solid #ccc;border-bottom:0px">
+					<div class="col-md-6 nguy-hai-lon-1" style="  width: 320px;">
+					<p style="font-size: 18px;  margin-bottom: 0px; ">Quan hệ vợ chồng không hòa thuận</p>
+					<p style=" margin-bottom: 0px; " >Bệnh nhân có áp lực về tâm lý, giữa vợ không có sự tin tưởng, ảnh hưởng đến gia đình và sự hòa thuận, thậm chí ảnh hưởng đến tinh thần, gây ra những hành vi phạm pháp nguy hiểm cho gia đình và xã hội.  </p>
+					</div>
+					<img class="" style=" float:right;" src="images/15.png"/> 
+				</div>					
+			</div>
+			<div class="row" style="text-align:right; min-height: 60px;margin-top: 10px;background:url('images/8.png') top left no-repeat">
+			<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 20px;  padding-right: 13px;" src="images/7.png"/> </a>
+			</div>	
+			<div class="row" style="text-align:center;padding-top:8px;padding-bottom:8px">
+				<img style="" src="images/17.png">
+			</div>	
+			
+			<div class="row nham-khu-dieu-tri">
+				<div class="col-md-3">
+					<p style="">Ngại đi khám bệnh, đến phòng khám nhỏ không chính quy</p>
+					<img style="" src="images/18.png">
+				</div>
+				<div class="col-md-3">
+					<p>Tự ý dùng thuốc</p>
+					<p> ko thấy chuyển biến tốt</p>
+					<img style="" src="images/19.png">
+				</div>
+				<div class="col-md-3">
+					<p>Tin lang băm cho rằng uống thuốc có thể điều trị tận gốc</p>
+					<img style="" src="images/20.png">
+				</div>
+				<div class="col-md-3" style="margin-right:0px">
+					<p>Tự ý bôi thuốc làm</p>
+					 <p>bệnh tình thêm nặng</p>
+					<img style="" src="images/21.png">
+				</div>				
+			</div>
+			<div class="row" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<a href="<?= $link_tuvan;?>"><img style="" src="images/22.png"> </a>
+			</div>	
+			<div class="row" style="text-align:right; min-height: 60px;margin-top: 10px;background:url('images/16.png') top left no-repeat">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 20px;  padding-right: 13px;" src="images/7.png"/> </a>
+			</div>	
+			<div class="row" style="border:1px solid #ccc;padding-left: 15px;padding-right: 15px;margin-top:10px">
+			<div class="col-md-12" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/23.png"> 
+			</div>	
+			<div class="col-md-8 " style="width:566px;padding:0px;">
+				<p class="to-chuc">Các liên hợp tổ chức nghiên cứu phát triển </p>
+				<div class="row dai-to-chuc">
+					<div class="col-md-4">
+						<img style="" src="images/25.png">
+						<p style="">Viện nghiên cứu phòng tránh bệnh xã hội </p>
+						<div class="gach-ngang">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img style="" src="images/26.png"> 
+						<p style="">Cơ cấu kiểm tra HPV của Mỹ</p>
+												<div class="gach-ngang">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img style="" src="images/26.png">
+						<p style="">Trung tâm phòng và điều trị bệnh xã hội ở Việt Nam</p>
+												<div class="gach-ngang">
+						</div>
+					</div>	
+				</div>
+				<div class="row">
+					<p class="to-chuc" style="  padding-top: 27px;background:none"> Tổ chức Y tế Thế giới công bố</p>
+					<img style="" src="images/28.png"> 
+				</div>
+			</div>
+			<div class="col-md-4" style="width:370px;padding:0px;float: right;">
+				<p class="to-chuc">phòng khám đa khoa Giải Phóng Hà Nội đưa vào sử dụng đồng bộ thiết bị y tế  </p>
+				<img style="  width: 99%;  height: 341px;" src="images/24.png"/>
+			</div>	
+			
+			<div class="row" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/29.png">
+			</div>	
+			<div class="row nguyen-ly-ky-thuat">
+				<div class="col-md-3" style="background:#66cc33;"> 
+				
+					<img style="" src="images/30.png">
+						<p style="  padding-top: 10px;  padding-bottom: 7px;">Thông qua kỹ thuật “chip sinh học” mới quốc tế, phát hiện nhanh chóng và chính xác bệnh nhân bị nhiễm các loại virus nào và số lượng của virus, mức độ lây nhiễm. </p>					
+				</div>
+				<div class="col-md-3" style="background:#cccc00;">
+
+					<img style="" src="images/31.png">
+
+					<p> Lấy mẫu virus, rồi mang mẫu virus đi tiến hành kiểm tra xét nghiệm, tìm ra các loại virus DNA. </p>					
+				</div>
+				<div class="col-md-3" style="background:#0066cc;">
+
+					<img style="" src="images/32.png">
+
+					 <p>Căn cứ vào nguyên lý sinh học phân tử, trải qua quá trình đặc biệt của việc dưỡng cấy tiêu chuẩn cao và phức tạp, trở thành kháng nguyên virus có thể cung cấp sử dụng cho con người. </p>
+				</div>
+				<div class="col-md-3" style="background:#cc9900;margin-right:0px;">
+
+					<img style="" src="images/1234.png">
+
+					 <p>Tìm ra khiếm khuyết gene virus, cắt đứt nguồn cung dưỡng, phân giải gene virus, ngăn chặn sinh sôi virus, loại bỏ hoàn toàn ra khỏi cơ thể, mụn sùi sẽ tự rụng. Tăng cường chức năng thực bào cơ thể, thúc đẩy tiêu tan viêm nhiễm và virus cục bộ, loại bỏ virus, vi khuẩn. Từ đó đạt được mục tiêu điều trị khỏi triệt để. </p>
+				</div>				
+			</div>
+		
+			<div class="row" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/34.png"> 
+			</div>	
+				<div class="row dai-uu-the">
+					<div class="col-md-4">
+						<p style="" class="title-dai-uu-the">Điều trị hiệu quả</p>
+						<p class="noi-dung-dai-uu-the">Liệu pháp trị liệu sùi mào gà truyền thống có rất nhiều như: những thuốc thường gặp, laze, áp lạnh, đốt điện, và một số thủ thuật khác, nhưng những phương pháp trị liệu này chỉ khống chế được triệu chứng tạm thời, dễ tái phát. “Liệu pháp kích hoạt vắc xin PSO”có thể làm thay đổi mạnh kết cấu virus DNA, khiến virus mất đi độc tính và được loại bỏ hoàn toàn tận gốc, phá vỡ những khó khăn trong điều trị truyền thống.  </p>
+					</div>
+					<div class="col-md-4">
+
+						<p style="" class="title-dai-uu-the">An toàn, tránh biến chứng</p>
+						<p class="noi-dung-dai-uu-the">Liệu pháp truyền thống luôn làm tổn thương bề mặt da, để lại vết thương và sẹo, điều trị bằng thuốc thời gian dài sẽ gây ra nhiều tác dụng phụ, giảm hệ miễn dịch cơ thể, dẫn đến nhiều loại bệnh. “Liệu pháp kích hoạt vắc xin PSO” sử dụng cơ chế bảo vệ miễn dịch của cơ thể để tiêu diệt vi khuẩn gây bệnh, không có bất kỳ tác dụng phụ, đối với tế bào cơ thể và bề mặt của da không gây bất kỳ tổn hại và thương tích, bảo vệ chức năng sinh lý bình thường của cơ thể. </p>
+					</div>
+					<div class="col-md-4">
+
+						<p style="" class="title-dai-uu-the">Hiệu quả rõ rệt</p>
+						<p class="noi-dung-dai-uu-the">Quá trình liệu pháp truyền thống kéo dài, thuốc trị liệu hiệu quả chậm, cần trị liệu nhiều lần.“Liệu pháp kích hoạt vắc xin PSO”thường chỉ từ 5-7 ngày là đạt được mục đích trị, giảm bớt gánh nặng cho bệnh nhân về kinh tế và áp lực tinh thần.</p>
+					</div>	
+				</div>
+				<div class="row ketqua-dai-uu-the" style="padding-bottom:10px;">
+					<div class="col-md-4">
+						<div class="row ketqua-dai-uu-the-1">
+							<p class="p-xanh">1-2 ngày</p>
+							<p class="p-xanh-1"> Thuyên giảm nhanh chóng</p>
+						</div>
+						<img style=""  class="nhay-cam"  src="images/36.png">
+					</div>
+					<div class="col-md-4">
+						
+						<div class="row ketqua-dai-uu-the-1">
+							<p class="p-xanh">3-4 ngày </p>
+							<p class="p-xanh-1">Loại bỏ virut</p>
+						</div>
+						<img style=""  class="nhay-cam"  src="images/37.png">
+					</div>
+					<div class="col-md-4" style="margin-right:0px;">
+
+						<div class="row ketqua-dai-uu-the-1">
+							<p class="p-xanh">5-7 ngày </p>
+							<p class="p-xanh-1">Ít tái phát</p>
+						</div>
+						<img style="" class="nhay-cam" src="images/38.png">
+					</div>
+                    <div style="margin: auto">
+                        (Hình ảnh chỉ mang tính chất minh họa, kết quả điều trị thực tế còn phụ thuộc nhiều yếu tốt)
+                    </div>
+				</div>
+					
+			</div>
+			<div class="row" style="  text-align: right;  min-height: 75px;  margin-top: 20px;  background: url('images/39.png') top left no-repeat;">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 34px;  padding-right: 13px;" src="images/7.png"> </a>
+			</div>
+			<div class="row">
+				<p style="  padding: 6px 15px;">Đội ngũ y bác sỹ chuyên nghiệp là đảm bảo sức khỏe cho người bệnh, do đó những năm trở lại đây phòng khám đa khoa Giải Phóng Hà Nội luôn xây dựng đội ngũ y bác sỹ lớn mạnh. Trải qua sự lỗ lực không ngừng, hiện nay phòng khám đã thành lập một đội ngũ y tế hùng hậu, nhận được những lời khen ngợi cao từ bệnh nhân và gia đình bệnh nhân.</p>
+				
+				<div class="col-md-12" style="text-align:center;padding-top:18px;padding-bottom:0px">
+				<img style="" src="images/40.jpg">
+				</div>
+			</div>
+			<div class="row" style="  text-align: right;  min-height: 75px;  margin-top: 20px;  background: url('images/41.png') top left no-repeat;">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 34px;  padding-right: 13px;" src="images/7.png"> </a>
+			</div>
+			<div class="row">
+				<p style="  padding: 6px 15px;">
+                    Từ khi phòng khám xây dựng đến nay luôn duy trì ổn định chi phí y tế, những năm trở lại đây bình quân lợi nhuận về thuốc, chi phí vật tư và chi phí kiểm tra đều giảm, giúp cho bệnh nhân giảm được cho phí nhưng vẫn giúp đạt được hiệu quả điều trị tốt , tạo danh tiếng tốt cho phòng khám, để phòng khám đạt được sự phát triển lâu dài.
+                </p>
+				
+				<div class="col-md-12" style="text-align:center;padding-top:8px;padding-bottom:8px">
+				<img style="" src="images/42.png">
+				</div>
+			</div>
+			<div class="row" style="  text-align: right;  min-height: 75px;  margin-top: 20px;  background: url('images/43.png') top left no-repeat;">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 34px;  padding-right: 13px;" src="images/7.png"> </a>
+			</div>
+			<div class="row">
+				<p style="  padding: 14px 15px;  color: #0066cc;  text-align: center;  font-size: 18px;  text-transform: uppercase;"><b> Đặt hẹn qua mạng</b>,được hưởng ưu tiên <b>thăm khám</b> kiểm tra trước</p>
+				
+				<div class="col-md-12" style="  padding-top: 0px;  padding-bottom: 8px;  padding: 0px;">
+				<img style="" src="images/44.png">
+				</div>
+			</div>	
+		<div class="row" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/45.png">
+			</div>
+		<div class="row" style="padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/46.png">
+			</div>	
+		<div class="row" style="text-align:center;padding-top:12px;padding-bottom:8px">
+					<img style="" src="images/47.png"> 
+			</div>
+			<div class="row qua-trinh-tham-kham">
+				<div class="col-md-3" style="">
+				
+					<img style="" src="images/48.png">
+						<p style="  padding-bottom: 7px;">Lễ tân tiếp đón nhiệt tình, tiếp đón bệnh nhân như người thân.</p>					
+				</div>
+				<div class="col-md-3" style="">
+
+					<img style="" src="images/49.png">
+
+					<p> Bác sỹ kiên nhẫn hỏi bệnh, đảm bảo thăm khám chuẩn xác. </p>					
+				</div>
+				<div class="col-md-3" style="">
+
+					<img style="" src="images/50.png">
+
+					 <p>Nhân viên y tế kiểm tra cẩn thận đảm bảo kết quả chính xác. </p>
+				</div>
+				<div class="col-md-3" style="margin-right:0px;">
+
+					<img style="" src="images/51.png">
+
+					 <p>Trước khi điều trị hoặc làm thủ thuật, bác sỹ sẽ thông báo chi tiết những việc cần làm và những điều cần chú ý. </p>
+				</div>				
+			</div>
+			<div class="row" style="text-align:center;padding-top:18px;padding-bottom:0px">
+				<a href="<?= $link_tuvan;?>"><img style="" src="images/52.png"> </a>
+			</div>	
+			<div class="row" style="  text-align: right;  min-height: 75px;  margin-top: 20px;  background: url('images/53.png') top left no-repeat;">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 34px;  padding-right: 13px;" src="images/7.png"> </a>
+			</div>	
+
+			<div class="row qua-trinh-tham-kham qua-trinh-tham-kham-12">
+				<div class="col-md-3" style="">
+				
+					<img style="" src="images/54.png">
+						<p style="  padding-bottom: 7px;">Đăng ký khám qua mạng giúp người bệnh tiết kiệm thời gian, quá trình thăm khám đơn giản, thuận tiện.</p>					
+				</div>
+				<div class="col-md-3" style="">
+
+					<img style="" src="images/55.png">
+
+					<p>Kiểm tra trước thủ thật, chăm sóc sau thủ thuật đều có người đi kèm hướng dẫn, có trách nhiệm đối với sức khỏe bệnh nhân. </p>					
+				</div>
+				<div class="col-md-3" style="">
+
+					<img style="" src="images/56.png">
+
+					 <p>Một bác sỹ một bệnh nhân một phòng bệnh, bảo mật thông tin cá nhân người bệnh, giúp bệnh nhân yên tâm khám bệnh. </p>
+				</div>
+				<div class="col-md-3" style="margin-right:0px;">
+
+					<img style="" src="images/57.png">
+
+					 <p>Môi trường phòng khám sạch sẽ, đảm bảo vệ sinh cũng giúp cho người bệnh có tâm trạng tốt .  </p>
+				</div>	
+				<div class="col-md-3" style="">
+				
+					<img style="" src="images/58.png">
+						<p style="  padding-bottom: 7px;">Quy phạm hóa kiểm tra trước thủ thuật, mỗi hạng mục kiểm tra đều chính xác không sai sót, khám bệnh an toàn yên tâm . </p>
+				</div>
+				<div class="col-md-3" style="">
+					<img style="" src="images/60.png">
+					<p> Bác sỹ chuyên nghiệp thăm khám có hơn 20 năm kinh nghiệm lâm sàng, chỉ định phương án chẩn đoán điều trị hợp lý . </p>					
+				</div>
+				<div class="col-md-3" style="">
+					<img style="" src="images/59.png">
+					 <p>Phòng thủ thuật sạch sẽ được vô trùng, thủ thuật an toàn cho mỗi bệnh nhân.</p>
+				</div>
+				<div class="col-md-3" style="margin-right:0px;">
+					<img style="" src="images/61.png">
+					 <p>Quá trình chẩn đoán điều trị tiêu chuẩn quy phạm, sau thủ thuật điều chỉnh phương án khoa học có hiệu quả, khôi phục nhanh .  </p>
+				</div>					
+			</div>			
+			<div class="row" style="  text-align: right;  min-height: 75px;  margin-top: 20px;  background: url('images/62.png') top left no-repeat;">
+				<a href="<?= $link_tuvan;?>"><img class="" style="  padding-top: 34px;  padding-right: 13px;" src="images/7.png"> </a>
+			</div>	
+			<div class="row hen-kham">
+					<div class="col-md-4" style="width:330px;padding-right: 20px;">
+						<div class="row ">
+							<p class="" style="color:red;  color: red;  text-transform: uppercase;  font-size: 19px;text-align:center">Đặt hẹn qua mạng ( lấy số)<br/>hưởng 4 phúc lợi lớn</p>
+							<p style="  margin-top: 18px;"><b>1  Hưởng thăm khám ưu tiên:</b> Đặt hẹn lấy số qua mạng sẽ hưởng thăm khám ưu tiên, ko cần sếp hàng chờ đợi.</p>
+							<p style="margin-top: 18px;"><b>2  Đến là thăm khám ngay:</b> chỉ cần đặt hẹn qua mạng bạn có thể lựa chọn thời gian thăm khám thích hợp  cho mình.</p>
+							<p style="margin-top: 18px;"><b>3  Chọn bác sỹ bắt đúng bệnh:</b> đặt hẹn qua mạng sẽ dựa vào tình trạng bệnh của bệnh nhân, để sắp xếp bác sỹ phù hợp thăm khám.</p>
+							<p style="margin-top: 18px;"><b>4  Tuân hưởng ưu đãi:</b> thông qua mạng đặt hẹn khám bệnh có thể hưởng các ưu đãi liên quan.</p>
+						</div>
+					</div>
+					<div class="col-md-4" style="width:280px">
+						<img style="" src="images/63.png">
+					</div>
+					<div class="col-md-4" style="margin-right:0px;width:380px;">
+
+						<div class="row ">
+							<p style="color:red;  color: red;  text-transform: uppercase;  font-size: 18px;text-align:center">đặt hẹn trực tuyến trên mạng </p>
+							<div class="wrap dang-ky-kham">
+								<form name="sonkaka" method="post">
+									<div class="row"  style="">
+										<div class="col-md-5" style="padding:0px;padding-top: 8px;">
+											<p style="font-weight:100;text-align:left;white-space: nowrap">Họ Tên Bệnh Nhân:<b style="color: red;">*</b> </p>
+											<p style="font-weight:100;text-align:left;white-space: nowrap">Khoa Khám Các Bệnh:<b style="color: red;">*</b></p>
+											<p style="font-weight:100;text-align:left;white-space: nowrap">Thời Gian Khám Bệnh:<b style="color: red;">*</b></p>
+											<p style="font-weight:100;text-align:left;white-space: nowrap">Điện Thoại Liên Hệ:<b style="color: red;">*</b></p>
+										</div>
+										<div class="col-md-7" style="padding: 0px;">
+											<input name="hoten" id="hoten"  class="hoten" style="width:100%" type="text" placeholder="Nhập họ và tên"   ng-minlength="5/">
+											<input name="khoakham" id="khoakham" style="width:100%;margin-top:5px" type="text"  placeholder="Nhập khoa khám" />
+											<input id="thoigian" name="thoigian" style="width:100%;margin-top:5px" type="text" placeholder="Hẹn thời gian khám" />
+											<input name="dienthoai" id="dienthoai" style="width:100%;margin-top:5px" type="text" placeholder="Số điện thoại" min="999999" />
+										</div>
+									</div>
+									<div class="row row-dang-ky" style="white-space: nowrap;padding-top:5px">
+										<div class="col-md-5" style="padding:0px">
+											<p style="font-weight:100;text-align:left">Miêu Tả Bệnh Tình:</p>
+										</div>
+										<div class="col-md-7" style="padding:0px">
+											<textarea id="mota" name="mota" rows="4" cols="27" placeholder="Mục mô tả triệu chứng và quá trính sinh bệnh"></textarea>
+										</div>
+									</div>	
+									<div class="row row-dang-ky-1" style="white-space: nowrap;text-align: center;padding-top: 10px;padding-bottom:0px;">
+										<div class="col-md-3" style="  float: right;  padding: 0px;  width: 125px;  padding-left: 5px;">
+										<p style="color:red;font-size:10px">Chú ý:vui lòng điền đầy đủ <br/>thông tin trước khi đăng ký. </p>
+										</div>
+										<input style="float:right" type="submit" name="submit" value="Đăng ký" class="button1">
+									</div>
+								</form>
+                                <?php if(isset($_POST['submit'])){
+                                    $hoten=$_POST['hoten'];
+                                    $khoakham=$_POST['khoakham'];
+                                    $thoigian=$_POST['thoigian'];
+                                    $dienthoai=$_POST['dienthoai'];
+                                    $mota=$_POST['mota'];
+                                    $channel='cd6/sui-mao-ga/lieu-phap-pso';
+                                    $today=date('Y-m-d');
+                                    if(empty($hoten) || empty($dienthoai)){
+                                        echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+                                    }else{
+                                        $sql="insert into tbldangky(hoten,dienthoai,khoakham,thoigian,mota,channel,created_at) values (N'".$hoten."',N'".$dienthoai."',N'".$khoakham."',N'".$thoigian."',N'$mota',N'$channel',N'$today')";
+                                        $rs=$mysqli->query($sql);
+                                        if($rs=="1"){
+                                            echo "<script>alert('Bạn đã đặt hẹn thành công.');</script>";
+                                            echo "<script>window.location.href=".$domain."'/2015/sui-mao-ga/';</script>";
+                                        }else{
+                                            echo "<script>alert('Bạn đặt hẹn không thành công.Mời bạn đặt hẹn lại.');</script>";
+                                        }
+                                    }
+                                }
+                                ?>
+								<div id="flash" align="left"  ></div>
+								<div id="display" align="left"></div>
+</div>
+						</div>
+					</div>	
+				</div>			
+		</div>	
+
+	</div>
+
+<div class="content">
+<div class="footer" style="background:url('images/footer-bg-1.png');margin-bottom:20px;margin:0 auto;padding-top:30px">
+		<div class="container">
+		<div class="row" style="background:none">
+		 
+			<div class="col-md-6" style="text-align: center;">
+			 <img style="margin:0 auto;"  alt="" src="images/logo-1.png" />
+			</div>
+			<div class="col-md-6 row-son-tuvan" style="">
+			<p><a href="<?= $link_tuvan;?>" target="_blank">
+				<img style="margin:0 auto;"  alt="" src="images/tv-1.png" />  </a>
+			</p>
+						<p> <a href="<?= $link_tuvan;?>" target="_blank">
+				<img style="margin:0 auto;"  alt="" src="images/tv-2.png" />  </a>
+			</p>
+
+						<p><a href="skype:bacsy_tuvan168?chat" target="_blank">
+				<img style="margin:0 auto;"  alt="" src="images/tv-3.png" />  </a>
+			</p>
+			<p><a href="<?= $domain;?>" target="_blank">
+				<img style="margin:0 auto;"  alt="" src="images/tv-4.png" /> </a>
+			</p>
+			<div class="row" style="clear:both;background:none">
+				<h3>phòng khám đa khoa Giải Phóng Hà Nội </h3>
+				<p>Địa chỉ: SỐ 709 - GIẢI PHÓNG - HOÀNG MAI - HÀ NỘI</p>
+				<p>Ðiện thoại: <?= phone1;?> - <?= phone2;?></p>
+				<p>Website: www.phongkhambenhxahoi.vn  </p>
+			</div>
+			</div>
+		</div>
+		</div>
+</div>
+</div>
+</body>
+
+   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+     <script>
+
+ $(function() {
+	 $( "#thoigian" ).datepicker({ dateFormat: 'yy-mm-dd',
+	 monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+	 }); 
+		  });
+  </script>
+</html>
+ <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js" type="text/javascript"></script>
+<?= $Addleft;?>
+<?= $popup;?>
+<?= $line_chat;?>

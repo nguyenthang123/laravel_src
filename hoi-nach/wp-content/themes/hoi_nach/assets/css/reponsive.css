@@ -1,0 +1,115 @@
+@media  screen and (max-width: 600px) and (min-width: 320px) {
+     *  {
+     	 margin:0px;
+     	 padding: 0px;
+     }
+
+.khoicthome82 {
+    margin-left:  0px;
+    width:  75%;
+    margin-left:  5%;
+    margin-top:  10px;
+}
+
+.tt_home82 {
+    font-size:  14px;
+}
+
+.tt_home8_hai {
+    font-size: 16px;
+}
+
+button.btn.btn-danger.nut1_bt.hvr-shrink {
+    /* width:  197px; */
+    margin-left:  -10px;
+    margin-bottom:  17px;
+}
+
+
+.home7_hai {
+    padding: 10px !important;
+}
+
+.hinhtron1, .hinhtron2,.hinhtron3,.hinhtron4 {
+    background-position:  center;
+    margin-bottom:  27px;
+}
+
+.home4 {
+    background-position:  center;
+}
+
+.home7 {
+    padding: 0px !important;
+}
+
+.nd_khoi6_hai {
+    margin-bottom:  15px;
+}
+
+.ns_khoi6 {
+    text-align:  center;
+}
+
+.anh1_khoi4 {
+    text-align:  center;
+    margin-bottom:  16px;
+}
+
+.home6_tn {
+    padding:  5px;
+}
+
+.col-md-4.md4 {
+    margin-left: 15px;
+}
+
+.tt_home3_col4 {
+    font-size: 12px !important;
+}
+
+.dong2_so {
+    margin-bottom: 23px;
+}
+
+.tt_home1 {
+    text-align:  center;
+}
+
+.des_home1 {
+    text-align:  center;
+}
+
+.dong1_so {
+    font-size: 16px !important;
+    margin-bottom:  17px;
+}
+
+.nd_so {
+    text-align:  center;
+    margin-top:  13px;
+}
+
+.so_number {
+    text-align:  center;
+    width:  100%;
+    margin:  auto;
+}
+
+.home2_tn {
+    padding:  10px;
+}
+
+.home1 {
+    padding:  10px 10px !important;
+}
+
+.tt_home1 {
+    font-size: 13px !important;
+    margin-bottom:  7px !important;
+}
+     a.btn.btn-lg.btn-q.btn_tnn.hvr-grow {
+	    padding: 10px;
+	    font-size:  11px;
+	 }
+}

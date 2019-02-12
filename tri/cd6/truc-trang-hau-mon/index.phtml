@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Trực tràng hậu môn</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script type='text/javascript' src="js/jquery-1.4.4.min.js"></script>
+    <script type='text/javascript' src="js/Marquee.js"></script>
+    <script charset='utf-8' type='text/javascript' src="js/Rand.js"></script>
+    <script charset='utf-8' type='text/javascript' src="js/ma.js"></script>
+    <script src="js/slides.min.jquery.js" type='text/javascript'></script>
+    <!--<script src="js/MSClass.js" type='text/javascript' ></script>-->
+    <base target="_blank"/>
+    <script>
+        $(function () {
+            // Set starting slide to 1
+            var startSlide = 1;
+            // Get slide number if it exists
+            if (window.location.hash) {
+                startSlide = window.location.hash.replace('#', '');
+            }
+            // Initialize Slides
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                generatePagination: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                // Get the starting slide
+                start: startSlide,
+                animationComplete: function (current) {
+                    // Set the slide number as a hash
+                    window.location.hash = '#' + current;
+                }
+            });
+        });
+    </script>
+</head>
+<?php
+require_once('../../define.php');
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_kythuat=link_kythuat;
+$link_thietbi=link_thietbi;
+$link_tuyenxe=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$link_facebook=link_facebook;
+$line_chat=line_chat();
+$link_lotrinhdenkham=link_lotrinhdenkham;
+?>
+<body>
+<div class="fram">
+<div class="head">
+    <div class="nav">
+        <div class="nav_bg">
+            <div class="nav_1">
+                <ul>
+                    <li><a href="<?= $domain;?>">trang chủ</a></li>
+                    <li><a href="<?= $link_gioithieu;?>">giới thiệu</a></li>
+                    <li><a href="<?= $link_kythuat;?>">kỹ thuật</a></li>
+                    <li><a href="<?= $link_thietbi;?>">thiết bị</a></li>
+                    <li><a href="<?= $link_tuyenxe;?>">tuyến xe</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="top" style="background: url('images/banner.jpg') no-repeat top center #014888;height: 619px;">
+        <div style="width: 1000px;margin: auto;overflow: hidden;padding-top: 340px;">
+            <a href="<?= $link_tuvan;?>"style="font-weight: bold;text-transform: uppercase;display: block;padding-left: 635px;font-size: 15px;">click<br>tư vấn</a>
+        </div>
+    </div>
+</div>
+<div class="main1">
+    <div class="m1_l">
+        <h3>【Phòng khám trực tràng hậu môn Nhân Ái Hà Nội】</h3>
+        <span>điều trị hiệu quả bệnh trĩ, miễn phí điều trị khi tái phát</span>
+
+        <p><font style="font-size:12px">điện thoại tư vấn：</font> <?= phone1;?></p>
+    </div>
+    <div class="m1_r">
+        <a href="<?= $link_tuvan;?>">
+            <div class="m1_ra"></div>
+        </a>
+
+        <div class="m1_rb">
+            <div class="gun" id="gunDiv" style="height:115px;overflow:hidden;">
+                <div id="gunCont"></div>
+            </div>
+            <script type="text/javascript">
+                document.getElementById("gunCont").innerHTML = window.MARQUEEHTML;
+            </script>
+        </div>
+    </div>
+</div>
+<div class="main2">
+    <div class="comm">
+        <div class="cmnr">NHỮNG HẠNG MỤC ĐIỀU TRỊ<span> Single disease includes the following items</span></div>
+        <div class="comm_zx"><a href="<?= $link_tuvan;?>">Tư vấn trực
+            tuyến</a></div>
+    </div>
+    <div class="m2sa">
+        <div class="m2_lf">
+            <div style=" height:251px;"><img src="images/hd_19.jpg" usemap="#Map" border="0"/>
+                <map name="Map" id="Map">
+                    <area shape="rect" coords="2,4,210,112" href=""/>
+                    <area shape="rect" coords="4,117,209,246" href=""/>
+                </map>
+                <img src="images/hd_20.jpg" usemap="#Map2" border="0"/>
+                <map name="Map2" id="Map2">
+                    <area shape="rect" coords="3,3,210,154" href=""/>
+                    <area shape="rect" coords="3,158,105,248" href=""/>
+                    <area shape="rect" coords="106,159,209,247" href=""/>
+                </map>
+                <img src="images/hd_21.jpg" usemap="#Map3" border="0"/>
+                <map name="Map3" id="Map3">
+                    <area shape="rect" coords="2,3,113,251" href=""/>
+                </map>
+            </div>
+            <div style="width:310px; height:30px; margin:auto; margin-top:15px;">
+                <a href="<?= $link_tuvan;?>" class="l">Những loại bệnh
+                    khác</a>
+                <a href="<?= $link_tuvan;?>" class="r">Click tư vấn</a>
+            </div>
+        </div>
+        <div class="m2_rf">
+            <img src="images/hd_24.jpg" width="329" height="244"/>
+
+            <p><a href="">Điều trị hiệu quả bệnh trĩ, điều trị có đảm bảo</a></p>
+        </div>
+    </div>
+    <div class="m2sb">
+        <a href="<?= $link_tuvan;?>">
+            <img src="images/hd_29.jpg" width="921" height="113"/>
+        </a>
+    </div>
+</div>
+<div class="main4">
+    <div class="comm">
+        <div class="cmnr">MÙA HÈ, MÙA BỆNH TRĨ HOÀNH HÀNH<span> Summer hemorrhoids not pocket</span></div>
+        <div class="comm_zx"><a href="<?= $link_tuvan;?>">Tư vấn trực
+            tuyến</a></div>
+    </div>
+    <div style=" width:930px; margin:auto; height:300px; overflow:hidden;">
+        <div class="case">
+            <div id="example">
+                <div id="slides">
+                    <div class="slides_container">
+                        <div class="slide" style="height: 210px;"><a href="">
+                            <img src="images/altp_1.jpg"/></a>
+                            <p>Bệnh trĩ sản sinh vào mùa xuân, phát triển vào mùa hè, trở nên nghiêm trọng hơn vào tháng
+                                7 tháng 8</p>
+                        </div>
+                        <div class="slide" style="height: 210px;">
+                            <a href=""> <img src="images/altp_2.jpg"/></a>
+                            <p>Hậu môn ẩm ướt, dính nhớt, bốc mùi khó chịu</p>
+                        </div>
+                        <div class="slide" style="height: 210px;"><a href="">
+                            <img src="images/altp_3.jpg"/></a>
+                            <p>Ăn đồ cay nóng, búi trĩ sa ra ngoài khó chịu khó nói</p>
+                        </div>
+                        <div class="slide" style="height: 210px;"><a href="">
+                            <img src="images/altp_4.jpg"/></a>
+                            <p>Búi trĩ sa ra ngoài, để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ sưng tấy, hoại
+                                tử</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/bgbg.gif" alt="Example Frame" width="516" height="231" id="frame"></div>
+            <ul class="qa">
+                <li><b style=" background:url(images/hd_33.gif) left no-repeat; text-indent:1.5em;"> ĐẾN TRÒ CHUYỆN VÀ
+                    TƯ VẤN TRỰC TIẾP：</b><span>Trạng thái</span></li>
+                <li><a href="">Để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ...</a><span>Đã trả lời</span></li>
+                <li><a href="">Để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ...</a><span>Đã trả lời</span></li>
+                <li><a href="">Để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ...</a><span>Đã trả lời</span></li>
+                <li><a href="">Để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ...</a><span>Đã trả lời</span></li>
+                <li><a href="">Để lâu không điều trĩ dễ gây viêm nhiễm, chảy mủ...</a><span>Đã trả lời</span></li>
+                <!--<li style="border-bottom:none; margin-left:268px; margin-top:8px; _display:inline; width:73px; height:27px; line-height:27px; float:left;"><a href=""  style="color:#ffffff;"><img src="images/hd_44.gif"/>我要提问</a></li>-->
+            </ul>
+        </div>
+    </div>
+    <div style=" width:953px;overflow: hidden; background:#134584; margin:auto;margin-bottom: 10px;">
+        <img src="images/hd_48.png" class="l" style=" margin-left:20px ; margin-top:14px;margin-bottom: 14px;"/>
+
+        <p style="width:800px; float:left; line-height:25px; text-indent:2em; color:#FFF; margin-top:14px; margin-left:10px;text-align: justify;">
+            Bác sỹ chuyên khoa của phòng khám đa khoa Giải Phóng Hà Nội nhắc nhở rộng rãi với bệnh nhân: vào mùa hè cũng chính
+            là mùa thuận lợi cho việc điều trị bệnh trĩ nói chung và bệnh trực tràng hậu môn nói riêng, lúc này những
+            vết thương sau điều trị trĩ hiệu quả phục hồi tốt! Mùa hè là thời gian thích hợp để điều trị bệnh trĩ.
+        </p>
+    </div>
+</div>
+<div class="main3">
+    <div class="comm">
+        <div class="cmnr">phòng khám Giải Phóng CÓ KỸ THUẬT CHUYÊN ĐIỀU TRỊ BỆNH TRĨ <span> After the shares worries</span>
+        </div>
+        <div class="comm_zx"><a href="<?= $link_tuvan;?>">Tư vấn trực
+            tuyến</a></div>
+    </div>
+    <div class="m3sa">
+        <div class="m3sa_lf">
+            <div class="lf_a1"><a href=""><img src="images/hd_52.jpg" width="364" height="245"/></a></div>
+            <p><a href="">Chữa bệnh trĩ có đắt không?</a></p>
+        </div>
+        <div class="m3sa_rf">
+            <h3>Phương pháp điều trị bệnh trĩ hiệu quả HCPT thế hệ thứ 5</h3>
+            <span>- Định vị một cách chính xác, an toàn hiệu quả</span>
+
+            <p>
+                Phương pháp điều trị bệnh trĩ HCPT xâm lấn tối thiểu công nghệ hiện đại tiên tiến của Mỹ, là sự kết hợp
+                kinh nghiệm lâm sàng trong việc phát triển một thế hệ mới của kỹ thuật điều trị bệnh lý trực tràng hậu
+                môn, khi thực hiện thủ thuật bệnh nhân ít chảy máu, ít đau đớn. Tránh khỏi những di chứng về sau, tránh
+                tái phát.
+            </p>
+
+            <h3>3 ưu thế lớn</h3>
+
+            <p>
+                <b>Không dùng dao:</b>sử dụng phân tích siêu âm, điều trị, không cần cắt chỉ, búi trĩ tự khô teo và rụng
+                ra
+            </p>
+
+            <p>
+                <b>Không đau đớn:</b>nhập khẩu kỹ thuật xâm lấn tối thiểu không đau, thực hiện tiêm không đau, thủ thuật
+                không đau.
+            </p>
+
+            <p>
+                <b>Điều trị xong có thể ra về:</b>sau thủ thuật thực hiện chăm sóc theo tiêu chuẩn cấp 3, hiệu quả phục
+                hồi tốt, bề mặt hậu môn bằng phẳng, không nhiễm trùng.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="main5">
+    <div class="m5s">
+        <div class="comm">
+            <div class="cmnr">Mùa hè chữa bệnh trĩ, yên tâm, an toàn, hiệu quả<span> Summer cure hemorrhoids</span>
+            </div>
+            <div class="comm_zx"><a href="<?= $link_tuvan;?>">Tư vấn
+                trực tuyến</a></div>
+        </div>
+        <div class="youshi yahei">
+            <ul>
+                <li id="ysbg1" onmouseover="this.className=&#39;hover&#39;" onmouseout="this.className=&#39;&#39;"
+                    class=""><i><a href=""><img
+                        src="images/index_yytp1.jpg" style="max-width: 524px;"></a></i><em></em>
+
+                    <p><strong style="padding-top:0;">Môi trường khám chữa bệnh ấm cúng,khám bệnh tâm trạng tốt</strong>
+                    </p>
+                </li>
+                <li id="ysbg2" onmouseover="this.className=&#39;hover&#39;" onmouseout="this.className=&#39;&#39;"
+                    class=""><i><a href=""><img
+                        src="images/index_yytp2.jpg"></a></i><em></em>
+
+                    <p style="line-height:17px"><strong> Dịch vụ chuyên nghiệp<br>khám bệnh ít áp lực</strong></p>
+                </li>
+                <li id="ysbg3" onmouseover="this.className=&#39;hover&#39;" onmouseout="this.className=&#39;&#39;"
+                    class=""><i><a href=""><img
+                        src="images/index_yytp3.jpg"></a></i><em></em>
+
+                    <p><strong>Kỹ thuật tiên tiến<br>an toàn không đau</strong></p>
+                </li>
+                <li id="ysbg4" onmouseover="this.className=&#39;hover&#39;" onmouseout="this.className=&#39;&#39;"
+                    class="">
+                    <i>
+                        <a href="">
+                            <img src="images/index_yytp4.jpg" style="height: 194px;">
+                        </a>
+                    </i>
+                    <em></em>
+
+                    <p><strong> Bác sĩ chuyên nghiệp<br>khám bệnh yên tâm hơn</strong></p>
+                </li>
+                <li class="yslist" style=" margin-left:4px;"><i><img src="images/index_yytp5.jpg"></i>
+                    <dl>
+                        <dd onmouseover="this.className='hover'" onmouseout="this.className=''" class="">
+                            <a href="#" target="_blank" title="">Trường hợp chữa khỏi bệnh</a>
+                        </dd>
+                        <dd onmouseover="this.className='hover'" onmouseout="this.className=''" class="">
+                            <a onclick="openZoosUrl();LR_HideInvite();;return false;" href="javascript:void(0)" target="_blank" title="">Hoạt động công ích của chúng tôi</a>
+                        </dd>
+                        <dd onmouseover="this.className='hover'" onmouseout="this.className=''" class="">
+                            <a href="" target="_blank" title="">Hiệu quả an toàn</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li id="ysbg5" style=" margin-left:4px;" onmouseover="this.className=&#39;hover&#39;"
+                    onmouseout="this.className=&#39;&#39;" class="">
+                    <i>
+                        <a href="">
+                            <img src="images/index_yytp6.jpg" style="height: 194px;">
+                        </a>
+                    </i><em></em>
+                    <p><strong style="padding-top:0;">Dịch vụ tiện lợi,nhanh chóng</strong><b class="right"
+                                                                                              style=" font-weight:normal;">Attentive</b>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div style="width: 100%;background: #003770;height: 30px;"></div>
+<?//= cd_footer('#003770','#01244a','#9ec7f3');?>
+</div>
+</body>
+</html>

@@ -1,0 +1,540 @@
+.coccoc-alo-phone {
+    visibility: hidden;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 200000 !important;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: visibility .5s;
+    -moz-transition: visibility .5s;
+    -o-transition: visibility .5s;
+    transition: visibility .5s;
+    margin: auto;
+}
+
+.coccoc-alo-move-cursor {
+    cursor: move
+}
+
+.coccoc-alo-phone.coccoc-alo-show {
+    visibility: visible
+}
+
+.coccoc-alo-phone.coccoc-alo-static {
+    opacity: .6
+}
+.coccoc-alo-phone.coccoc-alo-hover, .coccoc-alo-phone:hover {
+    opacity: 1
+}
+.coccoc-alo-ph-circle {
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    border: 2px solid #bfebfc 9;
+    opacity: .1;
+    -webkit-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: coccoc-alo-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+.coccoc-alo-mobile .coccoc-alo-ph-circle {
+    width: 140px;
+    height: 140px;
+    top: 30px;
+    left: 30px
+}
+
+.coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-circle {
+    -webkit-animation: coccoc-alo-circle-anim 1.1s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-anim 1.1s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-anim 1.1s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-anim 1.1s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-anim 1.1s infinite ease-in-out !important
+}
+
+.coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-circle {
+    -webkit-animation: coccoc-alo-circle-anim 2.2s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-anim 2.2s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-anim 2.2s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-anim 2.2s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-anim 2.2s infinite ease-in-out !important
+}
+
+.coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-circle, .coccoc-alo-phone:hover .coccoc-alo-ph-circle {
+    border-color: #00aff2;
+    opacity: .5
+}
+
+.coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-circle, .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-circle {
+    border-color: #75eb50;
+    opacity: .5
+}
+
+.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-circle {
+    border-color: #00aff2;
+    opacity: .5
+}
+
+.coccoc-alo-phone.coccoc-alo-gray.coccoc-alo-hover .coccoc-alo-ph-circle, .coccoc-alo-phone.coccoc-alo-gray:hover .coccoc-alo-ph-circle {
+    border-color: #ccc;
+    opacity: .5
+}
+
+.coccoc-alo-phone.coccoc-alo-gray .coccoc-alo-ph-circle {
+    border-color: #75eb50;
+    opacity: .5
+}
+
+.coccoc-alo-ph-circle-fill {
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    opacity: .1;
+    -webkit-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-circle-fill {
+    -webkit-animation: coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-fill-anim 1.7s infinite ease-in-out !important
+}
+
+.coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-circle-fill {
+    -webkit-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-fill-anim 2.3s infinite ease-in-out !important;
+    opacity: 0 !important
+}
+
+.coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-circle-fill, .coccoc-alo-phone:hover .coccoc-alo-ph-circle-fill {
+    background-color: rgba(0, 175, 242, 0.5);
+    background-color: #00aff2;
+    opacity: .75 !important
+}
+
+.coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-circle-fill, .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-circle-fill {
+    background-color: rgba(117, 235, 80, 0.5);
+    background-color: #baf5a7;
+    opacity: .75 !important
+}
+
+.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-circle-fill {
+    background-color: rgba(0, 175, 242, 0.5);
+    background-color: #a6e3fa;
+    opacity: .75 !important
+}
+
+.coccoc-alo-phone.coccoc-alo-gray.coccoc-alo-hover .coccoc-alo-ph-circle-fill, .coccoc-alo-phone.coccoc-alo-gray:hover .coccoc-alo-ph-circle-fill {
+    background-color: rgba(204, 204, 204, 0.5);
+    background-color: #ccc;
+    opacity: .75 !important
+}
+
+.coccoc-alo-phone.coccoc-alo-gray .coccoc-alo-ph-circle-fill {
+    background-color: rgba(117, 235, 80, 0.5);
+    opacity: .75 !important
+}
+
+.coccoc-alo-ph-img-circle {
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    background: rgba(30, 30, 30, 0.1) url("../images/phone.png") no-repeat center center;
+    background-size: contain;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    opacity: .7;
+}
+
+.coccoc-alo-ph-circle-shake {
+    -webkit-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -moz-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -ms-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -o-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%
+}
+
+.coccoc-alo-phone.coccoc-alo-active .coccoc-alo-ph-img-circle {
+    -webkit-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-img-anim 1s infinite ease-in-out !important
+}
+
+.coccoc-alo-phone.coccoc-alo-static .coccoc-alo-ph-img-circle {
+    -webkit-animation: coccoc-alo-circle-img-anim 0s infinite ease-in-out !important;
+    -moz-animation: coccoc-alo-circle-img-anim 0s infinite ease-in-out !important;
+    -ms-animation: coccoc-alo-circle-img-anim 0s infinite ease-in-out !important;
+    -o-animation: coccoc-alo-circle-img-anim 0s infinite ease-in-out !important;
+    animation: coccoc-alo-circle-img-anim 0s infinite ease-in-out !important
+}
+
+.coccoc-alo-phone.coccoc-alo-hover .coccoc-alo-ph-img-circle, .coccoc-alo-phone:hover .coccoc-alo-ph-img-circle {
+    background-color: #00aff2
+}
+
+.coccoc-alo-phone.coccoc-alo-green.coccoc-alo-hover .coccoc-alo-ph-img-circle, .coccoc-alo-phone.coccoc-alo-green:hover .coccoc-alo-ph-img-circle {
+    background-color: #75eb50;
+    background-color: #75eb50
+}
+
+.coccoc-alo-phone.coccoc-alo-green .coccoc-alo-ph-img-circle {
+    background-color: #00aff2;
+    background-color: #00aff2
+}
+
+.coccoc-alo-phone.coccoc-alo-gray.coccoc-alo-hover .coccoc-alo-ph-img-circle, .coccoc-alo-phone.coccoc-alo-gray:hover .coccoc-alo-ph-img-circle {
+    background-color: #ccc
+}
+
+.coccoc-alo-phone.coccoc-alo-gray .coccoc-alo-ph-img-circle {
+    background-color: #75eb50
+}
+.coccoc-alo-phone.coccoc-alo-ph-extension.external-site .coccoc-alo-ph-img-circle {
+    opacity: 1
+}
+
+.coccoc-alo-phone.coccoc-alo-ph-extension.external-site .coccoc-alo-ph-circle-fill, .coccoc-alo-phone.coccoc-alo-ph-extension.external-site .coccoc-alo-ph-circle {
+    display: none
+}
+@-moz-keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@-webkit-keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@-o-keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@keyframes coccoc-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(.5) skew(1deg);
+        opacity: .1
+    }
+    30% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .5
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .1
+    }
+}
+
+@-moz-keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@-webkit-keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@-o-keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@keyframes coccoc-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: .2
+    }
+    100% {
+        transform: rotate(0) scale(.7) skew(1deg);
+        opacity: .2
+    }
+}
+
+@-moz-keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@-webkit-keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@-o-keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@keyframes coccoc-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+.coccoc-alo-mobile .coccoc-alo-phone.coccoc-alo-show {
+    position: fixed;
+    left: 50% !important;
+    bottom: -67px !important;
+    margin-left: -67px;
+}
+/*khainvit code*/
+.m_dksdt_wapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlOZyTXzhgAAAApJREFUCB1jYAAAAAIAAc/INeUAAAAASUVORK5CYII=);
+    top: 0;
+    left: 0;
+    z-index: 200000;
+    display: none;
+    font-size: 15px;
+}
+.m_dksdt {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.m_dksdt .m_dksdt_tit {
+    text-align: center
+}
+
+.m_dksdt .m_dksdt_main {
+    text-align: center
+}
+
+.m_dksdt_main_txt {
+    width: 80%;
+    border-bottom: 1px solid #00bed5;
+    padding: 1rem;
+    margin: auto
+}
+
+.m_dksdt_main_txt input {
+    text-align: center;
+    color: #00bed5;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.m_dksdt_main_btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.m_dksdt_main_btn_submit {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.m_dksdt_main_btn_submit:hover{
+    background: #00aff2;
+}
+.m_dksdt_muiten{
+    width: 0;
+    height: 0;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 0.8rem solid #333;
+    margin: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

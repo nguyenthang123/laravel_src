@@ -1,0 +1,399 @@
+<?php
+get_header('chuyende'); ?>
+<header id="masthead" class="site-header container" role="banner">
+		<a title="Gặp tư vấn trực tiếp 7h-22h" href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/css/diectai/images/header.png"></a>
+	</header>
+	<div class="menu">
+		<ul class="container clearfix">
+			<li><a title="<?php bloginfo('name');?>" href="<?php echo home_url();?>">Trang chủ <br> phòng khám</a></li>
+			<li><a title="<?php echo get_the_title(2);?>" href="<?php echo get_page_link(2); ?>">Giới thiệu <br> phòng khám</a></li>
+			<li><a title="<?php echo get_cat_name(30);?>" href="<?php echo get_category_link(30); ?>">Thiết bị <br> hiện đại</a></li>
+			<li><a title="<?php echo get_cat_name(29);?>" href="<?php echo get_category_link(29); ?>">Kỹ thuật <br> chuyên nghiệp</a></li>
+			<li><a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">Đăng ký <br> trực tuyến</a></li>
+			<li><a title="<?php echo get_the_title(5);?>" href="<?php echo get_page_link(5);?>">Địa chỉ <br> phòng khám</a></li>
+		</ul>
+	</div>
+	<div class="top-banner">
+		<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en"><img src="<?php echo get_template_directory_uri(); ?>/css/diectai/images/img-1.png"></a>
+	</div>
+	<div class="page-diec-tai">
+		<div class="container">
+			<div class="row title">
+				<h2 class="">Nguyên nhân và phân loại điếc tai</h2>
+			</div>
+			<div class="row nguyen-nhan">
+				<p class="description">
+					Điếc tai là khả năng truyền âm, cảm âm trong hệ thống thính giác và thần kinh khứu giác trong đường dẫn thính giác phát bệnh, dẫn đến rối loạn chức năng thính giác, suy giảm thính lực ở nhiều mức độ khác nhau, gọi chung là điếc tai. Dựa vào các mức độ suy giảm thính lực khác nhau mà được gọi là: nặng tai, rối loạn chức năng thính lực, thính lực giảm, thính lực kém...
+				</p>
+			</div>
+			<div class="row phan-loai bg1">
+				<div class="clearfix row1">
+					<div class="left w5 col1">
+						<h3>Điếc dẫn truyền</h3>
+						<p><span class="color1">Bẩm sinh:</span> tai ngoài, dị dạng tai giữa: thần kinh tiền đình, thần kinh ốc tai, xương tai, màng nhĩ phát triển không toàn diện.</p>
+						<p><span class="color1">Hậu phát: </span> ống tai ngoài bị tắc nghẽn: tắc nghẽn ráy tai, dị vật, u nhọt, viêm tai giữa…..</p>
+					</div>
+					<div class="left w5 col2">
+						<h3>Điếc hỗn hợp</h3>
+						<p><span class="color1">Điếc tai do cảm âm kết hợp truyền đến: </span>
+							kết cấu truyền âm và cảm âm đồng thời phát bệnh, viêm tai giữa chảy mủ mãn tính trong thời gian dài</p>
+
+					</div>
+				</div>
+				<h3 class="row2">Điếc tai thần kinh cảm ứng</h3>
+				<div class="clearfix row3">
+					<div class="left w5 col1">
+						<p class="txt1"><span class="color1">Bẩm sinh:</span>
+							do dây thần kinh thính giác trong tai phát triển không đầy đủ gây 
+							ra hoặc trong thời kỳ mang thai bị nhiễm vi rút hoặc dùng các thuốc có hại 
+							cho tai gây ra.
+						</p>
+						<p class="txt2"><span class="color1">Điếc do bệnh truyền nhiễm :</span>
+							các bệnh truyền nhiễm cấp tính, nhiễm vi rút
+ 							hoặc vi khuẩn; điếc tai do ngộ độc thuốc.
+						</p>
+						<p class="txt3"><span class="color1">Điếc tai ở người già :</span>
+							phần nhiều là do xơ cứng mạch máu, máu không 
+							được cung cấp đủ, phát sinh các bệnh thoái hóa dẫn đến suy giảm thính
+							 lực.
+						</p>
+					</div>
+					<div class="left w5 col2">
+						<p class="txt1"><span class="color1">Điếc do tiếng ồn : </span>
+							chịu kích thích của tiếng ồn trong thòi gian dài dẫn đến ù tai, 
+							suy giảm thính lực cao tần  
+						</p>
+						<p class="txt2"><span class="color1">Bệnh Meniere : </span>
+							Bệnh tai trong hydrops Endolymphatic , kèm theo các chứng 
+							bệnh chóng mặt, điếc tai, ù tai
+						</p>
+						<p class="txt3"><span class="color1">Điếc đột ngột :</span>
+							nguyên nhân gây bệnh thường gặp là do rối loạn vi tuần hoàn 
+							tai trong cấp tính và viêm nhiễm vi rút. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tuvan row tuvan1">
+					<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">>>> Click tư vấn để biết thêm chi tiết <<<</a>
+				</div>
+			</div>
+		</div>	
+		<div class="hinh-anh-may-do">
+			<div class="container">
+				<h3 class="row1">3 loại điếc tai khác nhau  hình kết quả máy đo thính lực</h3>
+			</div>
+			<div class="container">
+				<div class="row row2 bg1">
+					<div class="left w3 col1">
+						<p class="txt1">Điếc dẫn truyền </p>
+						<p class="txt2 color2">hình kết quả máy đo thính lực</p>
+					</div>
+					<div class="left w3 col2">
+						<p class="txt1">Điếc thần kinh cảm âm </p>
+						<p class="txt2 color2">hình kết quả máy đo thính lực</p>
+					</div>
+					<div class="left w3 col3">
+						<p class="txt1">Điếc hỗn hợp</p>
+						<p class="txt2 color2">hình ảnh kết quả  máy đo thính lực</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="muc-do-nghiem-trong">
+			<div class="container">
+				<h3 class="row1">Phân loại mức độ nghiêm trọng của điếc tai</h3>
+			</div>
+			<div class="row2">
+				<div class="container">
+					<p class="txt1">Thính lực bình thường ( bình quân đạt 
+						ngưỡng 10~25 dB)</p>
+					<p class="txt2">
+						Điếc hoàn toàn ( bình quân đạt ngưỡng 
+						>91 dB)
+						Không nghe thấy những âm thanh hô 
+						hào ở bên tai
+					</p>
+					<p class="txt3">
+						Điếc nhẹ (bình quân đạt ngưỡng 20~40 dB)
+						Trong môi trường yên tĩnh, ở cự ly gần có thể nghe được những lời nói, nhưng khi nghe tiếng nói nhỏ sẽ cảm thấy khó khăn.
+					</p>
+					<p class="txt4">
+						Điếc nặng (bình quân đạt ngưỡng 71~91 dB)
+						La hét to ở bên tai mới có thể nghe thấy
+					</p>	
+					<p class="txt5">
+						Điếc trung bình (bình quân đạt ngưỡng 41~55 dB)
+						Khó khăn khi nghe âm thanh ở khoảng cách gần, 
+						khi ở trường ồn ào thì thường sẽ rất khó khăn khi 
+						nói chuyện. 
+					</p>	
+					<p class="txt6">
+						Điếc nặng trung bình (bình quân đạt ngưỡng 
+						56~70 dB)
+						Nghe âm thanh ở khoảng cách gần có chút khó 
+						khăn, chỉ nghe được ở khoảng cách có âm thanh 
+						gần hoặc những âm thanh cực lớn.
+					</p>							
+				</div>
+			</div>
+		</div>
+		<div class="kiem-tra-diec-tai bg1">
+			<div class="container">
+				<div class="row title title2">
+					<h2 class="">Kiểm tra điếc tai</h2>
+				</div>
+			</div>
+		</div>
+		<div class="kiem-tra-diec-tai bg2">
+			<div class="container">
+				<div class="row">
+					<div class="left w3 col1">
+						<h3>Kiểm tra nội soi tai</h3>
+						<p>Kiểm tra tình trạng bệnh trong tai, có thể nhìn 
+							rõ được khu vực nhỏ hẹp mà mắt thường không 
+							nhìn thấy được</p>
+					</div>
+					<div class="left w3 col2">
+						<h3>Trở kháng âm, máy đo thính lực</h3>
+						<p>Kiểm tra mức độ tổn thương
+							thính lực và vị trí bị bệnh </p>
+					</div>
+					<div class="left w3 col3">
+						<h3>Bàn máy Tai Mũi họng</h3>
+						<p>Phán đoán màng nhĩ tai có bị các triệu chứng
+							co rút, xơ cứng, viêm tai giữa hay không</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tuvan row tuvan1">
+					<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">>>> Click tư vấn để biết thêm chi tiết <<<</a>
+				</div>
+			</div>
+		</div>
+		<div class="dieu-tri-diec-tai bg1">
+			<div class="container">
+				<div class="row title title3">
+					<h2 class="">Điều trị điếc tai</h2>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row2">
+					<div class="left w3 col1">
+						<h3>Điều trị điếc dẫn truyền</h3>
+						<p class="txt1">
+							1. Đối với tai giữa, tai ngoại bị dị tật tự nhiên, viêm 
+							tai giữa chảy mủ, tai ngoài bị tổn thương dẫn đến 
+							điếc dẫn truyền, thường được điều trị bằng thủ thuật 
+							là chủ yếu.</p>
+						<p class="txt2">
+							2.Điếc dẫn truyền cho rối loạn chức năng vòi tai, 
+							điều trị chủ yếu bằng thuốc, thông qua các thuốc 
+							kích thích và thuốc kháng histamine làm giảm chất 
+							dịch bị rỉ ra, khiến cho thính lực phục hồi nhanh 
+							chóng.</p>
+						<p class="txt3">
+							<span style="padding-left: 15px;">3.</span>Những bệnh nhân không thể tiếp nhận điều trị 
+							<br><span style="padding-left:10px;">bằng</span> thủ thuật hoặc điều trị bằng thủ thuật <br>nhưng
+							 không có tác dụng có thể đeo<br> máy trợ thính.
+						</p>
+					</div>
+					<div class="left w3 col2">
+						<h3>Điều trị điếc hỗn hợp</h3>
+						<p class="txt1">
+							1. Điếc hỗn hợp viêm tai giữa không chảy mủ, <br>
+							đầu tiên phải điều trị viêm tai giữa trước. </p>
+						<p class="txt2">
+							2. Điếc hỗn hợp viêm tai giữa chảy mủ, dựa vào 
+							tình trạng bệnh viêm tai gữa khác nhau mà áp 
+							dụng điều trị chủ yếu bằng phương pháp sửa 
+							chữa, khôi phục màng nhĩ hoặc làm thủ thuật tái 
+							tạo chuỗi xương tai. </p>
+						<p class="txt3">
+							3.Điếc hỗn hợp, thủng màng nhĩ do chấn thương <br>
+							ngoài, điều trị đồng thời phục hồi màng nhĩ kết <br>
+							hợp điều trị điếc do thần kinh.
+						</p>
+					</div>
+					<div class="left w3 col3">
+						<h3>Điều trị điếc tiếp nhận</h3>
+						<p class="txt1">
+							Những bệnh nhân bị bệnh cấp tính nên điều trị 
+							<br>sớm và tích cực, ví dụ có thể dùng các thuốc
+							kích thích, cải thiện vi tuần hoàn tai, các thuốc 
+							dinh dưỡng thần kinh….</p><p> Những bệnh nhân bị 
+							bệnh mãn tính thì có các <br>phương pháp điều trị 
+							hiệu quả như: máy trợ <br>thính, cấy ghép ốc tai 
+							nhân tạo...</p>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tuvan">
+					<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">>>> Click tư vấn phương pháp điều trị nào thích hợp với tôi <<<</a>
+				</div>
+			</div>
+		</div>
+		<div class="net-doc-dao-trong-phuong-phap">
+			<div class="bg1">
+				<div class="container">
+					<div class="row title title3">
+						<h2 class="color1">Nét độc đáo trong phương pháp điều trị điếc tai</h2>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<h3 class="">Chẩn đoán chính xác: điếc tai, tìm ra nguyên nhân gây bệnh, 
+						phân loại rõ ràng là việc rất quan trọng. </h3>
+						<p>Bác sĩ tận tâm hỏi đáp: sau 30 phút nói chuyện,các bác sĩ có thể đưa 
+						ra chẩn đoán chính xác, bất kỳ vấn đề nào mà bệnh nhân đưa ra đều 
+						được các bác sĩ giải đáp tận tình, chi tiết. 
+
+						</p>
+						<p>
+							Kiểm tra tai chuyên nghiệp: Phòn khám đa khoa Nhân Ái Hà nội có các
+							trang thiết bị kiểm tra điếc tai tiên tiến, toàn diện.Ví dụ như kính nội soi tai.
+							kiểm tra chính xác, tiên tiến, chuyên nghiệp
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="bg2">
+				<div class="container">
+					<div class="row">
+						<h3 class="color1">Điều trị không xâm lấn + vật lý trị liệu: nhiều năm kinh nghiệm thực hành lâm sàng, hiệu quả cao hơn.</h3>
+						<p>
+							Nguyên nhân gây ra điếc tai đều là các bệnh liên quan đến tai, cũng có thể là do các bệnh 
+							hữu cơ không liên quan đặc biệt là cá bệnh nhân trung tuổi và người già. Điều trị bằng 
+							thuốc tây đơn thuần, chỉ có thể làm giảm nhẹ triệu chứng bệnh mà thôi. Phòng khám Đa 
+							khao 168 Hà Nội có nhiều năm kinh nghiệm chữa trị bệnh lâm sàng, áp dụng điều trị kết 
+							hợp không xâm lấn tối thiểu + vật lý trị liệu,điều trị hiệu quả điếc tai. Phương pháp điều trị 
+							vật lý: khai thông kinh lạc, điều tiết cân bằng, cải thiện vi tuần hoàn của tai, thúc đẩy cải 
+							thiện và phục hồi các chức năng. Điều trị không xâm lấn : điều trị điếc tai bằng phương 
+							pháp không xâm lấn, trực tiếp tác động đến vùng bị bệnh, hiệu quả càng cao.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg3">
+				<div class="container">
+					<div class="row">
+						<h3 class="">Theo dõi lâu dài: bác sĩ và bệnh nhân phối hợp với nhau, nâng cao hiệu quả điều trị</h3>
+						<p>
+							Điếc tai là một bệnh chứng lâm sàng tương đối phức tạp, không có bất kỳ một loại “ thần dược ” nào có thể điều trị bệnh này mà cho thấy hiệu quả ngay được, có một số bệnh nhân muốn điều trị nhanh chóng  tận gốc bệnh nhưng thường là "giục tốc bất đạt", vì vậy trong quá trình điều trị cần bệnh phân phối hợp tích cực. phòng khám đa khoa Giải Phóng Hà Nội xây dựng cho mỗi một bệnh nhân điếc tai một phác đồ điều trị và hồi phục khác nhau, kiên trì tái khám và nghe theo sự chỉ dẫn của các bác sĩ điều trị, củng cố hiệu quả điều trị.
+						</p>
+					</div>
+					<div class="tuvan">
+						<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">>>> Click đặt hẹn khám, được giảm 50% phí điều trị <<<</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="qa">
+			<div class="container">
+				<div class="row title nen5">
+					<h2 class="color1">Những vấn đề hỏi đáp thường gặp của điếc tai.</h2>
+				</div>
+			</div>
+			<div class="container list-cau-hoi">
+				<div class="clearfix">
+					<div class="left">
+						<div class="bg1 clearfix">
+							<p class="txt1 question">Q</p>
+							<p class="txt2"><span>Điếc tai có những tác hại nào?</span></p>
+						</div>
+						<div>
+							<p class="txt1 answer">A</p>
+							<p class="txt2">
+								Điếc tai sẽ ảnh hưởng đến các vấn đề như thính lực, chất lượng giấc ngủ, 
+								tinh thần ( mệt mỏi, lo lắng, phiền muộn...) hiệu suất công việc, cuộc 
+								sống gia đình, các hoạt động xã hội…. vì thế nên điều trị điếc tai càng 
+								sớm càng tốt.
+							</p>
+						</div>
+					</div>
+					<div class="left mar">
+						<div class="bg1 clearfix">
+							<p class="txt1 question">Q</p>
+							<p class="txt2"><span>Điều trị điếc tai hết bao nhiêu tiền?</span></p>
+						</div>
+						<div>
+							<p class="txt1 answer">A</p>
+							<p class="txt2">
+								phòng khám đa khoa Giải Phóng Hà Nội là một trong những phòng khám có
+								quy mô lớn tại Việt Nam, luôn vì lợi ích của bệnh nhân, thường xuyên 
+								có các hoạt động ưu đãi, các hình thức ưu đãi cũng vô cùng lớn, giúp 
+								bệnh nhân có thể vừa tiết kiệm chi phí lại có thể điều trị tốt bệnh. Ngoài 
+								ra phòng khám đa khoa Giải Phóng Hà Nội là phòng khám chính quy, chi phí
+								về thuốc đặc biệt là chi phí về điều trị luôn tuân thủ nghiêm túc theo các 
+								quy định về giá được chỉ định của sở y tế Hà Nội.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix">
+					<div class="left">
+						<div class="bg1 clearfix">
+							<p class="txt1 question">Q</p>
+							<p class="txt2"><span>Làm thế nào để phòng tránh điếc tai?</span></p>
+						</div>
+						<div>
+							<p class="txt1 answer">A</p>
+							<p class="txt2">
+								Phòng ngừa nhiễm trùng tai trong là vô cùng quan trọng, không nên 
+								thường xuyên dùng tay hoặc các vật dụng khác để ngoáy lỗ tai; khi 
+								đi bơi hoặc đi tắm cần tránh cho nước bẩn chảy vào trong tai… Ngoài 
+								ra có một số chứng viêm khác của mũi cũng sẽ có liên quan đến tai 
+								giữa vì thế sau khi mũi xuất hiện các triệu chứng viêm thì nên tích cực 
+								điều trị.
+							</p>
+						</div>
+					</div>
+					<div class="left mar">
+						<div class="bg1 clearfix">
+							<p class="txt1 question">Q</p>
+							<p class="txt2"><span>Lựa chọn phòng khám nào để khám điếc tai?</span></p>
+						</div>
+						<div>
+							<p class="txt1 answer">A</p>
+							<p class="txt2">
+								Điếc tai cần được khám ở khoa tai mũi họng, mà ở các bệnh 
+								viện đa khoa, khoa tai mũi họng không phải là khoa được tập 
+								trung phát triển, vì vậy ưu thế điều trị ù tai ở những bệnh viện 
+								đó là không rõ rệt. phòng khám đa khoa Giải Phóng Hà Nội là phòng
+								khám lớn nhất ở Hà Nội, phát triển trọng điểm khoa tai mũi 
+								họng, nhập khẩu các thiết bị quốc tế tiên tiến vào Việt Nam. 
+								Điều trị chuyên nghiệp, hiệu quả điều trị  Điếc tai cao. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tuvan">
+					<a title="Gặp tư vấn trực tiếp 7h-22h" href="http://swt.pk709.com/LR/Chatpre.aspx?id=KTF27288478&lng=en">>>> Tư vấn trực tuyến những vấn đề khác <<<</a>
+				</div>
+			</div>
+		</div>
+		<div class="cuoi-cung">
+			<div class="container">
+				<div class="row">
+					<p class="txt1">Cuối cùng, thêm một sự nhắc nhở: </p>
+					<p class="txt2">
+						<span>Lời khuyên:</span>  Bất luận người bệnh có triệu chứng gì, bệnh tình nặng hay nhẹ, Phòng khám 168 khuyên rằng: Nên kịp thời đến bệnh viện để được khám và 
+						điều trị, tìm ra nguyên nhân chính xác gây bệnh, sau đó áp dụng việc điều trị, không mù quáng uống thuốc, mù quáng điều trị . Ngoài ra cũng khuyến cáo 
+						bệnh nhân: Một khi có bệnh thì không nên đi khám lung tung, đến những phòng khám nhỏ, gây nên việc trì hoãn bệnh, trì hoãn thời gian điều trị tốt nhất, 
+						thậm chí còn làm bệnh tình thêm trầm trọng. 
+					</p>
+					<p class="txt3">Phòng khám 168 kính chúc cho mọi người luôn có sức khỏe tốt .</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<?php
+get_footer('chuyende');
+?>

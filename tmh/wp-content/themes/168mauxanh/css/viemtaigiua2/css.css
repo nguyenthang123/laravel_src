@@ -1,0 +1,348 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+.description{
+	color: #333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: middle;
+}
+.pos-rel{
+	position: relative;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.flex{
+	display: flex;
+}
+.site-header{
+	margin-top: 20px;
+}
+.text-center{
+	text-align: center;
+}
+/*-----------------uu diem  --------------*/
+.uudiem{
+	height: 65px;
+	line-height: 65px;
+	font-size: 24px;
+	margin:0 auto;
+	text-align: center;
+}
+/*----------------tuvan-----------------------------*/
+.tuvan {
+	text-align: center;
+}
+.tuvan >a{
+	display: inline-block;
+	text-align: center;
+	background-image: url('img/2.png');
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 0px 20px;font-weight: bold;
+}
+/*-------------------------tieude--------------------*/
+
+/*---------------------menu--------------------*/
+.menu{
+	background-color: #0096aa;
+	height: 70px;
+	margin-top: 20px;
+}
+.menu .flex >div{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+	align-self: center; 
+}
+.menu .flex >div a{
+	display: block;
+	height: 70px;
+	padding: 15px;line-height: 20px;
+	background-image: url('img/0.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+.menu .flex >div a:hover{
+	background-color: #ff6600;
+	text-decoration: none;
+}
+/*----------------nen1-------------------*/
+.nen1{
+	background-color: #ebebeb;
+	padding-top: 60px;padding-bottom: 35px;
+}
+.nen1 .flex1{
+	justify-content: space-between;
+}
+.nen1 .flex1 .col1{
+	background-image: url('img/nen11.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 222px;width: 477px;
+	padding-left: 182px;
+}
+.nen1 .flex1 .col2{
+	background-image: url('img/nen12.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 222px;width: 477px;padding-left: 182px;
+}
+.nen1 .flex1 >div>h3{
+	margin-top: 28px;
+	color: #333;
+	line-height: 22px;font-size: 16px;
+}
+.nen1 .flex1 >div>h3 span{
+	color: #00789b;
+}
+.nen1 .flex1 >div>ul{
+	padding-left: 20px;
+	margin:0px;
+	list-style: none
+}
+.nen1 .flex1 >div>ul>li{
+	margin-bottom: 5px;
+}
+.nen1 .flex1 >div>ul>li>img{
+	vertical-align: 3px;
+	padding-right: 10px;
+}
+.nen1 .flex1 .col2 p{
+	padding-right: 15px;
+	margin-top:-10px;
+}
+/*----------------nen2--------------*/
+.nen2 h2{
+	margin:40px auto 20px auto;
+	width: 876px;
+	background-position: bottom;
+	height: 55px;
+	background-image: url('img/nen21.png');
+	text-align: center;font-size: 30px;font-weight: normal;
+	background-repeat: no-repeat;
+}
+.nen2 >div>div:nth-child(2){
+	margin-top: 65px;
+}
+.nen2 h2:nth-child(4){
+	background-image: url('img/nen23.png');width: 934px;
+}
+.nen2 div.flex1{
+	justify-content: space-between;
+	margin-top: 55px;
+}
+.nen2 div.flex1 >div.col1{
+	flex-basis: 496px;
+}
+.nen2 div.flex1 >div.col2{
+	flex-basis: 456px;
+}
+.nen2 div.flex1 >div.col2 >p{
+	margin-top: 0px;
+	height: 45px;line-height: 45px;font-size: 16px;color: #fff;
+	text-align: center;background-color: #43b8ed;
+} 
+.nen2 div.flex1 >div.col2 p a{
+	color: #ff0000;
+}
+.nen2 div.flex1 >div.col2 >div{
+	margin-top: 30px;
+}
+/*------------------nen3----------------------*/
+.nen3{
+	background-color: #eaf4ff;
+	padding-top: 32px;margin-top: 40px;padding-bottom: 60px;
+}
+.nen3 h2{
+	display: inline-block;
+	border: 1px dashed #000;
+	height: 68px;
+	line-height: 68px;
+	padding:0px 20px;
+	font-size: 30px;
+	font-weight: normal;
+	margin:auto;
+}
+.nen3 h2 span{
+	color: #de0304;
+}
+.nen3 .flex1,.nen3 .flex2{
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.nen3 .flex1 >div,.nen3 .flex2 >div{
+	flex-basis: 486px;
+}
+/*-------------------nen4-----------------------*/
+.nen4{
+	padding-top: 50px;
+}
+.nen4 h2{
+	display: inline-block;
+	border: 1px dashed #000;
+	height: 68px;
+	line-height: 68px;
+	padding:0px 20px;
+	font-size: 30px;
+	font-weight: normal;
+	margin:auto;
+}
+.nen4 h2 span{
+	color: #de0304;
+}
+.nen4 .flex1{
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.nen4 .flex1 .col1{
+	flex-basis: 500px;
+}
+.nen4 .flex1 .col1 h3{
+	font-weight: normal;
+	color: #fff;
+	display: block;
+	background-image: url('img/nen41.png');
+	height:40px;line-height: 40px;width: 201px;
+	background-repeat: no-repeat; text-align: center;margin-top: 0px;
+}
+.nen4 .flex1 .col1 p{
+	margin-top: -5px;
+}
+.nen4 .flex1 .col1 p.bg{
+	color: #fff;
+	display: inline-block;
+	padding:5px 10px;
+	background-color: #009695;
+}
+.nen4 .flex2{
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.nen4 .flex2 .col2{
+	flex-basis: 500px;
+	text-align: right;
+	padding-top:30px;
+}
+.nen4 .flex2 .col2 h3{
+	font-weight: normal;
+	color: #fff;
+	display: inline-block;
+	background-image: url('img/nen42.png');
+	height:40px;line-height: 40px;width: 252px;
+	background-repeat: no-repeat; text-align: center;margin-top: 0px;
+}
+.nen4 .flex2 .col2 p{
+	margin-top: -5px;
+}
+.nen4 .flex2 .col2 p.bg{
+	color: #fff;
+	display: inline-block;
+	padding:5px 10px;
+	background-color: #009695;
+}
+/*-------------------nen5-------------------*/
+.nen5{
+	padding-top: 90px;
+	padding-bottom: 65px;
+}
+.nen5 h2{
+	display: inline-block;
+	border: 1px dashed #000;
+	height: 68px;
+	line-height: 68px;
+	padding:0px 20px;
+	font-size: 30px;
+	font-weight: normal;
+	margin:auto;
+}
+.nen5 h2 span{
+	color: #de0304;
+}
+.nen5 p
+{
+	margin-top: 40px;
+}
+/*------------------nen6-------------------*/
+.nen6{
+	padding-top: 75px;
+	padding-bottom: 55px;
+	background-color: #d5d5d7;
+}
+.nen6 h2{
+	display: inline-block;
+	border: 1px dashed #000;
+	height: 68px;
+	line-height: 68px;
+	padding:0px 20px;
+	font-size: 30px;
+	font-weight: normal;
+	margin:auto;
+}
+.nen6 h2 span{
+	color: #de0304;
+}
+.nen6 .bg{
+	margin-top: 50px;
+	background-image: url('img/nen61.png');
+	background-repeat: no-repeat;
+	height: 757px;
+	background-position: center;
+}
+.nen6 .col1{
+	margin-left: 433px;
+	width: 445px;
+	height: 265px;
+	padding-top: 50px;
+}
+.nen6 .col2{
+	margin-left: 30px;
+	width: 470px;
+	height: 229px;
+	padding-top: 30px;
+}
+.nen6 .col3{
+	width: 445px;
+	margin-left:433px; 
+	padding-top: 50px;
+}
+/*----------nen7--------*/
+/*------------------------*/
+.flex8{
+	justify-content: space-between;
+	margin-top: 70px;
+	position: relative;
+	z-index: 1;
+}
+.maunau{
+	background-color: #f6f6f6;
+	position: relative;
+	z-index: 0;
+	top: -92px;
+	height: 158px;
+}
+/*----------------------------*/
+a:hover{
+	text-decoration: underline;
+}
+body .site-footer{
+	margin-top: -92px;
+}

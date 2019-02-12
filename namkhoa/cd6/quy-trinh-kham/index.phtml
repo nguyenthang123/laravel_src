@@ -1,0 +1,518 @@
+<?php include('../../define.php'); ?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Quy trình khám</title>
+    <meta name="keywords" content="Quy trình khám">
+    <meta name="description" content="Quy trình khám">
+    <link rel="shortcut icon" type="image/x-icon" href="/public/frontend/img/home/logo.png"/>
+    <base target="_blank">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.4/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://khamnamkhoahanoi.vn/public/frontend/js/ltMove.js"></script>
+    <script src="http://khamnamkhoahanoi.vn/public/frontend/js/custorm.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://trihanoi.com/public/frontend/home/css/global.css">
+    <link rel="stylesheet" type="text/css" href="<?= domain;?>/public/frontend/home/css/header.css">
+
+</head>
+<body>
+
+<?= Addtop();?>
+<?= popup();?>
+<!--menu-->
+<header>
+    <div class="flex flex1 justify-content-between" style="height: 65px;">
+        <div class="flex1col1">
+            <h2 class="text-container-center logo">
+                <a href="http://trihanoi.com"><img src="http://trihanoi.com/public/frontend/home/image/header-1.png" alt=""></a>
+            </h2>
+        </div>
+        <div class="flex1col2">
+            <div class="flex flex2 justify-content-between">
+                <div class="flex2col1 text-container-center"><a href="<?= link_tuvan;?>"><img src="http://trihanoi.com/public/frontend/home/image/header-2.png" alt=""></a></div>
+                <div class="flex2col1 text-container-center"><a href="<?= link_tuvan;?>"><img src="http://trihanoi.com/public/frontend/home/image/header-3.png" alt=""></a></div>
+                <div class="flex2col1 text-container-center"><a href="<?= link_diachi;?>"><img src="http://trihanoi.com/public/frontend/home/image/header-4.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="home_menu">
+    <div class="home_main_item">
+        <ul class="menu">
+            <li class="menu_lv1">
+                <a href="<?= domain;?>" style="padding: 0;">
+                    <b>
+                        <img src="http://trihanoi.com/public/frontend/home/image/ico_home.png" alt="home" style="margin-top: -8px;">
+                        Trang chủ
+                    </b>
+                </a>
+            </li>
+            <li class="menu_lv1" id="menu_lienquan">
+                <b>
+                    Liên quan phòng khám
+                    <img src="http://trihanoi.com/public/frontend/home/image/ico_muiten.png" alt="home">
+                </b>
+                <style>
+                    .home_menu .lien_quan ul{list-style: none;padding: 0 5px}
+                    .home_menu .lien_quan ul li{width: 100%;text-align: left;border-bottom: 1px solid #eee}
+                    .home_menu .lien_quan ul li:last-child{border-bottom: none;}
+                    .home_menu .lien_quan ul li:hover,.home_menu .lien_quan ul li:last-child:hover{background: #ccc}
+                    .home_menu .lien_quan ul li a{color: black;font-weight: normal;font-size: 14px;}
+                    .home_menu .lien_quan ul li a img{padding-right: 5px;float: left;}
+                    .home_menu .lien_quan ul li a span{display:block;padding-top: 5px;}
+                </style>
+                <div class="lien_quan menu_content menu_lienquan_content" style="width: 20%;position: absolute;">
+                    <ul>
+                        <li><a href="<?= link_gioithieu;?>"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_gt.png" alt="gioi thieu"><span>Giới thiệu phòng khám</span></a></li>
+                        <li><a href="<?= link_quytrinhphongkham;?>"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_qtk.png" alt="quy trình khám">Quy trình khám</a></li>
+                        <li><a href="<?= link_kythuat;?>" style="letter-spacing: -1px;"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_kt.png" alt="Kỹ thuật">Kỹ thuật chuyên nghiệp</a></li>
+                        <li><a href="<?= link_thietbi;?>"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_tb.png" alt="Kỹ thuật">Thiết bị hiện đại</a></li>
+                        <li><a href="<?= link_tuvan;?>"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_tvb.png" alt="Kỹ thuật">Tư vấn bệnh</a></li>
+                        <li><a href="<?= link_diachi;?>"><img src="http://trihanoi.com/public/frontend/home/image/menu/ico_pk_dc.png" alt="Địa chỉ">Địa chỉ phòng khám</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="menu_lv1" id="menu_hangmuc">
+                <b>
+                    Hạng mục điều trị
+                    <img src="http://trihanoi.com/public/frontend/home/image/ico_muiten.png" alt="home">
+                </b>
+                <div class="menu_content menu_hangmuc_content" style="margin-left: -40%">
+                    <ul class="menu_content_hangmuc">
+                        <li>
+                            <ul>
+                                <li><a href=/"<?= cat_rewrite_yeusinhly;?>">Yếu sinh lý</a> </li>
+                                <li><a href="/xuat-tinh-som">Xuất tinh sớm</a> </li>
+                                <li><a href="/liet-duong">Liệt dương</a> </li>
+                                <li><a href="/roi-loan-cuong-duong">Rối loạn cương dương</a> </li>
+                                <li><a href="/suy-giam-ham-muon">Suy giảm ham muốn</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/<?= cat_rewrite_chinhhinh;?>">Chỉnh hình cơ quan sinh dục</a> </li>
+                                <li><a href="/dai-bao-quy-dau">Dài bao quy đầu</a> </li>
+                                <li><a href="/hep-bao-quy-dau">Hẹp bao quy đầu</a> </li>
+                                <li><a href="/keo-dai-lam-to-duong-vat">Kéo dài - Làm to dương vật</a> </li>
+                                <li><a href="/cat-bao-quy-dau">Cắt bao quy đầu</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/<?= cat_rewrite_tienliettuyen;?>">Bệnh tiền liệt tuyến </a> </li>
+                                <li><a href="/viem-tien-liet-tuyen">Viêm tiền liệt tuyến</a> </li>
+                                <li><a href="/dau-tien-liet-tuyen">Đau tiền liệt tuyến</a> </li>
+                                <li><a href="/viem-tien-liet-tuyen-cap-tinh">Viêm tiền liệt tuyến cấp tính</a> </li>
+                                <li><a href="/viem-tien-liet-tuyen-man-tinh">Viêm tiền liệt tuyến man tính</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="/<?= cat_rewrite_nhiemtrung;?>">Nhiễm trùng đường tiết niệu</a> </li>
+                                <li><a href="/viem-quy-dau">Viêm quy đầu</a> </li>
+                                <li><a href="/viem-lieu-dao">Viêm niệu đạo</a> </li>
+                                <li><a href="/viem-tinh-hoan">Viêm tinh hoàn</a> </li>
+                                <li><a href="/viem-bang-quang">Viêm bàng quang</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dangky_lv1 menu_lv1" id="menu_dangky">
+                <b>
+                    <div class="clickdangky">
+                        Đăng ký hẹn khám
+                        <img src="http://trihanoi.com/public/frontend/home/image/ico_muiten.png" alt="home">
+                    </div>
+                </b>
+                <div class="menu_content menu_dangky_content" style="margin-left: -60%; display: none;">
+                    <div class="menu_content_dangkykham">
+                        <div class="menu_content_dangkykham_tit">
+                            <p>Chào mừng bạn đến với hệ thống đăng ký khám qua mạng của phòng khám đa khoa Giải Phóng Hà Nội</p>
+                            <div id="div_menu_dangky_close" style="width: 27px;top: 10px;z-index: 99;float: right;position: absolute;right: 20px;">
+                                <img src="http://trihanoi.com/public/frontend/home/image/menu/ico_dangky_close.png" height="27px;width:27px;">
+                            </div>
+                        </div>
+                        <script>
+                            $(document).ready(function(){
+                                $("#div_menu_dangky_close").click(function(){
+                                    $(".menu_dangky_content").css("display","none");
+                                })
+                            })
+                            $(document).ready(function(){
+                                $(".clickdangky").click(function(){
+                                    $(".menu_dangky_content").toggle();
+                                });
+                            })
+                        </script>
+                        <ul class="menu_content_dangkykham_info">
+                            <li class="dangkytructuyen">
+                                <div class="dangkykham_info_tit">
+                                    <img src="http://trihanoi.com/public/frontend/home/image/menu/ico_dk.png" alt="dang ky">Đăng ký trực tuyến
+                                </div>
+                                <div class="dangkykham_info_c">
+                                    <p><a href="&lt;?= link_tuvan;?&gt;">Click đăng ký</a> </p><br>
+                                    <p>Thời gian tiếp nhận bệnh nhân:<br></p>
+                                    <p>
+                                        <i>Mùa Hè</i> : <b>7h30 - 20h:00</b>
+                                    </p>
+                                    <p>
+                                        <i>Mùa Đông</i> : <b>08h:00 - 20h:00</b>
+                                    </p>
+                                    <div class="dangkykham_info_c_knn">
+                                        Cả ngày lễ và chủ nhật
+                                    </div>
+                                </div>
+                                <div class="dangkykham_info_des">
+                                    <p>liên hệ trực tuyến với các bác sỹ, lựa chọn hạng mục chẩn trị, thời gian và thông tin cá nhân để đăng ký thành công</p>
+                                </div>
+                            </li>
+                            <li class="dangkydienthoai">
+                                <div class="dangkykham_info_tit">
+                                    <img src="http://trihanoi.com/public/frontend/home/image/menu/ico_dt.png" alt="dien thoai">Đăng ký bằng điện thoại
+                                </div>
+                                <div class="dangkykham_info_c">
+                                    <p>Số điện thoại</p>
+                                    <p><b>0432.969.666</b></p>
+                                    <p><b>0166.352.8899</b></p>
+                                    <p><b></b></p>
+                                </div>
+                                <div class="dangkykham_info_des">
+                                    <p>chỉ cần gọi điện là có thể hẹn khám các khoa</p>
+                                </div>
+                            </li>
+                            <li class="dangky">
+                                <div class="dangkykham_info_tit">
+                                    <img src="http://trihanoi.com/public/frontend/home/image/menu/ico_email.png" alt="dien thoai">Đăng ký Email
+                                </div>
+                                <div class="dangkykham_info_c">
+                                    <form name="frmdangky" id="frmdangky" method="post" target="_self">
+                                        <div class="row">
+                                            <div class="col-sm-4">Họ tên</div>
+                                            <div class="col-sm-8"><input type="text" name="hoten"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">Điện thoại</div>
+                                            <div class="col-sm-8"><input type="text" name="dienthoai"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">Khoa khám</div>
+                                            <div class="col-sm-8">
+                                                <select name="khoakham">
+                                                    <option value="Nam khoa">Nam khoa</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4">Thời gian</div>
+                                            <div class="col-sm-8"><input type="text" id="thoigian" class="hasDatepicker"></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4"></div>
+                                            <div class="col-sm-8"><button name="dangky" id="dangky">Đăng Ký</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="dangkykham_info_des">
+                                    <p>sau khi điền đầy đủ thông tin, nhân viên sẽ gọi điện lại xác nhận thông tin của bạn</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="input-group">
+                    <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button" id="search" style="width: 50px;">Go!</button>
+                            </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(function (){
+        $("#thoi_giandk").datepicker({dateFormat: "yy-mm-dd"});
+    });
+    blink('blink');
+    $(document).ready(function (e) {
+        $("#dangky").on("click", function (e) {
+            e.preventDefault();
+            var hoten = document.forms['frmdangky']['hoten'].value;
+            var dienthoai = document.forms['frmdangky']['dienthoai'].value;
+            var khoakham = document.forms['frmdangky']['khoakham'].value;
+            var thoigian = document.forms['frmdangky']['thoigian'].value;
+            var url=document.URL;
+            var link_dk="<?= link_dangkykham();?>";
+            if(hoten=="" || dienthoai==""){
+                alert('Họ tên và số điện thoại không được để trống.');
+            }else{
+                var parameter='hoten='+hoten+'&dienthoai='+dienthoai+'&khoakham='+khoakham+'&thoigian='+thoigian+'&uri='+url;
+                var link_dangky=link_dk+parameter;
+                window.location.href= link_dangky;
+                return false;
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#search").click(function(){
+            var keyword=$("#keyword").val();
+            if(keyword==""){
+                alert("Tìm kiếm không được để trống.");
+                window.location.href=("/");
+            }else{
+                window.open("/search/"+keyword,"_blank");
+                done = true;
+            }
+        })
+    })
+</script>
+
+<div class="row">
+    <div id="banners">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="bg_ban_item1" style="">
+                        <div class="ban_item">
+                           <img src="images/banner.jpg" alt="phong kham nhan ai">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#banners").hover(function () {
+            $(".carousel-control.right").css("margin-right", "7%");
+            $(".carousel-control.left").css("margin-left", "7%");
+            $(".carousel-control").css("opacity", "1");
+        }, function () {
+            $(".carousel-control.right").css("margin-right", "0%");
+            $(".carousel-control.left").css("margin-left", "0%");
+            $(".carousel-control").css("opacity", "0");
+        })
+    })
+</script>
+<link rel="stylesheet" href="css/style.css">
+<style>
+</style>
+<div class="container quy-trinh-kham">
+<div class="clear"></div>
+<div class="main_item">
+    <div class="qt1">
+        <div style="width: 305px;margin: auto">
+            <div class="item_i bg_item dong2">Tới quầy lễ tân đăng ký thông tin<br>và mã khám ưu tiên</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Làm thẻ khám bệnh</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Lựa chọn khoa khám bệnh</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Nộp phí kiểm tra xét nghiệm</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Thực hiện kiểm tra xét nghiệm</div>
+        </div>
+    </div>
+    <div class="qt2">
+        <div class="qt2_left" style="float: left;">
+            <div style="width: 305px;float: right;margin-right: 65px;">
+                <div class="bg_item qt2_1" style="line-height: 70px;margin: auto;">nằm viện điều trị</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item dong2">Đến khu phòng bệnh<br>được chỉ định điều trị</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item">Khỏi bệnh xuất viện</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item">Làm thủ tục xuất viện</div>
+            </div>
+        </div>
+        <div class="qt2_right" style="float: right;">
+            <div style="width: 305px;margin-left: 66px;">
+                <div class="bg_item qt2_1" style="padding-top: 17px;margin: auto;">Điều trị tại phòng khám<br>bác sỹ kê
+                    đơn
+                </div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Tới cửa thu phí</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Tới quầy thuốc lĩnh thuốc</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Điều trị</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">rời bệnh viện</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="main_item">
+    <div class="col-sm-12 ndcb">
+        <div class="ndcb_title">Những điều cần biết</div>
+        <div style="text-align: center">
+            <i>Xin chào bệnh nhân và người nhà bệnh nhân</i><br>
+            <i>Chào mừng bạn đến phòng khám của chúng tôi để khám chữa bệnh. Chúng tôi sẽ phục vụ tận tình cho bạn! </i>
+        </div>
+        <div style="text-align: center;margin-top: 15px;">
+            <b>Để thuận tiện cho bạn, xin chú ý những điều dưới đây: </b><br>
+            <b>Thời gian khám chữa bệnh:</b> <i>(mùa hè) 7h30 - 20h00, (mùa đông) 8h00 - 20h00</i><br>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear2" style="overflow: hidden;"></div>
+<div class="main_item quytrinh2" style="background: #e8e8e8;overflow: hidden">
+    <div class="clear"></div>
+    <div class="col-sm-12">
+        <p><b>1 - Đăng ký khám:</b> trước khi vào khám bệnh bạn phải đăng ký ở quầy Lễ tân tầng 1, xác định khoa khám,
+            lễ tân sẽ hướng dẫn bạn đăng kí.</p>
+
+        <p><i>Chú ý: những bệnh nhân hẹn khám qua mạng nhất định phải cung cấp họ tên, mã số khám và thời gian khám, chỉ
+            cần có mã số khám bạn có thể được miễn phí đăng ký khám và được hưởng các ưu đãi liên quan.</i></p>
+
+        <div class="clear"></div>
+        <p><b>2 - Khám:</b> đăng ký xong, lễ tân sẽ dẫn bạn đến khoa khám liên quan, các khoa phòng thông thường đều có
+            y tá lễ tân hướng dẫn chăm sóc, sắp xếp khám cho bạn. Các hạng mục bạn kiểm tra sẽ được tiến hành tại phòng
+            khám, nếu bác sỹ giới thiệu ra ngoài phòng khám để kiểm tra, lấy thuốc hoặc nằm viện thì bạn hãy từ chối.
+        </p>
+
+        <div class="clear"></div>
+        <p><b>3 - Tư vấn:</b> nếu bạn còn vấn đề gì thắc mắc chưa hiểu, có thể tư vấn trực tuyến qua mạng, các bác sỹ sẽ
+            giải đáp miễn phí cho bạn.</p>
+
+        <div class="clear"></div>
+        <p><b>4 - Dịch vụ:</b> thời gian bạn khám tại phòng hám, có thể được hưởng dịch vụ “một bác sỹ - một khoa - một
+            y tá”, hoàn toàn bảo mật thông tin cá nhân. Trong thời gian khám tại phòng khám nếu cần giúp đỡ hãy nói với
+            bác sỹ và nhân viên của phòng khám, chúng tôi sẽ cố gắng để đáp ứng yêu cầu của bạn; nếu bạn không hài lòng
+            với dịch vụ của phòng khám có thể phản ánh trực tiếp với bác sỹ của chúng tôi.</p>
+
+        <div class="clear"></div>
+        <p><b>5 - Đề nghị:</b> khi bạn rời khỏi phòng khám đa khoa Giải Phóng Hà Nội, hãy để lại những ý kiến đóng góp, sự hài
+            lòng của bạn là phương hướng để chúng tôi nỗ lực, toàn thể đội ngũ nhân viên phòng khám đa khoa Giải Phóng Hà Nội
+            luôn nỗ lực đáp ứng yêu cầu của người bệnh.</p>
+
+        <div class="clear"></div>
+        <p><b>6 - Đóng phí:</b> sau khi đóng phí, bạn hãy giữ lại đơn thuốc, đơn kiểm tra và các chứng từ liên quan. Để
+            tránh việc chạy đi chạy lại tầng trên tầng dưới, đặc biệt là những bệnh nhân không thuận tiện di chuyển, bạn
+            có thể gọi y tá lễ tân đóng phí giúp, đối chiếu tiền thừa và số tiền mà bạn đã nộp.</p>
+
+        <div class="clear"></div>
+        <p><b>7 - Nhắc nhở:</b> trong quá trình bạn đến khám tự bảo quản đồ, tránh mất.</p>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="<?= domain;?>/public/frontend/home/css/footer.css">
+<footer>
+    <div class="container">
+        <div class="flex flex1 justify-content-between">
+            <div class="flex1col1">
+                <h2>
+                    <a href="<?= domain;?>">
+                        <img src="http://trihanoi.com/public/frontend/home/image/logo.png" alt="" class="center-block">
+                    </a>
+                </h2>
+                <h3 class="text-uppercase text-center"><a href="">phòng khám đa khoa Giải Phóng</a></h3>
+            </div>
+            <div class="flex1col2">
+                <h4 class="text-uppercase">TRUNG TÂM</h4>
+                <ul>
+                    <li><h5 class="text-uppercase"><a href="<?= link_gioithieu;?>">Giới thiệu</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_thietbi;?>">Thiết bị</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_tuvan;?>">Trường hợp khỏi bệnh</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_tuvan;?>">Tư vấn chi phí</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_tuvan;?>">Tư vấn bệnh</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_diachi;?>">Liên hệ</a></h5></li>
+                </ul>
+            </div>
+            <div class="flex1col2">
+                <h4 class="text-uppercase">HẠNG MỤC TRỊ LIỆU</h4>
+                <ul>
+                    <li><h5 class="text-uppercase"><a href="/<?= cat_rewrite_tienliettuyen;?>">Bệnh tiền liệt tuyến</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="/<?= cat_rewrite_chinhhinh;?>">Chỉnh hình cơ quan sinh dục</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="/roi-loan-cuong-duong>">Rối loạn cương dương</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= cat_rewrite_vosinh;?>">Vô sinh</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= cat_rewrite_viemnhiem;?>">Viêm nhiễm cơ quan sinh dục</a></h5></li>
+                </ul>
+            </div>
+            <div class="flex1col2">
+                <h4 class="text-uppercase">DỊCH VỤ VÀ GIÚP ĐỠ</h4>
+                <ul>
+                    <li><h5 class="text-uppercase"><a href="<?= link_quytrinhphongkham;?>">QUY TRÌNH PHÒNG KHÁM</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_tuvan;?>">TƯ VẤN TRỰC TUYẾN</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_tuvan;?>">ĐĂNG KÝ HẸN KHÁM</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_skype;?>">SKYPE</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_facebook;?>">FACEBOOK</a></h5></li>
+                    <li><h5 class="text-uppercase"><a href="<?= link_lotrinhphongkham;?>">TUYẾN ĐƯỜNG</a></h5></li>
+                </ul>
+            </div>
+            <div class="flex1col3">
+                <p class="text-uppercase">Đường dây nóng tư vấn sức khỏe</p>
+                <div class="clearfix">
+                    <div class="pull-left">
+                        <i class="dis-inline-block"></i>
+                    </div>
+                    <div class="pull-left">
+                        <p><a href="<?= link_tuvan;?>"><strong><?= phone1;?></strong></a></p>
+                        <p><a href="<?= link_tuvan;?>"><strong><?= phone2;?></strong></a></p>
+                    </div>
+                </div>
+                <div>
+                    <p><span class="text-uppercase"><strong>Địa chỉ:</strong></span> <a href="#">709 Giải Phóng - Hoàng Mai - Hà Nội</a></p>
+                    <p><span class="text-uppercase"><strong>SỞ HỮU BẢN QUYỀN:</strong></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="flex flex2 justify-content-between">
+            <div class="flex2col1">
+                <div class="bg bg1"></div>
+                <p><a href="<?= link_tuvan;?>">Liên hệ<br>bác sĩ</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg2"></div>
+                <p><a href="<?= link_tuvan;?>">Kiểm tra<br>trước thủ thuật</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg3"></div>
+                <p><a href="<?= link_tuvan;?>">Tư cách<br>bác sỹ</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg4"></div>
+                <p><a href="<?= link_tuvan;?>">Vật tư<br>an toàn</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg5"></div>
+                <p><a href="<?= link_tuvan;?>">Thiết bị<br>an toàn</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg6"></div>
+                <p><a href="<?= link_tuvan;?>">Thủ thuật<br>an toàn</a></p>
+            </div>
+            <div class="flex2col1">
+                <div class="bg bg7"></div>
+                <p><a href="<?= link_tuvan;?>">Chăm sóc<br>sau thủ thuật</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-status text-center">
+        Sở hữu bản quyền phòng khám đa khoa Giải Phóng Hà Nội  All rights reserved, Nôi dung website này chỉ để tham khảo, không làm căn cứ để chẩn đoán điều trị. Tôn trọng ý kiến bác sĩ.
+    </div>
+</footer>
+<?= AddLeft();?>
+<?= dangkysdt();?>
+<?= line_chat();?>
+<script src="<?= domain;?>/public/frontend/js/rewrite_domain_tags.js"></script>
+</body>
+</html>

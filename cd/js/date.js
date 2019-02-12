@@ -1,0 +1,1 @@
+document.write("Thời gian áp dụng từ ngày 30.08.2016 - 30.09.2016");

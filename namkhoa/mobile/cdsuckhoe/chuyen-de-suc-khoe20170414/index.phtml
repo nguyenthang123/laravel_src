@@ -1,0 +1,358 @@
+<?php
+require_once('../../../define.php');
+$domain=domain;
+$link_gioithieu=link_mobile_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_mobile_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$ico_shortcut=ico_shortcut;
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hoạt động khuyến mại</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <?= $ico_shortcut;?>
+    <base target="_blank">
+</head>
+<body>
+<div class="container">
+    <div class="main_header">
+        <div class="col-xs-12">
+            <div class="logo_top">
+                <a href="<?= $domain;?>">
+                    <img src="images/logo_top.png" alt="logo">
+                </a>
+            </div>
+            <div class="header_right">
+                <a href="<?= $link_tuvan;?>">
+                    <img src="images/ico_dt.png" alt="dien thoai" style="max-width: 100%;max-height: 61px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="<?= $domain;?>">Home</a> </li>
+            <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a> </li>
+            <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a> </li>
+            <li><a href="<?= $link_tuvan;?>">Bác sỹ</a> </li>
+            <li><a href="<?= $link_diachi;?>">Liên hệ</a> </li>
+        </ul>
+    </div>
+    <div class="banber">
+        <img src="images/banner.jpg" alt="banner">
+    </div>
+    <div class="main_item" id="main_item1">
+        <div class="main_item_tit">
+            <div class="main_item_tit_txt">
+                Giúp bạn yên tâm khám và chữa bệnh
+            </div>
+            <div class="main_item_tit_img">
+                <img src="images/main_item1_tit.png" alt="tit">
+            </div>
+        </div>
+        <div class="main_item1_item">
+            <div class="main_item1_img">
+                <img src="images/main_item1_img1.jpg" alt="img">
+            </div>
+            <div class="main_item1_txt">
+                <div class="main_item1_txt_l">
+                    <span>Đăng ký khám</span>
+                    <p><b>Miễn phí</b></p>
+                </div>
+                <div class="main_item1_txt_r">
+                    <a href="<?= $link_tuvan;?>">
+                        <div class="main_item1_txt_r_tv">
+                            đăng ký<br><b>Click ></b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_item1_item">
+            <div class="main_item1_img">
+                <img src="images/main_item1_img2.jpg" alt="img">
+            </div>
+            <div class="main_item1_txt">
+                <div class="main_item1_txt_l">
+                    <span>Phí kiểm tra</span>
+                    <p>Giảm <b>50%</b></p>
+                </div>
+                <div class="main_item1_txt_r">
+                    <a href="<?= $link_tuvan;?>">
+                        <div class="main_item1_txt_r_tv">
+                            đăng ký<br><b>Click ></b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_item1_item">
+            <div class="main_item1_img">
+                <img src="images/main_item1_img3.jpg" alt="img">
+            </div>
+            <div class="main_item1_txt">
+                <div class="main_item1_txt_l">
+                    <span>Chi phí thủ thuật</span>
+                    <p>Giảm <b>30%</b></p>
+                </div>
+                <div class="main_item1_txt_r">
+                    <a href="<?= $link_tuvan;?>">
+                        <div class="main_item1_txt_r_tv">
+                            đăng ký<br><b>Click ></b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_item1_item">
+            <div class="main_item1_img">
+                <img src="images/main_item1_img4.jpg" alt="img">
+            </div>
+            <div class="main_item1_txt">
+                <div class="main_item1_txt_l">
+                    <span>Phí điều trị</span>
+                    <p>Giảm <b>30%</b></p>
+                </div>
+                <div class="main_item1_txt_r">
+                    <a href="<?= $link_tuvan;?>">
+                        <div class="main_item1_txt_r_tv">
+                            đăng ký<br><b>Click ></b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <div class="main_item_tv_txt">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="main_item" id="main_item2">
+        <div class="main_item_tit">
+            <div class="main_item_tit_txt">
+                Giúp bạn yên tâm khám và chữa bệnh
+            </div>
+            <div class="main_item_tit_img">
+                <img src="images/main_item2_tit.png" alt="tit">
+            </div>
+        </div>
+        <div class="main_item2_item">
+            <div class="main_item2_img">
+                <img src="images/main_item2_img1.jpg" alt="img">
+            </div>
+            <div class="main_item2_txt">
+                Chỉ kiểm tra những hạng mục phù hợp với bệnh tình của bạn, bác sỹ chuyên khoa sẽ đưa ra những hạng mục kiểm tra, tính toán chi tiết giúp bạn tiết kiệm chi phí nhất có thể. Đảm bảo cho mỗi bệnh nhân yên tâm khám chữa bệnh.
+            </div>
+        </div>
+        <div class="main_item2_item">
+            <div class="main_item2_img">
+                <img src="images/main_item2_img2.jpg" alt="img">
+            </div>
+            <div class="main_item2_txt">
+                Tất cả các mục kiểm tra đều áp dụng thiết bị kỹ thuật khoa học, độ chính xác cao đạt 99%, trong thời gian gần đây nếu đã đi kiểm tra và có kết quả thì phòng khám sẽ không cần kiểm tra lại lần 2, tuyệt đối không để cho người bệnh mất đi mất lại nhiều loại chi phí.
+            </div>
+        </div>
+        <div class="main_item2_item">
+            <div class="main_item2_img">
+                <img src="images/main_item2_img3.jpg" alt="img">
+            </div>
+            <div class="main_item2_txt">
+                Phòng khám đa khoa 168 Hà Nội sử dụng thiết bị y tế tiên tiến, kỹ thuật hiện đại giúp người bệnh yên tâm 100%, đảm bảo kiểm tra chính xác không sai sót. Đảm bảo an toàn trong thủ thuật và hiệu quả điều trị.
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <div class="main_item_tv_txt">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="main_item" id="main_item3">
+        <div class="main_item_tit">
+            <div class="main_item_tit_txt">
+                Đảm bảo hiệu quả cho mỗi ca thủ thuật và điều trị
+            </div>
+            <div class="main_item_tit_img">
+                <img src="images/main_item3_tit.png" alt="tit">
+            </div>
+        </div>
+        <div class="main_item3_main">
+            <div class="main_item3_img">
+                <img src="images/main_item3_img.jpg" alt="img">
+            </div>
+            <div class="main_item3_txt">
+                Phòng khám đa khoa 168 Hà Nội tập trung rất nhiều các y bác sỹ chuyên nghiệp, phòng khám hàng năm có rất nhiều bác sỹ chuyên nghiệp khám và điều trị, kinh nghiệm lâm sàng phong phú, kỹ thuật chuyên nghiệp, luôn làm theo khoa học quốc tế, khái niệm y tế vận dụng linh hoạt tiên tiến nhất trong thực tiễn lâm sàng.
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <div class="main_item_tv_txt">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="main_item4" id="main_item4">
+        <div class="main_item_tit">
+            <div class="main_item_tit_txt">
+                Mọi người lựa chọn 168 an toàn yên tâm hơn
+            </div>
+            <div class="main_item_tit_img">
+                <img src="images/main_item4_tit.png" alt="tit">
+            </div>
+        </div>
+        <div class="main_item4_main">
+            <ul>
+                <li>
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img1.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Khám bệnh riêng tư
+                    </div>
+                    <div class="main_item4_txt">
+                        Thiết lập quy mô khám bệnh “một bác sĩ một bệnh nhân”. Thuận tiện cho việc trao đổi giữa bác sĩ và người bệnh, nâng cao chất lượng khám chữa, đảm bảo sự riêng tư cho bệnh nhân.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn &gt;</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img2.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Phụ  trách khám đầu tiên
+                    </div>
+                    <div class="main_item4_txt">
+                        Bác sỹ phụ trách khám tiếp nhận khám bệnh bước đầu, mỗi một thủ thuật đều được chính bác sĩ thực hiện, để nâng cao chất lượng thủ thuật
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn &gt;</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img3.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Khám buổi tối
+                    </div>
+                    <div class="main_item4_txt">
+                        Thấu hiểu nỗi lo về thời gian của người bệnh, phòng khám tiếp nhận thăm khám buổi tối với chất lượng thăm khám như ban ngày.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn &gt;</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="main_item4_img">
+                        <img src="images/main_item4_img4.jpg" alt="img">
+                    </div>
+                    <div class="main_item4_tit">
+                        Y tá tận tình
+                    </div>
+                    <div class="main_item4_txt">
+                        Rút ngắn thời gian thăm khám, đồng thời nếu có bất cứ thắc mắc đều có thể nhận được sự tư vấn tận tình của đội ngũ y tá, giảm bớt áp lực tâm lý cho nữ giới.
+                    </div>
+                    <div class="main_item4_tv">
+                        <a href="<?= $link_tuvan;?>">Click tư vấn &gt;</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="main_item_tv">
+                <a href="<?= rewrite_number_phone($phone1);?>">
+                    <div class="main_item_tv_txt">
+                        <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="main_item5">
+        <div class="main_item_tit">
+            <div class="main_item_tit_txt">
+                Bảo mật quyền riêng tư cho mỗi bệnh nhân
+            </div>
+            <div class="main_item_tit_img">
+                <img src="images/main_item5_tit.png" alt="tit">
+            </div>
+        </div>
+        <div class="main_item5_main">
+            <div class="main_item5_img">
+                <img src="images/main_item5_img.png" alt="img">
+            </div>
+            <div class="main_item5_txt">
+                Phòng khám đa khoa 168 Hà Nội nâng cao quan niệm phục vụ, tạo môi trường khám chữa bệnh thoải mái cho người bệnh, tôn trọng người bệnh, tôn trọng sự riêng tư. Thực hiện khám chữa bệnh “ một bác sỹ, một người bệnh, một phòng” thể hiện sự tôn trọng, hiểu và quan tâm người bệnh.
+            </div>
+        </div>
+        <div class="main_item_tv">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <div class="main_item_tv_txt">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="main_item" id="main_item6">
+        <div class="main_item6_tit">Lựa chọn của bạn,<br>lời hứa của chúng tôi</div>
+        <img src="images/main_item6_img.jpg" alt="img">
+        <div class="main_item_tv">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <div class="main_item_tv_txt">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai"><?= $phone1;?> - <?= $phone2;?>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="main_item" id="thongtin">
+        <img src="images/thongtin.png" alt="thong tin">
+    </div>
+    <div class="main_item tuvan" style="position: fixed;bottom: 0;max-width: 600px;">
+        <div class="tuvan_item">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <img src="http://phukhoa168.com/public/mobile/imgs/tv_dt.png" alt="dien thoai">
+                <span>Điện thoại<br>Tư vấn</span>
+            </a>
+        </div>
+        <div class="tuvan_item">
+            <a href="<?= $link_tuvan;?>">
+                <img src="http://phukhoa168.com/public/mobile/imgs/tv_tv.png" alt="tu van">
+                <span>Tư vấn<br>Trực tuyến</span>
+            </a>
+        </div>
+        <div class="tuvan_item">
+            <a href="<?= $domain;?>">
+                <img src="http://phukhoa168.com/public/mobile/imgs/ico_vedautrang.png" alt="dang ky">
+                <span>Quay lại<br>Trang chủ</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        var max_height=0;
+        $('div.main_item4_txt').each(function(){
+            if($(this).height() > max_height)
+                max_height = $(this).height();
+        });
+        $("div.main_item4_txt").height(max_height);
+    })
+</script>
+</body>
+</html>

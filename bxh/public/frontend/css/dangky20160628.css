@@ -1,0 +1,83 @@
+.color_tim{
+    color: #7763ae;
+}
+.bg_div_menu_dangky{
+    background: #000000;
+    opacity: 0.8;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    z-index: 10;
+    display: none;
+    overflow: hidden;
+}
+.div_menu_dangky{
+    margin: auto;
+    width: 1000px;
+    z-index: 60;
+}
+.div_menu_dangky label{
+    text-align: center;
+    color: #ffffff;
+}
+.menudangky_kengang{
+    width: 100%;
+    border: 2px solid #ccc;
+}
+p.dm_menudangky_title{
+    color: #7763ae;
+    font-size: 18px;
+    text-align: center;
+}
+p.dm_menudangky_title img{
+    margin-top: -8px;
+    margin-right: 5px;
+}
+.menudangky_dm .col-sm-4{
+    border-left: 1px solid #ccc;
+    text-align: center;
+}
+.menudangky_dm .col-sm-4:first-of-type{
+    border-left: none;
+}
+.btn-dangky{
+    border: 1px solid #7763ae;
+    opacity: 1;
+    color: #7763ae!important;
+    text-align: center;
+    padding: 5px!important;
+    margin-left: 110px;
+}
+.menudangky_dm_ct{
+    height: 160px;
+}
+.menudangky_dm_ct p{
+    color: #ffffff;
+    font-size: 16px;
+}
+.menudangky_dm_ct b{
+    color: #ffffff;
+    font-size: 18px;
+}
+.menudangky_dm_luuy{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: justify;
+}
+.menudangky_dm_luuy img{
+    margin-right: 0px;
+    float: left;
+}
+.menudangky_dm_ct2 b{
+    color: #6550a9;
+}
+.menudangky_dm_c3 .label3{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0;
+}
+.menudangky_dm_c3 .input9{
+    font-size: 13px;
+    margin-bottom: 4px;
+}

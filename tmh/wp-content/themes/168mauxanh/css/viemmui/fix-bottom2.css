@@ -1,0 +1,87 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.fix-bottom{
+	background-color: #424242;
+	height: 80px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	color:#eee;
+	z-index: 10;
+}
+.fix-bottom .txt{
+	padding-left:10px;
+	padding-right: 10px; 
+	margin-right: 25px;
+}
+.fix-bottom .txt h4{
+	font-size: 12pt;
+	text-transform: uppercase;
+	padding-top: 10px;
+	margin:10px auto;
+	font-weight: bold;
+}
+.fix-bottom .txt h5{
+	padding-top: 5px;
+	margin:10px auto;
+}
+.fix-bottom a{
+	display: inline-block;
+	font-size: 10pt;
+	color:#fff;
+}
+.fix-bottom a:hover{
+	text-decoration: underline!important;
+}
+.fix-bottom .font-awe{
+	display: inline-block;
+	line-height: 17pt;
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #776f6f;
+	height: 80px;
+	width: 150px;
+}
+.fix-bottom .font-awe i{
+	font-size: 26pt;
+}
+.fix-bottom .font-awe a{
+	display: inline-block;
+}
+.fix-bottom .font-awe.call-footer .number-phone a{
+	font-size: 15px;
+}
+.fix-bottom .font-awe.call-footer{
+	padding-left: 0px;
+	width: 180px;
+	border-right: 1px solid #776f6f;
+	line-height: 0px;
+	padding-top: 5px;
+}
+.fix-bottom .font-awe.call-footer i{
+	font-size: 16pt;
+}
+.fix-bottom .right a{
+	display: inline-block;
+	margin-top: 10px;
+}
+.fix-bottom .right i{
+	font-size: 18pt;
+	color: #e45f5f;
+}
+.show_fix_bottom{
+	display: inline-block;
+	position: fixed;
+	bottom: 0px;
+	z-index: 10;
+	color: #fff;
+	background-color: #078353;
+	padding: 5px 6px;
+	left: 0px;
+}

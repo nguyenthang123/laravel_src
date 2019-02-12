@@ -1,0 +1,181 @@
+.wap{
+    width: 100%;
+    height: 65px;
+    background: #38bcd1;
+    font-family: arial;
+    font-size: 13px;
+}
+#menu{
+    width: 1025px;
+    height: 65px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+#menu .menu_ul1{
+    height: 100%;
+    list-style: none;
+}
+#menu ul li.menu_ul1_li{
+    float: left;
+    border-right: 2px solid #ccc;
+    width: 134px;
+    text-align: center;
+    height: 65px;
+}
+#menu ul li.menu_ul1_li:hover{
+    background: #23a4b8;
+}
+#menu ul li.menu_ul1_li a{
+    height: 65px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+#menu ul li.menu_ul1_li a span{
+    display: block;
+    height: 65px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    padding-top: 15px;
+}
+#menu ul li.menu_ul1_li a span.men_over{
+    top: 65px;
+    color: #fff;
+    background:#23a4b8 ;
+}
+#menu ul li.hangmuc{
+    line-height: 42px;
+    color: #fff;
+    font-weight: bold;
+    width: 220px;
+    background: #23a4b8 url("../img/menu/mt_dong.jpg") no-repeat right center;
+    background-position: 195px;
+    padding-top: 11px;
+}
+#menu ul li.hangmuc:hover{
+    border-bottom: 2px solid #fff;
+}
+#menu ul li.hangmuc:hover{
+    background: #23a4b8 url("../img/menu/mt_dong.jpg") no-repeat right center;
+    background-position: 195px;
+}
+/*====level2====*/
+ul.menu_ul2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+}
+ul.menu_ul2 li.menu_ul2_li{
+    background: #fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: left;
+}
+ul.menu_ul2 li.menu_ul2_li div.menu_ul2_li_tit{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #e0e0e0;
+    height: 79px;
+    text-indent: 50px;
+}
+ul.menu_ul2 li.menu_ul2_li div.menu_ul2_li_tit a{
+    color: #23a4b8;
+    text-decoration: none;
+    height:79px!important;
+}
+ul.menu_ul2 li.menu_ul2_li:hover{
+    /*background: #e0e0e0 url('../img/menu/mt_ngang.jpg') 190px center no-repeat;*/
+    background: #e0e0e0;
+}
+ul.menu_ul2 li.menu_ul2_li div.li_suimaoga{
+    background: url('../img/menu/ico_suimaoga.png') no-repeat left center;
+}
+ul.menu_ul2 li.menu_ul2_li div.li_lau{
+    background: url('../img/menu/ico_lau.png') no-repeat left center;
+}
+ul.menu_ul2 li.menu_ul2_li div.li_giangmai{
+    background: url('../img/menu/ico_giangmai.png') no-repeat left center;
+}
+ul.menu_ul2 li.menu_ul2_li div.li_munropsinhduc{
+    background: url('../img/menu/ico_munropsinhduc.png') no-repeat left center;
+}
+/*div*/
+ul.menu_ul2 li.menu_ul2_li div.menu_ul2_li_div{
+    background: #fff;
+    width: 800px;
+    height: 320px;
+    margin-left: 220px;
+    margin-top: -80px;
+    position: absolute;
+}
+.menu_ul2_li_div .menu_ul2_li_div_c{
+    width: 590px;
+    padding: 0 15px;
+    float: left;
+}
+.menu_ul2_li_div_c_divtit{
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    line-height: 50px;
+}
+.menu_ul2_li_div_c_divcate{
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.menu_ul2_li_div_c_divcate ul{
+    padding: 0;
+}
+.menu_ul2_li_div_c_divcate ul li{
+    float: left;
+    width: 28%;
+    height: 45px;
+    line-height: 45px;
+    background: url("../img/menu/ico_cat.png") no-repeat left center;
+    padding-left: 25px;
+}
+.menu_ul2_li_div_c_divcate ul li:hover{
+    background: url("../img/menu/ico_cat_xanh.png") no-repeat left center;
+}
+.menu_ul2_li_div_c_divcate ul li:hover >a{
+    color: #23a4b8;
+}
+.menu_ul2_li_div_c_divcate ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.menu_ul2_li_div_c_divcd p a{
+    background: #48d8ed;
+    background: -webkit-linear-gradient(left, #48d8ed , #03b7dd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #48d8ed , #03b7dd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #48d8ed , #03b7dd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #48d8ed , #03b7dd); /* Standard syntax */
+    color: #ffffff;
+    width: 200px;
+    height: 30px!important;
+    display: block;
+    margin: auto;
+    line-height: 30px!important;
+    text-decoration: none;
+    border: 2px solid #979797;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+}
+.menu_ul2_li_div .menu_ul2_li_div_img{
+    float: right;
+    width: 210px;
+}
+.menu_ul2_li_div_img img{
+    height: 320px;
+}
+.menu_ul2_li .menu_ul2_li_div{
+    display: none;
+}
+.menu_ul2_li.hover .menu_ul2_li_div{
+    display: block;
+}

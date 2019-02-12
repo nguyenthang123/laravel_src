@@ -1,0 +1,1052 @@
+.edens_garden {
+    color: #231f20;
+    font-family: "Lato", sans-serif;
+}
+
+.account-refer-block {
+    padding: 20px 21px 20px 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.account-refer-block a.swell-referral-link {
+    font-size: 14px;
+}
+
+.account-refer-block a.btn_refer_link:hover {
+    background: #24636a;
+    color: #fff;
+}
+
+.account-refer-block span {
+    font-weight: bold;
+}
+
+.account-refer-block p {
+    color: #24646b;
+    margin: 0;
+}
+
+.account-refer-block p strong {
+    margin: 2px 0;
+    display: inline-block;
+}
+
+.account-refer-block .image-holder {
+    max-width: 180px;
+    margin: 0 auto 15px;
+}
+
+.edens_garden .banner_area {
+    background: url("edan-banner-new-m-min.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.edens_garden .banner_area .banner_caption {
+    max-width: 282px;
+    float: right;
+    margin-top: 0;
+    color: #000;
+    margin-left: auto;
+}
+
+.edens_garden .banner_area .banner_caption h3 {
+    font-family: "Freeland" !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.edens_garden .banner_area .banner_caption img {
+    width: 100%;
+    max-width: 330px;
+    margin: 10px auto;
+}
+
+.edens_garden .banner_area .banner_caption p {
+    text-align: center;
+    color: #231f20;
+    font-size: 15px;
+}
+
+.edens_garden .point_area {
+    padding: 40px 0;
+}
+
+.edens_garden .point_area .point_holder {
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+.edens_garden .point_area .point_holder .image_box {
+    max-width: 200px;
+    display: inline-block;
+}
+
+.edens_garden .point_area .point_holder .image_box img {
+    width: 100%;
+    max-width: 180px;
+}
+
+.edens_garden .point_area .point_holder span {
+    color: #756e9a;
+    font-size: 18px;
+    margin: -17px 0 0 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.edens_garden .point_area .point_holder span.rose-section {
+    color: #FF686E;
+    font-size: 18px;
+    margin: -17px 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.edens_garden .point_area .point_text {
+    background: #756e9a;
+    padding: 30px 30px;
+    border-radius: 74px;
+    max-width: 750px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.edens_garden .point_area .point_text p {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.edens_garden .point_area .point_text span {
+    font-size: 3.6rem;
+    font-weight: normal;
+    line-height: 20px;
+    vertical-align: top;
+    margin: 0 1%;
+}
+
+.point_refer .swell-referral-link {
+    font-size: 18px;
+    color: #24636a !important;
+}
+
+.edens_garden .point_area .point_text.rose_text {
+    background: #FF686E !important;
+}
+
+.edens_garden .point_area .point_text a.btn_redeem {
+    font-size: 14px;
+    vertical-align: middle;
+    color: #fff;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    padding: 5px 21px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+}
+
+.edens_garden .point_area .point_text a.btn_redeem:hover {
+    background: #fff;
+    color: #756e9a;
+}
+
+.edens_garden .point_area .point_refer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.edens_garden .point_area .point_refer .col-box {
+    display: inline-block;
+    min-width: 29%;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid #eee;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    padding: 2% 15px;
+    color: #231f20;
+}
+
+.edens_garden .point_area .point_refer .col-box:last-child {
+    border: 0;
+}
+
+.edens_garden .point_area .point_refer .col-box p {
+    margin: 0;
+}
+
+.edens_garden .point_area .point_refer .col-box p span {
+    color: #24636a;
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: sans-serif;
+}
+
+.edens_garden .point_area .point_refer .col-box h3 {
+    margin: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #24636a;
+}
+
+.edens_garden .point_area .point_refer .col-box .btn_refer_link {
+    padding: 3px 15px;
+    border: 1px solid #24636a;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    line-height: 21px;
+    min-height: 31px;
+    color: #000;
+    letter-spacing: 0px;
+}
+
+.edens_garden .point_area .point_refer .col-box .btn_refer_link:hover {
+    background: #24636a;
+    color: #fff;
+}
+
+.edens_garden .eran_area {
+    background: url("EG_Aroma-Notes-earn-bg.png") no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.edens_garden .eran_area .holder .box {
+    max-width: 560px;
+    margin: -30px auto 0;
+}
+
+.edens_garden .eran_area .holder .box .earn-heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.edens_garden .eran_area .holder .box .earn-heading h3 {
+    font-weight: bold;
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.edens_garden .eran_area .holder .box .earn-heading p {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.edens_garden .eran_area .holder .box .earn-heading .img_holder img {
+    margin: 0 auto;
+}
+
+.edens_garden .eran_area .check_box {
+    margin-top: 15px;
+}
+
+.edens_garden .eran_area .check_box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.edens_garden .eran_area .check_box ul li {
+    position: relative;
+    padding: 15px 5px 10px 50px;
+}
+
+.edens_garden .eran_area .check_box ul li img {
+    display: inline-block;
+}
+
+.edens_garden .eran_area .check_box ul li label span {
+    font-family: "Freeland" !important;
+    font-size: 24px;
+}
+
+.edens_garden .eran_area .check_box ul li.account-list span {
+    color: #23636b;
+}
+
+.edens_garden .eran_area .check_box ul li.account-list span img {
+    margin-top: -10px;
+}
+
+.edens_garden .eran_area .check_box ul li.insta-list span {
+    color: #97bc27;
+}
+
+.edens_garden .eran_area .check_box ul li.insta-list span img {
+    margin-top: -10px;
+}
+
+.edens_garden .eran_area .check_box ul li.fb-list span {
+    color: #6b8100;
+}
+
+.edens_garden .eran_area .check_box ul li.fb-list span img {
+    margin-top: -10px;
+}
+
+.edens_garden .eran_area .check_box ul li.refer-list span {
+    color: #ff8067;
+}
+
+.edens_garden .eran_area .check_box ul li.refer-list span img {
+    margin-top: -10px;
+}
+
+.edens_garden .eran_area .check_box ul li.spend-list span {
+    color: #55adac;
+}
+
+.edens_garden .eran_area .check_box ul li.spend-list span img {
+    margin-top: -15px;
+}
+
+.edens_garden .eran_area .check_box ul li.birthday-list span {
+    color: #d7302e;
+}
+
+.edens_garden .eran_area .check_box ul li.birthday-list span img {
+    margin-top: -20px;
+}
+
+.edens_garden .eran_area .check_box ul li label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.edens_garden .eran_area .check_box ul li input[type=checkbox] {
+    display: none;
+}
+
+.edens_garden .eran_area .check_box ul li input[type=checkbox]+label:before {
+    display: inline-block;
+}
+
+.edens_garden .eran_area .check_box ul li input[type=checkbox]+label:before {
+    content: "";
+    background: url("EG_Aroma-Notes-new-no-check.png") no-repeat center center;
+    height: 36px;
+    width: 38px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.edens_garden .eran_area .check_box ul li input[type=checkbox]:checked+label:before {
+    content: "";
+    background: url("EG_Aroma-Notes-checked.png") no-repeat center center;
+    height: 45px;
+    width: 42px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.edens_garden .conversion-rate-block {
+    padding: 50px 0;
+    background: url("Hoodzpah_EdensGarden_bg-banner.png") no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.edens_garden .conversion-rate-block .box {
+    position: relative;
+}
+
+.edens_garden .conversion-rate-block .box .text-holder {
+    max-width: 150px;
+    float: right;
+    bottom: 25%;
+    position: absolute;
+    right: 50%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.edens_garden .conversion-rate-block .box .text-holder:after {
+    background: url("arrow-right.png") no-repeat;
+    background: url("arrow-right.png") no-repeat;
+    content: '';
+    height: 231px;
+    width: 400px;
+    z-index: 999;
+    position: absolute;
+    background-size: 50%;
+    left: 137px;
+    top: 93%;
+}
+
+.edens_garden .conversion-rate-block .box .holder {
+    position: relative;
+    max-width: 450px;
+    float: right;
+}
+
+.edens_garden .conversion-rate-block .box .holder img {
+    width: 100%;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    z-index: 999;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box li {
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box li span {
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+
+.edens_garden .conversion-rate-block .box .holder .caption-box li .rate {
+    text-align: left;
+    padding-left: 15px;
+    border-left: 1px solid #eee;
+    margin-left: 10px;
+    color: #55adac;
+    font-weight: 500;
+    width: 30%;
+}
+
+.edens_garden .question-block {
+    padding: 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.edens_garden .question-block .img-divider {
+    margin: 20px 0;
+}
+
+.question-block h3.faq-heading {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.edens_garden .question-block .img-divider img {
+    max-width: 300px;
+}
+
+.edens_garden .question-block .question-list .question-holder {
+    text-align: left;
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.edens_garden .question-block .question-list .question-holder .question-col {
+    padding-right: 0;
+    margin-bottom: 15px;
+}
+
+.edens_garden .question-block .question-list .question-holder .question-col.align-bottom {
+    margin-top: -53px;
+}
+
+.edens_garden .question-block .question-list .question-holder .question-col h4 {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edens_garden .question-block .question-list .question-holder .col-sm-6:first-child {
+    border-right: 1px solid #eee;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.edens_garden .question-block .question-list .question-holder .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.edens_garden .eran_area.how_block {
+    background: url("Hoodzpah_EdensGarden_banner-bg.png") no-repeat center center;
+    background-size: cover;
+    min-height: 484px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 184px 0;
+}
+
+.edens_garden .eran_area.how_block .earn-heading p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.edens_garden .eran_area.how_block .img_holder {
+    margin: 20px 0;
+}
+
+.edens_garden .eran_area.how_block .how_box {
+    margin: 15px 0;
+}
+
+.edens_garden .eran_area.how_block .how_box ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edens_garden .eran_area.how_block .how_box ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #23636b;
+}
+
+.edens_garden .eran_area.how_block .how_box ul li img {
+    max-width: 55px
+}
+
+.edens_garden .eran_area.how_block .how_box ul li span {
+    display: inline-block;
+    max-width: 100px;
+    font-size: 30px;
+}
+
+.edens_garden .eran_area.how_block .how_box ul li span .img-ship {
+    width: 60px;
+}
+
+.edens_garden .member_area .holder {
+    overflow: hidden;
+}
+
+.edens_garden .member_area .holder .col-member {
+    position: relative;
+}
+
+.edens_garden .member_area .holder .col-member img {
+    min-height: 471px;
+    width: 100%;
+}
+
+.edens_garden .member_area .holder .col-member .caption {
+    position: absolute;
+    padding: 3% 0;
+    bottom: -75px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.edens_garden .wt200 {
+    width: 200px !important;
+    margin-bottom: 0 !important;
+}
+
+.edens_garden .member_area .holder .col-member .caption h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif !important;
+    margin: 0 0 30px;
+}
+
+.edens_garden .member_area .holder .col-member .caption .mt-15 {
+    margin-top: -15px;
+}
+
+.edens_garden .wt150 {
+    width: 150px !important;
+}
+
+.edens_garden .member_area .holder .col-member .caption img {
+    max-width: 200px;
+    margin: 0 auto 0;
+}
+
+.edens_garden .member_area .holder .col-member.rose-block .caption img {
+    max-width: 130px;
+    margin-top: 8px;
+}
+
+.edens_garden .member_area .holder .col-member .caption h6 {
+    font-size: 24px;
+    color: #000;
+    font-family: "Lato", sans-serif !important;
+    letter-spacing: 2px;
+    margin: 20px 0 35px;
+}
+
+.edens_garden .member_area .holder .col-member .caption h3 {
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.edens_garden .member_area .holder .col-member .caption h3 span {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "Lato", sans-serif !important;
+}
+
+.edens_garden .p0 {
+    padding: 0 !important;
+}
+
+@media (max-width:999px) {
+    .edens_garden .member_area .holder .col-member img {
+        min-height: 367px;
+    }
+    .edens_garden .member_area .holder .col-member .caption {
+        bottom: 0;
+    }
+    .member_area .holder .col-member img {
+        min-height: 400px;
+    }
+    .edens_garden .conversion-rate-block .box .text-holder {
+        max-width: 300px;
+        display: block;
+        bottom: -14%;
+        position: absolute;
+        right: 80px;
+        font-size: 19px;
+        text-align: center;
+        z-index: 9999;
+    }
+    .edens_garden .conversion-rate-block .box .text-holder:after {
+        display: none;
+    }
+    .edens_garden .conversion-rate-block {
+        padding: 50px 0 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .edens_garden .banner_area {
+        background-position: 68%;
+    }
+    .edens_garden .member_area .holder .col-member img {
+        min-height: 360px;
+    }
+    .edens_garden .conversion-rate-block .box .text-holder {
+        bottom: -12%;
+        right: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .edens_garden .banner_area .banner_caption {
+        margin-top: 15%;
+    }
+    .edens_garden .point_area .point_text a.btn_redeem {
+        display: block;
+        margin-top: 15px;
+    }
+    .edens_garden .question-block .question-list .question-holder .question-col {
+        border-right: 0;
+    }
+    .edens_garden .earn-point-block .block_area .item_block.fb-like-block, .edens_garden .earn-point-block .block_area .item_block.spend-block {
+        border-bottom: 1px solid #d3d3d1;
+    }
+    .edens_garden .earn-point-block .block_area .border-r {
+        border-right: 0 !important;
+    }
+    .edens_garden .point_area .point_holder {
+        display: block;
+    }
+    .edens_garden .point_area .point_holder .image_box {
+        display: block;
+        margin: 0 auto;
+    }
+    .edens_garden .point_area .point_holder span strong, .edens_garden .point_area .point_holder span {
+        display: block;
+    }
+    .edens_garden .point_area .point_text {
+        max-width: 100%;
+        border-radius: 0;
+        font-size: 22px;
+    }
+    .edens_garden .point_area .point_text span {
+        display: block;
+        line-height: 45px;
+        margin-bottom: 0;
+    }
+    .edens_garden .point_area .point_refer .col-box {
+        min-width: 100%;
+        border: 0;
+    }
+    .edens_garden .point_area {
+        padding: 40px 0 0;
+    }
+}
+
+.edens_garden .btn_area {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.edens_garden .btn_area .btn-block {
+    margin: 10px 0 13px;
+}
+
+.edens_garden .btn_area .btn-block p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.edens_garden .btn_area .btn-block a.btn-account {
+    padding: 10px 10px;
+    background: #56AEAC;
+    color: #fff;
+    min-width: 100px;
+    border-radius: 35px;
+    margin: 0 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.edens_garden .btn_area a {
+    color: #56AEAC;
+}
+
+.edens_garden .earn-point-block {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.edens_garden .earn-point-block .earn-heading h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+
+.edens_garden .earn-point-block .earn-heading .img_holder img {
+    margin: 0 auto 20px;
+}
+
+.edens_garden .earn-point-block .block_area {
+    max-width: 790px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.edens_garden .earn-point-block .block_area .item_block {
+    text-align: center;
+    margin: 15px 0 15px;
+    min-height: 160px;
+}
+
+.edens_garden .earn-point-block .block_area .item_block.fb-like-block {
+    margin-top: 30px !important;
+}
+
+.edens_garden .earn-point-block .block_area .border-r {
+    border-right: 1px solid #d3d3d1;
+}
+
+.edens_garden .earn-point-block .block_area .item_block.border-b {
+    border-bottom: 1px solid #d3d3d1;
+}
+
+.edens_garden .earn-point-block .block_area .item_block .icon-holder img {
+    margin: 0 auto;
+}
+
+.edens_garden .earn-point-block .block_area .item_block h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.edens_garden .earn-point-block .block_area .item_block h4 span {
+    font-family: "Freeland" !important;
+    font-size: 24px;
+}
+
+.birthday-block h4 span {
+    color: #d7302e;
+}
+
+.create-account h4 span {
+    color: #23636b;
+}
+
+.insta-block h4 span {
+    color: #97bc27;
+}
+
+.fb-like-block h4 span {
+    color: #6b8100;
+}
+
+.refer-block h4 span {
+    color: #ff8067;
+}
+
+.spend-block h4 span {
+    color: #55adac;
+}
+
+@media (max-width: 500px) {
+    .edens_garden .conversion-rate-block .box .text-holder {
+        bottom: -21%;
+        right: 0;
+    }
+    .edens_garden .conversion-rate-block .box .holder .caption-box li span {
+        padding: 6px;
+    }
+    .edens_garden .conversion-rate-block .box .holder .caption-box ul {
+        width: 100%;
+    }
+    .edens_garden .eran_area .check_box ul li.birthday-list span, .edens_garden .eran_area .check_box ul li.spend-list span, .edens_garden .eran_area .check_box ul li.refer-list span, .edens_garden .eran_area .check_box ul li.fb-list span, .edens_garden .eran_area .check_box ul li.insta-list span, .edens_garden .eran_area .check_box ul li.account-list span {
+        display: block;
+    }
+    .edens_garden .eran_area .check_box ul li.refer-list span img, .edens_garden .eran_area .check_box ul li.fb-list span img, .edens_garden .eran_area .check_box ul li.insta-list span img, .edens_garden .eran_area .check_box ul li.spend-list span img, .edens_garden .eran_area .check_box ul li.birthday-list span img, .edens_garden .eran_area .check_box ul li.account-list span img {
+        margin-top: 0;
+    }
+}
+
+.shopify-preview-bar {
+    display: block;
+}
+
+.referral-container {
+    margin: auto;
+    max-width: 560px;
+    overflow: hidden;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.referral {
+    text-align: center;
+    position: relative;
+}
+.referral h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    line-height: normal;
+}
+.referral img {
+    max-width: 350px;
+}
+.referral h3 {
+    color: #97bc27;
+    font-family: "Freeland", "Lato", sans-serif;
+    font-size: 2em;
+}
+.referral input, .referral-copy span, .referral-copy button {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+}
+.referral input[type="submit"] {
+    max-width: 150px;
+    margin: auto;
+}
+.referral form li {
+    margin-bottom: 1em;
+}
+.referral form span {
+    text-align: left;
+    display: block;
+}
+.referral input {
+    text-align: center;
+}
+.referral .btn, .referral-copy .btn {
+    background-color: #55adac;
+    border: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+.error {
+    border: 2px solid #D00;
+}
+@media all and (min-width: 768px) {
+    .referral > img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: auto;
+        max-width: none;
+    }
+}
+.referral > img:first-of-type {
+    right: 80%;
+}
+.referral > img:last-of-type {
+    left: 80%;
+}
+.social-media-links i {
+    margin-right: 0.5em;
+    font-size: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.social-media-links li {
+    margin-bottom: 0.5em;
+}
+@media all and (min-width: 992px) {
+    .social-media-links li {
+        margin-bottom: 0;
+    }
+}
+.social-media-links a {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 1.05em;
+    cursor: pointer;
+}
+.social-media-links .fa-facebook {
+    color: #6b8100;
+}
+.social-media-links .fa-twitter {
+    color: #55adac;
+}
+.social-media-links .fa-link {
+    color: #ff8067;
+}
+.back-link {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+}
+.back-link:hover {
+    color: black;
+}
+.back-link span {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.back-link span:before, .back-link span:after {
+    content: "";
+    background-color: black;
+    left: 0;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.back-link span:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.back-link span:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.referral-copy {
+    background-color: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.referral-copy-container {
+    position: relative;
+    top: calc(50% - 137px);
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 450px;
+    padding: 2em;
+}
+.referral-copy h3 {
+    color: black;
+}
+.referral-copy i {
+    color: #ff8067;
+    margin-right: 0.25em;
+}
+.swell-referral-link {
+    border: 1px solid lightgray;
+}
+.referral-copy .btn {
+    margin-bottom: 1em;
+}
+.back-link {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+.thanks-container {
+    position: relative;
+    min-height: 200px;
+    padding-top: 60px;
+}
+.rewards-block {
+    border-top: 2px solid #F4F4F2;
+}
+.rewards-block .referral {
+    border-left: 2px solid #F4F4F2;
+}

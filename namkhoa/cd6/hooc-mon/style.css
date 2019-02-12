@@ -1,0 +1,217 @@
+body{
+   padding-top: 0;
+   padding-right: 0;
+   padding-left: 0;
+   padding-bottom: 0;
+}
+.container{
+    padding:0;
+    width: 1000px;
+}
+
+.row{
+padding:0;
+margin:0;
+}
+.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+        padding:0;
+margin:0;
+}
+
+.banner-top {
+    text-align: center;
+    background: #d4e8f8;
+}
+.loi-dan {
+    background: url(images/loi-dan.png) top left no-repeat;
+    text-align: left;
+    padding-left: 113px;
+    padding-right: 12px;
+    padding-top: 4px;
+}
+.hang-muc-la-gi{
+    background: url(images/title-bg.png) top left no-repeat;
+    border-bottom: 2px solid #8e8e8e;
+    padding-left: 46px;
+    padding-bottom: 2px;
+    padding-top: 8px;
+}
+.hang-muc-la-gi p{
+    text-transform: uppercase;
+    margin:0;line-height: 18px;
+}
+.hang-muc-la-gi img {
+    float: right;
+    position: absolute;
+    top: 9px;
+    right: 31px;
+}
+.noi-dung-hang-muc .col-md-8{
+    width: 71.5%;
+}
+.noi-dung-hang-muc .col-md-8 >p {
+    padding-left: 18px;
+}
+.noi-dung-hang-muc .col-md-4{
+     width: 28.5%;    padding-top: 20px;    text-align: right;
+}
+.noi-dung-hang-muc td {
+   border: solid 2px #cecece;
+}
+tr.kaka{
+    color: #fff;
+}
+span.bai1{
+    color: #fff;
+}
+td.lv{
+    font-size: 20px;color: #0e6382;
+}
+.main_item2 .col-sm-4{
+    padding: 0;
+    width: 31%;
+    margin-right: 3%;
+}
+.content-bong .col-sm-4 .img {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 12px;
+    background: #efefef;    min-height: 326px;
+}
+.content-bong .col-sm-4 .img p {
+    margin:0;    margin-top: 5px;
+}
+.main_item3 {
+background: #fff url(images/bg-123.png) 10px 10px no-repeat;
+    padding-top: 310px;
+    padding-bottom: 20px;
+}
+.main_item3 .col-sm-4 {
+    text-align: center;
+}
+.main_item3 .col-sm-4 p{
+    color: #09678e;
+    font-weight: 600;
+}
+.benh-123 {
+    background: url(images/2.png) right bottom no-repeat;
+}
+.benh-t {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    min-height: 102px;
+    width: 315px;
+    padding-right: 10px;
+    padding-left: 20px;
+        padding-top: 10px;
+    text-align: justify;
+
+}
+.benh-t .xanh{
+    color: #09678e;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0;
+
+}
+p.xanh-t{
+    color: #09678e;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.menu-kaka li {
+    width: 16.6%;
+    text-align: center;
+}
+.menu-kaka li a{
+    color: #fff;text-transform: uppercase;    font-weight: 600;
+}
+.menu-kaka li a:hover{
+   text-decoration:underline;
+   background:none !important;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+background:none !important;
+}
+.tinh-trang-noi-dung {
+    background: url(images/4.png) top left no-repeat;
+}
+.tinh-trang-noi-dung .col-md-8 .col-md-3 {
+min-height: 295px;
+    padding-top: 154px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tinh-trang-noi-dung .t1{
+    background: url(images/5.png) top left no-repeat;
+}
+.tinh-trang-noi-dung .t2{
+    background: url(images/6.png) top left no-repeat;
+}
+.tinh-trang-noi-dung .t3{
+    background: url(images/7.png) top left no-repeat;
+}
+.tinh-trang-noi-dung .t4{
+    background: url(images/8.png) top left no-repeat;
+}
+p.phuong-phap-1{
+    background: #fff;
+    margin-right: 3px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.tt-1 .col-md-4 {
+    width: 35%
+}
+.tt-1 .col-md-8 {
+    width: 65%;    padding-left: 5px;
+}
+p.t-kaka {
+    background: #fff;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    float: left;    margin-top: 20px;
+}
+.t-tete p{
+    width: 20%;
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0;
+}
+.t-tete-1 p{
+    width: 20%;
+    float: left;
+    text-align: left;    text-align: center;
+}
+.kiem-tra-benh a{
+    color: #000;
+}
+.kiem-tra-benh a:hover{
+    color: #000;
+}
+b.hai-cham {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+.footer {
+    background: #e3e3e3;
+    padding-bottom:20px;margin:0 auto;padding-top:20px
+}
+
+
+.row-son-tuvan p {
+    float: left;
+    padding-right: 20px;
+}

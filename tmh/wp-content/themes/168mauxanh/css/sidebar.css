@@ -1,0 +1,53 @@
+.sidebar{
+	width: 240px;
+	margin-top: 30px;
+}
+.sidebar span.txt.mau-xanh{
+	display: block;
+	background-color: #078353;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	font-size: 13pt;
+	width: 100%;
+}
+.sidebar .tu-van-sidebar .icon-tuvan{
+	margin-top: 10px;
+	color: #666;
+}
+.sidebar .tu-van-sidebar .icon-tuvan a:hover{
+	color: red;
+	text-decoration: none;
+}
+.sidebar .tu-van-sidebar .icon-tuvan >div.left{
+	width: 33.33%;
+	text-align: center;
+}
+.sidebar .tu-van-sidebar .icon-tuvan >div.left a{
+	display: inline-block;
+	margin-top: 5px;
+}
+.sidebar .tu-van-sidebar .icon-tuvan >div.left a:hover img{
+	transform:rotateY(360deg);-ms-transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);transition: all .5s ease-out;moz-transition: all .5s ease-out;-webkit-transition: all .5s ease-out;-o-transition: all .5s ease-out;
+}
+.sidebar .tu-van-sidebar div.icon-call{
+	text-align: center;
+	margin-top: 20px;
+}
+.sidebar .ban-do-lien-he .ban-do{
+	margin-top: 10px;
+}
+.sidebar .ban-do-link{
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #333;
+	margin-top: 10px;
+	line-height: 15pt;
+}
+.sidebar .ban-do-link:hover{
+	color: #ff4f49;
+}
+.sidebar .tab-content.active{
+	display: block;
+}

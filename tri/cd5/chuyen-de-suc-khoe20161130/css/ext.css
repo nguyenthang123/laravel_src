@@ -1,0 +1,33 @@
+body{
+    font-family: arial;
+    font-size: 14px;
+}
+.color_red{
+    color: red;
+}
+.margin_0{
+    margin: 0;
+}
+.margin_xy{
+    margin: auto;
+}
+.clear{
+    height: 1px;
+    width: 100%;
+}
+.clear1{
+    width: 100%;
+    height: 10px;
+}
+.clear2{
+    width: 100%;
+    height: 20px;
+}
+ul li{
+    list-style: none;
+}
+.main_item{
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}

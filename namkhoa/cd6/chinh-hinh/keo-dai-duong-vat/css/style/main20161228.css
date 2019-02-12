@@ -1,0 +1,290 @@
+@charset "utf-8";
+body{font-size:15px; color:#333333; line-height:22px;}
+#nav .nav_list ul.txt li a span{ line-height:14px;}
+#banner{ height:520px; overflow:hidden;text-align: center }
+#title{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title h3{width:100%; height:60px; margin-top:50px;}
+#title p{width:80%; text-align:center; margin:auto;}
+#title .mian{ width:100%; background: url(mian1_bg.jpg) no-repeat  center top; height:402px;}
+#title .mian .l{
+    float:left;
+    margin:106px 0 0 10px;
+    background:url(mian1_pic.jpg) no-repeat;
+    width:393px;
+    height:79px;
+    padding:5px 0 0 5px;
+    color:#178ba0;
+    text-align: justify;
+}
+#title .mian .r{
+    float:right;
+    margin:58px 32px 0 0;
+    background:url(mian1_pic2.jpg) no-repeat;
+    width:393px;
+    height:79px;
+    padding:5px 0 0 26px;
+    color:#177fc8;
+    text-align: justify;
+}
+#title .mian .r2{
+    float:right;
+    margin-top:87px;
+    background:url(mian1_pic3.jpg) no-repeat;
+    width:338px; height:79px;
+    padding:5px 0 0 26px;
+    color:#ff0000;
+    text-align: justify;
+}
+#title2{ width:100%; height:493px; background:url(mian2_m.jpg) no-repeat;}
+#title2 .mian2{width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title2 .mian2 h3{ width:100%; height:60px; margin-top:30px;}
+#title2 .mian2 p{width:1100px; text-align:center; margin:8px 0 6px; color:#FFFFFF;}
+#title2 .mian2 span{ display:block; height:auto; overflow:hidden;}
+#title2 .mian2 span a{
+    width:130px;
+    height:37px;
+    padding-right:34px;
+    margin:0 auto;
+    background:url(mian2_btn.png)no-repeat center top;
+    color:#FFFFFF;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+    line-height:37px;
+    margin-bottom:20px;
+    font-size: 9px;
+}
+#title2 .mian2 span a:hover{ background:url(mian2_btn_a.png) no-repeat center top;}
+#title2 .mian3{ width:1100px; margin:0 auto; background:url(mian2_bg.png) no-repeat center top; height:310px;}
+#title2 .mian3 .f1{ width:275px; float:left; text-align:center; color:#FFFFFF; margin-top:160px;}
+#title2 .mian3 .f2{ width:275px; float:left; text-align:center; color:#FFFFFF; margin-top:220px;}
+#title3{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title3 h3{width:100%; height:97px; margin-top:30px;}
+#title3 p{width:1100px; text-align:center; margin:8px 0 26px;}
+#title3 .mian{
+    width:1100px;
+    background:url(mian3_bg1.png) no-repeat center top;
+    height:990px; margin:0 auto; margin-bottom:30px;}
+#title3 .mian .m1{ width:100%; height:308px;}
+#title3 .mian .m1 .l{
+    float:left;
+    width:540px;
+    height:auto;
+    overflow:hidden;
+    margin-top:65px;
+}
+#title3 .mian .m1 .l span{ width:auto; overflow:hidden; height:214px; margin-right:10px; }
+#title3 .mian .m1 .l h3{ width:341px; text-align:center; line-height:26px; float:left; margin:0 15px 0 0;}
+#title3 .mian .m1 .r{ float:right; width:510px; height:auto; overflow:hidden; margin-top:100px;}
+#title3 .mian .m1 .r h2{
+    color:#ff0000;
+    float:left;
+    width:510px;
+    font-size:20px;
+    line-height:30px;
+    text-transform: uppercase;
+}
+#title3 .mian .m1 .r font{ width:510px; line-height:18px; margin-bottom:8px; float:left;font-weight: bold}
+#title3 .mian .m1 .r span{
+    color:#fff;
+    height:22px;
+    width:179px; background:#FF0000; display:block; float:left; text-align:center; line-height:22px;}
+#title3 .mian .m1 .r p{ width:510px; float:left; text-align:left;}
+#title3 .mian .m1 .r p a{ color:#177fc8;}
+#title3 .mian .m1 .r p a:hover{ color:#ff0000;}
+#title3 .mian .m2{ width:100%; height:308px;}
+#title3 .mian .m2 .l{
+    float:left;
+    width:550px;
+    height:auto;
+    overflow:hidden;
+    clear:both;
+}
+#title3 .mian .m2 .l h2{ color:#ff0000; float:left; width:510px; font-size:20px; line-height:30px;text-transform: uppercase}
+#title3 .mian .m2 .l p{float:left; width:510px; text-align:left; margin:0;}
+#title3 .mian .m2 .l span{float:left; width:496px; height:50px; color:#FFFFFF; background:#177fc8; margin-top:15px; padding:6px 0 0 14px;}
+#title3 .mian .m2 .r{ float:right; width:510px; height:auto; overflow:hidden;}
+#title3 .mian .m2 .r span{ width:250px; overflow:hidden; height:214px; }
+#title3 .mian .m2 .r h3{ width:250px; text-align:center; line-height:26px; float:left; margin: 0;}
+#title3 .mian .m3{ width:100%; height:308px; clear:both;}
+#title3 .mian .m3 .l{ float:left; width:510px; height:auto; overflow:hidden;}
+#title3 .mian .m3 .l span{ width:250px; overflow:hidden; height:214px; }
+#title3 .mian .m3 .l h3{ width:250px; text-align:center; line-height:26px; float:left; margin: 0;}
+#title3 .mian .m3 .r{ float:right; width:510px; height:auto; overflow:hidden;}
+#title3 .mian .m3 .r h2{ color:#ff0000; float:left; width:510px; font-size:20px; line-height:30px;text-transform: uppercase}
+#title3 .mian .m3 .r font{ float:left; width:510px; margin-bottom:10px;}
+#title3 .mian .m3 .r p{ float:left; width:510px; text-align:left;}
+#title4{ width:100%; height:726px; background:url(title4_bg.jpg) no-repeat;}
+#title4 .mian{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title4 .mian h3{width:100%; height:60px; margin-top:30px;}
+#title4 .mian p{width:80%; text-align:center; margin:auto; color:#FFFFFF;}
+#title4 .mian .left{ margin-top:56px; float:left; background:url(mian4_bg.png) no-repeat; width:346px; height:467px;}
+#title4 .mian .left span{ width:346px; margin:25px 0 0 75px; height:201px; float:left;}
+#title4 .mian .left h2{
+    color:#fff;
+    background:#24323b;
+    font-size:13px;
+    width:180px;
+    height:35px;
+    margin:5px 0 0 85px;
+    text-align:center;
+    line-height:35px;
+    display:block;
+    float:left;
+    text-transform: uppercase;
+}
+#title4 .mian .left font{
+    width:325px;
+    text-align:justify;
+    margin-top:8px;
+    float:left;
+    padding-left: 8px;
+}
+#title4 .mian .left p{ width:346px; color:#FF0000;float:left;}
+#title4 .mian .center{ background:url(mian4_bg2.png) no-repeat; width:346px; height:507px; margin:18px 31px ; float:left;}
+#title4 .mian .center p{
+    width:325px;
+    color:#333;
+    margin-top:5px;
+    float:left;
+    padding-left: 10px;
+    text-align: justify;
+}
+#title4 .mian .center span{ width:218px; height:135px;  margin:0 0 0 74px; float:left;}
+#title4 .mian .center h2{
+    color:#fff;
+    background:#ff0000;
+    font-size:13px;
+    width:140px;
+    height:35px;
+    margin:5px 0 0 105px;
+    text-align:center;
+    line-height:35px;
+    display:block;
+    float:left;
+    text-transform: uppercase;
+}
+#title4 .mian .center font{
+    width:325px;
+    text-align:center;
+    margin-top:5px;
+    float:left;
+    padding-left: 10px;
+}
+#title4 .mian .right{ margin-top:56px; float:left; background:url(mian4_bg.png) no-repeat; width:346px; height:467px;}
+#title4 .mian .right span{ width:346px; margin:25px 0 0 50px; height:201px; float:left;}
+#title4 .mian .right h2{
+    color:#fff;
+    background:#177fc8;
+    font-size:13px;
+    width:140px;
+    height:35px;
+    margin:20px 0 0 105px;
+    text-align:center;
+    line-height:35px;
+    display:block;
+    float:left;
+    text-transform: uppercase;
+}
+#title4 .mian .right font{width:346px; text-align:center; margin-top:16px; float:left; height:auto; overflow:hidden;}
+#title4 .mian .right p a{
+    width:182px;
+    color:#FF0000;
+    margin-left:45px;
+    float:left;
+    height:32px;
+    border-bottom:double 1px #ff0000;
+    line-height:32px;
+    float:left;
+    padding-left:10px;
+}
+#title4 .mian .right p a:hover{background:#FF0000; color:#FFFFFF;}
+#title5{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title5 h3{width:100%; height:120px; margin-top:40px;}
+#title5 .l{float:left; background:url(mian5_bg.png) no-repeat; width:328px; height:415px; margin:0 58px 30px 0;}
+#title5 .l b{color:#177fc8; margin:150px 0 0 20px; width:auto; height:auto; overflow:hidden; float:left; line-height:20px;}
+#title5 .l p { width:auto; margin-left:20px; float:left;}
+#title5 .l p a{ color:#ff0000;}
+#title5 .l p a:hover{font-weight:bold;}
+#title5 .l span a{
+    width:auto;
+    margin-left:20px;
+    float:left;
+    height:30px;
+    line-height:30px;
+    border-bottom:double #ff0000 1px;
+    color:#FF0000;
+}
+#title5 .l span a:hover{background:#FF0000; color:#FFFFFF;}
+#title5 .c{
+    float:left;
+    background:url(mian5_bg2.png) no-repeat;
+    width:328px;
+    height:415px;
+    margin-right:58px;
+}
+#title5 .c b{color:#177fc8; margin:150px 0 0 20px; width:auto; height:auto; overflow:hidden; float:left; line-height:20px;}
+#title5 .c p { width:auto; margin-left:20px; float:left;}
+#title5 .c p a{ color:#ff0000;}
+#title5 .c p a:hover{font-weight:bold;}
+#title5 .c span a{ width:auto; margin-left:20px; float:left; height:30px; line-height:30px; border-bottom:double #ff0000 1px; color:#FF0000;}
+#title5 .c span a:hover{background:#FF0000; color:#FFFFFF;}
+#title5 .r{float:left; background:url(mian5_bg3.png) no-repeat; width:328px; height:415px;}
+#title5 .r b{color:#177fc8; margin:150px 0 0 20px; width:auto; height:auto; overflow:hidden; float:left; line-height:20px;}
+#title5 .r p { width:auto; margin-left:20px; float:left;}
+#title5 .r p a{ color:#ff0000;}
+#title5 .r p a:hover{font-weight:bold;}
+#title5 .r span a{
+    width:auto;
+    margin-left:20px;
+    float:left;
+    height:30px;
+    line-height:30px;
+    border-bottom:double #ff0000 1px;
+    color:#FF0000;
+}
+#title5 .r span a:hover{background:#FF0000; color:#FFFFFF;}
+#title5 .wx{ clear:both;}
+#title6{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title6 h3{width:100%; height:60px; margin-top:50px;}
+#title6 p{width: 80%; text-align:center;margin: auto;margin-bottom: 20px;}
+table.t6_tab{ border-collapse:collapse; width:100%; margin-bottom:10px; text-align:center;}
+table.t6_tab tr.tr1{font-weight:bold;}
+table.t6_tab td,table.t6_tab th{ padding:7px 3px; border:1px #CCCCCC solid;}
+table.t6_tab td.td1{ font-weight:bold; text-align:center; line-height:84px; height:84px; width:110px; }
+table.t6_tab td.td2{color:#177fc8; width:238px; height:42px; line-height:42px;}
+table.t6_tab td.td3{color:#198476; width:238px; height:42px; line-height:42px;}
+table.t6_tab td.td4{ width:118px;}
+table.t6_tab td.td5{color:#177fc8;}
+table.t6_tab td.td6 a{ display:block; height:30px; line-height:30px; color:#FF0000; border-bottom:1px #FF0000 solid; width:185px; margin:0 auto; clear:both; margin-top:10px;}
+table.t6_tab td.td6 a:hover{ background:#FF0000; color:#FFFFFF;}
+#title7{ width:1100px; height:auto; overflow:hidden; margin:0 auto; clear:both;}
+#title7 h3{width:100%; height:60px; margin-top:50px;}
+#title7 p{width:1100px; text-align:center; margin:8px 0 26px;}
+#title7 .s1{ background:url(mian7_bg.png) no-repeat; width:260px; height:515px; float:left; margin-right:20px;}
+#title7 .s1 h2{
+    color:#177fc8;
+    width:260px;
+    text-align:center;
+    background:url(s_a.jpg) no-repeat top center;
+    margin:18px 0 25px;
+    height:22px;
+    line-height:20px;
+    float:left;
+    padding-top:36px;
+    font-size: 18px;
+}
+#title7 .s1 p{width:260px; text-align:center; margin:6px 0 0;}
+#title7 .s1 span{ margin-left:15px;}
+#title7 .s1 b a{
+    color:#FF0000;
+    width:150px;
+    height:34px;
+    line-height:34px;
+    margin-left:55px;
+    float:left;
+    text-align:center;
+    border-bottom:1px #FF0000 solid;
+    display:block;
+}
+#title7 .s1 b a:hover{background:#FF0000; color:#FFFFFF;}

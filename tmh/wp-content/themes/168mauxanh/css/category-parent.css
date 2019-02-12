@@ -1,0 +1,247 @@
+.category-parent h1{
+	color: #333;
+	font-size: 16pt;
+	padding-bottom: 3pt;
+	border-bottom: 1px solid #ddd;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.category-parent .img-cat-parent{
+	width: 210px;
+	height: 200px;
+}
+.category-parent .canh-bao{
+	width: 490px;
+	margin-left: 10px;
+}
+.category-parent .canh-bao a{
+	background-color: #eaeaea;
+	color: #333;
+}
+.category-parent .canh-bao .left-1 a{
+	padding: 24px 15px;
+	font-size: 12pt;
+	width: 186px;
+	display: block;
+	margin-right: 2px;height: 102px;
+}
+.category-parent .canh-bao .left-2 a{
+	width: 302px;
+	margin-bottom: 2px;
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	display: block;
+}
+.category-parent .canh-bao a:hover{
+	background-color: #078353;
+	color: #fff;
+	text-decoration: none;
+}
+.category-parent .canh-bao a.active{
+	background-color: #078353;
+	color: #fff;
+}
+.category-parent .canh-bao .left-3 a{
+	padding: 24px 15px;
+	font-size: 11pt;
+	display: block;
+}
+.category-parent .canh-bao .left-3:nth-child(1) a{
+	width: 148px;
+	margin-right: 2px;
+	display: block;height: 96px;
+}
+.category-parent .canh-bao .left-3:nth-child(2) a{
+	width: 148px;
+	margin-right: 2px;
+	display: block;height: 96px;
+}
+.category-parent .canh-bao .left-3:nth-child(3) a{
+	width: 190px;
+	padding:32px 15px;
+	display: block;height: 96px;
+}
+.category-parent .kien-thuc-ve-benh{
+	margin-top: 30px;
+}
+.category-parent .kien-thuc-ve-benh img{
+	display: inline-block;
+    float: left;
+}
+.category-parent .kien-thuc-ve-benh span.txt{
+	line-height:46px; 
+	height:46px;
+	font-size: 16pt;
+	display: inline-block;
+	margin-left: 10px;
+}
+.category-parent .kien-thuc-ve-benh span.soc-ngang{
+	border-top:1px solid #ddd;
+	width: 350px;
+	display: inline-block;
+	float: right;
+	margin-top: 24px;
+}
+.category-parent .list-benh-category{
+	margin-top: 20px;
+}
+.category-parent .list-benh-category a{
+	margin-bottom: 10px;
+	display: inline-block;
+	float: left;
+	width: 170px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	background-color: #eaeaea;
+	color: #333;
+	text-decoration: none;
+}
+.category-parent .list-benh-category a.active{
+	background-color: #ff6600;
+	color: #fff;
+}
+.category-parent .list-benh-category a:nth-child(n+2){
+	margin-left: 10px;
+}
+.category-parent .list-trieu-trung >div,.category-children .list-trieu-trung >div{
+	margin: 5px 22px;
+}
+.category-parent .list-trieu-trung a,.category-children .list-trieu-trung a{
+	text-align: center;
+	display: block;
+	color: #333;
+	margin-top: 5px;
+}
+.category-parent .list-trieu-trung a:hover,.category-children .list-trieu-trung a:hover{
+	color: #ff4f49;
+}
+.category-parent .list-trieu-trung a:hover:nth-child(1) img,.category-children .list-trieu-trung a:hover:nth-child(1) img{
+	transform:rotateY(360deg);-ms-transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);transition: all .5s ease-out;moz-transition: all .5s ease-out;-webkit-transition: all .5s ease-out;-o-transition: all .5s ease-out;
+}
+.category-parent .article-first{
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.category-parent .article-first div.left.slide-cat{
+	width: 210px;
+	overflow: hidden;
+	text-align: center;
+	padding: 10px 10px 0px 10px;
+	border:2px solid #ddd;
+	background-color: #f5f4f4;
+}
+.category-parent .article-first div.left.slide-cat a{
+	display: inline-block;
+	
+}
+.category-parent .article-first div.left.slide-cat a.title-cat-image{
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color:#ff6600;
+	background-color: #ddd;
+	display: block;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding: 10px;
+}
+.category-parent .article-first div.left.slide-cat img{
+	width: 180px;
+	height: 200px;
+}
+.category-parent .article-first div.article{
+	width: 480px;
+	margin-left: 20px;
+}
+.category-parent .article-first div.article a.title{
+	color: #088354;
+	font-size: 13pt;
+	display: block;
+	line-height: 15pt;
+	text-align: center;
+	padding: 0px 10px 5px 10px;
+}
+.category-parent .article-first div.article a.title:hover{
+	color: #ff4f49;
+}
+.category-parent .article-first div.article p.description{
+	line-height: 16pt;
+	font-size: 11pt;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+}
+.category-parent .article-first div.article ul.list li{
+	line-height: 22pt;
+	font-size: 12pt;
+	color: #333;
+}
+.category-parent .article-first div.article ul.list li img{
+	display: inline-block;
+	float: left;
+	margin-top: 12px;
+}
+.category-parent .article-first div.article ul.list li:first-child{
+	margin-top: 5px;
+}
+.category-parent .article-first div.article ul.list li a{
+	display: inline-block;
+	margin-left: 8px;
+	max-width: 466px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;white-space: nowrap;
+}
+.category-parent .article-first div.article ul.list li a:hover{
+	color: #ff4f49;
+}
+.category-parent .uu-diem{
+	margin-top: 30px;
+}
+.category-parent .uu-diem div.left{
+	width: 230px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 256px;width: 230px;
+}
+
+.category-parent .uu-diem div.left.cat-nhan-hieu{
+	background-image: url('../images/cat-nhan-hieu.png');
+}
+.category-parent .uu-diem div.left.cat-an-toan{
+	background-image: url('../images/cat-an-toan.png');
+}
+.category-parent .uu-diem div.left.cat-yen-tam{
+	background-image: url('../images/cat-yen-tam.png');
+}
+.category-parent .uu-diem div.left.cat-chi-phi{
+	background-image: url('../images/cat-chi-phi.png');
+}
+.category-parent .uu-diem div.left.cat-doi-ngu{
+	background-image: url('../images/cat-doi-ngu.png');
+}
+.category-parent .uu-diem div.left.cat-hoi-phuc{
+	background-image: url('../images/cat-hoi-phuc.png');
+}
+
+.category-parent .uu-diem .clearfix div.left:nth-child(n+2){
+	margin-left: 10px;
+}
+.category-parent .uu-diem .clearfix:nth-child(2){
+	margin-top: 10px;
+}
+.category-parent .uu-diem div.left p{
+	margin-top: 70px;
+	width: 100%;
+	padding: 10px;
+	line-height: 16pt;
+	font-size: 13pt;
+}
+.category-parent .tab-content.active{
+	display: block;
+}
+.category-parent .tab-content{
+	display: none;
+}

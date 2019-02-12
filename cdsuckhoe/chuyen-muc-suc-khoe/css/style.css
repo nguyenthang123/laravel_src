@@ -1,0 +1,380 @@
+* {
+	  margin: 0px;
+	  padding: 0px;
+}
+
+.p_f_text {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.p_f_text p {
+    margin-bottom: 5px;
+}
+
+.list_dm_f ul {
+    list-style: none;
+}
+
+.list_dm_f ul li {
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.list_dm_f ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.tt_f,.tt_f_cuoi  {
+    color: #ff8400;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+input.btn.btn-warning.clickme {
+    padding: 10px 37px;
+    border-radius: 0px;
+    background: #cda850;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.des_nd2.des_nd_custom {
+    position: relative;
+}
+
+.des_nd2.des_nd_custom:after {
+    content: "";
+    width: 5px;
+    position: absolute;
+    height: 44px;
+    background: #cda850;
+    left: -7%;
+    top: 11px;
+}
+
+.des_nd1 {
+    position: relative;
+}
+
+.des_nd1:after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 41px;
+    background: #cda850;
+    top: 13%;
+    right: -8%;
+}
+
+.tt_nd2 {
+    color: #b80008;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tt_nd1 {
+    text-transform: uppercase;
+    color: #b80008;
+    font-weight: bold;
+}
+
+.des_tk {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tt_thamkham {
+    color: #b80008;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tt_baoquanh2 {
+    color: #404040;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.des_bq {
+    font-size: 14px;
+}
+
+.tt_white_cv {
+    color: #c94449;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.cv_white {
+    background: white;
+    padding: 15px;
+}
+
+.des_tip {
+    color: black;
+    margin-top: 6px;
+}
+
+.cover_white {
+    background: white;
+    overflow: hidden;
+}
+
+.tt_tip {
+    color: #e71118;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.khoi_nd_td {
+    width: 72%;
+}
+
+.khoi_nd_td.pl-5 {
+    padding-left: 24%;
+}
+
+.bs_icon {
+    position: absolute;
+    top: 19rem;
+    /* text-align: center; */
+    left: 45%;
+    /* bottom: 0%; */
+}
+
+.home4 {
+    /* position: relative; */
+}
+
+.descrition_h2_5 {
+    width: 65%;
+    font-weight: 300;
+}
+
+.tt_h2_2 {
+    width: 69%;
+}
+
+.so1_text {
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+
+
+.tit_yel {
+    background: #ffc600;
+    padding: 10px;
+    color: #d50606;
+}
+
+.cover_yello {
+    /* overflow: hidden; */
+    background: #ab7e40;
+    display: flex;
+}
+
+.p_anh {
+    width: 20%;
+    float: left;
+}
+
+.p_text_cv {
+    width: 75%;
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.tt_home3 {
+    background: white;
+    padding: 5px;
+    /* margin-top: 20px; */
+    text-transform: uppercase;
+    color: #880c0c;
+}
+
+.tt_home3.custom_t_h3 {
+    background: #ffc600;
+}
+
+.tt_red {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+span.yellow {
+    color: #d1b36a;
+}
+
+.tt_home2 {
+    color: #ba2e2f;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.tt_home1.text-center {
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+body {
+	 font-family: 'Roboto', sans-serif;
+}
+.menu {
+	 background: #961c21;
+}
+.db_menu  > ul {list-style-type: none;margin-bottom: 0px;}
+.db_menu > ul > li {
+	 float: left;
+	 width: 16%;
+	 height: 45px;
+	 line-height: 45px;
+	 border-right: 1px solid black;
+	 text-align: center;
+}
+
+.db_menu > ul >li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.db_menu > ul > li:hover {
+    background: #771014;
+}
+
+.db_menu > ul > li:last-child {
+    border-right: none;
+}
+.db_menu > ul >li >a {
+	 color: white;
+	 text-transform: uppercase;
+	 font-size: 14px;
+}
+/****** slider ********/
+a.right.carousel-control {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+a.left.carousel-control {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    color: white;
+}
+/****** home 1 *********/
+.home1  {
+	 background: url('../images/bg_h1.png') no-repeat;
+	 height: 323px;
+	 width: 1170px;
+	 margin: auto;
+	 /* position: relative; */
+	 margin-top: -76px;
+	 z-index: 9999;
+	 position: relative;
+}
+/************* home 2 *********/
+.red_bg {
+	 background: url(../images/bg_home2_1.png) no-repeat;
+	 height: 134px;
+	 background-size: cover;
+	 color: white;
+	 padding: 19px 45px;
+}
+.reder_bg {
+	 background: url(../images/bg_home2_2.png) no-repeat;
+	 height: 134px;
+	 background-size: cover;
+	 padding: 19px 45px;
+	 color: white;
+}
+.red_n_bg {
+	 background: url(../images/bg_home2_3.png) no-repeat;
+	 height: 134px;
+	 background-size: cover;
+	 padding: 16px 44px;
+	 color: white;
+}
+
+/*********** home 3 ************/
+.home3 {
+	 background: url("../images/bg_home3.png") no-repeat;
+	 background-size: cover;
+	 background-position: top;
+	 height: 650px;
+}
+/************ home 4 **********/
+.khoi1_h4 { width: 50%;background: white; float: left; }
+.khoi2_h4 {width: 48%;/* background: #eea90e; */float: left;margin-left: 2%;}
+.cover_khoi1 {
+	 width: 50%;
+	 float: left;
+	 text-align: center;
+	 padding-left: 15%;
+	 padding-right: 1%;
+}
+.so1 {
+	 width: 15%;
+	 float: left;
+}
+.text_so1 {
+	 width: 85%;
+	 float: left;
+	 text-align: justify;
+}
+.home4 {
+	 background: url("../images/bg_home4.png");
+	 height: 653px;
+	 background-size: 100% 100%;
+	 overflow: hidden;
+}
+.home5 {
+	 background: url('../images/bg_home5.png');
+	 height: 762px;
+}
+.des_home6 { color: white; }
+.home6	{
+	 background: url('../images/bg_home6.png');
+}
+.baoquah2 {
+	 background: url('../images/bg_4khoi.png');
+	 height: 148px;
+	 text-align: center;
+	 padding: 10px;
+	 position: relative;
+	 top: -11px;
+}
+.baoquah3 {
+	 background: url('../images/zic.png');
+	 height: 148px;
+	 text-align: center;
+	 padding: 10px;
+	 position: relative;
+	 top: -11px;
+}	
+.home7 {
+	 background: url('../images/bg_home7.png');
+}
+footer {
+	 background: #880c0c;
+}

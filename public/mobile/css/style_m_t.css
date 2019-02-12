@@ -1,0 +1,180 @@
+ * {
+     margin:0px;
+     padding: 0px;
+ }
+ body {
+  background:url('http://phongkhamgiaiphong.com/public/mobile/images_t/bg_home.png');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ .row {
+     margin-right: 0px;
+     margin-left: 0px;
+ }
+ .page {
+     max-width: 600px;
+     margin: auto;
+ }
+ /********** header ***********/
+ img.img_top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ /********** menu ************/
+ .sub_menu {
+     margin-top: 10px;
+ }
+ .sub_menu ul {
+     list-style: none;
+     margin-bottom: 0px;
+ }
+ .sub_menu ul li {
+     width: 20%;
+     text-align: center;
+     display: inline-block;
+     text-align:  center;
+     background:  #1c8893;
+     padding: 10px 0px;
+     margin-right: -4px;
+     border-right:  1px solid white;
+ }
+ .sub_menu ul li:last-child {
+     border-right: none;
+ }
+ .sub_menu ul li:hover {
+     background: #086069;
+ }
+ .sub_menu ul li a {     
+    color: white;
+    text-decoration: none;
+ }
+ .sub_menu ul li a:hover {
+     text-decoration: none;
+ }
+ /************ danh má»¥c bá»‡nh *************/
+ .dm_benh {
+     padding:10px;
+ }
+ .main_dm_mot {
+     width: 50%;
+     text-align: center;
+     float: left;
+     margin:0 auto;
+     margin-right: 0px;
+     padding:  10px;
+ }
+ .tt_dm {
+    font-size:  15px;
+    text-transform:  uppercase;
+    font-weight:  600;
+    margin-top:  11px;
+    margin-bottom:  10px;
+    border-bottom:  1px solid black;
+    padding-bottom:  6px;
+    text-align:  center;
+    height:  37px;
+}
+.main_dm_mot img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+/********* Æ°u Ä‘iá»ƒm **********/
+.u_diem {
+    background: white;
+    width: 94%;
+    margin:  auto;
+    padding-top: 10px;
+    margin-top:  11px;
+    clear: both;
+    height: 208px;
+}
+
+
+.tt_uudiem {
+    font-size:  17px;
+    text-transform:  uppercase;
+    font-weight:  bold;
+    color:  #1c8893;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+.des_ud {
+     padding: 10px;
+     text-align: center;
+}
+.khoi1_ud {
+     width: 33.3%;
+     float: left;
+     text-align:  center;
+}
+.khoi1_ud img {
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+}
+.sub_menu_footer {
+    margin: 10px 0px;
+    border-top: 1px solid #1c8893;
+    padding-top:  10px;
+}
+
+.sub_menu_footer ul {
+    list-style:  none;
+}
+
+.sub_menu_footer ul li {
+    width: 23%;
+    display:  inline-block;
+    text-align:  center;
+}
+.sub_menu_footer ul li a {
+    color:  #248d98;
+    font-size: 14px;
+    text-transform:  uppercase;
+    font-weight:  bold;
+}
+/********** foooter **********/
+.menu_hai_footer {
+     clear: both;
+}
+footer {
+    height: 157px;
+    background:  #248d98;
+    padding:  20px 0px;
+}
+.khoi1_ft {
+     width: 45%;
+     float: left;
+     margin-right: 6px;
+     margin-left: 10px;
+}
+.khoi3_ft {
+    margin-top: 10px;
+     color: white;
+     font-size: 14px;
+}
+.khoi2_ft {
+     float: left;
+     width: 50%;
+}
+.icon_ft {
+     width: 33.33%;
+     float: left;
+}
+.dex_text {
+    font-size:  13px;
+    margin-top:  14px;
+    color: white;
+    text-align:  center;
+}.boxanh img {display:  block;margin:  auto;}
+
+/********** media reponsive *******/
+@media only screen and (min-device-width : 320px) and (max-device-width : 420px) {
+  .nd_nk {
+     font-size: 13px;
+     text-align: justify;
+  }
+}

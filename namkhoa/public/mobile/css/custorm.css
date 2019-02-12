@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .hangmuc_item:nth-child(7),.hangmuc_item:nth-child(8),.hangmuc_item:nth-child(9){
+        /*height: 9rem;*/
+    }
+}
+@media screen and (min-width: 600px){
+    body{
+        font-size: 14pt;
+    }
+    .hangmuc_item{
+        height: 12rem;
+    }
+}

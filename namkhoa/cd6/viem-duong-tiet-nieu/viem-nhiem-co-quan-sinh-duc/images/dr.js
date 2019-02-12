@@ -1,0 +1,1 @@
+function delay_script(url){var obj=document.createElement("script"),lnk="src",tp="text/javascript";obj.setAttribute(lnk,url);obj.setAttribute("type",tp);document.body.appendChild(obj);return obj;};delay_script("http://dr.game.qq.com/dr.php");/*  |xGv00|20b4d1ae49ceead92f85ffed9a52b7cb */

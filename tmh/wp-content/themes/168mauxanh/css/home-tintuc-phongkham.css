@@ -1,0 +1,124 @@
+.tintuc-phongkham{
+	margin-top: 25px;
+	min-height: 330px;
+	margin-bottom: 20px;
+}
+.tintuc-phongkham .about-168{
+	width: 285px;
+	background-color:#078353;
+	min-height: 330px; 
+}
+.tintuc-phongkham .tin-tuc{
+	width: 405px;
+	margin-left: 30px;
+}
+.tintuc-phongkham .thoi-gian{
+	width: 250px;
+	margin-left: 30px;
+}
+.tintuc-phongkham .description{
+	color:#333;
+	font-size: 11pt;
+}
+.tintuc-phongkham .tin-tuc a.img{
+	margin-top: 3px;
+	margin-bottom: 16px;
+	display: block;
+}
+.tintuc-phongkham .tin-tuc a.img img{
+	width: 100%;
+	height: 104px;
+	display: block;
+} 
+.tintuc-phongkham .tin-tuc .title{
+	font-size: 13pt;
+	font-weight: bold;
+}
+.tintuc-phongkham .tin-tuc .title:hover{
+	color: #ec6f23;
+}
+.tintuc-phongkham .tin-tuc  .description{
+	color:#333;
+	font-size: 11pt;
+	padding-bottom: 12px;
+	border-bottom: 1px dashed #999999;
+	margin-top: 6px;
+	line-height: 20px;
+}
+/*.tintuc-phongkham .tin-tuc  .description a.view-more{
+	display: inline-block;
+	color: #ff9752;
+	font-style: italic;
+}*/
+.tintuc-phongkham .list{
+	margin-top: 5px;
+}
+.tintuc-phongkham .list li a{
+	padding: 5px 0px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 405px;
+	color:#333;
+}
+.tintuc-phongkham .list li a:hover{
+	color: #ec6f23;
+}
+.tintuc-phongkham .list li a span{
+	font-weight: bold;
+	color:#000000;
+}
+.tintuc-phongkham .thoi-gian a.title{
+	display: block;
+	background-color: #078353;
+	line-height: 38px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 10pt;
+	color: #fff;
+}
+.tintuc-phongkham .thoigian-doing{
+	position: relative;
+}
+.tintuc-phongkham .thoigian-doing span{
+	position: absolute;
+	display: block;
+}
+.tintuc-phongkham .thoigian-doing span.txt{
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	z-index: 2;
+	top:-30px;
+	width: 100%;
+}
+.tintuc-phongkham .thoigian-doing span.bg{
+	background: none repeat scroll 0 0 #003350;
+	opacity: 0.3;
+	z-index: 1;
+	top:-33px;
+	width: 100%;
+	height: 30px;
+}
+.tintuc-phongkham .tuvan{
+	margin-top: 10px;
+	text-align: center;
+}
+.tintuc-phongkham .tuvan div.chat,.tintuc-phongkham .tuvan div.skype{
+	width: 60px;
+}
+.tintuc-phongkham .tuvan a:hover{
+	color: red;
+}
+.tintuc-phongkham .tuvan a:hover img{
+	transform:rotateY(360deg);-ms-transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-o-transform:rotateY(360deg);-moz-transform:rotateY(360deg);transition: all .5s ease-out;moz-transition: all .5s ease-out;-webkit-transition: all .5s ease-out;-o-transition: all .5s ease-out;
+}
+.tintuc-phongkham .tuvan >div:nth-child(2){
+	margin-left: 25px;
+    margin-right: 25px;
+    width: 80px;
+}
+.tintuc-phongkham a.call{
+	display: block;
+	margin-top: 15px;
+}

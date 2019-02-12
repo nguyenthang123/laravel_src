@@ -1,0 +1,48 @@
+.tai-mui-hong{
+	background-color: #078353;
+	color: #fff;
+	min-height: 202px;
+}
+.tai-mui-hong .benh{
+	width: 33.33%;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	text-align: center;
+}
+.tai-mui-hong .list-benh h2{
+	display: inline-block;
+}
+.tai-mui-hong .list-benh a{
+	font-size: 11pt;
+	padding: 8px 2px;
+	display: inline-block;
+}
+.tai-mui-hong .benh a:hover{
+	color:#ff0;text-decoration: underline;
+}
+.tai-mui-hong .title{
+	font-size: 19pt;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding: 19px 0px;
+	padding-bottom: 10px;
+}
+.tai-mui-hong .title a:last-child{
+	vertical-align: 15px;
+	padding-left: 15px;
+}
+.tai-mui-hong .benh-mui,.tai-mui-hong .benh-tai{
+	background-image: url('../images/home-benh-bg-right.png');
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+.tai-mui-hong .benh-mui{
+	padding-left: 10px;
+}
+.tai-mui-hong .benh-tai,.tai-mui-hong .benh-hong{
+	/*padding-left: 30px;*/
+}
+.tai-mui-hong .list-benh a.mauvang{
+	color: #ff0;
+}

@@ -1,0 +1,227 @@
+.site-header{
+	padding-top: 20px;
+}
+.menu{
+	min-height: 70px;
+	background-color: #078353;
+	margin-top: 20px;
+}
+.menu >ul >li >h2{
+	display: inline-block;
+}
+.menu >ul >li{
+	display: inline-block;
+	background-image: url('../images/header-menu-border-image-right.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: left;
+}
+.menu >ul >li >h2>a{
+	/*color: #fff;
+	font-size: 11pt;
+	text-align: center;
+	display: inline-block;
+	padding: 18px;
+	line-height: 17px;
+	width: 142.85px;*/
+	color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0px;
+    line-height: 20px;
+    width: 124.85px;
+    text-transform: uppercase;
+}
+.menu >ul >li >h2>a:hover{
+	/*background-image: url('../images/header-menu-bg-hover.png'),url('../images/header-menu-border-image-right.png');
+	background-repeat: no-repeat,no-repeat;
+	background-size: 141px,2px;
+	background-position: 2px 0px,0px 0px;*/
+	background-color: #f60;
+	background-image: url('../images/header-menu-border-image-right.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.menu >ul >li >h2>a.active{
+	/*background-image: url('../images/header-menu-bg-hover.png');
+	background-position: 2px 0px;
+	background-size: 141px;
+	background-repeat: no-repeat;*/
+	background-color: #f60;
+	background-image: url('../images/header-menu-border-image-right.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+/*-------------------------nâng cấp-------------------------*/
+.menu .submenu .flex{
+	display: flex;justify-content: space-between;
+}
+.menu .submenu .space-between{
+	justify-content: space-between;
+}
+.menu .submenu a.controler {
+    display: inline-block;
+    border: 1px solid #ecb72a;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #ecb72a;
+    color: #fff;
+}
+.menu .menu-hover{
+	display: none;
+	position: absolute;
+	width: 200px;
+	z-index: 9;
+}
+.menu .submenu:hover >div.menu-hover{
+	display: block;
+	background-color: #fff;
+}
+.menu .menu-hover >div
+{
+	position: relative;
+}
+.menu .menu-hover >div >a{
+	display: block;text-transform: uppercase;font-size: 13px;
+	border-bottom: 1px solid #d1d0d0;background-color: #fff;height: 50px;
+}
+.menu .menu-hover >div >a >span{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+.menu .menu-hover >div >a >span:nth-child(1){
+	width: 39px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.menu .menu-hover >div >a >span:nth-child(2){
+	width: 161px;
+	padding-left: 8px;
+	/*background-image: url('../img/hover2.png');*/
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.menu .menu-hover >div >a >span:nth-child(2).active{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/hover1.png');
+}
+.menu .menu-hover >div >a >span.tai1{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/tai1.png');
+}
+.menu .menu-hover >div >a >span.tai1.active{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/tai2.png');
+}
+/**/
+.menu .menu-hover >div >a >span.mui1{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/mui1.png');
+}
+.menu .menu-hover >div >a >span.mui1.active{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/mui2.png');
+}
+/**/
+.menu .menu-hover >div >a >span.hong1{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/hong1.png');
+}
+.menu .menu-hover >div >a >span.hong1.active{
+	background-image: url('http://suckhoetaimuihong.com/wp-content/themes/suckhoetaimuihong/img/hong2.png');
+}
+/*---------------------------*/
+.detail-menu{
+	display: none;
+	position: absolute;
+	z-index: 9;
+	background-color: #fff;
+	/*min-height: 269px;*/
+    height: 160px;
+    overflow: hidden;
+	left: 200px;
+	top:0;
+	min-width: 825px;
+	text-transform: uppercase;
+}
+.menu .menu-hover >div:hover >div.detail-menu{
+	display: block;
+}
+.detail-menu >.flex >.col1{
+	flex-basis: 555px;
+	background-color: #fff;
+	padding:0px 20px 0px 10px;padding-bottom: 3px;
+	position: relative;
+}
+.detail-menu >.flex >.col2{
+	flex-basis: 266px;
+}
+.detail-menu >.flex >.col1 >h3:nth-child(1){
+	font-size: 20px;
+	color: #ecb72a;
+	border-bottom: 1px solid #ddd;
+	margin:0 auto;
+	padding:13px 0px;
+	font-weight: normal;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2) a{
+	display: block;
+	color: #333333;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2) a:nth-child(1){
+	margin-bottom: 20px;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2) a span.o-tron{
+	background-color: #ddd;
+	width: 10px;height: 10px;border-radius: 50%;
+	display: inline-block;margin-right: 10px;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2){
+	border-bottom: 1px solid #ddd;
+	padding:25px 0px;
+}
+.detail-menu >.flex >.col1 >h3:nth-child(3){
+	text-align: center;
+	font-size: 15px;margin:20px auto;
+}
+.detail-menu >.flex >.col1 >h3:nth-child(3) span{
+	display: inline-block;
+	background-color: #2393db;
+	color: #fff;
+	height: 32px;line-height: 32px;
+	padding:0px 15px;border-radius: 3px;
+}
+.detail-menu >.flex >.col1 >div:nth-child(4) >div{
+	flex-basis: 164px;
+}
+.detail-menu >.flex >.col2 h2
+{
+	margin:0 auto;
+	color: #e6617c;
+	font-size: 15px;
+	padding-left: 10px;
+	height: 25px;line-height: 25px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.detail-menu >.flex >.col2 h3
+{
+	margin:0 auto;
+	color: #fff;
+	font-size: 15px;
+	padding-left: 10px;
+	background-color: #e76b84;
+	height: 25px;line-height: 25px;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2) a:hover{
+	color: #2393db;
+}
+.detail-menu >.flex >.col1 >div:nth-child(2) a:hover span.o-tron{
+	background-color: #2393db;
+}
+
+.menu >ul >li:nth-child(2) >h2>a:hover,.menu >ul >li:nth-child(2) >h2>a.active{
+	background-image:none;
+	background-color: #0a6340;
+}

@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+
+.navbar-toggle {
+    background-color: rgb(0, 0, 0);
+}
+.header-bottom {
+    padding-bottom: 12px;
+    padding-top: 5px;
+    background: rgb(134, 32, 47);
+}
+.menu_top_son {
+
+}
+.col-sm-9 {
+    padding: 0px;
+}
+.col-sm-3 {
+    padding: 0px;
+}
+.container {
+    padding: 0px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+.navbar-collapse.collapse {
+    padding-left: 0px;
+}
+.mainmenu ul li:first-child {
+    padding-left: 0px;
+}
+.mainmenu ul li a:hover, .mainmenu ul li a.active, .shop-menu ul li a.active {
+    color: rgb(255, 255, 255);
+    background: rgb(254, 152, 15);
+}
+
+.mainmenu ul li:first-child a {
+
+}
+
+.mainmenu ul li a {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+.mainmenu ul li {
+    padding: 0px;
+}
+.son_slider {
+    padding: 0;
+}
+.son_slider .carousel-inner {
+    border: 1px solid #ccc;
+}
+h4 {
+    margin: 20px 10px 10px;
+}
+p {
+    margin: 10px;
+}
+
+#carousel-example-generic {
+    margin: 20px auto;
+    width: 400px;
+}
+
+#carousel-custom {
+    margin: 0 auto;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;    text-align: center;
+}
+
+#carousel-custom .item{
+	padding:0 !important;
+	min-height:300px;
+	
+}
+.son_slider  .item{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #00000a;
+    height: 660px;
+}
+.son_slider  .item:nth-child(1){
+	background:#00000a url(http://benhtri168.com/public/uploads/images/banner/banner-slide-1.png) top center no-repeat;
+}
+.son_slider  .item:nth-child(2){
+	background:#00000a url(http://benhtri168.com/public/uploads/images/banner/banner-slide-1.png) top center no-repeat;
+}
+.son_slider  .item:nth-child(3){
+	background:#00000a url(http://benhtri168.com/public/uploads/images/banner/banner-slide-1.png) top center no-repeat;
+}
+.son_slider  .item img{
+	display:initial;
+}
+#carousel-custom .item table {
+    width: 100%;
+    height: 300px;
+}
+#carousel-custom .item table tr{
+	text-align:center;
+}
+#carousel-custom .item img {
+	margin: 0 auto;
+	max-height:300px;
+	max-width:100%;
+}
+#carousel-custom  .carousel-inner{
+
+	
+}
+#carousel-custom .item:nth-child(1) {
+	//background:red;
+}
+#carousel-custom .item:nth-child(2) {
+	//background:blue;
+}
+#carousel-custom .item:nth-child(3) {
+	//background:#aaa;
+}
+#carousel-custom .item:nth-child(4) {
+	//background:#ccc;
+}
+#carousel-custom .item:nth-child(5) {
+	//background:#555;
+}
+#carousel-custom .item:nth-child(5) {
+	//background:#999;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+
+#carousel-custom .carousel-control{
+    background: none;
+    position: absolute;
+    top: 38%;
+    opacity: 0;
+    color: #fff;
+    z-index: 2;
+    background: none;
+    font-size: 48px;
+    background: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 72px;
+    transition: all 0.3s linear 0s;
+    text-align: center;
+}
+#carousel-custom .carousel-control .glyphicon-chevron-right {
+	
+	    width: 29px;
+    height: 30px;
+    margin-top: -8px;
+    font-size: 14px;
+}
+#carousel-custom .carousel-control .glyphicon-chevron-left {
+	 width: 29px;
+    height: 30px;
+    margin-top: -8px;
+    font-size: 14px;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+.control-carousel {
+    position: absolute;
+    top: 38%;
+    color: #fff;
+    z-index: 2;
+    background: none;
+    font-size: 23px;
+    background: #000;
+    width: 38px;
+    height: 39px;
+    border-radius: 72px;
+    transition: all 0.3s linear 0s;
+    text-align: center;
+    border: 2px solid #fff;
+}

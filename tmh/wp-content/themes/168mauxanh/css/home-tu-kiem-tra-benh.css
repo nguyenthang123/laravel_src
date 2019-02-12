@@ -1,0 +1,50 @@
+.tu-kiem-tra-benh{
+	min-height: 113px;
+}
+/*.tu-kiem-tra-benh .vong-tron{
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	background-color: #078353;
+	color: #fff;
+	margin-top: 16px;
+}*/
+/*.tu-kiem-tra-benh span.txt{
+	position: relative;
+	top:25px;
+	left: 15px;
+}
+.tu-kiem-tra-benh .type-benh{
+	width: 900px;
+	margin-left: 10px;
+	margin-top: 22px;
+}
+.tu-kiem-tra-benh .type-benh a:hover{
+	background-color:#078353;
+	color: #fff;
+}
+.tu-kiem-tra-benh .type-benh a{
+	display: inline-block;
+	background-color:#f0e9e1;
+	padding: 7px 5px;
+	color: #333;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}*/
+.tu-kiem-tra-benh >div>div{
+	background-image: url('../img/thu-thuat-bottom.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+}
+.tu-kiem-tra-benh >div>div a{
+	display: inline-block;
+	margin-right: 29px;margin-top: 20px;
+}
+.tu-kiem-tra-benh >div>div a:nth-child(1){
+	margin-left: 495px;
+}
+.tu-kiem-tra-benh >div>div a:nth-child(3){
+	margin-right:35px;
+}

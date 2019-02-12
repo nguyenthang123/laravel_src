@@ -1,0 +1,77 @@
+.thanh-ngang{
+	background-color:#e7e7e7;
+	min-height: 60px; 
+	color:#078353;
+}
+.thanh-ngang.style-2{
+	background-color:#078353;
+	color:#fff;
+}
+.thanh-ngang img{
+	vertical-align: -8px;
+}
+.thanh-ngang a{
+	font-size: 11pt;
+	line-height: 60px;
+	margin: 0px 5px;
+	text-align: center;
+	display: inline-block;
+}
+.thanh-ngang.style-2 a{
+	color: #ff0;font-size: 19px;
+}
+.thanh-ngang a:hover{
+	text-decoration: underline;
+}
+.thanh-ngang span.tk{
+	text-transform: uppercase;
+	font-size: 11pt;
+	display: inline-block;
+	padding-right: 10px;
+	vertical-align: -8px;
+}
+.thanh-ngang span.soc{
+	font-size: 16px;
+}
+.thanh-ngang .timkiem-phobien{
+	display: inline-block;
+	width: 710px;
+	height: 60px;
+	overflow: hidden;
+}
+.thanh-ngang .search{
+	display: inline-block;
+	float: right;
+}
+.thanh-ngang .search input{
+	background-color:#fff;
+	border:none;
+	width: 215px;
+	border-top-left-radius: 19px; 
+	border-bottom-left-radius: 19px; 
+	line-height: 30px;
+	display: inline-block;
+	margin-top: 13px;
+	padding-left: 9px;
+}
+.thanh-ngang .search button{
+	border: none;
+	background: #ff6600;
+	line-height: 30px;
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: -3px;
+	width: 70px;
+	border-top-right-radius: 19px; 
+	border-bottom-right-radius: 19px; 
+	color:#fff;
+}
+
+
+.thanh-ngang.style-2{
+	line-height: 70px;
+}
+.thanh-ngang.style-2 span.title{
+	font-size: 18pt;
+	text-transform: uppercase;
+} 

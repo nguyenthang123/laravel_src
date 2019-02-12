@@ -1,0 +1,220 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+.description{
+	color: #333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: middle;
+}
+.pos-rel{
+	position: relative;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.flex{
+	display: flex;
+}
+.site-header{
+	margin-top: 20px;
+}
+/*---------------------menu--------------------*/
+.menu{
+	background-color: #25a161;
+	height: 70px;
+	margin-top: 20px;
+}
+.menu .flex >div{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+	align-self: center; 
+}
+.menu .flex >div a{
+	display: block;
+	height: 70px;
+	padding: 15px;line-height: 20px;
+	background-image: url('img/0.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+.menu .flex >div a:hover{
+	background-color: #ff6600;
+	text-decoration: none;
+}
+.kiemtra .luuy h1{
+	font-weight: normal;
+	color: #25a161;font-size: 24px;
+	padding-top: 10px;
+}
+.kiemtra p.mau1{
+	color: #f24823;
+}
+.kiemtra h3{
+	background-image: url('img/3.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 40px;
+	font-weight: normal;
+}
+.question .tieude{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #f24823;font-weight: normal;
+}
+.question{
+	border:1px dashed #333;
+	padding:0px 65px;margin-top: 40px;padding-bottom: 80px;margin-bottom: 200px;
+}
+.question >p:nth-child(2){
+	text-align: center;
+	color: #555;
+	margin-top: -20px;
+}
+.question .flex >div{
+	flex-grow: 1;width: 50%;
+	padding-right: 50px;
+}
+.question .item{
+	border-top:1px dashed #444;
+}
+.question .item >div.col1 >p:nth-child(n+2){
+	margin-left: 20px;
+}
+.question .item:nth-child(1){
+	border-color: #49bd81;
+}
+.question .item:last-child button{
+	text-align: center;
+	display: inline-block;
+	height: 40px;
+	width: 175px;	
+	margin-right: 20px;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+.question .item:last-child{
+	text-align: center;
+	padding-top: 50px;
+}
+.question .item:last-child button:first-child{
+	background-color: #00af86;
+}
+.question .item:last-child button:last-child{
+	background-color: #6e757f;
+}
+/*------------------------------------------*/
+.popup9 p{
+	text-align: center;
+	line-height: initial;
+}
+.popup9_khoemanh{
+	background-image: url('img/khoemanh.png');
+	width: 420px;
+	height: 436px;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.popup9_binhthuong{
+	background-image: url('img/binhthuong.png');
+	width: 420px;
+	height: 436px;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.popup9_nghiemtrong{
+	background-image: url('img/nghiemtrong.png');
+	width: 420px;
+	height: 436px;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.popup9 .kiemtra1{
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.popup9 .kiemtra2{
+	font-size: 9px;
+	color: #fff;
+}
+.popup9 .kiemtra3{
+	color: #fff;
+	font-size: 13px;
+	margin:0px auto;
+	width: 340px;
+	text-align: justify;
+	padding-top: 88px;
+}
+.popup9 .kiemtra3 span{
+	color: #333333;
+	font-weight: bold;
+}
+.popup9 .kiemtra4 {
+	text-align: right;
+}
+.popup9 .kiemtra4 a{
+	display: inline-block;
+	color: #ffff00;
+	margin-right: 0px;
+	width: 150px;
+	font-size: 12px;
+	text-align: left;
+	text-decoration: none;
+}
+.popup9 .kiemtra5 {
+	padding-top: 65px;
+	text-align: left;
+}
+.popup9 .kiemtra5 a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	width: 120px;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+}
+.popup9 .kiemtra5 a:nth-child(1){
+	margin-left: 70px;
+}
+.popup9 .kiemtra5 a:nth-child(2){
+	margin-left: 33px;
+}
+.popup9 .dong_popup3{
+	display: inline-block;
+	position: absolute;
+	top:51px;
+	right: 26px;
+}
+@-moz-document url-prefix() { 
+	.popup9 .kiemtra5 {
+		padding-top: 55px;
+		text-align: left;
+	}
+}

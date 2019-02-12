@@ -1,0 +1,460 @@
+@charset "utf-8";
+.fwryh{ font-family: Arial, Helvetica, sans-serif;}   
+#nav .nav_list ul.txt li a span{ line-height:14px;}
+body{    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    font-family: Arial;}
+#banner{  width:100%;}
+
+#banner .banner1{ height:80px; width:100%; background:url(banner.jpg) no-repeat center;}
+#banner .banner2{ height:80px; width:100%; background:url(banner2.jpg) no-repeat center;}
+#banner .banner3{ height:80px; width:100%; background:url(banner3.jpg) no-repeat center;}
+#banner .banner4{ height:80px; width:100%; background:url(banner4.jpg) no-repeat center;}
+#banner .banner5{ height:80px; width:100%; background:url(banner5.jpg) no-repeat center;}
+#banner .banner5 .mian{width:1100px; height:80px; margin:0 auto;}
+#banner .banner6{ height:100px; width:100%; background:url(banner6.jpg) no-repeat center;}
+#title{width:1100px; height:auto; margin:0 auto; clear:both;}
+#title .tt{width:1100px; height:auto; overflow:hidden; margin:35px 0 0;position: relative;}
+#title .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title .tt h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin-bottom: 15px;
+    text-transform: uppercase;}
+#title .box{width:346px; height:auto; overflow:hidden; float:left; margin:0 30px 20px 0;}
+#title .box span{width:auto; height:auto; float:left;}
+#title .box strong{width:346px; height:60px; border-bottom:1px dashed #ccc; float:left; margin:8px 0 12px 0; font-weight:normal;    padding-bottom: 10px;}
+#title .box p{width:325px; float:right; margin-bottom:17px;}
+#title .line{ width:398px; margin:0 auto; clear:both; height:76px;}
+#title .line span a{    width: 300px;
+    width: 300px;
+    /* height: 74px; */
+    border: 1px #177fc8 solid;
+    float: left;
+    border-radius: 50px;
+    background: url(icon.png) no-repeat 9px 9px;
+    font-weight: bold;
+    color: #177fc8;
+    padding-left: 94px;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;}
+#title .line span a:hover{background:#177fc8 url(icon2.png) no-repeat 9px 9px; color:#fff;}
+#box2{width:1100px; height:400px; margin:0 auto; position:relative; clear:both;}
+#box2 .hexagon{ width:1100px; height:auto; overflow:hidden; }
+#box2 .hexagon span{float:left; width:173px; height:200px;}
+#box2 .hexagon p.t1 a{ width:173px; height:125px; float:left; margin-left:12px; background:url(img_12.png) no-repeat; text-align:center; padding-top:75px;}
+#box2 .hexagon p.t1 a:hover{background:url(img_1.png) no-repeat; color:#177fc8;}
+#box2 .hexagon p.t2 a{ width:173px; height:200px; float:left; margin-left:12px; background:url(img_12.png) no-repeat; text-align:center; line-height:200px;}
+#box2 .hexagon p.t2 a:hover{background:url(img_1.png) no-repeat; color:#177fc8;}
+#box2 .hexagon2{ width:1100px; height:200px; overflow:hidden; float:left; margin:0 94px; position:absolute; top:159px; }
+#box2 .hexagon2 p.t1 a{ width:173px; height:125px; float:left; margin-right:12px; background:url(img_12.png) no-repeat; text-align:center; padding-top:75px;}
+#box2 .hexagon2 p.t1 a:hover{background:url(img_1.png) no-repeat; color:#177fc8;}
+#box2 .hexagon2 p.t2 a{     width: 173px;
+    height: 200px;
+    float: left;
+    margin-right: 12px;
+    background: url(img_12.png) no-repeat;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 81px;}
+#box2 .hexagon2 p.t2 a:hover{background:url(img_1.png) no-repeat; color:#177fc8;}
+#title2{width:100%; height:640px; margin:0; background:#f8f8f8;}
+#title2 .mian{width:1100px; height:auto; overflow:hidden; margin:0 auto;}
+#title2 .tt{width:1100px; height:auto; overflow:hidden; margin:40px 0 0;    position: relative;}
+#title2 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title2 .tt h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin-bottom: 15px;
+    text-transform: uppercase;}
+#title2 .box{width:366px; height:auto; float:left; text-align:center;}
+#title2 .box span{float:left; margin:0 58px 10px;}
+#title2 .box h3{color:#177fc8; font-size:14px; line-height:32px; float:left; width:366px; height:32px; margin-bottom:3px;}
+#title2 .box p{    float: left;
+    margin-bottom: 15px;
+    /* width: 366px; */
+    height: auto;
+    /* overflow: hidden; */
+    text-align: justify;
+    padding: 0 8px;}
+#title2 .box font a{    height: 28px;
+    width: 110px;
+    border-top: 1px #ff0000 solid;
+    border-bottom: 1px #ff0000 solid;
+    line-height: 28px;
+    color: #ff0000;
+    display: block;
+    margin: 0 135px;
+    float: left;}
+#title3{width:1100px; height:auto; margin:0 auto; clear:both;}
+#title3 .tt{width:1100px; height:auto; overflow:hidden; margin:50px 0 0;    position: relative;}
+#title3 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title3 .tt h3{
+    width: 1100px;
+    height: 42px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    /* line-height: 24px; */
+    float: left;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#title3 .tt p{width:1100px; text-align:center; line-height:40px; height:40px; float:left; margin-bottom:10px;}
+#title3 .box{width:275px; height:auto; overflow:hidden; float:left; text-align:center;}
+#title3 .box span{float:left; width:auto; height:auto; overflow:hidden; margin-bottom:20px;}
+#title3 .box h3{width:275px; height:30px; color:#177fc8; font-size:14px; float:left; line-height:30px;}
+#title3 .box p{    width: auto;
+    height: auto;
+    float: left;
+    margin: 0px 14px;
+    overflow: hidden;
+    text-align: justify;}
+#title3 .box2{width:275px; height:auto; overflow:hidden; float:left; text-align:center;}
+#title3 .box2 h3{width:275px; height:30px; color:#177fc8; font-size:16px; float:left; line-height:30px; margin:25px 0 0;}
+#title3 .box2 p{width:auto; height:auto; float:left; margin:0 18px 35px; overflow:hidden;    text-align: justify;}
+#title3 .box2 span{float:left; width:auto; height:auto; overflow:hidden; margin-bottom:25px;}
+#title3 .line{ width:398px; margin:0 auto; clear:both; height:76px;}
+#title3 .line span a{    width: 300px;
+    /* height: 74px; */
+    border: 1px #177fc8 solid;
+    float: left;
+    border-radius: 50px;
+    background: url(icon.png) no-repeat 9px 9px;
+    font-weight: bold;
+    color: #177fc8;
+    /* line-height: 74px; */
+    padding-left: 94px;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;}
+#title3 .line span a:hover{background:#177fc8 url(icon2.png) no-repeat 9px 9px; color:#fff;}
+#title4{width:100%; height:660px; margin:50px 0 0; background:#177fc8;}
+#title4 .mian{width:1100px; height:auto; overflow:hidden; margin:0 auto;}
+#title4 .tt{width:1100px; height:auto; overflow:hidden; margin:50px 0 0;    position: relative;}
+#title4 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title4 .tt h3{width:1100px; height:47px; background:url(icon3.png) no-repeat center bottom; font-size:24px; color:#177fc8; text-align:center; line-height:24px; float:left; color:#caff00;}
+#title4 .tt p{width:1100px; text-align:center;  height:40px; float:left; margin-bottom:25px; color:#FFFFFF;}
+#title4 .box{    width: 1100px;
+    height: 376px;
+    background: url(m7_pic4.jpg) no-repeat 38px top;
+    text-align: center;}
+#title4 .box p{width:303px; height:auto; overflow:hidden; float:left; color:#fff; margin:200px 0 0 15px; float:left;    text-align: justify;}
+#title4 .box font{float:right; margin:210px 15px 0 0; color:#fff; width:307px; height:auto; overflow:hidden;    text-align: justify;}
+#t4_box{width:1100px; height:auto; margin:0 auto; clear:both;}
+#t4_box h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    /* line-height: 13px; */
+    float: left;
+    margin: 31px 0 25px;
+    text-transform: uppercase;}
+#t4_box .box{width:366px; height:auto; float:left; text-align:center;}
+#t4_box .box span{margin:0 140px 5px; float:left; width:auto; height:auto; overflow:hidden;}
+#t4_box .box p{    /* line-height: 44px; */
+    float: left;
+    width: 366px;
+    min-height: 51px;}
+#t4_box .box font a{    width: 153px;
+    height: 27px;
+    /* border: 1px #333 solid; */
+    float: left;
+    margin: 0 105px;
+    line-height: 26px;
+    background: #4cb6e9;}
+#t4_box .box font a:hover{background:#ff0000; color:#fff;}
+#title5{width:1100px; height:598px; margin:0 auto; clear:both; background:url(m5_line.jpg) no-repeat bottom;}
+#title5 .tt{width:1100px; height:auto; overflow:hidden; margin:50px 0 0; float:left;position: relative;}
+#title5 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title5 .tt h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin-bottom: 0;
+    text-transform: uppercase;}
+#title5 .box{width:275px; height:auto; overflow:hidden; float:left; text-align:center;     position: relative;}
+#title5 .box span{float:left; margin:0 12px 5px; width:auto; height:auto; overflow:hidden;}
+#title5 .box font{    width: 240px;
+    background: url(m5_pic10.jpg) no-repeat center bottom;
+    height: 46px;
+    float: left;
+    color: #ff0000;
+    margin-bottom: 8px;
+    padding-bottom: 8px;}
+#title5 .box h3{width:240px; float:left; font-size:14px; color:#177fc8; line-height:20px;}
+#title5 .box p{width:240px; float:left; line-height:26px; height:26px;}
+#t5_box{width:1100px; height:575px; margin:0 auto; clear:both; background:url(m5_line.jpg) no-repeat bottom;    padding-bottom: 25px;}
+#t5_box .tt{width:1100px; height:auto; text-align:center;}
+#t5_box .tt font{width:1100px; height:33px; line-height:14px; color:#ff0000; background:url(m5_pic10.jpg) no-repeat center bottom; float:left; margin:30px 0 0;}
+#t5_box .tt h3{font-size:24px; line-height:40px; float:left; color:#177fc8; width:1100px; height:40px;}
+#t5_box .tt p{float:left; margin-bottom:18px;}
+#t5_box .left{width:520px; height:360px; background:#177fc8; float:left;}
+#t5_box .left span{float:left;}
+#t5_box .left p{color:#fff; margin:0 32px; float:left;}
+#t5_box .right{float:right; width:550px; height:auto;}
+#t5_box .right h3{    font-size: 15px;
+    float: left;
+    width: 550px;
+   }
+#t5_box .right dl{    width: 550px;
+
+    border-bottom: 1px dashed #ccc;
+    float: left;
+    margin-bottom: 12px;}
+#t5_box .right dt{    float: left;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding-top: 36px;}
+#t5_box .right dd{float:right; width:469px; margin:14px 0;}
+#t5_box .right font a{    /* width: 220px; */
+    /* height: 48px; */
+    border: 1px #177fc8 solid;
+    line-height: 48px;    margin-left: 82px;
+    text-align: center;
+    /* float: left; */
+    /* display: block; */
+    color: #177fc8;
+    font-weight: bold;
+    padding-bottom: 18px;
+    padding-top: 16px;
+    padding-left: 25px;
+    /* margin-top: 10px; */
+    padding-right: 25px;}
+#t5_box .right font a:hover{background:#177fc8; color:#fff;}
+#t5_box2{width:1100px; height:auto; margin:0 auto; clear:both;}
+#t5_box2 h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin: 21px 0 25px;
+    text-transform: uppercase;}
+#t5_box2 .box{width:183px; height:auto; float:left; text-align:center;}
+#t5_box2 .box span{float:left; width:auto; height:auto; overflow:hidden; margin:0 56px;}
+#t5_box2 .box font{    height: 48px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 110px;
+    margin: 0 40px;
+    color: #177fc8;
+    font-size: 14px;
+    /* line-height: 48px; */
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 11px;}
+#t5_box2 .box p{width:183px; height:auto; float:left;}
+#t5_box2 .line{ width:398px; margin:0 auto; clear:both; height:76px;}
+#t5_box2 .line span a{    width: 300px;
+    /* height: 74px; */
+    border: 1px #177fc8 solid;
+    float: left;
+    border-radius: 50px;
+    background: url(icon.png) no-repeat 9px 9px;
+    font-weight: bold;
+    color: #177fc8;
+    /* line-height: 74px; */
+    padding-left: 94px;
+    margin: 30px 0 0;
+    padding-top: 15px;
+    padding-bottom: 15px;}
+#t5_box2 .line span a:hover{background:#177fc8 url(icon2.png) no-repeat 9px 9px; color:#fff;}
+#t5_box3{width:1100px; height:auto; margin:0 auto; clear:both;}
+#t5_box3 h3{    width: 1100px;
+    height: 47px;
+    background: url(icon2.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #ff0000;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin: 50px 0 25px;
+    text-transform: uppercase;}
+#t5_box3 .box{width:275px; height:auto; overflow:hidden; float:left; text-align:center; margin-bottom:30px;}
+#t5_box3 .box span{float:left; width:auto; height:auto; overflow:hidden; margin-bottom:30px;}
+#t5_box3 .box p{width:275px; height:auto; float:left; margin:38px 0 0; overflow:hidden;}
+#t5_box3 .box2{width:275px; height:auto; overflow:hidden; float:left; text-align:center; margin-bottom:30px;}
+#t5_box3 .box2 p{width:275px; height:auto; float:left; margin:58px 0; overflow:hidden;}
+#t5_box3  p b {
+	    text-transform: uppercase;
+}
+#title6{width:1100px; height:auto; margin:0 auto; clear:both;}
+#title6 .tt{width:1100px; height:auto; overflow:hidden; margin:50px 0 0;    position: relative;}
+#title6 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title6 .tt h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;}
+#title6 .tt p{width:1100px; text-align:center; float:left; margin-bottom:10px; margin:10px 0 20px;}
+#title6 .content{height:auto; overflow:hidden;}
+#title6 .content .cleft{ height:420px; width:125px; background:url(l.gif) no-repeat center; cursor:pointer; float:left;}
+#title6 .content .cright{ height:420px; width:125px; background:url(r.gif) no-repeat center; cursor:pointer; float:right;}
+#title6 .content .ccon{height: auto;
+    overflow: hidden;
+    width: 901px;
+    float: left;
+    border: 1px #CCCCCC solid;
+    border-radius: 10px;
+    padding: 24px;
+    margin-left: 10px;
+    float: left;
+    margin: 0 auto;}
+#title6 .content .ccon .ccon_in{  overflow:hidden;}
+#title6 .content .ccon .ccon_in ul{ height:auto; overflow:hidden;}
+#title6 .content .ccon .ccon_in li{ height:338px; width:780px; overflow:hidden; position:relative; float:left;}
+#title6 .content .ccon .ccon_in li .bg{ height:45px; width:780px; z-index:2; position:absolute; left:0; bottom:0; background:#000000;filter:alpha(opacity=70); -moz-opacity:0.7; opacity:0.7;}
+#title6 .content .ccon .ccon_in li p{ height:45px; width:780px; z-index:3; color:#FFFFFF; position:absolute; left:0; bottom:0; line-height:45px; text-align:center;}
+#title6 .content .ccon .ccon_tab{ height:auto; overflow:hidden; padding-top:15px;}
+#title6 .content .ccon .ccon_tab ul{ width:100px; margin:0 auto; height:auto; overflow:hidden;}
+#title6 .content .ccon .ccon_tab li{ width:25px; height:25px; background:url(t.gif) no-repeat center; float:left; cursor:pointer;}
+#title6 .content .ccon .ccon_tab li.hover{ background:url(t_s.gif) no-repeat center;}
+#title7{width:1100px; height:auto; margin:0 auto; clear:both;}
+#title7 .tt{width:1100px; height:auto; overflow:hidden; margin:30px 0 0;    position: relative;}
+#title7 .tt span{width:auto; height:auto; float:left; margin-bottom:20px;}
+#title7 .tt h3{    width: 1100px;
+    height: 47px;
+    background: url(icon.jpg) no-repeat center bottom;
+    font-size: 18px;
+    color: #177fc8;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;}
+#title7 .box{width:530px; height:294px; float:left; border-bottom:1px #ccc solid; margin-bottom:40px;}
+#title7 .box span{float:left; width:auto; margin-bottom:8px;}
+#title7 .box span.t1{width: 235px;
+    background: #282b3a;
+    color: #fff;
+    /* line-height: 46px; */
+    float: left;
+    min-height: 138px;
+    padding: 32px 0 0 13px;} 
+#title7 .box font{width:530px; color:#177fc8; font-weight:bold; line-height:32px; height:32px; float:left;}
+#title7 .box2{width:530px; height:294px; float:right;  border-bottom:1px #ccc solid; margin-bottom:40px;}
+#title7 .box2 span{float:left; width:auto; margin-bottom:8px;}
+#title7 .box2 span.t1{    width: 230px;
+    background: #282b3a;
+    color: #fff;
+    
+    float: left;
+    height: 149px;
+    padding: 21px 0 0 18px;} 
+#title7 .box2 font{width:530px; color:#177fc8; font-weight:bold; line-height:32px; height:32px; float:left;}
+a.chi-tiet {
+	    font-style: italic;
+}
+#footer {
+    height: auto;
+    overflow: hidden;
+    background: url(http://namkhoa168.com/public/frontend/img/home/fbg.gif);
+    padding-top: 30px;padding-bottom: 50px;
+} 
+#footer .fnav dt {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 11px;
+     background: url(fico1.png) no-repeat left bottom;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+#footer .flogo {
+    float: left;
+    height: 161px;
+    width: 215px;
+    text-align: center;
+	padding:0;
+}
+#footer .faddr {
+    width: 200px;
+    float: right;
+    color: #FFFFFF;
+}
+
+#footer .fnav {
+    float: left;
+    height: auto;
+    overflow: hidden;
+    width: 580px;
+}
+#footer .footer_in {
+    height: auto;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+#footer .fnav dd {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 18px;
+    padding-bottom: 2px;
+    background: url(foot_line.gif) repeat-x left bottom;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+p.gioi-thieu-thiet-bi {
+position: absolute;
+    top: 34px;
+    left: 28px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+}
+#footer .faddr .t p {
+    text-transform: uppercase;
+    font-size: 12px;
+
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

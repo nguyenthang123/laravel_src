@@ -1,0 +1,86 @@
+.page .tai-mui-hong{
+	margin-top: 15px;padding:0px 3px;
+}
+.page .tai-mui-hong .w33{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+}
+.page .tai-mui-hong .w33 >div{
+	border-radius: 3px;
+	text-align: center;
+}
+.page .tai-mui-hong .w33 >div.mui{
+	margin-right: 5px;
+}
+.page .tai-mui-hong .w33 >div.tai{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.page .tai-mui-hong .w33 >div.hong{
+	margin-left: 5px;
+}
+.page .tai-mui-hong .tai{
+	background-color: #ff5649;
+}
+.page .tai-mui-hong .mui{
+	background-color: #008c56;
+}
+.page .tai-mui-hong .hong{
+	background-color: #ffab49;
+}
+.page .tai-mui-hong h2{
+	font-size: 3.5vw;
+	margin:0px auto;
+	/*text-transform: uppercase;*/
+	font-weight: normal;
+}
+.page .page{
+	padding: 5px;
+	color: #555;
+}
+.page h1{
+	text-align: center;
+	color: #555;
+	font-size: 16px;
+}
+.page .entry-content{
+	font-size: 14px;
+	text-align: justify;
+	padding: 0px 5px;
+}
+.page .entry-content ul{
+	list-style: none;
+}
+
+.page article .entry-content h2{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #078353;
+    font-weight: bold;font-size: 16px;
+}
+.page article .entry-content h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #078353;
+    font-weight: bold;font-size: 14px;
+}
+.page article .entry-content h4{
+	color: #078353;
+	font-weight: bold;
+}
+.page article table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.page article table td{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.page .page .entry-content p{
+	line-height: 24px;
+}
+.page .bus-desktop{
+	display: none;
+}

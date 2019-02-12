@@ -1,0 +1,135 @@
+.single .tai-mui-hong{
+	margin-top: 15px;padding:0px 3px;
+}
+.single .tai-mui-hong .w33{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+}
+.single .tai-mui-hong .w33 >div{
+	border-radius: 3px;
+	text-align: center;
+}
+.single .tai-mui-hong .w33 >div.mui{
+	margin-right: 5px;
+}
+.single .tai-mui-hong .w33 >div.tai{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.single .tai-mui-hong .w33 >div.hong{
+	margin-left: 5px;
+}
+.single .tai-mui-hong .tai{
+	background-color: #ff5649;
+}
+.single .tai-mui-hong .mui{
+	background-color: #008c56;
+}
+.single .tai-mui-hong .hong{
+	background-color: #ffab49;
+}
+.single .tai-mui-hong h2{
+	font-size: 3.5vw;
+	margin:0px auto;
+	/*text-transform: uppercase;*/
+	font-weight: normal;
+}
+.single h1{
+	text-align: center;
+	color: #555;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+.single .content-single{
+	padding: 10px 10px;
+	font-size: 14px;
+	padding-top: 0px;
+}
+.single .content-single ol,.single .content-single ul{
+	list-style-position: inside;
+	padding-left: 0px;
+}
+.single .content-single p{
+	line-height: 22px;text-align: justify;
+}
+.single .content-single img,.single .content-single figure{
+	display: block;
+	margin: 0px auto;
+}
+.single .crud{
+	margin-top:10px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background-color: #008c56;
+	font-size: 13px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.single .post-link ul{
+	list-style: none;
+	padding-left: 5px;
+	font-size: 13px;
+}
+.single .post-link ul li{
+	margin-bottom: 5px;
+}
+.single .post-link ul li span{
+	display:inline-block;
+	background-color: #008c56;
+	color: #fff;
+	text-align: left;
+	width: 88px;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+}
+.single .post-link ul li a{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+	position: absolute;
+}
+.single .list-post-quan-tam ul{
+	padding-left: 10px;
+	list-style: none;
+}
+.single .list-post-quan-tam ul li{
+	height: 20px;
+	line-height: 20px;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+	position: relative;
+}
+.single .list-post-quan-tam ul li span{
+	display: none;
+	/*display: inline-block;*/
+	float: left;
+	line-height: 20px;
+	height: 20px;
+}
+
+.single .list-post-quan-tam ul li a{
+	font-size: 13px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	padding-left: 5px;
+	line-height: 20px;
+	height: 20px;
+	top:1px;
+}
+/*fix responsive*/
+@media only screen and (orientation: landscape) {
+    .single .tai-mui-hong h2{
+    	font-size: 15px;
+    }
+}

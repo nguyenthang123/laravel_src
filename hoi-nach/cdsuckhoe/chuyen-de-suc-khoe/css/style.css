@@ -1,0 +1,509 @@
+ * {
+ 	 padding:0px;
+ 	 margin:0px;
+ }
+ /******** header ********/
+ header.header {
+ 	  padding: 30px;
+ }
+ .img_logo2{
+ 	 padding-top: 31px;
+ 	 margin-left: 50px;
+ }
+ .img_logo3 { 
+ 	padding-top: 31px;
+  margin-left: 158px;
+  }
+ .menu {
+ 	 background: #ee2929;
+ }
+ .sub_menu ul {
+  list-style: none;
+  margin-bottom: 0px;
+ }
+ .sub_menu ul li {
+ 	 display: inline-block;
+ 	 height: 45px;
+ 	 width: 14.3%;
+ 	 margin-right: 2%;
+ 	 line-height: 45px;
+ 	 text-align: center;
+ }
+ .sub_menu ul li a {
+ 	 color: white;
+ 	 font-size: 12px;
+ 	 text-transform: uppercase;
+ 	 text-decoration: none;
+ }
+ .sub_menu ul li:hover {
+ 	 background: #fdb804;
+ }
+/* home 1 */
+.text {
+	 background: url('../images/loidan.png');
+	 height:  152px;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 margin-top: -49px;
+	 position:  relative;
+}
+.text_2 {
+	 padding-top: 33px;
+	 font-size:  15px;
+	 color: white;
+}
+h2.title_home2 {
+	 color: #039188;
+	 font-size: 29px;
+	 text-transform: uppercase;
+	 font-weight:  bold;
+	 border-bottom: 2px solid #039188;
+	 padding-bottom:  10px;
+}
+.home2 {
+	 padding: 40px;
+}
+.bg_home2 {
+	 background: url('../images/dk_mienphi.png');
+	 height: 290px;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 margin-top: 50px;
+}
+.home3	{
+	 background: #cfe8e7;
+	 padding: 50px 0px 90px 0px;
+}
+h2.title_home2.custom {
+	 font-size: 19px;
+	 margin-top: 63px;
+	 font-weight:  bold;
+}
+/* home 3 */
+.baoquanh {
+	 padding: 20px;
+	 background: white;
+	 height: 565px;
+}
+.baoquanh img {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.row.rowthu3 {
+	 margin-top: 40px;
+}
+.text_home2 {
+	 /* padding: 29px 0px; */
+	 height: 183px;
+	 padding-top: 23px;
+	 font-size:  15px;
+}
+.thengoai {
+	 width: 400px;
+	 height: 61px;
+	 margin:auto;
+	 background: #ffb90b;
+	 padding: 5px;
+	 margin-top:  -11px;
+}
+.thetrong {
+ border: 1px solid white;
+ height: 52px;
+ text-align:  center;
+ line-height: 46px;
+ font-size: 16px;
+ color: white;
+}
+/**** home 4 ****/
+.home4	{
+	 padding:50px 0px;
+	 background: #fffada;
+}
+.row.rowhome4 {
+	margin-top: 50px;
+	padding:  30px 0px;
+	background: white;
+}
+.tt_baoquanh_home4 {
+	 color: #039188;
+	 font-size: 16px;
+	 text-transform: uppercase;
+	 font-weight: bold;
+}
+.nd_baoquanh_home4 {
+	 font-size: 15px;
+	 margin-top: 20px;
+	 color: black;
+	line-height: 24px;
+}
+button.btn.btn-danger.nuttv {
+	 width: 488px;
+	 height: 60px;
+	 background:  #ff840b;
+	 border:  none;
+	 border-radius: 39px;
+	 margin-top: 50px;
+}
+span.img_tab3 {
+	 margin-right: 20px;
+}
+span.tv_mienphi {
+	 font-size: 16px;
+}
+.home4.custom2 {
+	 background: #bcdfdd;
+}
+/****home 5 *******/
+.home5 {
+	padding: 50px;
+	 background: #fffada;
+}
+.tt_col6_home5 {
+	 color: #ee2929;
+	 font-size: 34px;
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 padding-bottom: 1px;
+	 border-bottom: 2px solid #ee2929;
+	 margin-bottom:  8px;
+}
+.des_home5 {
+	 color: #ee2929;
+	 font-size: 18px;
+}
+.row.text-center.rowhome5 {
+	 margin-top: 50px;
+}
+.baoquanh_home5 {
+	 background: white;
+	 padding: 2px 0px 30px 0px;
+	 height:  300px;
+}
+.tt_home5_hai {
+	 color: #039188;
+	 font-size: 16px;
+	 text-transform: uppercase;
+	 padding:  6px;
+}
+.des_home5_hai {
+ color: black;
+ font-size: 17px;
+ padding:  5px 10px;
+ }
+ .home6 {
+ 	 padding: 40px;
+ 	 background: #bcdfdd;
+ }
+ .tt_home6 {
+ 	 font-size: 25px;
+ 	 text-transform: uppercase;
+ 	 color:  #ee2929;
+ 	 font-weight:  bold;
+ }
+ .row.rowhome6hai {
+ 	 margin-top: 50px;
+ }
+ .tt_col6_hai {
+ 	 color: #039188;
+ 	 font-size: 18px;
+ 	 font-weight:  bold;
+ 	 margin-bottom:  20px;
+ }
+ .des_col6_home6 {
+ 	 color: black;
+ 	 font-size: 15px;
+ 	 margin-bottom: 20px;
+ }
+ button.btn.btn-danger.nutview {
+ 	 width: 555px;
+ 	 height: 65px;
+ 	 background: #ffb90b;
+ 	 border:  none;
+ 	 margin-top:  22px;
+ }
+ span.nuttrongclick {
+ 	 font-size: 16px;
+ }
+ .tt_col10 {
+ 	 color: #039188;
+ 	 font-size: 16px;
+ 	 font-weight: bold;
+ }
+ .des_col10 {
+ 	 color: black;
+ 	 font-size: 15px;
+ 	 margin-top: 5px;
+ }
+ footer.footer {
+ 	 background: #f93f3f;
+ 	 padding: 50px;
+ }
+ .row.rowft {
+ 	 background: #f33333;
+ 	 padding: 20px;
+ 	 color: white;
+ }
+ .footer2 {
+   background: #ee2929;
+   padding: 11px;
+   color: white;
+ } * {
+ 	 padding:0px;
+ 	 margin:0px;
+ }
+ /******** header ********/
+ header.header {
+ 	  padding: 30px;
+ }
+ .img_logo2{
+ 	 padding-top: 31px;
+ 	 margin-left: 50px;
+ }
+ .img_logo3 { 
+ 	padding-top: 31px;
+  margin-left: 158px;
+  }
+ .menu {
+ 	 background: #ee2929;
+ }
+ .sub_menu ul {
+  list-style: none;
+  margin-bottom: 0px;
+ }
+ .sub_menu ul li {
+ 	 display: inline-block;
+ 	 height: 45px;
+ 	 width: 14.3%;
+ 	 margin-right: 2%;
+ 	 line-height: 45px;
+ 	 text-align: center;
+ }
+ .sub_menu ul li a {
+ 	 color: white;
+ 	 font-size: 12px;
+ 	 text-transform: uppercase;
+ 	 text-decoration: none;
+ }
+ .sub_menu ul li:hover {
+ 	 background: #fdb804;
+ }
+/* home 1 */
+.text {
+	 background: url('../images/loidan.png');
+	 height:  152px;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 margin-top: -49px;
+	 position:  relative;
+}
+.text_2 {
+	 padding-top: 23px;
+	 font-size:  15px;
+	 color: white;
+}
+h2.title_home2 {
+	 color: #039188;
+	 font-size: 29px;
+	 text-transform: uppercase;
+	 font-weight:  bold;
+	 border-bottom: 2px solid #039188;
+	 padding-bottom:  10px;
+}
+.home2 {
+	 padding: 40px;
+}
+.bg_home2 {
+	 background: url('../images/dk_mienphi.png');
+	 height: 290px;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 margin-top: 50px;
+}
+.home3	{
+	 background: #cfe8e7;
+	 padding: 50px 0px 90px 0px;
+}
+h2.title_home2.custom {
+	 font-size: 19px;
+	 margin-top: 63px;
+	 font-weight:  bold;
+}
+/* home 3 */
+.baoquanh {
+	 padding: 20px;
+	 background: white;
+	 height: 565px;
+}
+.baoquanh img {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.row.rowthu3 {
+	 margin-top: 40px;
+}
+.text_home2 {
+	 /* padding: 29px 0px; */
+	 height: 183px;
+	 padding-top: 23px;
+	 font-size:  15px;
+}
+.thengoai {
+	 width: 400px;
+	 height: 61px;
+	 margin:auto;
+	 background: #ffb90b;
+	 padding: 5px;
+	 margin-top:  -11px;
+	 margin-left:  55px;
+}
+.thetrong {
+ border: 1px solid white;
+ height: 52px;
+ text-align:  center;
+ line-height: 46px;
+ font-size: 16px;
+ color: white;
+}
+/**** home 4 ****/
+.home4	{
+	 padding:50px 0px;
+	 background: #fffada;
+}
+.row.rowhome4 {
+	margin-top: 50px;
+	padding:  30px 0px;
+	background: white;
+}
+.tt_baoquanh_home4 {
+	 color: #039188;
+	 font-size: 16px;
+	 text-transform: uppercase;
+	 font-weight: bold;
+}
+.nd_baoquanh_home4 {
+	 font-size: 15px;
+	 margin-top: 20px;
+	 color: black;
+	line-height: 24px;
+}
+button.btn.btn-danger.nuttv {
+	 width: 488px;
+	 height: 60px;
+	 background:  #ff840b;
+	 border:  none;
+	 border-radius: 39px;
+	 margin-top: 50px;
+}
+span.img_tab3 {
+	 margin-right: 20px;
+}
+span.tv_mienphi {
+	 font-size: 16px;
+}
+.home4.custom2 {
+	 background: #bcdfdd;
+}
+/****home 5 *******/
+.home5 {
+	padding: 50px;
+	 background: #fffada;
+}
+.tt_col6_home5 {
+	 color: #ee2929;
+	 font-size: 34px;
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 padding-bottom: 1px;
+	 border-bottom: 2px solid #ee2929;
+	 margin-bottom:  8px;
+}
+.des_home5 {
+	 color: #ee2929;
+	 font-size: 18px;
+}
+.row.text-center.rowhome5 {
+	 margin-top: 50px;
+}
+.baoquanh_home5 {
+	 background: white;
+	 padding: 2px 0px 30px 0px;
+	 height:  300px;
+}
+.tt_home5_hai {
+	 color: #039188;
+	 font-size: 16px;
+	 text-transform: uppercase;
+	 padding:  6px;
+}
+.des_home5_hai {
+ color: black;
+ font-size: 17px;
+ padding:  5px 10px;
+ }
+ .home6 {
+ 	 padding: 40px;
+ 	 background: #bcdfdd;
+ }
+ .tt_home6 {
+ 	 font-size: 25px;
+ 	 text-transform: uppercase;
+ 	 color:  #ee2929;
+ 	 font-weight:  bold;
+ }
+ .row.rowhome6hai {
+ 	 margin-top: 50px;
+ }
+ .tt_col6_hai {
+ 	 color: #039188;
+ 	 font-size: 18px;
+ 	 font-weight:  bold;
+ 	 margin-bottom:  20px;
+ }
+ .des_col6_home6 {
+ 	 color: black;
+ 	 font-size: 15px;
+ 	 margin-bottom: 20px;
+ }
+ button.btn.btn-danger.nutview {
+ 	 width: 555px;
+ 	 height: 65px;
+ 	 background: #ffb90b;
+ 	 border:  none;
+ 	 margin-top:  22px;
+ }
+ span.nuttrongclick {
+ 	 font-size: 16px;
+ }
+ .tt_col10 {
+ 	 color: #039188;
+ 	 font-size: 16px;
+ 	 font-weight: bold;
+ }
+ .des_col10 {
+ 	 color: black;
+ 	 font-size: 15px;
+ 	 margin-top: 5px;
+ }
+ footer.footer {
+ 	 background: #f93f3f;
+ 	 padding: 50px;
+ }
+ .row.rowft {
+ 	 background: #f33333;
+ 	 padding: 20px;
+ 	 color: white;
+ }
+ .footer2 {
+   background: #ee2929;
+   padding: 11px;
+   color: white;
+ }
+ span.icon1 { 
+ color: white;
+ font-size: 15px;
+  }
+  .col-md-3.md3 a {
+  	 text-decoration: none;
+  }

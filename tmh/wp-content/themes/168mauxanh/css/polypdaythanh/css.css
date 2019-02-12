@@ -1,0 +1,334 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+.description{
+	color: #333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: middle;
+}
+.pos-rel{
+	position: relative;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.flex{
+	display: flex;
+}
+.site-header{
+	margin-top: 0px;
+}
+/*-----------------uu diem  --------------*/
+.uudiem{
+	height: 65px;
+	line-height: 65px;
+	font-size: 24px;
+	margin:0 auto;
+	text-align: center;
+}
+/*----------------tuvan-----------------------------*/
+.tuvan {
+	text-align: center;
+}
+.tuvan >a{
+	display: inline-block;
+	text-align: center;
+	background-color: #fb8d14;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 0px 20px;font-weight: bold;
+}
+/*-------------------------tieude--------------------*/
+
+/*---------------------menu--------------------*/
+.menu{
+	background-color: #0096aa;
+	height: 70px;
+	margin-top: 20px;
+}
+.menu .flex >div{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+	align-self: center; 
+}
+.menu .flex >div a{
+	display: block;
+	height: 70px;
+	padding: 15px;line-height: 20px;
+	background-image: url('img/0.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+.menu .flex >div a:hover{
+	background-color: #ff6600;
+	text-decoration: none;
+}
+/*----------------nen1-------------------*/
+.nen1{
+	background-color: #dcdcdc;
+	padding:45px 0px;
+}
+.nen1 .flex1{
+	justify-content: space-between;
+}
+.nen1 .flex1 >div{
+	flex-basis: 487px;
+	background-image: url('img/nen1-1.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-left: 185px;padding-right: 10px;
+}
+.nen1 .flex1 >div span{
+	color: #10967b;
+}
+/*----------------nen2--------------*/
+.nen2{
+	padding-bottom: 30px;
+}
+.nen2 h2{
+	text-align: center;font-size: 30px;margin-top: 50px;font-weight: normal;
+}
+.nen2 .flex1{
+	justify-content: space-between;
+}
+.nen2 .flex1 >div{
+	flex-basis: 244px;
+	text-align: center;padding-top: 35px;
+}
+.nen2 .flex1 >div p{
+	color: #fff;
+	padding:20px 10px;
+}
+.nen2 .flex1 >div p:nth-child(2){
+	font-size: 14px;
+	text-align: center;
+	margin:0px 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5px;
+}
+.nen2 .flex1 >div p:nth-child(3){
+	line-height: 18px;font-size: 13.3px;
+}
+.nen2 .flex1 >div.col1{
+	background-color: #6698d6;
+}
+.nen2 .flex1 >div.col2{
+	background-color: #0ab6c2;
+}
+.nen2 .flex1 >div.col3{
+	background-color: #aa77bc;
+}
+.nen2 .flex1 >div.col4{
+	background-color: #1fbfa0;
+}
+/*------------------nen3----------------------*/
+.nen3{
+	background-image: url('img/nen3-0.png');
+	padding-top: 50px;padding-bottom: 45px;
+}
+.nen3 h2{
+	text-align: center;font-size: 30px;font-weight: normal;
+}
+.nen3 h2 span{
+	color: #fb8d14;
+}
+.nen3 .flex1{
+	justify-content: space-between;
+}
+.nen3 .flex1 >div.col1{
+	flex-basis: 464px;
+}
+.nen3 .flex1 >div.col2{
+	flex-basis: 500px;
+}
+.nen3 .flex1 >div.col2 p:nth-child(1){
+	background-color: #1fbfa0;
+	height:55px;
+	line-height: 55px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;font-weight: bold;
+}
+.nen3 .flex1 >div.col2 p:nth-child(2){
+	margin-top: 30px;
+}
+.nen3 .flex1 >div.col2 p:nth-child(n+2) span{
+	color: #1fbfa0;
+	font-weight: bold;
+}
+/*-------------------nen4-----------------------*/
+.nen4{
+	padding-top: 50px;
+}
+.nen4 h2{
+	text-align: center;font-size: 30px;font-weight: normal;
+}
+.nen4 h2 span{
+	color: #fb8d14;
+}
+.nen4 .flex1{
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.nen4 .flex1 >div{
+	flex-basis: 485px;
+	border:1px solid #000;padding-bottom: 20px;
+}
+.nen4 .flex1 >div >p:nth-child(1){
+	background-color: #1fbfa0;
+	color: #fff;
+	text-align: center;
+	margin-top: 0px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+} 
+.nen4 .flex1 >div:nth-child(2) >p:nth-child(1){
+	background-color: #939393;
+}
+.nen4 .flex1 >div >img{
+	display: block;
+	margin:0px auto;
+}
+.nen4 .flex1 >div >p:nth-child(3){
+	padding:20px 20px;
+	height: 160px;
+}
+.nen4 .flex2{
+	border:1px solid #fb8d14;
+	margin:0px 20px;
+}
+.nen4 .flex2 div.col1{
+	background-color: #fb8d14;
+	text-align: center;
+	color: #fff;
+	flex-basis: 110px;
+	line-height: 90px;
+}
+.nen4 .flex2 p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left:20px;
+}
+.nen4 .flex2 div.col2{
+	flex-basis: 290px;
+}
+/*-------------------nen5-------------------*/
+.nen5{
+	background-color: #f6f6f6;
+	padding:50px 0px;
+	margin-top: 40px;
+}
+.nen5 h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;color: #333;font-weight: normal;
+}
+.nen5 h2 span{
+	color: #fb8d14;
+}
+.nen5 .flex1,.nen5 .flex2{
+	justify-content: space-between;
+}
+.nen5 .flex1 >div.col1{
+	flex-basis: 415px;
+}
+.nen5 .flex1 >div.col2{
+	flex-basis: 553px;
+}
+.nen5 .flex2 >div.col2{
+	flex-basis: 424px;
+}
+.nen5 .flex2 >div.col1{
+	flex-basis: 553px;
+}
+/*------------------nen6-------------------*/
+.nen6{
+	padding-top: 50px;
+}
+.nen6 h2{
+	text-align: center;font-size: 30px;font-weight: normal;
+}
+.nen6 h2 span{
+	color: #fb8d14;
+}
+.nen6 >div>img{
+	display: block;margin:0px auto;
+}
+/*----------nen7--------*/
+.nen7{
+	background-color: #f6f6f6;
+	padding-top: 50px;
+	margin-top: 20px;
+
+}
+.nen7{
+	padding-top: 40px;padding-bottom: 40px;
+}
+.nen7 h2{
+	text-align: center;font-size: 30px;font-weight: normal;
+}
+.nen7 h2 span{
+	color: #fb8d14;
+}
+.nen7 .flex1{
+	margin-top: 40px;
+}
+.nen7 >div >.flex{
+	justify-content: space-between;
+	margin-bottom: 30px;
+} 
+.nen7 .flex1 .col1,.nen7 .flex2 .col2,.nen7 .flex3 .col1{
+	flex-basis: 475px;
+}
+.nen7 .flex1 .col2,.nen7 .flex2 .col1,.nen7 .flex3 .col2{
+	flex-basis: 500px;background-color: #fff;
+}
+.nen7 .flex1 .col2,.nen7 .flex3 .col2,.nen7 .flex2 .col1{
+	border:1px solid #aaaaaa;
+}
+.nen7 .flex1 .col2 p:first-child,.nen7 .flex3 .col2 p:first-child,.nen7 .flex2 .col1 p:first-child{
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;margin-top: 50px;
+}
+/*------------------------*/
+.flex8{
+	justify-content: space-between;
+	margin-top: 70px;
+	position: relative;
+	z-index: 1;
+}
+.maunau{
+	background-color: #f6f6f6;
+	position: relative;
+	z-index: 0;
+	top: -92px;
+	height: 158px;
+}
+/*----------------------------*/
+a:hover{
+	text-decoration: underline;
+}
+body .site-footer{
+	margin-top: -92px;
+}

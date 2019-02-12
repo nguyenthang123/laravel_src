@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> <?php $__env->startSection('title'); ?> <?php echo $__env->yieldSection(); ?></title>
+    <meta name="keywords" content="<?php $__env->startSection('keywords'); ?><?php echo $__env->yieldSection(); ?>">
+    <meta name="description" content="<?php $__env->startSection('description'); ?><?php echo $__env->yieldSection(); ?>">
+    <meta property="og:url" itemprop="url" content="<?= 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>" />
+    <link rel="stylesheet" href="<?= domain;?>/public/frontend/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= domain;?>/public/frontend/css/style.css">
+    <link rel="stylesheet" href="<?= domain;?>/public/frontend/css/custorm.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="<?= domain;?>/public/frontend/bootstrap/js/bootstrap.min.js"></script>
+    <?= ico_shortcut;?>
+    <base target="_blank">
+</head>
+<body>
+    <div class="container">
+    <?php echo $__env->make('frontend.layouts.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <div class="clear" style="float: left"></div>
+        <?php echo $__env->yieldContent('content'); ?>
+    <div class="clear2"></div>
+        <?php echo $__env->make('frontend.layouts.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    </div>
+    <?= m_popup();?>
+</body>
+</html>

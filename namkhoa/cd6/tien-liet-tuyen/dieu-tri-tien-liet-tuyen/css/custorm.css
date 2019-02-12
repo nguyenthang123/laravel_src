@@ -1,0 +1,163 @@
+.color_red{
+    color: red;
+}
+.banner1_tv{
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    line-height: 35px;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 80px;
+}
+.banner1_tv a{
+    color: #ffffff;
+    font-size: 18px;
+}
+#dy p {
+    font-size: 20px;
+}
+.title .tt {
+    background:url("../images/bg_tit.jpg") no-repeat;
+    height: 65px;
+    line-height: 55px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.tit_stt{
+    background: #ccff00;
+    border-radius: 100%;
+    color: #187ec8;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.t1_l{
+    width: 170px;float: left
+}
+.t1_r{
+    width: 300px;float: left
+}
+#title .right .t1 font,#title .left .t1 font {
+    width: 90px;
+}
+#title .left .t1 p {
+    margin-top: 5px;
+    text-indent: 10px;
+}
+#title .btn p a {
+    margin-top: 12px;
+}
+#title2 .mian{
+    height: 490px;
+}
+#title2 .mian h3 {
+    font-size: 16px;
+}
+#title2 .mian p {
+    height: 100px;
+}
+#title2 .mian font{
+    line-height: 18px;
+    height: 40px;
+}
+#title2 .mian b a {
+    line-height: 18px;
+    height: 40px;
+    margin: 17px 0 0 30px;
+}
+#title3 .m .mian h2 {
+    font-size: 24px;
+}
+#title3 .m .mian h3 {
+    font-size: 22px;
+}
+#title3 .m_item .mian h3{
+    background: url("../images/hv.png") no-repeat top left;
+    height: 35px;
+    line-height: 35px;
+    color: #177fc8;
+    font-size: 22px;
+}
+#title3 .m_item .mian .tx span a {
+    line-height: 18px;
+    padding-top: 5px;
+    text-align: center;
+    background: url(../images/mian3_btn2.jpg);
+}
+#title3 .m_item .mian .tx span a:hover {
+    background: url(../images/mian3_btn4.jpg);
+    color: #FFF;
+}
+#title3 .m_item .mian .tx font a {
+    line-height: 18px;
+    padding-top: 5px;
+    text-align: center;
+    background: url(../images/mian3_btn3.jpg);
+}
+#title3 .m_item .mian .tx font a:hover {
+    background: url(../images/mian3_btn5.jpg);
+    color: #FFF;
+}
+#title3 .m_item .mian .tt p {
+    color: black;
+}
+#title3 .m_item .mian .tt p{
+    width: 170px;
+    font-size: 15px;
+    line-height: 20px;
+}
+#title3 .m_item .mian .tt b {
+    width: 120px;
+    line-height: 18px;
+    float: left;
+    font-size: 16px;
+}
+#title4 .r .t1,#title4 .l .t1 {
+    height: 160px;
+}
+#title4 .r .t1 span{
+    height: 160px;
+}
+#title6 .mian .t h3,#title6 .mian2 .t h3 {
+    width: 120px;
+    margin: 30px 45px;
+}
+#title6 .mian font a,#title6 .mian2 font a {
+    width: 120px;
+}
+#title6 .mian .t p,#title6 .mian2 .t p{
+    padding: 0 10px;
+}
+#title6 .mian2,#title6 .mian{
+    height: 370px;
+}
+#title7 .l h3,#title7 .r h3{
+    background: #177fc8;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 60px;
+    float: left;
+}
+#title7 .bg_tit7{
+    width: 535px;
+    height: 20px;
+    background: url("../images/mt.png") no-repeat top center;
+    border-right: 1px solid #ccc;
+    border-left:1px solid #ccc ;
+    float: left;
+}
+#title7 .r .mt .m1 h2,#title7 .r .mt .m2 h2,#title7 .r .mt .m3 h2,#title7 .r .mt .m4 h2 {
+    line-height: 25px;
+}

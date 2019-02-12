@@ -1,0 +1,164 @@
+<?php include('../../define.php'); ?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Quy trình khám</title>
+    <meta name="keywords" content="Quy trình khám">
+    <meta name="description" content="Quy trình khám">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= domain;?>/public/frontend/img/home/logo.png"/>
+    <base target="_blank">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap-3.3.4/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<?= cdtop();?>
+<?= Addtop();?>
+<?= cd_menu_top();?>
+<div class="row">
+    <div id="banners">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="bg_ban_item1" style="">
+                        <div class="ban_item">
+                            <a href="/<?= link_quytrinhkham;?>">
+                                <img src="images/banner.jpg" alt="phong kham nhan ai">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#banners").hover(function () {
+            $(".carousel-control.right").css("margin-right", "7%");
+            $(".carousel-control.left").css("margin-left", "7%");
+            $(".carousel-control").css("opacity", "1");
+        }, function () {
+            $(".carousel-control.right").css("margin-right", "0%");
+            $(".carousel-control.left").css("margin-left", "0%");
+            $(".carousel-control").css("opacity", "0");
+        })
+    })
+</script>
+<link rel="stylesheet" href="css/style.css">
+<style>
+</style>
+<div class="container quy-trinh-kham">
+<div class="clear"></div>
+<div class="main_item">
+    <div class="qt1">
+        <div style="width: 305px;margin: auto">
+            <div class="item_i bg_item dong2">Tới quầy lễ tân đăng ký thông tin<br>và mã khám ưu tiên</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Làm thẻ khám bệnh</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Lựa chọn khoa khám bệnh</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Nộp phí kiểm tra xét nghiệm</div>
+            <div class="step"></div>
+            <div class="item_i bg_item">Thực hiện kiểm tra xét nghiệm</div>
+        </div>
+    </div>
+    <div class="qt2">
+        <div class="qt2_left" style="float: left;">
+            <div style="width: 305px;float: right;margin-right: 65px;">
+                <div class="bg_item qt2_1" style="line-height: 70px;margin: auto;">nằm viện điều trị</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item dong2">Đến khu phòng bệnh<br>được chỉ định điều trị</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item">Khỏi bệnh xuất viện</div>
+                <div class="step height_l"></div>
+                <div class="item_i bg_item">Làm thủ tục xuất viện</div>
+            </div>
+        </div>
+        <div class="qt2_right" style="float: right;">
+            <div style="width: 305px;margin-left: 66px;">
+                <div class="bg_item qt2_1" style="padding-top: 17px;margin: auto;">Điều trị tại phòng khám<br>bác sỹ kê
+                    đơn
+                </div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Tới cửa thu phí</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Tới quầy thuốc lĩnh thuốc</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">Điều trị</div>
+                <div class="step height_r"></div>
+                <div class="item_i bg_item">rời bệnh viện</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="main_item">
+    <div class="col-sm-12 ndcb">
+        <div class="ndcb_title">Những điều cần biết</div>
+        <div style="text-align: center">
+            <i>Xin chào bệnh nhân và người nhà bệnh nhân</i><br>
+            <i>Chào mừng bạn đến phòng khám của chúng tôi để khám chữa bệnh. Chúng tôi sẽ phục vụ tận tình cho bạn! </i>
+        </div>
+        <div style="text-align: center;margin-top: 15px;">
+            <b>Để thuận tiện cho bạn, xin chú ý những điều dưới đây: </b><br>
+            <b>Thời gian khám chữa bệnh:</b> <i>(mùa hè) 7h30 - 20h00, (mùa đông) 8h00 - 20h00</i><br>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear2" style="overflow: hidden;"></div>
+<div class="main_item quytrinh2" style="background: #e8e8e8;overflow: hidden">
+    <div class="clear"></div>
+    <div class="col-sm-12">
+        <p><b>1 - Đăng ký khám:</b> trước khi vào khám bệnh bạn phải đăng ký ở quầy Lễ tân tầng 1, xác định khoa khám,
+            lễ tân sẽ hướng dẫn bạn đăng kí.</p>
+
+        <p><i>Chú ý: những bệnh nhân hẹn khám qua mạng nhất định phải cung cấp họ tên, mã số khám và thời gian khám, chỉ
+            cần có mã số khám bạn có thể được miễn phí đăng ký khám và được hưởng các ưu đãi liên quan.</i></p>
+
+        <div class="clear"></div>
+        <p><b>2 - Khám:</b> đăng ký xong, lễ tân sẽ dẫn bạn đến khoa khám liên quan, các khoa phòng thông thường đều có
+            y tá lễ tân hướng dẫn chăm sóc, sắp xếp khám cho bạn. Các hạng mục bạn kiểm tra sẽ được tiến hành tại phòng
+            khám, nếu bác sỹ giới thiệu ra ngoài phòng khám để kiểm tra, lấy thuốc hoặc nằm viện thì bạn hãy từ chối.
+        </p>
+
+        <div class="clear"></div>
+        <p><b>3 - Tư vấn:</b> nếu bạn còn vấn đề gì thắc mắc chưa hiểu, có thể tư vấn trực tuyến qua mạng, các bác sỹ sẽ
+            giải đáp miễn phí cho bạn.</p>
+
+        <div class="clear"></div>
+        <p><b>4 - Dịch vụ:</b> thời gian bạn khám tại phòng hám, có thể được hưởng dịch vụ “một bác sỹ - một khoa - một
+            y tá”, hoàn toàn bảo mật thông tin cá nhân. Trong thời gian khám tại phòng khám nếu cần giúp đỡ hãy nói với
+            bác sỹ và nhân viên của phòng khám, chúng tôi sẽ cố gắng để đáp ứng yêu cầu của bạn; nếu bạn không hài lòng
+            với dịch vụ của phòng khám có thể phản ánh trực tiếp với bác sỹ của chúng tôi.</p>
+
+        <div class="clear"></div>
+        <p><b>5 - Đề nghị:</b> khi bạn rời khỏi phòng khám đa khoa Giải Phóng Hà Nội, hãy để lại những ý kiến đóng góp, sự hài
+            lòng của bạn là phương hướng để chúng tôi nỗ lực, toàn thể đội ngũ nhân viên phòng khám đa khoa Giải Phóng Hà Nội
+            luôn nỗ lực đáp ứng yêu cầu của người bệnh.</p>
+
+        <div class="clear"></div>
+        <p><b>6 - Đóng phí:</b> sau khi đóng phí, bạn hãy giữ lại đơn thuốc, đơn kiểm tra và các chứng từ liên quan. Để
+            tránh việc chạy đi chạy lại tầng trên tầng dưới, đặc biệt là những bệnh nhân không thuận tiện di chuyển, bạn
+            có thể gọi y tá lễ tân đóng phí giúp, đối chiếu tiền thừa và số tiền mà bạn đã nộp.</p>
+
+        <div class="clear"></div>
+        <p><b>7 - Nhắc nhở:</b> trong quá trình bạn đến khám tự bảo quản đồ, tránh mất.</p>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+<?= cd_footer();?>
+<?= AddLeft();?>
+<?= dangkysdt();?>
+<?= line_chat();?>
+<script src="http://phongkhamgiaiphong.com/tri/public/frontend/js/rewrite_domain_tags.js"></script>
+</body>
+</html>

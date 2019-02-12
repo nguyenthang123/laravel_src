@@ -1,0 +1,21 @@
+/*fix bxslider */
+.bx-wrapper{
+	margin-bottom: 0px;
+}
+.bx-wrapper .bx-viewport{
+	left: 0px;
+	border:none;
+	box-shadow:none;
+}
+.bx-wrapper .bx-pager{
+	bottom: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background-color: #fff;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color: #078353;
+}
+.bx-controls-direction{
+	display: none;
+}

@@ -1,0 +1,173 @@
+ * {
+ 	 margin:0px;
+ 	 padding:0px;
+ }
+ /* header */
+ .pages {
+ 	 max-width: 600px;
+ 	 margin:auto;
+ }
+ header.header {
+ 	 background: #fffada;
+ 	 padding: 10px 0px;
+ }
+ /* menu */
+ .menu  {
+ 	 background: #ee2929;
+ }
+ .sub_menu_con ul {
+ 	 list-style: none;
+ 	 margin-bottom: 0px;
+ }
+ .sub_menu_con ul li {
+ 	 width: 19%;
+ 	 padding: 5px;
+ 	 display: inline-block;
+ }
+ .sub_menu_con ul li a {
+ 	 color: white;
+ }
+ .bg_loidan {
+ 	 background: url('../images/loidan.png');
+ 	 height: 179px;
+ }
+ .loidan {
+ 	 font-size: 15px;
+ 	 padding: 19px 3px 0px  5px;
+   color: white;
+ }
+ .home1_m  {
+     background: #fffada;
+     padding: 5px;
+ }
+ .tt_m_hom1{
+ 	 color: #039188;
+ 	 font-size: 23px;
+ 	 text-transform: uppercase;
+ 	 font-weight: bold;
+ }
+ .row.text-center.rowcol2 {
+ 	 margin-top: 10px;
+ }
+ .home2_m {
+ 	 padding: 20px;
+ 	 background: #cfe8e7;
+ }
+ .text_home2_m {
+ 	 font-size: 17px;
+ 	 text-transform: uppercase;
+ 	 font-weight: bold;
+ 	 color: #039188;
+ 	 margin-top:  23px;
+ }
+ .khoitrang {
+ 	 padding: 10px;
+ 	 background: white;
+ 	 margin-top: 20px;
+ }
+ .text-khoitrang {
+ 	 font-size: 15px;
+ 	 padding: 20px 0px;
+ }
+ button.btn.btn-danger.nuttv {
+ 	 width: 300px;
+ 	 height: 50px;
+ 	 background: #ffb90b;
+ 	 border:  none;
+ 	 border-radius:  0px;
+ 	 margin-top: 30px;
+ }
+ .home3_mobie {
+ 	 padding: 20px;
+ 	 background: #fffada;
+ }
+ button.btn.btn-danger.nuttv.tv_hai {
+ 	 background: #ff840b;
+ 	 border-radius:  24px;
+ }
+ .home3_mobie.h3hai {
+ 	 background: #bcdfdd;
+ }
+ .home4_mobie {
+ 	 background: #fffada;
+ 	 padding: 20px;
+ }
+ .tt_home4 {
+ 	 font-size: 28px;
+ 	 text-transform: uppercase;
+ 	 font-weight: bold;
+ 	 color: red;
+ 	 border-bottom:  1px solid red;
+ 	 margin-bottom:  9px;
+ }
+ .des_home4 {
+ 	 color: red;
+ }
+ .baonentrang {
+ 	background: white;
+ 	height:  248px;
+ 	padding: 0px 3px;
+ }
+ .tt_nentrang {
+ 	 color: #59aaa4;
+ 	 padding: 10px 0px;
+ 	 font-size: 15px;
+ 	 text-transform: uppercase;
+ }
+ .des_nentang {
+ 	 color: black;
+ 	 font-size: 15px;
+ 	 padding-bottom: 20px;
+ }
+ .home5_mobie {
+ 	 background: #bcdfdd;
+ 	 padding: 20px;
+ }
+ .tt_home5 {
+ 	 color: red;
+ 	 font-size: 26px;
+ 	 text-transform: uppercase;
+ 	 font-weight: bold;
+ }
+ .des_home5 {
+ 	 color: #039188;
+ 	 font-size: 16px;
+ 	 font-weight: bold;
+ 	 text-align: left;
+ 	 margin-top: 20px;
+ }
+ .des_home5_hai {
+ 	 font-size: 16px;
+ 	 color: black;
+ 	 text-align: left;
+ 	 margin-top: 10px;
+ }
+ .tt_baoquanhhet {
+ 	 color: #309d95;
+ 	 font-size: 16px;
+ 	 font-weight: bold;
+ }
+ .des_baoquanhhet {
+ 	 color: black;
+ 	 font-size: 16px;
+ }
+ /* media min width */
+ @media screen and (max-width: 400px) and (min-width: 320px){
+ .loidan {
+ 	 font-size: 12px;
+ 	 /* padding-left:  40px; */
+ 	 padding: 6px 0px 0px 39px;
+ }
+ .text_home2_m {
+ 	 font-size: 15px;
+ }
+ button.btn.btn-danger.nuttv {
+ 	 width: 250px;
+ }
+ .des_nentang {
+ 	 font-size: 13px;
+ }
+ .tt_nentrang {
+ 	 font-size: 14px;
+ }
+}

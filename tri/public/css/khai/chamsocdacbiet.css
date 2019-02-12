@@ -1,0 +1,266 @@
+body{
+    background: white;
+    color: #000000;
+}
+.khainv_clear{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+#nav {
+    top: 0px;
+}
+#head{
+    height: 43px;
+}
+#main1-l2li {
+    width: 207px;
+    padding-left: 20px;
+    text-decoration: none;
+    height: 51px;
+    color: #fff;
+    background: url(../../images/khai/cham_soc_dac_biet/ico.jpg) 0px -1053px no-repeat;
+}
+.nav-l-span{
+    text-transform: uppercase;
+}
+.nav-ul li a{
+    text-transform: uppercase;
+}
+.main1-l {
+    width: 233px;
+}
+.main1-l1{
+    text-align: center;
+    height: 292px;
+}
+.main1-l1 p{
+    font-size: 12px;
+}
+.main1-l1 dd {
+    height: 138px;
+}
+.main1-l1 dt h3 {
+    text-align: center;
+}
+.main1-l2 li {
+    text-transform: uppercase;
+}
+.main1-l2 li a {
+    font-size: 12px;
+    font-weight: bold;
+}
+.cha-l-1t {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cha-l-1c dl{
+    width: 77px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cha-l-1c dt {
+    width: 100%;
+}
+.cha-l-1c dt a {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 15px;
+}
+.cha-l-1c dd{
+    width: 100%;
+    margin-left: 15px;
+}
+.his-center1-t1 {
+    background: url(../../images/khai/cham_soc_dac_biet/his-center1-t1.png) 0px 0px no-repeat;
+}
+.expert-list-wz h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.expert-list-wz p {
+    font-size: 13px;
+    padding-left: 7px;
+}
+.g-project1-c-l ul li span p {
+    font-size: 13px;
+}
+.g-project1-c-l {
+    width: 330px;
+}
+.g-project1-c-r {
+    width: 375px;
+}
+.g-project1-c-r-c{
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    background: #998f86;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+}
+.g-project1-c-r-c:hover {
+    background:#8a8077;
+    transition: all 0.3s linear 0s;
+}
+.g-project1-c-r-c h3{
+    font-size: 11px;
+    text-transform: uppercase;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    padding-top: 78px;
+    height: 25px;
+}
+.g-project1-c-r-c p{
+    font-size: 10px;
+    display: block;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin: auto;
+    height: 20px;
+}
+.g-project1-c-r-c span a{
+    margin-top: 10px;
+}
+.g-project3-t{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.g-project3-b div dl dt p a{
+    font-size: 12px;
+}
+.g-project3-b div dl dt.item1{
+    width: 560px;
+}
+/*cham soc dac biet*/
+.service-l dd {
+    width: 180px;
+}
+.service-l dt {
+    width: 290px;
+    padding-top: 55px;
+}
+.service-l dt h3 {
+    font-size: 14px;
+    color: #000000;
+}
+.service-l dt h3 span {
+    float: left;
+    text-align: left;
+}
+.service-l dt h3{
+    background: url(../../images/khai/cham_soc_dac_biet/ico.jpg)-294px -1138px no-repeat;
+}
+.service-l dt p{
+    text-align: right;
+}
+.service-r dd {
+    width: 225px;
+    height: 420px;
+    text-align: right;
+    background: url("../../images/khai/cham_soc_dac_biet/bg_service.png") no-repeat center 50px;
+}
+.service-r .service-r1{
+    float: left;
+    width: 130px;
+    font-size: 16px;
+    margin-left: 45px;
+    padding-top: 90px;
+}
+.service-r .service-r2{
+    float: left;
+    width: 125px;
+    font-size: 18px;
+    margin-left: 45px;
+    text-align: center;
+}
+.pv_tt{
+    width: 50px;
+    float: left;
+    margin-left: 88px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.pv_tt .pv_tt1{
+    background: #dd383e;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.pv_tt .pv_tt2{
+    background: #5c7c91;
+    border-radius: 100%;
+    height: 50px;
+}
+/*end cham soc dac biet*/
+/*old*/
+.bottom-ksnav li span {
+    width: 58px;
+}
+bottom-ksnav li #a1{
+    background-position: -60px -6px;
+}
+#a4 {
+    background-position: -192px -54px;
+}
+bottom-ksnav li:hover #a1 {
+    background-position: -60px -6px;
+}
+.bottom-ksnav li:hover #a4 {
+    background-position: -191px 0px;
+}
+.bottom-ksnav li:nth-child(1){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(2){
+    width: 200px;
+}
+.bottom-ksnav li:nth-child(3){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(4){
+    width: 180px;
+}
+.bottom-ksnav li:nth-child(5){
+    width: 210px;
+    line-height: 20px;
+}
+.foot_main {
+    width: 1300px;
+}
+.foot h6 {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.w565{
+    width: 660px;
+    text-transform: uppercase;
+}
+.w565 ul{
+    width: 190px;
+}
+.w565 ul li{
+    width: 100%;
+    text-align: left;
+}
+.w565 ul.w100{
+    width: 200px;
+}
+.w565 ul.w100 li {
+    width: 100%;
+}
+.footer_r {
+    width: 330px;
+    float: left;
+    margin-left: 18px;
+    color: #b7a88f;
+}
+.copy {
+    padding-bottom: 0px;
+}

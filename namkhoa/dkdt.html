@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        .fp-phone {
+            top: 120px;
+            right: -45px;
+        }
+        .fp-phone {
+            visibility: visible;
+        }
+        .fp-phone {
+            position: fixed;
+            /*visibility: hidden;*/
+            background-color: transparent;
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            z-index: 200000 !important;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            -webkit-transition: visibility .5s;
+            -moz-transition: visibility .5s;
+            -o-transition: visibility .5s;
+            transition: visibility .5s;
+            right: -10px;
+            top: 25px;
+        }
+        #fp-phoneIcon p {
+            background: rgba(0,0,0,.8);
+            border-radius: 5px;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 98;
+            width: 90px;
+            font-size: 12px;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            display: none;
+        }
+        .fp-phone .fp-ph-circle {
+            /*border-color: #bfebfc;*/
+            opacity: .5;
+        }
+        .fp-ph-circle {
+            width: 160px;
+            height: 160px;
+            top: 20px;
+            left: 20px;
+            position: absolute;
+            background-color: transparent;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            border: 2px solid #bfebfc;
+            opacity: .1;
+            -webkit-animation: fp-circle-anim 1.2s infinite ease-in-out;
+            -moz-animation: fp-circle-anim 1.2s infinite ease-in-out;
+            -ms-animation: fp-circle-anim 1.2s infinite ease-in-out;
+            -o-animation: fp-circle-anim 1.2s infinite ease-in-out;
+            animation: fp-circle-anim 1.2s infinite ease-in-out;
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            -webkit-transform-origin: 50% 50%;
+            -moz-transform-origin: 50% 50%;
+            -ms-transform-origin: 50% 50%;
+            -o-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+    </style>
+</head>
+<body style="background: #ccc;">
+<div class="fp-phone fp-green fp-show" id="fp-phoneIcon">
+    <p>Click Ngay</p>
+    <div class="fp-ph-circle"></div>
+    <div class="fp-ph-circle-fill"></div>
+    <div class="fp-ph-img-circle"></div>
+</div>
+</body>
+</html>

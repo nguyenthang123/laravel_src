@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>chuyen de nam khoa</title>
+    <link rel="stylesheet" href="bootstrap-3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <base target="_blank">
+</head>
+<body>
+<?php
+include("../../define.php");
+$dbHost = Host;
+$dbUsername = User_db;
+$dbPassword = Pass_db;
+$dbDatabase = Name_db;
+$db = mysqli_connect($dbHost, $dbUsername, $dbPassword) or die ("Unable to connect to Database Server.");
+mysqli_select_db ( $db,$dbDatabase) or die ("Could not select database.");
+$link_tuvan=link_tuvan;
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_lienhe=link_lienhe;
+?>
+<?= Addtop();?>
+<?= Addleft();?>
+<div class="container-fluid">
+    <div class="home_top">
+        <div class="home_main_item">
+            <div class="home_top_logo">
+                <a href="<?= $domain;?>">
+                    <img src="/public/frontend/img/home/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="home_top_right">
+                <ul>
+                    <li>
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="/public/frontend/img/home/home_top_dt.png" alt="dt">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="/public/frontend/img/home/home_top_hk.png" alt="hk">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?= link_diachi;?>">
+                            <img src="/public/frontend/img/home/home_top_dc.png" alt="dc">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu_content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="<?php echo $domain;?>">Trang chủ</a></li>
+                            <li><a href="<?php echo $link_gioithieu;?>">Giới thiệu</a></li>
+                            <li><a href="<?php echo $link_thietbi;?>">Thiết bị</a></li>
+                            <li><a href="<?php echo $link_kythuat;?>">Kỹ thuật</a></li>
+                            <li><a href="<?php echo $link_tuvan;?>">Bác sỹ</a></li>
+                            <li><a href="<?php echo $link_lienhe;?>">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="banner">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="bg_banner" style="background: #d3d3d3;">
+                            <div class="banner_item">
+                                <img src="images/banner1.jpg" alt="Chania">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="gioithieu_title"><h3>phòng khám đa khoa Giải Phóng Hà Nội LÀ PHÒNG KHÁM CHÍNH QUY CHUYÊN NGHIỆP TẠI HÀ NỘI.</h3></div>
+            <div class="gioithieu_content_left">
+                <!--<img src="images/img_phongkham.jpg">-->
+                <img src="images/img_phongkham.png" style="width: 415px;height: 290px;">
+            </div>
+            <div class="gioithieu_content_right">
+                <div class="title_1">phòng khám đa khoa Giải Phóng</div>
+                <p>
+                    phòng khám đa khoa Giải Phóng Hà Nội là phòng khám chính quy chuyên nghiệp do sở y tế, bộ xét duyệt nghiêm ngặt rồi phê chuẩn. Phòng khám triển khai các hạng mục dịch vụ: chỉnh hình bộ phận sinh dục ( hẹp bao quy đầu, dài bao quy đầu), bệnh về tiền liệt tuyến, yếu sinh lý, liệt dương, xuất tinh sớm, vô sinh, viêm nhiễm đường tiết niệu, bệnh xã hội... Giúp nam giới ở mọi độ tuổi giải quyết về vẫn đề sức khỏe.
+                </p>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="<?php echo $link_tuvan;?>"> <img src="img/ico_baomat.jpg"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="<?php echo $link_tuvan;?>"><img src="img/ico_phongchuan.jpg"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="<?php echo $link_tuvan;?>"><img src="img/ico_khongngaynghi.jpg"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="<?php echo $link_tuvan;?>"><img src="img/ico_dathen.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="sodo_tongquat">
+        <div class="sodo_tongquat_content">
+            <div class="top_right">
+                <p style="text-indent: 20px;">
+                    phòng khám đa khoa Giải Phóng Hà Nội dựa trên thương hiệu lớn mạnh, phòng khám tập hợp đội ngũ y bác sỹ chuyên khoa, trở thành nơi thăm khám uy tín điều trị các bệnh về nam khoa ở Việt Nam.
+                </p>
+            </div>
+            <div class="left_foot">
+                <p style="text-indent: 20px;">
+                    Từ khi mới thành lập, phòng khám đa khoa Giải Phóng Hà Nội luôn thực hiện theo tiêu chí: an toàn, chữ tín, dịch vụ chất lượng cao. Từ ngày thành lập cho đến nay, toàn bộ nhân viên y bác sỹ của phòng khám luôn duy trì thực hiện đúng theo tiêu chí đó, liên tục 5 năm là “phòng khám đáng tin cậy của nam giới”, được mệnh danh là “ phòng khám nam khoa được tin yêu ở Hà Nội”.
+                </p>
+            </div>
+            <div class="click_tuvan">
+                <a href="<?php echo $link_tuvan;?>">click tư vấn</a>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="duytri">
+        <div class="duytri_content">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="duytri_title">
+                        <img src="img/dt_phucvu.png">
+                    </div>
+                    <div class="duytri_img1">
+                        <a href="<?php echo $link_tuvan;?>"> <img src="images/img_duytri1.jpg"></a>
+                    </div>
+                    <div class="lotron"></div>
+                    <div class="duytri_content" id="div1">
+                        <p><b>1.</b> Thực hiện “ phòng khám không ngày nghỉ” thời gian khám bệnh: 8:00--20:00</p>
+                        <p><b>2.</b> Thực hiện: “ 1 bệnh nhân - 1 bác sỹ - 1 phòng”, tôn trọng quyền riêng tư của người bệnh; nghiêm khắc bảo mật thông tin bệnh nhân.</p>
+                        <p><b>3.</b> Để tiện lợi cho bệnh nhân khám bệnh sau giờ làm, phòng khám đặc biệt triển khai khám cả ban đêm.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="duytri_title">
+                        <img src="img/dt_chutin.png">
+                    </div>
+                    <div class="duytri_img2">
+                        <a href="<?php echo $link_tuvan;?>"><img src="images/img_duytri2.jpg"></a>
+                    </div>
+                    <div class="lotron"></div>
+                    <div class="duytri_content" id="div2">
+                        <p><b>1.</b> Chi phí theo pháp luật quy định, thu phí hợp lý, giúp người bệnh hiểu rõ yên tâm khám bệnh.</p>
+                        <p><b>2.</b> Hoàn thiện hệ thống quản lý phòng khám, tuyệt đối không cắt lại chiết khấu thuốc của bệnh nhân, không nhận phong bì.</p>
+                        <p><b>3.</b> Loại bỏ bệnh cho người bệnh, thái độ khoa học thực sự cầu thị trong việc khám bệnh cho bệnh nhân. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="duytri_title">
+                        <img src="img/dt_antoan.png">
+                    </div>
+                    <div class="duytri_img3">
+                        <a href="<?php echo $link_tuvan;?>"><img src="images/img_duytri3.jpg"></a>
+                    </div>
+                    <div class="lotron"></div>
+                    <div class="duytri_content" id="div3">
+                        <p><b>1.</b> Nghiêm chỉnh chấp hành lưu trình chẩn đoán điều trị và quy tắc nội bộ của phòng khám. </p>
+                        <p><b>2.</b> Thực hiện an toàn trong y tế, đảm bảo an toàn trong thủ thuật.</p>
+                        <p><b>3.</b> Đưa vào sử dụng kỹ thuật chẩn đoán điều trị hiện tại, là phòng khám an toàn tại Hà Nội.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="dttuvan">
+                    <a href="<?php echo $link_tuvan;?>"> <img src="img/tuvanmienphi.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sodo_tongquat">
+        <div class="kythuat">
+            <div class="title" style="text-transform: uppercase;">Kỹ thuật chẩn đoán điều trị hiện đại, xây dựng phòng khám có thương hiệu.</div>
+            <div class="row">
+                <div class="col-lg-3"><img src="images/kt_r1_c1.jpg"></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r1_c2.jpg"></a></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r1_c3.jpg"></a></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r1_c4.jpg"></a></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"> <img src="images/kt_r2_c1.jpg"></a></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r2_c2.jpg"></a></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r2_c3.jpg"></a></div>
+                <div class="col-lg-3"><a href="<?php echo $link_tuvan;?>"><img src="images/kt_r2_c4.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="title">Đội ngũ y bác sỹ chuyên nghiệp, nâng cao chất lượng khám bệnh</div>
+            <div class="img_bacsy"><img src="images/img_doingubacsy.jpg"></div>
+            <div class="bacsy_content">
+                <p>
+                    phòng khám đa khoa Giải Phóng Hà Nội với đội ngũ y bác sỹ chuyên nghiệp, các bác sỹ nổi tiếng trực tiếp khám chữa bệnh, kinh nghiệm lâm sàng phong phú, kỹ thuật chuyên nghiệp, vận dụng linh hoạt khái niệm y tế tiên tiến nhất, khoa học nhất trong thực tiễn lâm sàng.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="title">Hệ thống giám sát chất lượng dịch vụ y tế</div>
+            <div class="row">
+                <div class="col-lg-4 dobong">
+                    <div class="giamsat_item">
+                        <div class="giamsat_img"><img src="images/giamsat1.jpg"></div>
+                        <div class="item_content" id="item_content1">
+                            <div class="title">Giám sát chi phí</div>
+                            <p>
+                                Các hạng mục chi phí chẩn đoán điều trị của phòng khám do cục vật giá giám sát nghiêm ngặt, tuyệt đối loại bỏ hiện tượng gian lận giá.
+                            </p>
+                        </div>
+                        <div class="bt_tuvan">
+                           <a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 dobong">
+                    <div class="giamsat_item">
+                        <div class="giamsat_img"><img src="images/giamsat2.jpg"></div>
+                        <div class="item_content" id="item_content2">
+                            <div class="title">giám sát dịch vụ</div>
+                            <p>
+                                Trong toàn bộ quá trình tư vấn, hướng dẫn bệnh nhân... Phòng khám đều có quy tắc theo dõi nghiêm ngặt, bệnh nhân có bất kỳ vấn đề gì có thể phản ánh bất cứ lúc nào. </p>
+                        </div>
+                        <div class="bt_tuvan">
+                            <a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 dobong">
+                    <div class="giamsat_item">
+                        <div class="giamsat_img"><img src="images/giamsat3.jpg"></div>
+                        <div class="item_content" id="item_content3">
+                            <div class="title">dịch vụ tái khám</div>
+                            <p>
+                                Thái độ trách nhiệm về sức khỏe đối với người bệnh, phòng khám miễn phí triển khai dịch vụ một bác sỹ - một bệnh nhân khi đến thăm khám tại phòng khám.</p>
+                        </div>
+                        <div class="bt_tuvan">
+                            <a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="title">Thiết bị hiện đại, Nâng cao hiệu quả điều trị cho bệnh nhân</div>
+            <div class="tab_right">
+                <ul>
+                    <li data-i="1" class="tabsgiaidap active">máy điều trị hồng quang</li>
+                    <li data-i="2" class="tabsgiaidap">Máy điều trị sóng ngắn</li>
+                    <li data-i="3" class="tabsgiaidap">máy điều trị tiền liệt tuyến</li>
+                    <li data-i="4" class="tabsgiaidap">máy điều trị yếu sinh lý</li>
+                    <li data-i="5" class="tabsgiaidap">Máy siêu âm màu</li>
+                </ul>
+            </div>
+            <div class="tab_left">
+                <div class="img_tab tabsgiaidap_content tabsgiaidap_content_1" style="display: block">
+                    <img src="images/tab_hongquang.jpg">
+                </div>
+                <div class="img_tab tabsgiaidap_content tabsgiaidap_content_2" style="display: none">
+                    <img src="images/tab_songngan.jpg">
+                </div>
+                <div class="img_tab tabsgiaidap_content tabsgiaidap_content_3" style="display: none">
+                    <img src="images/tab_tienliettuyen.jpg">
+                </div>
+                <div class="img_tab tabsgiaidap_content tabsgiaidap_content_4"  style="display: none">
+                    <img src="images/tab_yeusinhly.jpg">
+                </div>
+                <div class="img_tab tabsgiaidap_content tabsgiaidap_content_5" style="display: none">
+                    <img src="images/tab_sieuammau.jpg">
+                </div>
+                <div class="tab_content" style="overflow: hidden;">
+                    <div class="tab_content_item">
+                        <p style="text-indent: 20px;">
+                            phòng khám đa khoa Giải Phóng Hà Nội lắp đặt thiết bị y tế hiện đại, trong đó có: Máy sinh hóa tự động, máy trị liệu hồng ngoại quang, máy trị liệu vi ba, máy điều trị quang phổ đa chức năng, máy điều trị BOOM, hệ thống phát hiện tự động hóa và các loại máy móc khác, nỗ lực đưa phòng khám đa khoa Giải Phóng Hà Nội trở thành nơi mà bệnh nhân coi như nhà của mình.</p>
+                    </div>
+                    <div class="dongke"></div>
+                    <div class="bt_tuvan"><a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="duytri">
+        <div class="duytri_content">
+            <div class="title">
+                <h3 style="text-transform: uppercase;">Dịch vụ y tế tốt hơn, chuyên nghiệp hơn</h3>
+                <div class="cantuvan">
+                    <a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn<img src="img/ico_icantuvan.png" class="ico_tuvan"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu1.jpg">
+                        <p>Hẹn khám qua mạng miễn phí đăng kí khám, tiết kiệm thời gian, quá trình khám bệnh đơn giản, thuận tiện.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu2.jpg">
+                        <p>Kiểm tra trước thủ thật, sau thủ thuật đều có nhân viên y tế theo dõi, có trách nhiệm đối với sức khỏe của người bệnh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu3.jpg">
+                        <p>Một bác sỹ một bệnh nhân một phòng, bảo mật thông tin cá nhân cho người bệnh, giúp bệnh nhân yên tâm khám bệnh.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu4.jpg">
+                        <p>Môi trường phòng khám sạch sẽ gọn gàng, đảm bảo vệ sinh đồng thời giúp tâm trạng của người bệnh cảm thấy tốt hơn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu5.jpg">
+                        <p>Quy phạm hóa kiểm tra trước thủ thuật, đảm bảo mỗi hạng mục kiểm tra đều chính xác không sai sót, giúp người bệnh yên tâm hơn.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu6.jpg">
+                        <p>Bác sỹ chuyên ngành với hơn 20 năm kinh nghiệp lâm sàng trực tiếp thăm khám, chỉ định phương án chẩn đoán điều trị hợp lý nhất.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu7.jpg">
+                        <p>Phòng thủ thuật sạch sẽ được vô trùng, đảm bảo an toàn thủ thuật cho mỗi bệnh nhân.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="phucvu_content">
+                        <img src="images/phucvu8.jpg">
+                        <p>Quá trình chẩn đoán điều trị tiêu chuẩn quy phạm, sau thủ thuật điều chỉnh phương án khoa học có hiệu quả, phục hồi nhanh hơn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="title" style="text-transform: uppercase;">Xây dựng văn hóa y tế quốc tế, để thế giới tràn ngập yêu thương.</div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="phucvu_content">
+                        <img src="images/vanhoa1.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="phucvu_content">
+                        <img src="images/vanhoa2.jpg">
+                    </div>
+                </div>
+            </div>
+            <p><b>[Hoạt động phòng khám] </b>Các hoạt động về sức khỏe ở nông thôn</p>
+            <p>	Để từng bước nâng cao nhận thức về sức khỏe cho mọi người, phòng khám đa khoa Giải Phóng Hà Nội hàng năm đều tổ chức hoạt động miễn phí tư vấn, miễn phí khám, miễn phí kiểm tra sức khỏe cho những khu vực khó khăn; Đồng thời thông qua hoạt động thăm khám phổ cập thêm kiến thức y tế cho người dân, tuyên truyền kiến thức phòng bệnh trị bệnh một cách chính xác. Mọi người đều cảm thấy vô cùng biết ơn về dịch vụ tư vấn nhiệt tình, miễn phí cho người dân và đánh giá cao hoạt động này.</p>
+        </div>
+    </div>
+    <div class="gioithieu">
+        <div class="gioithieu_content">
+            <div class="title" id="dathen_title">
+                <h3>ĐẶT HẸN LẤY SỐ QUA MẠNG, CÀNG TIỆN LỢI</h3>
+                <div class="cantuvan">
+                    <a href="<?php echo $link_tuvan;?>">Tôi cần tư vấn<img src="img/ico_icantuvan.png" class="ico_tuvan"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="dathen_left">
+                        <div class="title_sub" style="text-transform: uppercase;">Hẹn khám qua mạng (đăng ký khám) hưởng 4 phúc lợi sau:</div>
+                        <p style="padding: 5px 5px 0 10px;"><b style="color:#0554ae;">1.Được ưu tiên khám trước</b>: đăng kí khám qua mạng sẽ được ưu tiên khám trước, không cần phải xếp hàng chờ đợi.</p>
+                        <p><b style="color:#0554ae;">2.Đến là được khám ngay</b>: chỉ cần hẹn khám qua mạng bạn có thể lựa chọn thời gian thăm khám thuận tiện nhất cho mình</p>
+                        <p><b style="color:#0554ae;">3.Được lựa chọn bác sỹ</b>: khi hẹn khám qua mạng sẽ căn cứ vào tình trạng bệnh của người bệnh để sắp xếp bác sỹ khám bệnh phù hợp cho bạn.</p>
+                        <p><b style="color:#0554ae;">4.Được hưởng ưu đãi</b>: đăng kí khám qua mạng có thể được hưởng những ưu đãi liên quan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dathen_img">
+                        <img src="images/img_dathen.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dathen_right">
+                        <div class="title_sub">ĐẶT HẸN KHÁM TRỰC TIẾP QUA MẠNG</div>
+                        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+                        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+                        <form name="frm" method="post" action="">
+                        <ul>
+                            <li><label>Họ và tên <b style="color: red;">(*)</b>:</label><label><input type="text" name="hoten"></label></li>
+                            <li><label>Khoa khám:</label><label><input type="text" name="khoakham"></label></li>
+                            <li><label>Thời gian khám:</label><label><input type="text" name="thoigian" id="thoigian"></label></li>
+                            <li><label>Số điện thoại <b style="color: red;">(*)</b>:</label><label><input type="number" name="dienthoai"></label></li>
+                            <li><label>Mô tả bệnh:</label><label><textarea name="mota" cols="22" rows="5"></textarea></label></li>
+                            <li><label></label><label><input type="submit" name="submit" class="btn btn-info" value="Đặt hẹn"></label></li>
+                        </ul>
+                        </form>
+                        <script>
+                            $(function() {
+                                $("#thoigian").datepicker({ dateFormat: 'yy-mm-dd',
+                                    monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+                                });
+                            });
+                        </script>
+                        <?php if(isset($_POST['submit'])){
+                            $hoten=$_POST['hoten'];
+                            $khoakham=$_POST['khoakham'];
+                            $thoigian=$_POST['thoigian'];
+                            $dienthoai=$_POST['dienthoai'];
+                            $mota=$_POST['mota'];
+                            if(empty($hoten) || empty($dienthoai)){
+                                echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+                            }else{
+                                //query("SET NAMES utf8");
+                                $sql="insert into tbldangky(hoten,dienthoai,khoakham,thoigian,mota) values (N'".$hoten."',N'".$dienthoai."',N'".$khoakham."',N'".$thoigian."',N'$mota')";
+                                $rs=mysqli_query($db,$sql);
+                                if($rs=="1"){
+                                    echo "<script>alert('Bạn đã đặt hẹn thành công.');</script>";
+                                }else{
+                                    echo "<script>alert('Bạn đặt hẹn không thành công.Mời bạn đặt hẹn lại.');</script>";
+                                }
+                            }
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="fcopy" id="fcopy" style="padding-bottom: 0;height: 0"></div>
+        <div id="footer_btn_box">
+            <div class="cons">
+                <div class="bg"></div>
+                <div class="in">
+                    <div class="left">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Hẹn khám qua mạng được hưởng ưu đãi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Khi đến đưa ra mã số khám bệnh
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="con">
+                        <ul>
+                            <li>
+                                <a href="<?= $link_tuvan;?>">
+                                    <div class="pic">
+                                        <img src="/public/frontend/img/home/fbb_ico2.png">
+                                    </div>
+                                    <p>tư vấn<br>trực tuyến</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= link_skype;?>"><div class="pic"><img src="/public/frontend/img/home/skype_btn.png" style="padding-top: 12px;"></div><p>tư vấn<br>Skype</p></a>
+                            </li>
+                            <li>
+                                <a href="<?= link_facebook;?>"><div class="pic"><img src="/public/frontend/img/home/fb_btn.png" style="padding-top: 12px;"></div><p>tư vấn<br>facebook</p></a>
+                            </li>
+                            <li>
+                                <a href="<?= link_quytrinhphongkham;?>"><div class="pic"><img src="/public/frontend/img/home/fbb_ico5.png" style="padding-top: 12px;"></div><p>tư vấn<br>chỉ đường</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right" style="float: left;width: 30px;">
+                        <div class="btn_i" style="padding-top: 23px;">
+                            <img src="http://phongkhambenhxahoi.vn/public/frontend/images/ico_dangky_close.png" id="f_close" style="float: right;display: block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyc" id="copyc" style="background: #1f80c1;text-align: center;padding-top: 10px;padding-bottom: 10px;color: #fff;font-size: 14px;margin-bottom:91px;">
+            Sở hữu bản quyền phòng khám đa khoa Giải Phóng Hà Nội,nội dung website này chỉ để tham khảo không làm căn cứ chẩn đoán y tế.Tôn trọng ý kiến bác sĩ
+        </div>
+        <script>
+            $('#f_close').click(function(){
+                $('#footer_btn_box').hide();
+                $('#footer #fcopy').hide();
+                $('#copyc').css('margin-bottom','0px');
+            })
+        </script>
+
+    </div>
+    <script type="text/javascript" language="JavaScript">
+        $(document).ready(function(){
+            $( "#banner-close" ).click(function() {
+                $(".banner-son").hide();
+            });
+        })
+    </script>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        divbangnhau("item_content1","item_content2","item_content3");
+        divbangnhau("div1","div2","div3");
+        showtab("tabsgiaidap");
+    });
+</script>
+<?= popup();?>
+<?= line_chat();?>
+</body>
+</html>

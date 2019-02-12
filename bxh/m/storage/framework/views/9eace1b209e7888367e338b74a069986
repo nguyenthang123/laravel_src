@@ -1,0 +1,49 @@
+<?php $__env->startSection('title'); ?><?php echo $seo['title'];?><?php $__env->stopSection(); ?>
+<?php $__env->startSection('keywords'); ?><?php echo $seo['keywords'];?><?php $__env->stopSection(); ?>
+<?php $__env->startSection('description'); ?><?php echo $seo['description'];?><?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+<div class="main_content">
+    <div class="main_item categories">
+        <?php if(!empty($cate['rewrite_parent'])){?>
+            <?= m_CateOption($cate['rewrite_parent']);?>
+        <?php }else{ ?>
+            <?= m_CateOption($cate['cat_rewrite']);?>
+        <?php }?>
+    </div>
+    <div class="main_item main_tit2"><?= $cate['cat_name'];?></div>
+    <div class="main_item  detai_main">
+        <div class="detail_tit">
+            <h1><?= $new['new_name']?></h1>
+        </div>
+        <div class="detail_content">
+            <?= $new['new_content'];?>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('div.detail_content img').each(function(){
+                var ab=$(this).attr("src");
+                fileExt = ab.split('/').shift();
+                if(fileExt==""){
+                    ab="http://benhxahoi168.net"+ab;
+                }
+                $(this).attr('src',ab);
+            })
+        })
+    </script>
+    <div class="clear2"></div>
+    <?php if(!empty($baivietlienquan)){?>
+    <div class="main_item main_tit2">Bài viết liên quan</div>
+    <div class="main_item articel">
+        <ul class="articel">
+            <?php foreach($baivietlienquan as $key=>$val){?>
+            <li><a href="/<?= $val['new_rewrite'];?>"><?= $val['new_name'];?></a> </li>
+            <?php }?>
+        </ul>
+    </div>
+    <?php }?>
+</div>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('frontend.layouts.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

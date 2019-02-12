@@ -1,0 +1,9 @@
+.copyright {
+    margin-bottom: 76px;
+}
+.footer_fix{
+width: 100%;
+    background: #0a7f86;
+    position: fixed;
+    bottom: 0;
+}

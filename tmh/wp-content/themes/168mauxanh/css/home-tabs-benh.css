@@ -1,0 +1,179 @@
+.tabs-benh{
+	background: #efefef;
+	min-height: 495px;
+}
+.tabs{
+	padding-top: 20px;
+}
+.tabs .tai,.tabs .hong{
+	margin-left: 5px;
+}
+.tabs-content{
+	margin-top: 18px;
+}
+.tabs-content .tabs-2{
+	width: 200px;
+}
+.tabs-content .tabs-2 a{
+	display: block;
+	color: #333;
+	font-weight: bold;
+	background-color:#fff;
+	margin-bottom: 5px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13pt; 
+	text-decoration: none;
+}
+.tabs-2-content{
+	width: 780px;
+	margin-left: 20px;
+	background-color:#fff; 
+	padding: 20px;height: 355px;overflow: hidden;
+}
+.tabs-2-content >div:first-child{
+	height: 154px;overflow: hidden;
+}
+.tabs-2-content .col-1{
+	width: 230px;
+}
+.tabs-2-content .col-1 img{
+	display: block;
+	max-width: 100%;
+	height: 150px;
+}
+.tabs-2-content .col-2{
+	width: 495px;
+	margin-left: 15px;
+}
+.tabs-2-content .col-2 a.title{
+	color: #078252;
+	font-size: 15pt;
+	padding-bottom: 12px;
+	display: block;
+}
+.tabs-2-content .col-2 a.title:hover{
+	color: #ff6600;
+}
+.tabs-2-content .col-2 p.description{
+	line-height: 18pt;
+	font-size: 11pt;
+	color: #333;
+}
+.tabs-2-content .list{
+	margin-top: 16px;
+}
+.tabs-2-content .list li{
+	display: block;
+	line-height: 10pt;
+	padding: 10px 0px;
+	width: 50%;
+	font-size: 13pt;
+	color: #333;
+}
+.tabs-2-content .list li span{
+	display: inline-block;
+	float: left;
+}
+.tabs-2-content .list li a{
+	display: inline-block;
+	margin-left: 10px;
+	float: left;
+	width: 340px;
+	overflow:hidden; 
+	text-overflow: ellipsis;
+	line-height: 13pt;
+	height: 13pt;
+	/*white-space: nowrap;*/
+}
+.tabs-2-content .list li a:hover{
+	color: #ff6600;
+}
+a.active.left-hover-mui{
+	background-color:#ff6600;
+	color: #fff; 
+}
+a.active.left-hover-tai{
+	background-color:#ff6600;
+	color: #fff; 
+}
+a.active.left-hover-hong{
+	background-color:#ff6600;
+	color: #fff; 
+}
+.mui .top-hover{
+	background-image: url('../images/tabs-mui.png');
+	background-size: 330px 70px;
+	background-repeat: no-repeat;
+	width:330px;
+	height: 70px;
+	display: block;
+}
+.mui .top-hover.active{
+	background-image: url('../images/tabs-mui-active.png');
+	background-size: 330px 79px;
+	background-repeat: no-repeat;
+	width:330px;
+	height: 79px;
+	display: block;
+}
+.tai .top-hover{
+	background-image: url('../images/tabs-tai.png');
+	display: block;
+	background-size: 330px 70px;
+	background-repeat: no-repeat;
+	width:330px;
+	height: 70px;
+}
+.tai .top-hover.active{
+	background-image: url('../images/tabs-tai-active.png');
+	background-repeat: no-repeat;
+	background-size: 330px 79px;
+	display: block;
+	width:330px;
+	height: 79px;
+}
+.hong .top-hover{
+	background-image: url('../images/tabs-hong.png');
+	background-size: 330px 70px;
+	background-repeat: no-repeat;
+	display: block;
+	width:330px;
+	height: 70px;
+}
+.hong .top-hover.active{
+	background-image: url('../images/tabs-hong-active.png');
+	background-size: 330px 79px;
+	background-repeat: no-repeat;
+	display: block;
+	width:330px;
+	height: 79px;
+}
+
+.top-content{
+	display: none;
+}
+.top-content.active{
+	display: block;
+}
+
+.left-content-mui{
+	display: none;
+}
+.left-content-mui.active{
+	display: block;
+}
+
+.left-content-tai{
+	display: none;
+}
+.left-content-tai.active{
+	display: block;
+}
+
+.left-content-hong{
+	display: none;
+}
+.left-content-hong.active{
+	display: block;
+}

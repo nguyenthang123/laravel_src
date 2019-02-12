@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: Arial;
+	font-size: 14px;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+.description{
+	color: #333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: middle;
+}
+.pos-rel{
+	position: relative;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+}
+.flex{
+	display: flex;
+}
+.site-header{
+	margin-top: 20px;
+}
+/*---------------------menu--------------------*/
+.menu{
+	background-color: #25a161;
+	height: 70px;
+	margin-top: 20px;
+}
+.menu .flex >div{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+	align-self: center; 
+}
+.menu .flex >div a{
+	display: block;
+	height: 70px;
+	padding: 15px;line-height: 20px;
+	background-image: url('img/0.png');
+	background-position: right;
+	background-repeat: repeat-y;
+}
+.menu .flex >div a:hover{
+	background-color: #ff6600;
+	text-decoration: none;
+}
+.kiemtra .luuy h1{
+	font-weight: normal;
+	color: #25a161;font-size: 24px;
+	padding-top: 10px;
+}
+.kiemtra p.mau1{
+	color: #f24823;
+}
+.kiemtra h3{
+	background-image: url('img/3.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 40px;
+	font-weight: normal;
+}
+.question .tieude{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #f24823;font-weight: normal;
+}
+.question{
+	border:1px dashed #333;
+	padding:0px 65px;margin-top: 40px;padding-bottom: 80px;margin-bottom: 200px;
+}
+.question >p:nth-child(2){
+	text-align: center;
+	color: #555;
+	margin-top: -20px;
+}
+.question .flex >div{
+	flex-grow: 1;width: 50%;
+	padding-right: 50px;
+}
+.question .item{
+	border-top:1px dashed #444;
+}
+.question .item >div.col1 >p:nth-child(n+2){
+	margin-left: 20px;
+}
+.question .item:nth-child(1){
+	border-color: #49bd81;
+}
+.question .item:last-child button{
+	text-align: center;
+	display: inline-block;
+	height: 40px;
+	width: 175px;	
+	margin-right: 20px;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+}
+.question .item:last-child{
+	text-align: center;
+	padding-top: 50px;
+}
+.question .item:last-child button:first-child{
+	background-color: #00af86;
+}
+.question .item:last-child button:last-child{
+	background-color: #6e757f;
+}

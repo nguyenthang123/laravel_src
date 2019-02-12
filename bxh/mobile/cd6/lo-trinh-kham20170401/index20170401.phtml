@@ -1,0 +1,205 @@
+<?php
+require_once('../../../define.php');
+$domain=domain;
+$link_gioithieu=link__mobile_diachi;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$ico_shorcut=ico_shortcut;
+?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> phòng khám đa khoa chuyên nghiệp</title>
+    <meta name="keywords" content="phong kham da khoa chuyen nghiep, phong kham 168,phong kham da khoa 168">
+    <meta name="description" content="Phong Kham Da Khoa Giai Phong Ha Noi dieu tri chuyen nghiep">
+    <meta property="og:url" itemprop="url" content="http://m.namkhoa168.com/" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <?= $ico_shorcut;?>
+    <base target="_blank">
+</head>
+<body>
+<?= m_popup();?>
+<div class="container">
+<div class="main_header">
+    <div class="col-xs-12">
+        <div class="logo_top">
+            <a href="<?= $domain;?>">
+                <img src="images/logo_top.png" alt="logo">
+            </a>
+        </div>
+        <div class="header_right">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <img src="images/ico_dienthoai.gif" alt="dien thoai" style="max-width: 100%;max-height: 61px;">
+            </a>
+        </div>
+    </div>
+</div>
+    <?= m_Addtop();?>
+<div class="clear" style="float: left"></div>
+<div class="main_content">
+    <div class="main_item">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-6 logo">
+                    <a href="<?= $link_gioithieu;?>">
+                        <img src="images/logo.png" alt="logo">
+                        <p>giới thiệu về<br>phòng khám</p>
+                    </a>
+                </div>
+                <div class="col-xs-6 about">
+                    <div class="gioithieu">
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="images/ico_tvtt.png" alt="tu van truc tuyen">
+                            <span>tư vấn<br>trực tuyến</span>
+                        </a>
+                    </div>
+                    <div class="kythuat">
+                        <div class="kythuat1">
+                            <a href="<?= $link_kythuat;?>">
+                                <img src="images/ico_kythuat.png" alt="kythuat">
+                                <p style="padding-top:0.5rem;">Kỹ thuật</p>
+                            </a>
+                        </div>
+                        <div class="kythuat2" style="padding-top: 0.5rem">
+                            <a href="<?= $link_diachi;?>">
+                                <img src="images/ico_diachi.png" alt="dia chi">
+                                <p style="padding-top: 0.3rem;">Địa chỉ</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lotrinh">
+        <div class="main_tit">
+            <div class="main_tit_txt">Lộ trình khám</div>
+        </div>
+        <div class="clear"></div>
+        <div class="lotrinh_main">
+            <div class="lotrinh_l">
+                <p>Trân trọng nhắc nhở</p>
+            </div>
+            <div class="lotrinh_r">
+                <p>Bạn muốn đến phòng khám nhưng bạn đang gặp khó khăn trong việc tìm địa, không biết làm cách nào để tìm đường đến phòng khám một cách thuận tiện nhất. Bạn có thể click điền thông tin đăng kí khám, hoặc có thể gọi trực tiếp số điện thoại <b style="color: red;"><?= $phone1;?>, <?= $phone2;?></b> để nhận được giúp đỡ từ các chuyên gia tư vấn.</p>
+            </div>
+        </div>
+    </div>
+    <div class="dangkymakham">
+        <a href="<?= $link_tuvan;?>" class="dangkymakham">Đăng ký mã khám</a>
+    </div>
+    <div class="clear"></div>
+    <div class="duongden">
+        <div class="main_tit_txt">Cách thức đến khám</div>
+        <div class="duongden_img">
+            <img src="images/duongden_tulaixe.png" alt="tu lai xe">
+        </div>
+        <div class="duongden_txt">
+            <p>Từ Thường Tín lên thì qua Ngã ba Ngọc Hồi khoảng 1Km cơ sở 5 tầng nằm ngay mặt đường bên tay phải (Phòng Khám Đa Khoa 168 Hà Nội)</p>
+            <p>Hướng Từ Hà Đông đi qua đài hóa thân Hoàn Vũ đi tới ngã ba đường tàu (Ngã ba Văn Điển) rẽ tay phải đi khoảng 500m nhìn sang tay trái thấy cơ sở 5 tầng (Phòng Khám Đa Khoa 168 Hà Nội)</p>
+            <p>Từ hướng bến xe Giáp Bát , đi xuống thẳng theo trục đường Giải Phóng - Ngọc Hồi qua bên xe Nước Ngầm tới (Phòng Khám Đa Khoa 168 Hà Nội) là khoảng 3Km</p>
+        </div>
+        <div class="duongden_img">
+            <img src="images/duongden_xebus.png" alt="xe bus">
+        </div>
+        <div class="duongden_txt">
+            <ul>
+                <li>
+                    <div class="xeso">+) Tuyến xe 04 :</div>
+                    <div class="benxe">Long Biên - BX Nước Ngầm</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 06A :</div>
+                    <div class="benxe">BX Giát bát - Cầu Giẽ</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 06B :</div>
+                    <div class="benxe">BX Giát bát - Thường Tín</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 08 :</div>
+                    <div class="benxe">Long Biên - Đông Mỹ</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 12 :</div>
+                    <div class="benxe">CV Nghĩa Đô - Đại Áng</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 16B :</div>
+                    <div class="benxe">BX Nước Ngầm - BX Mỹ Đình</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 39 :</div>
+                    <div class="benxe">CV Nghĩa Đô - Văn Điển</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 60 :</div>
+                    <div class="benxe" style="letter-spacing: -0.6px;">BX Nam Thăng Long-BX Nước Ngầm</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 206 :</div>
+                    <div class="benxe">BX Giát Bát - Phủ Lý</div>
+                </li>
+                <li>
+                    <div class="xeso">+) Tuyến xe 209 :</div>
+                    <div class="benxe">BX Giát Bát - Hưng Yên</div>
+                </li>
+            </ul>
+        </div>
+        <div class="clear2"></div>
+        <div class="duongden_img">
+            <img src="images/duongden_tauhoa.png" alt="tau hoa">
+        </div>
+        <div class="clear2"></div>
+        <div class="duongden_img">
+            <img src="images/duongden_maybay.png" alt="may bay">
+        </div>
+    </div>
+    <div class="diachi">
+        <img src="images/diachi.png" alt="dia chi">
+    </div>
+</div>
+<div class="footer" style="position: fixed;bottom: 0px;float: left;">
+    <div class="footer_item">
+        <a href="<?= $domain;?>">
+            <img src="images/ico_footer_home.png" alt="trang chủ">
+            <p>Trở về<br>Trang chủ</p>
+        </a>
+    </div>
+    <div class="footer_item">
+        <a href="<?= $link_tuvan;?>">
+            <img src="images/ico_footer_tv.png" alt="tư vấn">
+            <p>Tư vấn<br>trực tuyến</p>
+        </a>
+    </div>
+    <div class="footer_item">
+        <a href="<?= rewrite_number_phone($phone1);?>">
+            <img src="images/img_footer_dt.png" alt="dien thoai">
+        </a>
+    </div>
+    <div class="footer_item">
+        <a href="<?= $link_tuvan;?>">
+            <img src="images/ico_footer_dk.png" alt="dang ky">
+            <p>Đăng ký<br>qua mạng</p>
+        </a>
+    </div>
+    <div class="footer_item">
+        <a href="<?= $link_diachi;?>">
+            <img src="images/ico_footer_dc.png" alt="tuyen duong">
+            <p>Tuyến đường</p>
+        </a>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show" style="transform: scale(0.666667, 0.666667); transform-origin: left top 0px;">
+    <div class="coccoc-alo-ph-circle"></div>
+    <div class="coccoc-alo-ph-circle-fill"></div>
+    <div class="coccoc-alo-ph-img-circle coccoc-alo-ph-circle-shake"></div>
+    <div class="coccoc-alo-ph-circle-close"></div>
+</div>
+<style>
+    .m_dksdt {
+        background: #fff;
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .m_dksdt .m_dksdt_tit {
+        text-align: center
+    }
+
+    .m_dksdt .m_dksdt_main {
+        text-align: center
+    }
+
+    .m_dksdt_main_txt {
+        width: 80%;
+        border-bottom: 1px solid #00bed5;
+        padding: 1rem;
+        margin: auto
+    }
+
+    .m_dksdt_main_txt input {
+        text-align: center;
+        color: #00bed5;
+        font-size: 2rem;
+    }
+
+    .m_dksdt_main_btn {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .m_dksdt_main_btn_submit {
+        display: inline-block;
+        color: #fff;
+        background: #333;
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+    .m_dksdt_main_btn_submit:hover{
+        background: #00aff2;
+    }
+    .m_dksdt_muiten{
+        width: 0;
+        height: 0;
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid transparent;
+        border-top: 0.8rem solid #333;
+        margin: auto;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+</style>
+<div class="m_dksdt">
+    <div class="m_dksdt_muiten"></div>
+    <div class="m_dksdt_tit">Nhập số điện thoại của bạn. Chúng tôi sẽ gọi lại ngay khi có thể</div>
+    <div class="m_dksdt_main">
+        <div class="m_dksdt_main_txt">
+            <input type="text" placeholder="0123-123-123">
+        </div>
+        <div class="m_dksdt_main_btn">
+            <div class="m_dksdt_main_btn_submit">Click để được gọi lại</div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".coccoc-alo-phone").click(function(){
+            $('.m_dksdt').show();
+            $(this).hide();
+        });
+        $(".m_dksdt_muiten").click(function(){
+            $('.m_dksdt').hide();
+            $('.coccoc-alo-phone').show();
+        })
+        $('.m_dksdt_main_btn_submit').click(function(){
+            var hoten='m_dksdt';
+            var dienthoai=$('.m_dksdt_main_txt input').val();
+            var url=document.URL;
+            if(dienthoai.length>=13 || dienthoai.length<=9){
+                alert('Số điện thoại không đúng định dạng.');
+            }else{
+                var link_dk="<?= link_dangkykham();?>";
+                var parameter='hoten='+hoten+'&dienthoai='+dienthoai+'&uri='+url;
+                var link_dangky=link_dk+parameter;
+                window.location.href= link_dangky;
+                return false;
+            }
+        })
+    });
+</script>
+</body>
+</html>

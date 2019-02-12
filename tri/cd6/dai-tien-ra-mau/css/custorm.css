@@ -1,0 +1,230 @@
+.color_red{
+    color: red;
+}
+.head .nav_bg .nav_1 {
+    width: 700px;
+    text-transform: uppercase;
+}
+.head .nav_bg .logo{
+    width: 300px;
+}
+.main1 .m1s ul li h3 {
+    font-size: 13px;
+}
+.item_tit{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+.item_tit span{
+    color: red;
+}
+.btn_vt{
+    display: inline-block;
+    text-align: center;
+    background: #f14b4b;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.comm{
+    height: 40px;
+}
+.comm2{
+    width: 300px;
+    line-height: 40px;
+    background: #f14b4b;
+    border-radius: 5px;
+}
+.main2 .m2sa ul li{
+    width: 180px;
+    height: 417px;
+    margin-right: 10px;
+}
+.m2sa ul li:nth-child(1){
+     background: url("../images/main2_1.jpg") no-repeat;
+ }
+.m2sa ul li:nth-child(2){
+    background: url("../images/main2_2.jpg") no-repeat;
+}
+.m2sa ul li:nth-child(3){
+    background: url("../images/main2_3.jpg") no-repeat;
+}
+.m2sa ul li:nth-child(4){
+    background: url("../images/main2_4.jpg") no-repeat;
+}
+.m2sa ul li:nth-child(5){
+    background: url("../images/main2_5.jpg") no-repeat;
+}
+.m2sa ul li p{
+    margin-top: 290px;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.m2sa ul li .tv{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background:#f14b4b;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+
+}
+.m2sa ul li .tv a{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.main3 .m3sa1 .m3sa_r h3 {
+    text-transform: uppercase;
+    text-indent: 2cm;
+    font-size: 19px;
+}
+.main3 .m3sa1 .m3sa_r {
+    width: 500px;
+}
+.main3 .m3sa1 .m3sa_r dl dt {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.main3 .m3sa1 .m3sa_r dl {
+    margin-left: 15px;
+}
+.main3 .m3sa1 .m3sa_r dl dd{
+    width: 220px;
+}
+.main4 .m4sa .nrxq dl{
+    height: 180px;
+}
+.main4 .m4sa .nrxq dl dd {
+    line-height: 19px;
+}
+.main4 .m4sa .f_out {
+    height: 220px;
+}
+.m5_min .m5nr .nrxq p {
+    line-height: 19px;
+    font-size: 13px;
+}
+.m5_min .m5nr .nrxq b{
+    font-size: 14px;
+}
+.m5_min .m5nr .nrxq a{
+    float: right;
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+.m5_min .m5nr .nrxq dl{
+    font-size: 13px;
+}
+.footer_c dl dd a {
+    font-size: 12px;
+}
+/*footer*/
+.foot, .flink {
+    background: #271613;
+}
+.w1000, .project ul, .foot_main, .feature, .flink ul {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.foot_main {
+    height: 268px;
+    border-bottom: 1px solid #3d3120;
+}
+.foot_main, .feature, .flink ul {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot_main ol {
+    margin: 30px 0;
+    height: 208px;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.foot_logo {
+    width: 133px;
+    height: 131px;
+    float: left;
+    margin-left: 76px;
+    overflow: hidden;
+    background: url(http://trihanoi.com/public/images/logo-bottom.png) no-repeat 0 0;
+    animation: mclogo 5s ease-out 1s infinite;
+    margin-bottom: 15px;
+    -webkit-animation: mclogo 5s ease-out 1s infinite;
+}
+.foot_text {
+    width: 206px;
+    height: 90px;
+    overflow: hidden;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.w565 {
+    width: 586px !important;
+    overflow: hidden;
+    float: left;
+    border-left: 1px dashed #3d3120;
+}
+.w565 ul {
+    margin-left: 25px;
+    _margin-left: 25px;
+    width: 162px;
+    overflow: hidden;
+    float: left;
+    width: 190px;
+}
+.foot h6 {
+    width: auto;
+    height: 31px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #b7a88f;
+    white-space: nowrap;
+    border-bottom: 1px solid #3d3120;
+}
+.w565 ul li {
+    width: 100%;
+    text-align: left;
+}
+.w565 ul li {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+ul, ol, li {
+    list-style: none;
+}
+.w565 ul li a {
+    color: #8d6e69;
+}
+.right, .more, .list_more, .w355 ol ul li span, .qrcode, .intro, .list_info {
+    float: right;
+    display: inline;
+}
+.qrcode {
+    width: 297px;
+    float: left;
+}
+.qrpic {
+    width: 124px;
+    height: 124px;
+    background: url(http://trihanoi.com/public/images/deo-biet.jpg) no-repeat;
+    float: left;
+}

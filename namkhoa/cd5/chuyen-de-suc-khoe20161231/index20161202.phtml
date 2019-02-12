@@ -1,0 +1,287 @@
+<?php
+require_once('../../define.php');
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$line_chat=line_chat();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>noel</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <base target="_blank">
+    <?= ico_shortcut;?>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row margin_0">
+    <div class="main_item">
+        <img src="http://namkhoa168.com/cd5/chuyen-de-suc-khoe/images/logo.png">
+        <p class="phone_top"><?= $phone1;?><br><?= $phone2;?></p>
+    </div>
+</div>
+<div class="menu">
+    <div class="main_item">
+        <ul>
+            <li><a href="<?= $domain;?>">Trang chủ</a> </li>
+            <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a> </li>
+            <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a> </li>
+            <li><a href="<?= $link_tuvan;?>">Tư vấn bác sỹ</a> </li>
+            <li><a href="<?= $link_diachi;?>">Liên hệ</a> </li>
+        </ul>
+    </div>
+</div>
+<div class="banner">
+    <img src="images/banner.jpg" alt="banner">
+</div>
+<div class="main_item_clear_top"></div>
+    <div class="main_item main_item1">
+        <div class="main_item1_main">
+            <div class="main_item1_l">
+                <a href="<?= $link_tuvan;?>" class="main_item1_1"></a>
+                <a href="<?= $link_tuvan;?>" class="main_item1_2"></a>
+            </div>
+            <div class="main_item1_c">
+                <div class="main_item1_c_r1">
+                    <div class="main_item1_c_c1 wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;">Bệnh nhân chỉ cần hẹn khám qua mạng hoặc qua điện thoại đều được miễn phí phí đăng ký khám.</div>
+                    <div class="main_item1_c_c2 wow zoomInRight" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInRight;">Phòng khám có phòng xét nghiệm tiêu chuẩn, nhân viên xét nghiệm chuyên nghiệp, kết quả kiểm tra chính</div>
+                </div>
+                <div class="main_item1_c_r2">
+                    <div class="main_item1_c_c3 wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;">Thủ thuật do các bác sỹ nhiều năm kinh nghiệm tiến hành, đảm bảo hiệu quả, an toàn trong thủ thuật.</div>
+                    <div class="main_item1_c_c4 wow zoomInRight" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomInRight;">Thiết bị điều trị đầy đủ và chuyên nghiệp giúp bạn phục hồi nhanh hơn, điều trị hiệu quả tốt hơn.</div>
+                </div>
+            </div>
+            <div class="main_item1_r">
+                <a href="<?= $link_tuvan;?>" class="main_item1_1"></a>
+                <a href="<?= $link_tuvan;?>" class="main_item1_2"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div class="main_item main_item2">
+        <div class="main_item2_phone"><?= $phone2;?></div>
+        <div class="main_item2_main">
+            <div class="main_item2_1 wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;"><a href="<?= $link_tuvan;?>">Click Hẹn Khám</a> </div>
+            <div class="main_item2_2 wow zoomInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInLeft;"><a href="<?= $link_tuvan;?>">Click Nhận Mã Số</a> </div>
+            <div class="main_item2_3 wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;"><a href="<?= $link_tuvan;?>">Click Điền Thông Tin</a> </div>
+            <div class="main_item2_4 wow zoomInLeft" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomInLeft;"><a href="<?= $link_tuvan;?>">Tư Vấn Chi Tiết</a> </div>
+        </div>
+        <!--<div class="main_item2_main">
+            <div class="main_item2_1"><a href="">Click Hẹn Khám</a> </div>
+            <div class="main_item2_2"><a href="">Click Nhận Mã Số</a> </div>
+            <div class="main_item2_3"><a href="">Click Điền Thông Tin</a> </div>
+            <div class="main_item2_4"><a href="">Tư Vấn Chi Tiết</a> </div>
+        </div>-->
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div class="main_item main_item3">
+        <div class="main_item3_main">
+            <div class="main_item3_main1 wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;">Chỉ kiểm tra những hạng mục phù hợp với bệnh tình của bạn, bác sỹ chuyên khoa phụ khoa sẽ đưa ra những hạng mục kiểm tra, tính toán chi tiết giúp bạn tiết kiệm chi phí nhất có thể.</div>
+            <div class="main_item3_main2 wow zoomInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInLeft;"> Tất cả các mục kiểm tra đều áp dụng thiết bị kỹ thuật khoa học, độ chính xác cao đạt 99%, trong thời gian gần đây nếu đã đi kiểm tra và có kết quả thì phòng khám sẽ không cần kiểm tra lại lần 2, tuyệt đối không để cho người bệnh mất đi mất lại nhiều loại chi phí.</div>
+            <div class="main_item3_main3 wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;">Phòng khám đa khoa 168 Hà Nội sử dụng thiết bị y tế tiên tiến, kỹ thuật hiện đại giúp người bệnh yên tâm 100%, đảm bảo kiểm tra chính xác không sai sót.</div>
+        </div>
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div class="main_item main_item4" id="dambaolon">
+        <div class="row">
+            <div class="col-lg-6 dambao1 wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;">
+                <div class="dambao_tit">
+                    <label style="color: #66131c;">bảo đảm về chất lượng</label>
+                    <p style="color: #fca425">Là phòng khám chất lượng tại khu vục</p>
+                </div>
+                <div class="dambao_content">
+                    <p>Là phòng khám được Sở y tế thành phố cấp phép</p>
+                    <p>Liên tiếp 3 năm được đánh giá là “phòng khám uy tín về chi phí”</p>
+                </div>
+            </div>
+            <div class="col-lg-6 dambao2 wow zoomInRight" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInRight;">
+                <div class="dambao_tit">
+                    <label style="color: #005183;">THIẾT BỊ KỸ THUẬT ĐẢM BẢO</label>
+                    <p style="color: #a7000c">Toàn diện và uy tín</p>
+                </div>
+                <div class="dambao_content">
+                    <p>Phòng thủ thuật vô khuẩn, độ sạch không khí đạt 99,98%</p>
+                    <p style="letter-spacing: -0.5px;">Thiết bị xâm lấn tối thiểu hiện đại, an toàn đảm bảo</p>
+                </div>
+            </div>
+            <div class="col-lg-6 dambao3 wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;">
+                <div class="dambao_tit">
+                    <label style="color: #45046b;">PHÒNG KHÁM CHUYÊN NGHIỆP</label>
+                    <p style="color: #08935a">An toàn - chất lượng</p>
+                </div>
+                <div class="dambao_content">
+                    <p>Phòng khám liên tiếp trong 3 năm được người bệnh đánh giá tốt</p>
+                    <p>Phòng khám thực hiện thành công hàng vạn thủ thuật không sự cố</p>
+                </div>
+            </div>
+            <div class="col-lg-6 dambao4 wow zoomInRight" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomInRight;">
+                <div class="dambao_tit">
+                    <label style="color: #646a00;">CHI PHÍ Y TẾ THẤP</label>
+                    <p style="color: #9900a7">Hưởng ứng quy định quốc gia</p>
+                </div>
+                <div class="dambao_content">
+                    <p>Luôn nghĩ tới lợi ích của người bệnh, luôn tuân thủ chi phí thấp của sở y tế.</p>
+                    <p>Triển khai nhiều hoạt khám miễn phí, luôn là phòng khám có chi phí thấp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div class="main_item main_item5">
+        <div class="main_item5_main">
+            <div class="main_item5_1 wow zoomInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomInLeft;">
+                <p>Đặt hẹn khám miễn phí qua <br>mạng, tiết kiệm thời gian,<br> quá trình thăm khám đơn<br>giản khám bệnh càng<br>thuận tiện</p>
+            </div>
+            <div class="main_item5_2 wow zoomInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomInLeft;">
+                <p>Kiểm tra trước thủ thuật, thủ thuật<br>
+                    đều có người đi kèm giám sát,<br>
+                    có trách nhiệm về sức khỏe<br>
+                    với bệnh nhân đến<br>
+                    cùng</p>
+            </div>
+            <div class="main_item5_3 wow zoomInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: zoomInLeft;">
+                <p>Một bác sỹ một bệnh nhân một<br>
+                    phòng bệnh, bảo mật toàn diện<br>
+                    cho bệnh nhân, giúp bệnh<br>
+                    nhân khám bệnh<br>
+                    yên tâm</p>
+            </div>
+            <div class="main_item5_4 wow zoomInLeft" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: zoomInLeft;">
+                <p>Môi trường phòng khám sạch sẽ,<br>
+                    đảm bảo một môi trường<br>
+                    lành mạnh đồng thời giúp<br>
+                    tâm trạng cảm thấy<br>
+                    tuyệt vời hơn</p>
+            </div>
+        </div>
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div class="main_item main_item6">
+        <div class="main8">
+            <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+            <!-- Latest compiled and minified CSS -->
+            <form method="post">
+                <div class="main8-main">
+                    <div class="main8-left wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
+                        <div class="main8-h3">hẹn khám qua mạng(đăng ký khám)<br>hưởng 4 phúc lợi sau:</div>
+                        <div class="main8-content">
+                            <strong>1. Được ưu tiên khám trước:</strong>đăng ký khám qua mạng sẽ được ưu tiên khám trước, không phải xếp hàng chờ đợi<br>
+                            <strong>2. Đến là được khám ngay:</strong> Chỉ cần hẹn khám qua mạng, bạn có thể lựa chọn thời gian thăm khám thuận tiện nhất cho mình.<br>
+                            <strong>3. Được lựa chọn bác sỹ</strong> khi hẹn khám qua mạng sẽ căn cứ vào tình trạng bệnh của ngời bệnh để sắp xếp bác sỹ khám bệnh phù hợp cho bạn.<br>
+                            <strong>4. Được hưởng ưu đãi:</strong> đăng kĩ khám qua mạng có thể được hưởng những ưu đãi liên quan
+                        </div>
+                    </div>
+                    <div class="main8-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <img style="margin-left:10px;" src="images/main8-center.png">
+                    </div>
+                    <div class="main8-right wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="main8-h3r">ĐẶt hẹn trực tiếp qua mạng</div>
+                        <div class="main8-form">
+                            <table>
+                                <tbody><tr>
+                                    <td class="text">Họ và tên <span>(*)</span> :</td>
+                                    <td><input type="text" name="hoten"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text">Khoa khám:</td>
+                                    <td><input type="text" name="khoakham" width="175px"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text">Thời gian khám:</td>
+                                    <td><input type="text" id="thoigian" name="thoigian" width="175px"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text" style="word-spacing:0.6px;">Số điện thoại <span>(*)</span>:</td>
+                                    <td><input type="text" name="dienthoai" width="175px"></td>
+                                </tr>
+                                <tr>
+                                    <td class="text" style="line-height:70px;">Mô tả bệnh:</td>
+                                    <td><textarea name="mota"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="main8-btn">
+                                        <input type="submit" name="submit" style="width:70px; position:absolute; left:90px; top:330px; background:#d1668a;" class="sub" value="Đặt hẹn">
+                                        <input type="reset" name="reset" style="width:70px; position:absolute; left:170px; top:330px; background:#d1668a;" class="" value="Nhập lại">
+                                    </td>
+                                </tr>
+                                </tbody></table>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <script>
+                $(function() {
+                    $('#thoigian').datepicker({ dateFormat: 'yy-mm-dd',
+                        monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+                    });
+                });
+            </script>
+            <?php if(isset($_POST['submit'])){
+                $hoten=$_POST['hoten'];
+                $khoakham=$_POST['khoakham'];
+                $thoigian=$_POST['thoigian'];
+                $dienthoai=$_POST['dienthoai'];
+                $mota=$_POST['mota'];
+                if(empty($hoten) || empty($dienthoai)){
+                    echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+                }else{
+                    $uri='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                    $link=link_dangkykham().'data=';
+                    $data=array(
+                        'uri'=>$uri,
+                        'hoten'=>$hoten,
+                        'khoakham'=>$khoakham,
+                        'thoigian'=>$thoigian,
+                        'dienthoai'=>$dienthoai,
+                        'mota'=>$mota,
+                    );
+                    $json=json_encode($data);
+                    $str_en=base64_encode($json);
+                    $link=$link.$str_en;
+                    echo "<script>window.location.href='".$link."';</script>";
+                    exit;
+                }
+            }
+            ?>
+        </div>
+    </div>
+    <div class="main_item main_item_clear"></div>
+    <div id="footer">
+        <div class="footer_main">
+            <div class="button_tv">
+                <ul>
+                    <li><a href="<?= $link_tuvan;?>"><img src="images/footer/f_tv.png"><br>Tư vấn</a> </li>
+                    <li><a href="<?= $link_tuvan;?>"><img src="images/footer/f_hk.png"> <br>Hẹn khám</a> </li>
+                    <li><a href="skype:bacsy_tuvan168?chat"><img src="images/footer/f_skype.png"> <br>Skype</a> </li>
+                    <li><a href="<?= $domain;?>"><img src="images/footer/f_home.png"> <br>Trang chủ</a> </li>
+                </ul>
+            </div>
+            <div class="clear2" style="float: left"></div>
+            <div class="footer_txt">
+                <p>KM 1 2 - Ngọc Hồi - Thanh Trì - Hà Nội</p>
+                <p>Điện thoại: <?= $phone1;?> - <?= $phone2;?></p>
+                <p>Email: phongkhamdakhoa168@gmail.com</p>
+                <p><i>Thông tin trên website mang tính chất tham khảo</i></p>
+                <p><i>không là căn cứ y tế và chẩn đoán</i></p>
+            </div>
+        </div>
+    </div>
+</div>
+<?= $line_chat;?>
+</body>
+</html>

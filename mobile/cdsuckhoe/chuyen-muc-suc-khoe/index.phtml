@@ -1,0 +1,437 @@
+<!--sass --watch C:\Users\Admin\Desktop\cdmobile\css\style.scss:C:/Users/Admin/Desktop/cdmobile/css/style.css-->
+<?php
+require_once('../../../define.php');
+$domain=domain;
+$phone1=phone1;
+$link_gioithieu=link_mobile_gioithieu;
+$link_kythuat=link_kythuat;
+$link_diachi=link_mobile_diachi;
+$link_skype=link_skype;
+$link_tuvan=link_tuvan;
+$popup=m_popup();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Đón chào năm mới, trao gửi niềm tin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="http://khamnamkhoahanoi.vn/mobile/cdsuckhoe/chuyen-muc-suc-khoe/css/style.css">
+    <meta charset="UTF-8">
+    <base target="_blank">
+</head>
+<body>
+<?= $popup;?>
+<div class="pages">
+    <header>
+        <div class="top">
+            <div class="top_l">
+                <img style="" class="img-responsive" src="http://khamnamkhoahanoi.vn/mobile/cdsuckhoe/chuyen-muc-suc-khoe/images/top_logo.png" alt="">
+            </div>
+            <div class="top_r">
+                <img style="margin-top: 7%;" class="img-responsive" src="images/top_sdt.png" alt="">
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="<?= $domain;?>"> Trang chủ </a>
+                </li>
+                <li>
+                    <a href="<?= $link_gioithieu;?>"> Giới thiệu </a>
+                </li>
+                <li>
+                    <a href="<?= $link_kythuat;?>"> Kỹ thuật </a>
+                </li>
+                <li>
+                    <a href="<?= $link_tuvan;?>"> Bác sĩ </a>
+                </li>
+                <li>
+                    <a href="<?= $link_diachi;?>"> Địa chỉ </a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="banner_img">
+                <img src="http://khamnamkhoahanoi.vn/mobile/cdsuckhoe/chuyen-muc-suc-khoe/images/banner.jpg">
+            </div>
+        </div>
+    </header>
+    <div class="main_item main_item1">
+        <ul>
+            <li>
+                <div class="main_item1_c_img"><img src="images/main_item1_img1.png"></div>
+                <div class="main_item1_c_txt">Chuyên gia<br>Tư vấn</div>
+            </li>
+            <li>
+                <div class="main_item1_c_img"><img src="images/main_item1_img2.png"></div>
+                <div class="main_item1_c_txt">Chi phí<br>Kiểm tra</div>
+            </li>
+            <li>
+                <div class="main_item1_c_img"><img src="images/main_item1_img2.png"></div>
+                <div class="main_item1_c_txt">Chi phí<br>Thủ thuật</div>
+            </li>
+            <li>
+                <div class="main_item1_c_img"><img src="images/main_item1_img2.png"></div>
+                <div class="main_item1_c_txt">Chi phí<br>Điều trị</div>
+            </li>
+        </ul>
+        <div class="main_item1_tit">
+            <div class="main_item1_tit1">hãy đến với phòng khám đa khoa giải phóng</div>
+            <div class="main_item1_tit2">thiết bị đầy đủ - Điều trị hiệu quả - chi phí thấp</div>
+        </div>
+        <div class="main_item1_des">
+            <script src="http://phongkhamgiaiphong.com/cd/js/des.js"></script>
+        </div>
+    </div>
+    <div class="main_item main_item2">
+        <div class="main_item2_tit">
+            <span>3 hạng mục miễn phí </span> bạn nhận được
+        </div>
+        <div class="main_item2_c">
+            <div class="item_border_top">
+                <img src="images/item_bg_top.png">
+            </div>
+            <div class="main_item2_c_txt">
+                <div class="main_item2_c_txt_l">
+                    <img src="images/main_item2_dathen.jpg">
+                </div>
+                <div class="main_item2_c_txt_c">
+                    <label>Đặt hẹn bác sỹ</label>
+                    <p>Bạn có thể đặt hẹn miễn phí để nhận được sự tư vấn và khám bệnh bởi đội ngũ bác sĩ chuyên môn cao </p>
+                </div>
+                <div class="main_item2_c_txt_r">
+                    <img src="images/main_item2_r.jpg">
+                </div>
+            </div>
+            <div class="item_border_bottom">
+                <img src="images/item_bg_bottom.png">
+            </div>
+        </div>
+        <div class="main_item2_c">
+            <div class="item_border_top">
+                <img src="images/item_bg_top2.png">
+            </div>
+            <div class="main_item2_c_txt main_item2_c_txt2">
+                <div class="main_item2_c_txt_l">
+                    <img src="images/main_item2_tuvan.jpg">
+                </div>
+                <div class="main_item2_c_txt_c">
+                    <label>Tư vấn</label>
+                    <p>Tư vấn miễn phí dành cho người bệnh khi đến khám và chữa bệnh cùng các bác sĩ chuyên khoa </p>
+                </div>
+                <div class="main_item2_c_txt_r">
+                    <img src="images/main_item2_r2.jpg">
+                </div>
+            </div>
+            <div class="item_border_bottom">
+                <img src="images/item_bg_bottom2.png">
+            </div>
+        </div>
+        <div class="main_item2_c">
+            <div class="item_border_top">
+                <img src="images/item_bg_top.png">
+            </div>
+            <div class="main_item2_c_txt">
+                <div class="main_item2_c_txt_l">
+                    <img src="images/main_item2_taikham.jpg">
+                </div>
+                <div class="main_item2_c_txt_c">
+                    <label>Tái khám</label>
+                    <p>Phòng khám miễn phí tái khám với mong muốn dành cho bạn những trải nghiệm dịch vụ chuyên nghiệp.</p>
+                </div>
+                <div class="main_item2_c_txt_r">
+                    <img src="images/main_item2_r.jpg">
+                </div>
+            </div>
+            <div class="item_border_bottom">
+                <img src="images/item_bg_bottom.png">
+            </div>
+        </div>
+    </div>
+    <div class="main_item main_item3">
+        <div class="main_item_tit">
+            <img src="images/main_item3_tit.png">
+        </div>
+        <div class="main_item3_tit_des">
+            CHÚNG TÔI CÓ THIẾT BỊ VÀ MÔI TRƯỜNG THỦ THUẬT
+            MÀ NHỮNG NƠI KHÁC KHÔNG THỂ SO SÁNH
+        </div>
+        <div class="main_item3_img1">
+            <img src="images/main_item3_50.png">
+        </div>
+        <div class="main_item3_txt">
+            <div class="main_item3_img1">
+                <img src="images/main_item3_img2.jpg">
+            </div>
+            <div class="main_item3_txt_des">
+                <p>Khâu kiểm tra bệnh tại phòng khám được thực hiện theo đúng trình tự, gồm khâu kiểm tra lâm sàng đến làm xét nghiệm, điển hình như xét nghiệm máu, xét nghiệm nước tiểu, xét nghiệm mẫu vật...cùng nhiều xét nghiệm chuyên môn khác. Qúa trình kiểm tra được thực hiện trực tiếp bởi các bác sỹ đầu ngành, áp dụng máy móc kỹ thuật tân tiến, cho phép chẩn đoán bệnh chính xác trong thời gian ngắn nhất</p>
+                <p>Vì sự an toàn của bạn, hi vọng mọi người nâng cao cảnh giác, lựa chọn cẩn thận! Không nên tin tưởng các phòng khám tư nhân nhỏ lẻ và không chính quy, khi làm thủ thuật nhất định phải lựa chọn phòng khám chính quy, có chất lượng, quy mô lớn...</p>
+            </div>
+        </div>
+        <div class="btn_tv">
+            <div class="btn_sdt">
+                <a href="<?= $link_tuvan;?>"><img src="images/btn_sdt.png"></a>
+            </div>
+            <div class="btn_chat"><a href="<?= $link_tuvan;?>"><img src="images/btn_tv.png"></a> </div>
+        </div>
+    </div>
+    <div class="main_item main_item4">
+        <div class="main_item_tit">
+            <img src="images/main_item4_tit.png">
+        </div>
+        <div class="main_item4_tit">
+            (Không phát sinh thêm bất cứ chi phí nào cho người bệnh)
+        </div>
+        <ul>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item4_img1.png">
+                </div>
+                <div class="main_item4_txt">Thu phí một lần, hợp lý minh bạch, không phát sinh thêm bất kỳ chi phí nào khác, giúp bệnh nhân an tâm chữa trị.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item4_img2.png">
+                </div>
+                <div class="main_item4_txt">Quá trình kiểm tra an toàn không gây đau đớn, chỉ mất 3-5 phút, kết quả chính xác, hình ảnh rõ nét.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item4_img3.png">
+                </div>
+                <div class="main_item4_txt">Đội ngũ y bác sĩ trên 20 năm kinh nghiệm lâm sàng, đảm bảo thủ thuật an toàn hiệu quả.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item4_img4.png">
+                </div>
+                <div class="main_item4_txt">Thủ thuật có độ chính xác cao, kỹ thuật gây mê công nghệ mới, không gây đau đớn trong suốt quá trình, hồi phục nhanh.</div>
+            </li>
+        </ul>
+        <div class="main_item4_img">
+            <img src="images/main_item4_img4.jpg">
+        </div>
+    </div>
+    <div class="main_item main_item5">
+        <div class="main_item_tit">
+            <img src="images/main_item5_tit.png">
+        </div>
+        <ul>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item5_img1.png">
+                </div>
+                <div class="main_item4_txt">Kiểm tra kỹ lưỡng trước khi làm thủ thuật, hạn chế rủi ro xuống mức thấp nhất, phòng thủ thuật vô trùng.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item5_img2.png">
+                </div>
+                <div class="main_item4_txt">Áp dụng “kỹ thuật cắt bao quy đầu công nghệ Châu Âu”, ít chảy máu, hồi phục nhanh, không ảnh hưởng tới công tác và học tập.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item5_img3.png">
+                </div>
+                <div class="main_item4_txt">Thủ thuật được thực hiện bởi các bác sĩ có hơn 20 năm kinh nghiệm, đảm bảo an toàn không có sai sót.</div>
+            </li>
+            <li>
+                <div class="main_item4_stt">
+                    <img src="images/main_item5_img4.png">
+                </div>
+                <div class="main_item4_txt">Thủ thuật an toàn không đau, đảm bảo tính thẩm mỹ cao, không để lại sẹo, nâng cao rõ rệt đời sống vợ chồng.</div>
+            </li>
+        </ul>
+        <div class="main_item5_img">
+            <img src="images/main_item5_img1.jpg">
+        </div>
+        <div class="btn_tv">
+            <div class="btn_sdt">
+                <a href="<?= $link_tuvan;?>"><img src="images/btn_sdt2.png"></a>
+            </div>
+            <div class="btn_chat"><a href="<?= $link_tuvan;?>"><img src="images/btn_tv2.png"></a> </div>
+        </div>
+        <!--<div class="main_item5_tit">
+            THẤU HIỂU ĐƯỢC NHỮNG KHÓ KHĂN VÀ NHU CẦU KHÁM CHỮA BỆNH CỦA BỆNH NHÂN NGÀY CÀNG CAO.
+        </div>
+        <div class="main_item5_des">
+            Sau chặng đường nhiều năm phát triển, phòng khám đa khoa Giải Phóng đã khẳng định được vị thế trong lĩnh vực chăm sóc sức khỏe, với phương châm đặt sức khỏe của bệnh nhân lên hàng đầu và nhằm giảm bớt gánh nặng cho người bệnh, phòng khám triển khai chương trình ưu đãi mừng xuân mới. Dành riêng cho những bệnh nhân có đặt hẹn trước với nhiều hạng mục hấp dẫn.
+        </div>
+        -->
+    </div>
+    <div class="main_item main_item9">
+        <div class="main_item_tit">
+            <img src="images/main_item9_tit.png">
+        </div>
+        <div class="main_item9_tit">
+            Thông cảm và sẻ chia, mang tới không gian ấm cúng như gia đình
+        </div>
+        <div class="main_item9_img">
+            <img src="images/main_item9_img1.png">
+        </div>
+        <div class="main_item9_img">
+            <img src="images/main_item9_img2.jpg">
+        </div>
+        <div class="main_item9_txt">
+            <label>PHÒNG KHÁM ĐA KHOA GIẢI PHÓNG ƯU ĐÃI GIẢM TỚI 50%</label>
+            <p>Phòng khám đa khoa Giải Phóng ưu đãi giảm 50% chi phí điều trị đối với tất cả bệnh nhân khi tới khám và điều trị tại địa chỉ số 709 đường Giải Phóng – Hoàng Mai – Hà Nội. Các phương pháp điều trị đều được nhập khẩu từ các nước có nền y học hiện đại nhất trên thế giới như Mỹ, Đức, Nhật Bản, Hàn Quốc…giúp giải quyết dứt điểm tận gốc căn nguyên bệnh, ngăn ngừa tái phát, không gây đau đớn và đảm bảo an toàn. Qua ưu đãi này, phòng khám mong muốn tất cả những bệnh nhân ở vùng sâu vùng xa, người bệnh có điều kiện kinh tế khó khăn có cơ hội được tiếp cận với dịch vụ y tế chất lượng nhất.</p>
+        </div>
+        <div class="btn_tv">
+            <div class="btn_sdt">
+                <a href="<?= $link_tuvan;?>"><img src="images/btn_sdt.png"></a>
+            </div>
+            <div class="btn_chat"><a href="<?= $link_tuvan;?>"><img src="images/btn_tv.png"></a> </div>
+        </div>
+    </div>
+    <div class="main_item main_item8">
+        <div class="main_item_tit">
+            <img src="images/main_item8_tit.png">
+        </div>
+        <div class="main_item8_img">
+            <img src="images/main_item8_img1.png">
+        </div>
+        <div class="main_item8_txt">
+            <label>NHẰM ĐÁP ỨNG NHU CẦU CHĂM SÓC VÀ BẢO VỆ SỨC KHỎE CỦA QUÝ KHÁCH</label>
+            <p>
+                Phòng khám đa khoa Giải Phóng luôn trong tâm thế sẵn sàng phục vụ và thực hiện công tác thăm khám bệnh nhanh chóng. Đặc biệt, chúng tôi tổ chức chương trình khuyến mại tháng 12 với những chính sách ưu đãi hấp dẫn giảm 50% chi phí thủ thuật, cam kết nếu tái phát sẽ miễn phí hoàn toàn thủ thuật tạo điều kiện thuận lợi nhất cho quý khách hàng dễ dàng tiếp cận dịch vụ và thỏa mãn những mong muốn.
+            </p>
+        </div>
+        <div class="main_item8_img2">
+            <img src="images/main_item8_img2.jpg">
+        </div>
+    </div>
+
+    <div class="main_item main_item6">
+        <div class="main_item6_tit">
+            <h3><span>Phòng khám</span> Chuyên nghiệp</h3>
+        </div>
+        <div class="main_item6_des">
+            Phòng khám là nơi hội tụ đội ngũ y bác sỹ có trình độ chuyên môn cao, hệ thống trang thiết bị hiện đại, dịch vụ chăm sóc tận tình, chu đáo luôn làm hài lòng mọi bệnh nhân. Phòng khám đa khoa 709 Giải Phóng Hà Nội đã và đang cố gắng phấn đấu trở thành một đơn vị chăm sóc sức khỏe có quy mô lớn, khẳng định vị thế và thương hiệu của mình trong lĩnh vực khám, hỗ trợ chữa bệnh.
+        </div>
+        <div class="main_item6_c">
+            <ul>
+                <li>
+                    <div class="bg_vang">
+                        <div class="main_item6_img">
+                            <img src="images/main_item6_1.jpg">
+                            <img class="img_abs" src="images/main_item6_vang_top.png">
+                        </div>
+                        <div class="height_row1">
+                            <div class="main_item6_t">
+                                PHÒNG KHÁM UY TÍN
+                            </div>
+                            <div class="main_item6_txt ">
+                                Đây là phòng khám đa khoa chuyên nghiệp được Sở y tế Hà Nội chứng nhận và cấp phép hoạt động, là cơ sở khám chữa bệnh uy tín và hợp pháp của mọi gia đình.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_item6_img">
+                        <img src="images/main_item6_vang_bottom.png">
+                    </div>
+                </li>
+                <li>
+                    <div class="bg_do ">
+                        <div class="main_item6_img">
+                            <img src="images/main_item6_2.jpg">
+                            <img class="img_abs" src="images/main_item6_do_top.png">
+                        </div>
+                        <div class="height_row1">
+                            <div class="main_item6_t">
+                                Trang thiết bị hiện đại
+                            </div>
+                            <div class="main_item6_txt">
+                                Luôn tiên phong trong việc điều trị cho bệnh nhân bằng các trang thiết bị và công nghệ hiện đại đã và đang được ứng dụng trên thế giới.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_item6_img">
+                        <img src="images/main_item6_do_bottom.png">
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div class="bg_do ">
+                        <div class="main_item6_img">
+                            <img src="images/main_item6_3.jpg">
+                            <img class="img_abs" src="images/main_item6_do_top.png">
+                        </div>
+                        <div class="height_row2">
+                            <div class="main_item6_t">
+                                Y BÁC SĨ CHUYÊN NGHIỆP
+                            </div>
+                            <div class="main_item6_txt">
+                                Với đội ngũ bác sĩ có trình độ chuyên môn cao 20 năm kinh nghiệm trong ngành. Cùng lương tâm Y Đức, trách nhiệm cao, chắc chắn sẽ làm hài lòng khách hàng khi tới khám bệnh.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="main_item6_img">
+                        <img src="images/main_item6_do_bottom.png">
+                    </div>
+                </li>
+                <li>
+                    <div class="bg_vang ">
+                        <div class="main_item6_img">
+                            <img src="images/main_item6_4.jpg">
+                            <img class="img_abs" src="images/main_item6_vang_top.png">
+                        </div>
+                        <div class="height_row2">
+                            <div class="main_item6_t">
+                                Đảm bảo an toàn
+                            </div>
+                            <div class="main_item6_txt">
+                                Người bệnh được điều trị trong môi trường khám chữa đảm bảo vô trùng, đúng tiêu chuẩn, chuyên nghiệp và đầy đủ tiện nghi.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="main_item6_img">
+                        <img src="images/main_item6_vang_bottom.png">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main_item main_item7">
+        <a href="<?= $link_tuvan;?>">Bạn muốn tư vấn<br>đặt hẹn</a>
+    </div>
+<footer>
+    <ul>
+        <li>
+            <a href="<?= $link_skype;?>">
+                <img src="images/footer_skype.png">
+                <p>Skype</p>
+            </a>
+        </li>
+        <li>
+            <a href="<?= $link_tuvan;?>">
+                <img src="images/footer_datkham.png">
+                <p>Đặt khám</p>
+            </a>
+        </li>
+        <li>
+            <a href="<?= $link_tuvan;?>">
+                <img src="images/footer_dt.png">
+                <p>Điện thoại</p>
+            </a>
+        </li>
+        <li>
+            <a href="<?= $link_tuvan;?>">
+                <img src="images/footer_henkham.png">
+                <p>đặt lịch</p>
+            </a>
+        </li>
+    </ul>
+</footer>
+</div>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

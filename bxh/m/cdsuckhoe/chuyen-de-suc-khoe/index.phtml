@@ -1,0 +1,405 @@
+<?php
+require_once('../../define.php');
+$domain=domain;
+$link_gioithieu=link_gioithieu;
+$link_thietbi=link_thietbi;
+$link_kythuat=link_kythuat;
+$link_diachi=link_diachi;
+$link_tuvan=link_tuvan;
+$link_skype=link_skype;
+$phone1=phone1;
+$phone2=phone2;
+$ico_shortcut=ico_shortcut;
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hoạt động khuyến mại</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <base target="_blank">
+    <?= $ico_shortcut;?>
+</head>
+<body>
+<div class="container">
+    <div class="main_header">
+        <div class="col-xs-12">
+            <div class="logo_top">
+                <a href="<?= $link_tuvan;?>">
+                    <img src="images/logo_top.png" alt="logo">
+                </a>
+            </div>
+            <div class="header_right">
+                <a href="<?= rewrite_number_phone($phone1);?>">
+                    <img src="images/ico_dienthoai.gif" alt="dien thoai" style="max-width: 100%;max-height: 61px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="<?= $domain;?>">Home</a> </li>
+            <li><a href="<?= $link_gioithieu;?>">Giới thiệu</a> </li>
+            <li><a href="<?= $link_kythuat;?>">Kỹ thuật</a> </li>
+            <li><a href="<?= $link_tuvan;?>">Bác sỹ</a> </li>
+            <li><a href="<?= $link_diachi;?>">Địa Chỉ</a> </li>
+        </ul>
+    </div>
+    <div class="banber">
+        <img src="images/banner.png" alt="banner">
+    </div>
+    <div class="main_item" id="uudai">
+        <div class="title_item">
+            là phòng khám tốt ở hà nội với kỹ thuật tiên tiến
+        </div>
+        <div class="tit_sub">
+            4 ưu đãi lớn
+        </div>
+        <div class="col-lg-12">
+            <div class="main_item_uudai">
+                <div class="main_item_uudai_l">
+                    <div class="main_item_uudai_l_img">
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="images/uudai_img1.png" alt="uu dai 1">
+                        </a>
+                    </div>
+                </div>
+                <div class="main_item_uudai_r">
+                    <p>Bệnh nhân chỉ cần hẹn khám qua mạng hoặc qua điện thoại đều được miễn phí phí đăng ký khám.</p>
+                </div>
+            </div>
+            <div class="main_item_uudai">
+                <div class="main_item_uudai_l">
+                    <div class="main_item_uudai_l_img">
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="images/uudai_img3.png" alt="uu dai 3">
+                        </a>
+                    </div>
+                </div>
+                <div class="main_item_uudai_r">
+                    <p>Phòng khám có phòng xét nghiệm tiêu chuẩn, nhân viên xét nghiệm chuyên nghiệp, kết quả kiểm tra chính xác, kịp thời, thuận tiện.</p>
+                </div>
+            </div>
+            <div class="main_item_uudai">
+                <div class="main_item_uudai_l">
+                    <div class="main_item_uudai_l_img">
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="images/uudai_img2.png" alt="uu dai 2">
+                        </a>
+                    </div>
+                </div>
+                <div class="main_item_uudai_r">
+                    <p>Thủ thuật do các bác sỹ nhiều năm kinh nghiệm tiến hành, đảm bảo hiệu quả, an toàn trong thủ thuật.</p>
+                </div>
+            </div>
+
+            <div class="main_item_uudai">
+                <div class="main_item_uudai_l">
+                    <div class="main_item_uudai_l_img">
+                        <a href="<?= $link_tuvan;?>">
+                            <img src="images/uudai_img4.png" alt="uu dai 4">
+                        </a>
+                    </div>
+                </div>
+                <div class="main_item_uudai_r">
+                    <p>Thiết bị điều trị đầy đủ và chuyên nghiệp giúp bạn phục hồi nhanh hơn, điều trị hiệu quả tốt hơn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="dangky">
+        <div class="title_item">
+            Quy trình đăng ký hoặc hẹn khám qua điện thoại
+        </div>
+        <div class="tit_sub">
+            <img src="images/ico_dt.png" alt="dien thoai">043 6866 888
+        </div>
+        <div class="row dangky_r">
+            <div class="col-xs-12">
+                <div class="col-xs-6">
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="images/dangky_img1.png" alt="dangky1">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="images/dangky_img2.png" alt="dangky2">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row dangky_r">
+            <div class="col-xs-12">
+                <div class="col-xs-6">
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="images/dangky_img3.png" alt="dangky3">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="<?= $link_tuvan;?>">
+                        <img src="images/dangky_img4.png" alt="dangky4">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="kiemtra">
+        <div class="title_item">
+            Phòng thực nghiệm tiêu chuẩn
+        </div>
+        <div class="tit_sub">
+            Kết quả yên tâm 100%
+        </div>
+        <div class="row kiemtra_item">
+            <div class="col-xs-12">
+                <div class="col-xs-5 kiemtra_item_img">
+                    <img src="images/kiemtra_img1.png" alt="kiemtra1">
+                </div>
+                <div class="col-xs-7 kiemtra_item_txt">
+                    <p> Chỉ kiểm tra những hạng mục phù hợp với bệnh tình của bạn, bác sỹ chuyên khoa phụ khoa sẽ đưa ra những hạng mục kiểm tra, tính toán chi tiết giúp bạn tiết kiệm chi phí nhất có thể.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row kiemtra_item">
+            <div class="col-xs-12">
+                <div class="col-xs-5 kiemtra_item_img">
+                    <img src="images/kiemtra_img2.png" alt="kiemtra2">
+                </div>
+                <div class="col-xs-7 kiemtra_item_txt">
+                    <p>Tất cả các mục kiểm tra đều áp dụng thiết bị kỹ thuật khoa học, độ chính xác cao đạt 99%, trong thời gian gần đây nếu đã đi kiểm tra và có kết quả thì phòng khám sẽ không cần kiểm tra lại lần 2, tuyệt đối không để cho người bệnh mất đi mất lại nhiều loại chi phí.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row kiemtra_item">
+            <div class="col-xs-12">
+                <div class="col-xs-5 kiemtra_item_img">
+                    <img src="images/kiemtra_img3.png" alt="kiemtra2">
+                </div>
+                <div class="col-xs-7 kiemtra_item_txt">
+                    <p> Phòng khám đa khoa 168 Hà Nội sử dụng thiết bị y tế tiên tiến, kỹ thuật hiện đại giúp người bệnh yên tâm 100%, đảm bảo kiểm tra chính xác không sai sót.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="dambao">
+        <div class="title_item">
+            An toàn và chất lượng
+        </div>
+        <div class="tit_sub">
+            4 đảm bảo lớn
+        </div>
+        <div class="dambao_main col-xs-12">
+            <div class="dambao_item">
+                <div class="dambao_item_tit">
+                    <div class="dambao_item_tit_l">
+                        <img src="images/dambao_stt1.png" alt="1">
+                    </div>
+                    <div class="dambao_item_tit_r">
+                        <h1>Đảm bảo về chất lượng</h1>
+                        <p>Là phòng khám có tiếng trong khu vực</p>
+                    </div>
+                </div>
+                <div class="dambao_item_txt">
+                    <p>Là phòng khám được Sở y tế thành phố cấp phép</p>
+                    <p>Liên tiếp 3 năm được đánh giá là “phòng khám uy tín về chi phí”</p>
+                </div>
+                <div class="dambao_item_img">
+                    <img src="images/dambao_img1.png" alt="dam bao 1">
+                </div>
+            </div>
+            <div class="dambao_item">
+                <div class="dambao_item_tit">
+                    <div class="dambao_item_tit_l">
+                        <img src="images/dambao_stt2.png" alt="2">
+                    </div>
+                    <div class="dambao_item_tit_r">
+                        <h1>Thiết bị kỹ thuật đảm bảo</h1>
+                        <p>Hiện đại và tiên tiến</p>
+                    </div>
+                </div>
+                <div class="dambao_item_txt">
+                    <p>Phòng thủ thuật vô khuẩn, độ sạch không khí đạt 99,98%</p>
+                    <p>Thiết bị xâm lấn tối thiểu hiện đại, an toàn đảm bảo</p>
+                </div>
+                <div class="dambao_item_img">
+                    <img src="images/dambao_img2.png" alt="dam bao 2">
+                </div>
+            </div>
+            <div class="dambao_item">
+                <div class="dambao_item_tit">
+                    <div class="dambao_item_tit_l">
+                        <img src="images/dambao_stt3.png" alt="2">
+                    </div>
+                    <div class="dambao_item_tit_r">
+                        <h1>Phòng khám chuyên nghiệp</h1>
+                        <p>Uy tín - An toàn - Chất lượng</p>
+                    </div>
+                </div>
+                <div class="dambao_item_txt">
+                    <p>Phòng khám liên tiếp trong 3 năm được người bệnh đánh giá tốt</p>
+                    <p>Phòng khám thực hiện thành công hàng vạn thủ thuật không sự cố</p>
+                </div>
+                <div class="dambao_item_img">
+                    <img src="images/dambao_img3.png" alt="dam bao 2">
+                </div>
+            </div>
+            <div class="dambao_item">
+                <div class="dambao_item_tit">
+                    <div class="dambao_item_tit_l">
+                        <img src="images/dambao_stt4.png" alt="2">
+                    </div>
+                    <div class="dambao_item_tit_r">
+                        <h1>Chi phí y tế thấp</h1>
+                        <p>Hưởng ứng quyết định quốc gia</p>
+                    </div>
+                </div>
+                <div class="dambao_item_txt">
+                    <p>Luôn nghĩ tới lợi ích của người bệnh, luôn tuân thủ chi phí thấp của sở y tế.</p>
+                    <p>Triển khai nhiều hoạt khám miễn phí, luôn là phòng khám có chi phí thấp.</p>
+                </div>
+                <div class="dambao_item_img">
+                    <img src="images/dambao_img4.png" alt="dam bao 4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="dichvu">
+        <div class="title_item">
+            Dịch vụ y tế tốt - chuyên nghiệp
+        </div>
+        <div class="tit_sub">
+            Uy tín - chuyên nghiệp
+        </div>
+        <div class="row dichvu_item">
+                <div class="col-xs-6">
+                    <img src="images/dichvu_img1.png" alt="dich vu 1">
+                </div>
+                <div class="col-xs-6">
+                    <img src="images/dichvu_img2.png" alt="dich vu 2">
+                </div>
+        </div>
+        <div class=" row dichvu_item">
+            <div class="col-xs-6">
+                <img src="images/dichvu_img3.png" alt="dich vu 3">
+            </div>
+            <div class="col-xs-6">
+                <img src="images/dichvu_img4.png" alt="dich vu 4">
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="dathen">
+        <div class="title_item">
+            Đặt hẹn khám qua mạng
+        </div>
+        <div class="tit_sub">
+            Nhận ngay ưu đãi
+        </div>
+        <div class="col-xs-12">
+            <div class="dathen_item">
+                <div class="dathen_item_tit"><p>Đặt hẹn qua mạng (lấy số) hưởng 4 phúc lợi lớn</p></div>
+                <p><b>1.Hưởng tham khám ưu tiên : </b>đăng ký khám qua mạng sẽ được ưu tiên khám trước, không phải xếp hàng chờ đợi</p>
+                <p><b>2.Đến là khám ngay : </b>Chỉ cần hẹn khám qua mạng, bạn có thể lựa chọn thời gian thăm khám thuận tiện nhất cho mình.</p>
+                <p><b>3.Chọn bác sỹ bắt đúng bệnh : </b>khi hẹn khám qua mạng sẽ căn cứ vào tình trạng bệnh của ngời bệnh để sắp xếp bác sỹ khám bệnh phù hợp cho bạn.</p>
+                <p><b>4.Được hưởng ưu đãi : </b>đăng kĩ khám qua mạng có thể được hưởng những ưu đãi liên quan.</p>
+            </div>
+            <div class="dathen_item">
+                <div class="dathen_item_tit"><p>Đặt hẹn khám trực tuyến trên mạng</p></div>
+                <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+                <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+                <form name="dathen" method="post">
+                    <div class="form-group">
+                        <label for="hoten">Họ và tên:</label>
+                        <input type="text" name="hoten" id="hoten" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="dienthoai">Số điện thoại:</label>
+                        <input type="text" name="dienthoai" id="dienthoai" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="khoakham">khoa khám:</label>
+                        <input type="text" name="khoakham" id="khoakham" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="thoigian">Thời gian:</label>
+                        <input type="text" name="thoigian" id="thoigian" class="form-control">
+                    </div>
+                    <button type="submit" name="dathen" class="btn btn-default btn_dathen">Đặt hẹn</button>
+                </form>
+                <script>
+                    $(function() {
+                        $('#thoigian').datepicker({ dateFormat: 'yy-mm-dd',
+                            monthNames: [ "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12" ]
+
+                        });
+                    });
+                </script>
+                <?php
+                if(isset($_POST['dathen'])){
+                    $hoten=$_POST['hoten'];
+                    $khoakham=$_POST['khoakham'];
+                    $thoigian=$_POST['thoigian'];
+                    $dienthoai=$_POST['dienthoai'];
+                    if(empty($hoten) || empty($dienthoai)){
+                        echo "<script>alert('Mời bạn nhập đầy đủ thông tin.');</script>";
+                    }else{
+                        $uri='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                        $link=link_dangkykham().'data=';
+                        $data=array(
+                            'uri'=>$uri,
+                            'hoten'=>$hoten,
+                            'khoakham'=>$khoakham,
+                            'thoigian'=>$thoigian,
+                            'dienthoai'=>$dienthoai
+                        );
+                        $json=json_encode($data);
+                        $str_en=base64_encode($json);
+                        $link=$link.$str_en;
+                        echo "<script>window.location.href='".$link."';</script>";
+                        exit;
+                    }
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+    <div class="main_item" id="thongtin">
+        <img src="images/thongitn.png" alt="thong tin">
+    </div>
+    <div class="footer" style="position: fixed;bottom: 0px;float: left">
+        <div class="footer_item">
+            <a href="<?= $domain;?>">
+                <img src="images/ico_footer_home.png" alt="trang chủ">
+                <p>Trở về<br>Trang chủ</p>
+            </a>
+        </div>
+        <div class="footer_item">
+            <a href="<?= $link_tuvan;?>">
+                <img src="images/ico_footer_tv.png" alt="tư vấn">
+                <p>Tư vấn<br>trực tuyến</p>
+            </a>
+        </div>
+        <div class="footer_item">
+            <a href="<?= rewrite_number_phone($phone1);?>">
+                <img src="images/img_footer_dt.png" alt="dien thoai">
+            </a>
+        </div>
+        <div class="footer_item">
+            <a href="<?= $link_tuvan;?>">
+                <img src="images/ico_footer_dk.png" alt="dang ky">
+                <p>Đăng ký<br>qua mạng</p>
+            </a>
+        </div>
+        <div class="footer_item">
+            <a href="<?= $link_diachi;?>">
+                <img src="images/ico_footer_dc.png" alt="tuyen duong">
+                <p>Tuyến đường</p>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,586 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4efe3;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+    font-family: arial,"times new roman";
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+.row{
+    width: 100%;
+    overflow: hidden;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.clear2{
+    width: 100%;
+    height: 20px;
+}
+.main_item{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+#wapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu_top {
+    background: #177fc8;
+    height: 60px;
+}
+#menu_top ul li{
+    float: left;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 55px;
+    font-size: 16px;
+}
+#menu_top ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#menu_top ul li:hover {
+    background: #ffffff;
+}
+#menu_top ul li:hover a{
+    color: #177fc8;
+}
+#head{width:100%;
+    height: 80px;
+    margin: auto;
+    margin-top: -1170px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+}
+#head #logo{text-align: center;
+    margin-right: 640px;
+}
+#head #thuonghieu{text-align: center;
+    margin-left: 420px;
+    margin-top: -60px;}
+
+#main{
+  width: 1000px;
+  margin: auto;
+  z-index: 1;
+}
+ul li.phancach{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#khoidong{
+    width: 435px;
+    float: left;
+    height: 40px;
+    background: url("image/khoidong.png") no-repeat;
+    margin-left: 156px;
+    line-height: 32px;
+    font-size: 19px;
+    padding: 5px;
+    color: white;
+
+}
+#qua_time{
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    line-height: 42px;
+}
+#qua_ico{
+    width:100px;
+    height:100px;
+    background:url("image/qua_ico.png") no-repeat;
+    float: left;
+}
+#main_content{
+    width: 1000px;
+    /*height: 1000px;*/
+    background: white;
+}
+#mota{
+    width: 100%;
+    background: url("image/tomtat.png") no-repeat top center;
+    height: 191px;
+    margin-top: 20px;
+}
+#mota div#mota_text{
+    padding-top: 55px;
+    width: 660px;
+    margin-left: 140px;
+    margin-right: 5px;
+    text-align: justify;
+}
+#khuyenmai{
+    float: left;
+    width: 1000px;
+}
+#km_content{
+    float: left;
+    width: 964px;
+    margin-left: 18px;
+    height: 660px;
+    background: url("image/khuyenmai.png") no-repeat top center;
+
+}
+#km_title{
+    width: 964px;
+    height: 35px;
+    float: left;
+    margin-top: 25px;
+}
+#km_title_left{
+    float: left;
+    width: 482px;
+    margin-top: 4px;
+    line-height: 35px;
+    text-align: right;
+}
+#km_title_left span{
+    padding-right: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+#km_title_right{
+    float: left;
+    width: 482px;
+    margin-top: 4px;
+    line-height: 35px;
+    text-align: left;
+}
+#km_title_right span{
+    padding-left: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+#km_mienphi{
+    float: left;
+    width: 964px;
+    height: 100px;
+}
+#km_mienphi_left{
+     float: left;
+     height:100px;
+     width: 482px;
+    padding-top: 10px;
+ }
+#km_mienphi_left p{
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+#km_mienphi_right{
+    float: left;
+    height:100px;
+    width: 482px;
+
+}
+#km_mienphi_right p{
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+#km_mota{
+    float: left;
+    width: 964px;
+    height: 150px;
+}
+#km_mota_left{
+    float: left;
+    height:150px;
+    width: 482px;
+
+}
+#km_mota_left_2{
+    float: right;
+    height:150px;
+    width: 225px;
+    margin-right: 97px;
+    padding-left: 160px;
+    margin-top: 20px;
+}
+#km_mota_right{
+    float: left;
+    height:150px;
+    width: 482px;
+
+}
+#km_mota_right_2{
+    float: left;
+    height:150px;
+    width: 215px;
+    margin-right: 192px;
+    padding-left: 85px;
+    margin-top: 20px;
+    text-align: right;
+}
+#km_title2{
+    float: left;
+    width: 964px;
+    height: 35px;
+    margin-top: 67px;
+}
+#km_title_left2{
+    float: left;
+    width: 482px;
+    height: 35px;
+}
+#km_title_left2 span{
+    float: right;
+    padding-top: 9px;
+    padding-right: 120px;
+}
+#km_title_right2{
+    float: left;
+    width: 482px;
+    height: 35px;
+}
+#km_title_right2 span{
+    float: left;
+    padding-top: 9px;
+    padding-left: 120px;
+}
+#km_mienphi2{
+    float: left;
+    width: 964px;
+    height: 160px;
+}
+#km_mienphi_left2{
+    float: left;
+    width: 482px;
+    height: 160px;
+}
+#km_mienphi_right2{
+    float: left;
+    width: 482px;
+    height: 160px;
+}
+p.km_left{
+    font-size: 20px;
+    float: right;
+    padding-right: 120px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 0;
+}
+p.km_right{
+    font-size: 20px;
+    float: left;
+    padding-left: 120px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 0;
+}
+p.km_title{
+    padding-top: 30px;
+}
+#km_left_ct{
+    padding-right: 120px;
+    float: right;
+    text-align: right;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+#km_right_ct{
+    padding-left: 120px;
+    float: left;
+    text-align: left;
+    padding-top: 16px;
+    padding-right: 50px;
+}
+#km_foot{
+    background: url("image/2.png");
+    width: 984px;
+    height: 72px;
+    float: left;
+    margin-left: 7px;
+}
+#tuvan{
+    width: 1000px;
+    float: left;
+    background-color: white;
+}
+.tit_item{
+    width: 100%;
+    height: 68px;
+    background: url("image/bg_tit.jpg");
+}
+.tuvan_top_left{
+    width: 400px;
+    height: 68px;
+    float: left;
+    line-height: 68px;
+}
+.tuvan_top_left p{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.tuvan_top_left p a{
+    color: white;
+    text-decoration: none;
+}
+.tuvan_top_right{
+    width: 600px;
+    height: 68px;
+    float:right;
+}
+.tuvan_top_right p{
+    float: left;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    margin-top:20px ;
+    text-transform: uppercase;
+}
+#tuvan_img{
+    padding-left: 44px;
+    padding-top: 15px;
+}
+#chitiettuvan{
+    height: 38px;
+    margin-left: 395px;
+    margin-top: -15px;
+    float: left;
+}
+#tuvan_content{
+    width: 917px;
+    padding-left: 44px;
+}
+#tuvan_content p{word-spacing: 2px;}
+#tuvan_foot{
+    width: 77px;
+    height: 70px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -45px;
+    background: url("image/tuvan_foot.png") no-repeat ;
+    background-position: right bottom;
+}
+#tieuchuan{
+  /*  float: left;
+    padding-top: 20px;
+    width: 1000px;
+    height: 1000px;
+    background: white;*/
+    float: left;
+    padding-top: 20px;
+    width: 1000px;
+    height: 1185px;
+    background: white;
+}
+#tieuchuan_img{
+    margin-left: 40px;
+}
+#sdt{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -168px;
+    text-align: center;
+}
+#sdt p{color: #003865;}
+#sdt span{
+    color: #003865;
+    font-weight: bold;
+
+}
+.baiviet{
+    /*float: left;
+    background: white;
+    width: 1000px;*/
+    /*float: left;
+    width: 1000px;
+    position: relative;*/
+    float: left;
+    width: 1000px;
+    position: relative;
+    margin-top: -200px;
+    background: white;
+}
+.baiviet_title{
+    background: url("image/baiviet_title.png") no-repeat;
+    width: 949px;
+    height:42px; ;
+    margin-left: 27px;
+}
+.baiviet_title h2{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.baiviet_title a{
+    line-height: 42px;
+    margin-left: 46px;
+    text-decoration: none;
+    color: black;
+}
+.baiviet_title a:hover{
+    text-decoration: underline;
+}
+.click_tuvan{
+    background: url("image/click_tuvan.png") no-repeat;
+    float: right;
+    width: 189px;
+    height: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.baiviet_content{
+    float: left;
+    width: 948px;
+    margin-left: 27px;
+}
+.bv_content_left{
+    float: left;
+    width: 470px;
+    background: #c7a85a;
+}
+div.bv_img{
+    width: 176px;
+    float: left;
+}
+.bv_content_right{
+    float: right;
+    width: 470px;
+    background: #c7a85a;
+}
+.bv_list{
+  float: left;
+  margin-top: 10px;
+  width: 282px;
+    padding-bottom: 10px;
+}
+.bv_list a{
+    text-transform: none;
+    text-decoration: none;
+    padding-top: 13px;
+    float: left;
+    font-size: 16px;
+    color: black;
+}
+.bv_list a:hover{
+    text-decoration: underline;
+}
+.col-lg-4 {
+    width: 313.3px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 255px;
+}
+#dangkykham input{
+
+    height: 26px;
+}
+/*#dangkykham*/
+.dathen_left {
+    width: 100%;
+    background: #eee;
+}
+.title_sub {
+    text-align: center;
+    background: #177fc8;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 40px;
+}
+.dathen_img {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.dathen_right .title_sub {
+    line-height: 40px;
+}
+.dathen_right {
+    width: 100%;
+    background: #eeeeee;
+    overflow: hidden;
+}
+/*end #dangkykham*/
+/*#footer*/
+#footer{
+    width: 100%;
+    background: #177fc8;
+    background: #177fc8 url(image/footer_bg.jpg) top center no-repeat;
+    height: 310px;
+}
+#footer .footer_main{
+    width: 1000px;
+    margin: auto;
+}
+#footer .button_tv{
+    height: 75px;
+    width: 500px;
+    float: right;
+    margin-top: 50px;
+}
+.button_tv ul li{
+    text-align: center;
+    float: left;
+    padding: 0 15px;
+}
+#footer .button_tv a{
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+}
+#footer .button_tv a:hover img{
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    margin-bottom: 10px;
+}
+#footer .footer_txt{
+    float: right;
+    margin-top: 1px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    width: 550px;
+}
+#footer .footer_txt p{
+    margin-bottom: 4px;
+}
+.clr{width: 100%;
+float: left;
+height: 2px;}
+@media screen  and (max-width: 1387px) {
+    #main { margin-top: 0px!important; }
+}
+@media screen  and (min-width: 1388px) {
+    #main { top: 500px; }
+}

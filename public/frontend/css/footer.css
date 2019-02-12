@@ -1,0 +1,100 @@
+.justify-content-between {
+    justify-content: space-between;
+}
+.flex {
+    display: flex!important;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.pull-left {
+    float: left!important;
+}
+p{
+    margin: 0;
+}
+.footer_main{
+    height: 455px;
+    background-color: #12a1b0;
+    position: relative;
+    padding-top: 30px;
+    color: #fff;
+    box-sizing: content-box;
+}
+.footer_main .container{
+    width: 1000px;
+    margin:0px auto;
+}
+.footer_main .flex1 ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer_main .flex1 .flex1col1{
+    width: 310px;
+}
+.footer_main .flex1 .flex1col1 h2{
+    text-align: center;
+    margin: 0;
+}
+.footer_main .flex1 .flex1col2{
+    width: 175px;
+    padding-left: 15px;
+}
+.footer_main .flex1 .flex1col3{
+    width: 350px;
+    padding-left: 10px;
+}
+.footer_main .flex1 .flex1col1 h3{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer_main .flex1 .flex1col1{
+    border-right: 1px dashed #018592;
+}
+.footer_main .flex1 .flex1col2 ul li{
+    padding:8px 0px;
+    text-transform: uppercase;
+}
+.footer_main .flex1 .flex1col2 ul li:last-child{
+    padding-bottom: 0;
+}
+.footer_main .flex1 .flex1col2 ul li h5{
+    margin: 0;
+}
+.footer_main .flex1 .flex1col2 ul li a{
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer_main .flex1 .flex1col2 h4{
+    font-size: 14px;
+    border-bottom: 1px dashed #018592;
+    padding-bottom: 10px;
+    width: 150px;
+    margin-top: 3px;
+}
+.footer_main .flex1 .flex1col3 >p{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.footer_main .flex1 .flex1col3 .pull-left i{
+    background-image: url('http://khamnamkhoahanoi.vn/public/frontend/home/image/icon-4.png');
+    background-repeat: no-repeat;
+    background-position: -173px 0px;
+    width: 70px;height: 60px;
+}
+.footer_main .flex1 .flex1col3 .pull-left p a{
+    font-size: 27px;
+    font-size: 18px;
+}
+.footer_main .flex1 .flex1col3 .pull-left:nth-child(2){
+    margin-left: 5px;
+    padding-left: 10px;
+    border-left: 1px dashed #018592;
+}
+.footer_main .flex1 .flex1col3 >div:last-child{
+    margin-top: 5px;
+}
+.footer_main .flex1 .flex1col3 >div:last-child p{
+    font-size: 14px;margin-bottom: 10px;
+}

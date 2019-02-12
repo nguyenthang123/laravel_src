@@ -1,0 +1,229 @@
+.list_baiviet .main_ico {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.list_baiviet .main_ico .col-lg-3 {
+    text-align: center;
+    border-right: 1px dashed #ccc;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.list_baiviet .main_ico .col-lg-3:nth-child(4){
+    border-right: none;
+}
+.list_baiviet .main_ico .col-lg-3 h4{
+    text-transform: uppercase;
+}
+.list_baiviet .main_ico .col-lg-3 p{
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+}
+.list_baiviet .cha_list .right .tit{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.list_baiviet .cha_list .right{
+    width: 700px;
+}
+.list_baiviet .cha_list .right .list_bv{
+    padding-bottom: 15px;
+}
+.list_baiviet .cha_list .right .boder_b{
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.list_baiviet .cha_list .right .boder_b .col-lg-4 table{
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 180px;
+    height: 120px;
+}
+.list_baiviet .cha_list .right .boder_b .col-lg-4 img{
+    max-width: 180px;
+    max-height: 120px;
+}
+.list_baiviet .cha_list .right .list_bv span{
+    float: right;
+    margin-top: -10px;
+    color: #000000;
+}
+.list_baiviet .cha_list .right .list_bv .des{
+    text-align: justify;
+}
+.list_baiviet .cha_list .right .list_bv h3{
+    margin: 0;
+}
+.list_baiviet .cha_list .right .list_bv a{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list_baiviet .cha_list .right .list_bv .xemthem{
+    display: block;
+    background: #ccc;
+    padding: 3px 5px;
+    float: right;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11px;
+}
+.list_baiviet .cha_list .left .box_bodder{
+    border-top: 1px #dadada solid;
+}
+.phantrang{
+    text-align: center;
+}
+.phantrang .pagination{
+    margin: 15px 0px;
+}
+.pagination>li>a, .pagination>li>span{
+    font-size: 12px;
+}
+/*===CHI TIET BAI VIET===*/
+.list_baiviet .cha_list .right .tit_detail{
+    background: #39bbd1;
+    overflow: hidden;
+    color: #ffffff;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+/*.list_baiviet .cha_list .right .tit_detail a,span{
+    color: #ffffff;
+    *//*text-transform: uppercase;*//*
+    font-size: 14px;
+}*/
+.list_baiviet .cha_list .right .ico_detail{
+    overflow: hidden;
+}
+.list_baiviet .cha_list .right h1.tit{
+    color: #39bbd1;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+    padding: 20px 5px 10px 5px ;
+}
+.list_baiviet .cha_list .right .new_hot{
+
+}
+.list_baiviet .cha_list .right .new_hot .tit_tv{
+    background: #39bbd1;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+.list_baiviet .cha_list .right .new_hot .col-lg-12{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.list_baiviet .cha_list .right .new_hot .col-lg-4 a{
+    width: 200px;
+    height: 45px;
+    line-height: 43px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0;
+}
+.list_baiviet .cha_list .right .new_hot .tinnong{
+    margin: 0px;
+}
+.list_baiviet .cha_list .right .new_hot .tinnong label{
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+.bv_lienquan{
+    padding-bottom: 15px;
+}
+.bv_lienquan ul li {
+    width: 49%;
+    float: left;
+}
+.bv_lienquan ul li:nth-child(2n+1) {
+    border-right: 1px solid #ccc;
+    margin-right: 1%;
+}
+/*quy pham*/
+.quypham{
+    width: 748px;
+    margin: 0;
+    padding: 15px;
+}
+.quypham ul li {
+    float: left;
+    width: 25%;
+    border-top: 2px solid #ccc;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    height: 50px;
+}
+.quypham ul li:hover {
+    color: #ffffff;
+}
+.quypham ul li:nth-child(1) {
+    background: url("../img/detail/quypham_1.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.quypham ul li:nth-child(2) {
+    background: url("../img/detail/quypham_2.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.quypham ul li:nth-child(3) {
+    background: url("../img/detail/quypham_3.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.quypham ul li:nth-child(4) {
+    background: url("../img/detail/quypham_4.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.quypham ul li.qp1 {
+    background: url("../img/detail/quypham_11.png"),#39bbd1;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #ffffff;
+}
+.quypham ul li.qp2 {
+    background: url("../img/detail/quypham_22.png"),#39bbd1;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #ffffff;
+}
+.quypham ul li.qp3 {
+    background: url("../img/detail/quypham_33.png"),#39bbd1;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #ffffff;
+}
+.quypham ul li.qp4 {
+    background: url("../img/detail/quypham_44.png"),#39bbd1;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #ffffff;
+}
+.quypham ul {
+    overflow: hidden;
+}
+.qp_content img{height: 246px;}
+.qp_content {
+    width: 100%;
+}

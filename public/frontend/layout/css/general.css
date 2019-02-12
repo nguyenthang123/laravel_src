@@ -1,0 +1,133 @@
+.carousel-control-next-icon{
+    background-image: url("http://phongkhamviendong.vn/images/btn-right.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+    /*margin-right: -100%;*/
+}
+.carousel-control-prev-icon{
+    background-image: url("http://phongkhamviendong.vn/images/btn-left.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+    /*margin-left: -100%;*/
+}
+.carousel:hover .carousel-control-next-icon{
+    opacity: 1;
+    margin-right:5%;
+}
+.carousel:hover .carousel-control-prev-icon{
+    opacity: 1;
+    margin-left:5%;
+}
+.banner_img{
+    text-align: center;
+}
+.banner_img img{
+    margin: auto;
+}
+.carousel-indicators li{
+    background: rgba(0, 0, 0, 0.46);
+}
+.carousel-indicators li.active{
+    background: rgba(0, 0, 0, 0.76);
+}
+.fa-zalo img{
+    width: 16px;
+    margin-top: -3px;
+}
+/*rieng cho phu khoa*/
+.carousel-indicators li.active{
+    width: 30px;
+    height: 3px;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border: none;
+}
+.glyphicon-chevron-right:before {
+    content: ""!important;
+}
+.glyphicon-chevron-left:before {
+    content: ""!important;
+}
+.glyphicon-chevron-right{
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+    /*margin-right: -100%;*/
+    background-image: url("http://phongkhamviendong.vn/images/btn-right.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+.glyphicon-chevron-left{
+    opacity: 0;
+    -webkit-transition:  0.8s;
+    transition:  0.8s;
+    /*margin-right: -100%;*/
+    background-image: url("http://phongkhamviendong.vn/images/btn-left.png") !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+.carousel:hover .glyphicon-chevron-right{
+    opacity: 1;
+    margin-right:5%;
+}
+.carousel:hover .glyphicon-chevron-left{
+    opacity: 1;
+    margin-left:5%;
+}
+/*end rieng cho phu khoa*/
+.hea_top {
+    position: fixed;
+    margin-bottom: 40px;
+    z-index: 100;
+}
+.h-40{
+    height: 40px;
+}
+.hea_search {
+    padding-top: 5px;
+}
+.hea_search {
+    float: right;
+}
+.hea_search .btn-search-top{
+    background: none !important;
+    border: none !important;
+    float: right;
+    margin-top: -8px;
+}
+.hea_search .btn-search-top img {
+    width: 30px;
+    margin-left: -3px;
+}
+.hea_search input {
+    width: 160px;
+    padding: 3px 10px 3px;
+    float: right;
+}
+.ico_hot{
+    background: url("http://phongkhamviendong.vn/images/home/ico_hot.gif") no-repeat;
+    padding-left: 50px;
+    border-bottom: 2px solid red;
+    margin-bottom: 10px;
+}
+.ico_hot p{
+    margin-bottom: 5px;
+}
+img.ico_hot{
+    border-bottom: none;
+}

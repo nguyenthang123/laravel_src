@@ -1,0 +1,45 @@
+.my_pagination{
+	margin-bottom: 10px;
+    text-align: center;
+}
+.wp-pagenavi {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wp-pagenavi .current{
+	background-color: #ed6d02;
+	color:#fff;
+	border:1px solid #ed6d02;
+}
+.wp-pagenavi a, .wp-pagenavi span{
+    position: relative;
+    padding: 5px 10px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #333;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.wp-pagenavi a:hover{
+    border-color: #f9bf8e;
+    background-color: #f9bf8e;
+}
+.wp-pagenavi span.current{
+    border-color: #f9bf8e;
+}
+.wp-pagenavi span.pages{
+    background-color: #1bb191;
+    color: #fff;
+}
+
+.wp-pagenavi span.extend{
+    display: none;
+}
+/*@media only screen and (max-width: 320px) {*/
+    .wp-pagenavi span.pages{
+        display: none;
+    }
+/*}*/

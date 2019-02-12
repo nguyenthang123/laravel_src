@@ -1,0 +1,196 @@
+/*
+Theme Name: 168mauxanh
+*/
+.in-block{display:inline-block;vertical-align:top;}
+body{margin:0px auto;font-size:11pt;font-family:Arial;}
+body .container{width:1000px;margin:0px auto;font-family:Arial;}
+a{color:inherit;text-decoration:none;}
+a:hover{text-decoration:none;}
+.clearfix:after{clear:both;content:".";display:block;height:0;line-height:0;visibility:hidden;}
+.left{float:left;}
+.right{float:right;}
+a.view-more{display:inline-block;color:#ff6600;font-style:italic;}
+.crub{border-bottom:1px solid #ddd;text-transform:capitalize;padding-bottom:10px;color:#333;}
+.crub .vi-tri{color:#078353;}
+.crub a:hover{color:#ff4f49;}
+.main-content{width:710px;margin-top:42px;}
+.site-info a:hover{text-decoration:none;color:#ff0;}
+.obama{position:fixed;top:20%;right:20px;display: none;}
+/*
+#LRfloater2{display: none!important;}
+#LRfloater3{display: none!important;}
+*/
+/**/
+.cuasochat .clearfix:after {
+	clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.cuasochat{
+	width: 280px;
+	height: 346px;
+	position: fixed;
+	bottom:10px;
+	right: 30px;
+	background-color: #fff;
+	border:1px solid #eee;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);z-index: 9999999999999999999999;
+}
+.cuasochat .cuasochat-head{
+	background: #f6f7f9;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .20);
+    color: #191919;
+    height: 26px;
+    padding: 0px 5px;
+    line-height: 26px;
+}
+.cuasochat .cuasochat-head .ben-trai{
+	float: left;
+	font-size: 12px;
+	color: #4b4f56;
+	font-weight: bold;
+}
+.cuasochat .cuasochat-head .ben-trai i{
+	color: #42b72a;
+	font-size: 8px;
+	vertical-align: 1px;
+	padding-right: 3px;
+}
+.cuasochat .cuasochat-head .ben-phai{
+	float: right;
+}
+.cuasochat .cuasochat-head .ben-phai i{
+	display: inline-block;
+	width: 22px;height: 26px;
+	background-image: url('images2/LPz7JvmQVvg.png');
+	background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.6;transition: opacity .15s;
+    cursor: pointer;
+} 
+.cuasochat .ben-phai i.bg1{
+	background-position: -11px -185px;
+}
+.cuasochat .ben-phai i.bg2{
+	background-position: -1px -214px;
+}
+.cuasochat .ben-phai i.bg3{
+	background-position: -1px -298px;
+}
+.cuasochat .ben-phai i.bg4{
+	background-position: -1px -270px;
+}
+.cuasochat .ben-phai i.bg5{
+	background-position: -1px -242px;
+}
+.cuasochat .ben-phai i:hover{
+	opacity: 1;
+}
+/*----------------------*/
+.cuasochat .cuasochat-main{
+	padding:10px 5px;
+	height: 240px;
+	border-bottom: 1px solid #c9d0da;
+}
+.cuasochat .cuasochat-main .ben-trai{
+	float: left;
+	padding-right: 10px;
+}
+.cuasochat .cuasochat-main .ben-trai img{
+	border-radius: 5px;
+}
+.cuasochat .cuasochat-main .ben-phai{
+	font-size: 12px;
+	color: #000;
+	line-height: 15px;
+	margin-bottom: 3px;
+}
+.cuasochat .cuasochat-main .ben-phai div.color2{
+	color: #90949c;
+	font-size: 11px;
+	display: inline-block;
+	margin-top: 3px;
+}
+/**/
+.footer22{
+	padding:10px 8px 6px;
+}
+.footer22 textarea{
+	width: 100%;
+	border:none;
+	display: block;
+}
+.footer22 textarea:focus{
+	outline: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.footer22 .ben-trai{
+	float: left;
+}
+.footer22 .ben-phai{
+	float: right;
+}
+.footer22 .ben-trai i,.footer22 .ben-phai i{
+	display: inline-block;
+	height: 16px;width: 16px;
+	background-image: url('images2/U0K7Z5bh5Cv.png');
+	background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.6;transition: opacity .15s;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.footer22 .ben-trai i.bg1{
+	background-position: 0 -502px;
+}
+.footer22 .ben-trai i.bg2{
+	background-position: -17px -502px;
+}
+.footer22 .ben-trai i.bg3{
+	background-position: -17px -468px;
+}
+.footer22 .ben-trai i.bg4{
+	background-position: 0 -468px;
+}
+.footer22 .ben-trai i.bg5{
+	background-position: -17px -485px;
+}
+.footer22 .ben-trai i.bg6{
+	background-image: url('images2/6e49b5k_uct.png');
+	background-position: 0 0;
+}
+.footer22 .ben-phai i.bg7{
+	background-position: -8px -168px;
+	height: 19px;width: 19px;
+}
+.footer22 .ben-trai i:hover,.footer22 .ben-phai i:hover{
+	opacity: 1;
+}
+/**/
+.dongtextthongbao{
+	margin-top: 30px;
+}
+.dongtextthongbao .ben-trai{
+	margin-right: 0px;
+}
+.dongtextthongbao .ben-trai img{
+	border-radius: 2px;
+    height: 28px;
+    width: 28px;
+}
+.dongtextthongbao .ben-phai{
+	background-color: #f1f0f0;
+	padding:10px;
+	border-radius: 10px;
+	font-size: 12px;
+	float: right;
+	width:230px;
+}
+
+    

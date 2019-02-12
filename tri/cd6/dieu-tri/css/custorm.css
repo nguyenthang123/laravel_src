@@ -1,0 +1,406 @@
+body{
+    font-size: 15px;
+}
+.color_red{
+    color: red;
+}
+.head .nav_bg .nav_1 {
+    width: 700px;
+    text-transform: uppercase;
+}
+.head .nav_bg .logo{
+    width: 300px;
+}
+.border_l{
+    border-left: 1px solid #000000;
+}
+.clear{
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.clear2{
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.clear3{
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.main_item{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.main_item1{
+}
+.main_item1 .tit1{
+    background: url("../images/tit1.jpg") no-repeat center top;
+    height: 40px;
+}
+.main_item1 .content .content_l{
+    width: 620px;
+    float: left;
+}
+.main_item1 .content .content_l p{
+    text-align: justify;
+    text-indent: 20px;
+    padding-right: 35px;
+}
+.main_item1 .content .content_r{
+    width: 380px;
+    float: left;
+}
+.main_item1 .content .content_r h3{
+    text-transform: uppercase;
+    border-left: 4px solid red;
+    padding-left: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.main_item1 .content .content_r p{
+    background: url("../images/ico_chamdo.png") no-repeat top left;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.main_item1 .content .content_r ul li{
+    float: left;
+    width: 116px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+.main_item1 .content .content_r ul li:nth-child(1){
+    background: #ebd7a2;
+}
+.main_item1 .content .content_r ul li:nth-child(2){
+    background: #f6c8c8;
+}
+.main_item1 .content .content_r ul li:nth-child(3){
+    background: #c8e591;
+}
+.main_item1 .content .content_r ul li:nth-child(4){
+    background: #acf4e8;
+}
+.main_item1 .content .content_r ul li:nth-child(5){
+    background: #ececba;
+}
+.main_item1 .content .content_r ul li:nth-child(6){
+    background: #bbc4ed;
+    letter-spacing: -1px;
+}
+.main_item1 .canhbao p{
+    display: block;overflow: hidden;
+    padding-left: 30px;
+    text-align: justify;
+    text-indent: 15px;
+}
+.tit_vang{
+    background: url("../images/bg_tit_vang.jpg") no-repeat top left;
+    height: 48px;
+    overflow: hidden;
+}
+.tit_vang_c{
+    margin: auto;overflow: hidden;
+}
+.tit_vang .tit_txt{
+    background: url("../images/bg_tit_vang_c.jpg") repeat-x;
+}
+.tit_vang_l{
+    float: left;
+}
+.tit_vang .tit_txt{
+    float: left;
+    background: url("../images/bg_tit_vang_c.jpg") repeat-x;
+    padding-top: 25px;
+    height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tit_vang_r{
+    float: left;
+}
+.main_item3 .des{
+    width: 400px;
+    margin:auto;
+    text-align: center;
+}
+.main_item3 ul li{
+    border-left: 1px solid #ccc;
+    width: 24%;
+    float: left;
+}
+.main_item3 ul li h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_item3 ul li .tit3{
+    margin-top: 20px;
+}
+.main_item3 ul li .tit3 img{
+    float: left;
+}
+.main_item3 ul li:first-child{
+    border: none;
+}
+.main_item3 ul li p{
+    padding-top: 8px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 75px;
+}
+.main_item3 ul li p img{
+    opacity: 0.7;
+}
+.main_item3 ul li p img:hover{
+    opacity: 1;
+}
+.tit_den{
+    background: url("../images/bg_tit_den.jpg") no-repeat top center;
+    height: 42px;
+}
+.tit_den2{
+    background: url("../images/bg_tit_den2.jpg") no-repeat top center;
+    height: 42px;
+}
+.tit_den_c{
+    margin: auto;overflow: hidden;
+}
+.tit_den .tit_txt{
+    background: url("../images/bg_tit_vang_c.jpg") repeat-x;
+}
+.tit_den_l{
+    float: left;
+}
+.tit_den .tit_txt{
+    float: left;
+    background: url("../images/bg_tit_den_c.jpg") repeat-x;
+    padding-top: 13px;
+    height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.tit_den_r{
+    float: left;
+}
+.tiem4_content_l{
+    width: 730px;
+    float: left;
+}
+.tiem4_content_l p{
+    text-align: justify;
+}
+.item4_content_r{
+    width: 270px;
+    float: left;
+}
+.item5_content{
+    background: url("../images/bg_item5.jpg") no-repeat;
+    height: 382px;
+    overflow: hidden;
+}
+.item6_content{
+    text-align: center;
+}
+.item7_content1 ul li{
+    float: left;
+    text-align: center;
+}
+.item7_content3 .w40{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.item7_content3 .w60{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.item7_content3 .w60 .tit7{
+    text-transform: uppercase;
+}
+.item8_content .w30{
+    width: 340px;
+    float: left;
+}
+.item8_content .w70{
+    float: left;
+    width: 660px;
+}
+.item8_content .w30 ul li{
+    padding-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.item8_content .w30 ul li .border_l{
+    padding: 10px;
+}
+.item8_content .w30 ul li .border_l p{
+    text-align: justify;
+}
+.item8_content .w30 ul li:nth-child(1){
+    background: url("../images/so_1.png") no-repeat top left;
+}
+.item8_content .w30 ul li:nth-child(2){
+    background: url("../images/so_2.png") no-repeat top left;
+}
+.item8_content .w30 ul li:nth-child(3){
+    background: url("../images/so_3.png") no-repeat top left;
+}
+.item8_content_3 ul li{
+    width: 20%;
+    float: left;
+}
+.item8_content_3 ul li div{
+    text-align: center;
+    padding: 0 10px;
+}
+.item8_content_3 ul li b{
+    padding: 10px 0px;
+    display: block;
+}
+.item9_content{
+    background: url("../images/bg_item9.jpg") no-repeat top center;
+    overflow: hidden;
+    width: 730px;
+    margin: auto;
+}
+.item9_content ul{
+    overflow: hidden;
+}
+.item9_content ul li{
+float: left;
+}
+.item9_content ul li.l{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 45px;
+}
+.item9_content ul li.r{
+    width: 500px;
+}
+.item9_content ul li.r a{
+    float: right;
+    color: #000000;
+    margin: 10px 0;
+}
+.item9_content ul li.r p{
+    text-align: justify;
+}
+.bg_hoidap{
+    background: url("../images/bg_hoidap.jpg") no-repeat center 10px;
+    width: 100%;
+    height: 50px;
+}
+/*footer*/
+.foot, .flink {
+    background: #271613;
+}
+.w1000, .project ul, .foot_main, .feature, .flink ul {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.foot_main {
+    height: 268px;
+    border-bottom: 1px solid #3d3120;
+}
+.foot_main, .feature, .flink ul {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot_main ol {
+    margin: 30px 0;
+    height: 208px;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.foot_logo {
+    width: 133px;
+    height: 131px;
+    float: left;
+    margin-left: 76px;
+    overflow: hidden;
+    background: url(http://trihanoi.com/public/images/logo-bottom.png) no-repeat 0 0;
+    animation: mclogo 5s ease-out 1s infinite;
+    margin-bottom: 15px;
+    -webkit-animation: mclogo 5s ease-out 1s infinite;
+}
+.foot_text {
+    width: 206px;
+    height: 90px;
+    overflow: hidden;
+}
+.left, .zt_list ul li, .arr a, .conbox ul li, .list_conbox ul li, .show ul li, .foot_logo, .w565, .qrpic, .intro, .search input, .search a, .w565 ul, .w565 ul li {
+    float: left;
+    display: inline;
+}
+.w565 {
+    width: 586px !important;
+    overflow: hidden;
+    float: left;
+    border-left: 1px dashed #3d3120;
+}
+.w565 ul {
+    margin-left: 25px;
+    _margin-left: 25px;
+    width: 162px;
+    overflow: hidden;
+    float: left;
+    width: 190px;
+}
+.foot h6 {
+    width: auto;
+    height: 31px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #b7a88f;
+    white-space: nowrap;
+    border-bottom: 1px solid #3d3120;
+}
+.w565 ul li {
+    width: 100%;
+    text-align: left;
+}
+.w565 ul li {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+ul, ol, li {
+    list-style: none;
+}
+.w565 ul li a {
+    color: #8d6e69;
+}
+.right, .more, .list_more, .w355 ol ul li span, .qrcode, .intro, .list_info {
+    float: right;
+    display: inline;
+}
+.qrcode {
+    width: 297px;
+    float: left;
+}
+.qrpic {
+    width: 124px;
+    height: 124px;
+    background: url(http://trihanoi.com/public/images/deo-biet.jpg) no-repeat;
+    float: left;
+}

@@ -1,0 +1,584 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4efe3;
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 500;
+    font-family: "times new roman",times,Arial,Helvetica,sans-serif;
+}
+#wapper{
+    width: 100%;
+    top: 16px;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{width:100%;
+    height: 80px;
+    margin: auto;
+    margin-top: -1170px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+}
+#head #logo{text-align: center;
+    margin-right: 640px;
+}
+#head #thuonghieu{text-align: center;
+    margin-left: 420px;
+    margin-top: -60px;}
+#main{
+  width: 1000px;
+  margin: auto;
+  background: url("image/top-top.png") no-repeat;
+  padding-top: 400px;
+  z-index: 1;
+}
+#main_top{
+    background: url("image/bg_main_top.png") no-repeat;
+    width: 1000px;
+    height: 168px;
+    z-index: 2;
+}
+#menu_left{
+    float: left;
+    width: 490px;
+}
+#menu_left ul{
+    list-style: none;
+    height: 42px;
+    float: right;
+    padding-right: 65px;
+}
+#menu_left ul li{
+    float: left;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#menu_left ul li a{ color: white;
+    text-decoration: none;}
+#menu_left ul li a:hover{
+    text-decoration: underline;
+}
+ul li.phancach{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu_right{
+    float: left;
+    width: 490px;
+    padding-left: 10px;
+}
+#menu_right ul{
+    list-style: none;
+    height: 42px;
+    float: left;
+    padding-right: 65px;
+}
+#menu_right ul li{
+    float: left;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+#menu_right ul li a{ color: white;
+    text-decoration: none;}
+#qua{float: left;
+    background: url("image/bg_qua.png") no-repeat;
+    height: 98px;
+    width: 1000px;
+    margin-left: 21px;
+
+}
+#qua_text{
+    float: left;
+    height: 40px;
+    margin-top: 30px;
+}
+#khoidong{
+    width: 435px;
+    float: left;
+    height: 40px;
+    background: url("image/khoidong.png") no-repeat;
+    margin-left: 156px;
+    line-height: 32px;
+    font-size: 19px;
+    padding: 5px;
+    color: white;
+
+}
+#qua_time{
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    line-height: 42px;
+}
+#qua_ico{
+    width:100px;
+    height:100px;
+    background:url("image/qua_ico.png") no-repeat;
+    float: left;
+}
+#main_content{
+    width: 1000px;
+    /*height: 1000px;*/
+    background: white;
+}
+#mota{
+    margin-left: 14px;
+    width: 973px;
+    background: url("image/tomtat.png") no-repeat;
+    height: 191px;
+}
+#mota div#mota_text{
+    width: 745px;
+    padding-top: 20px;
+    margin-left: 45px;
+    margin-right: 5px;
+}
+#khuyenmai{
+    float: left;
+    width: 1000px;
+    background-color: white;
+}
+#km_content{
+    float: left;
+    width: 964px;
+    margin-left: 18px;
+    height: 735px;
+    background: url("image/khuyenmai.png") no-repeat;
+
+}
+#km_title{
+    width: 964px;
+    height: 35px;
+    float: left;
+    margin-top: 80px;
+}
+#km_title_left{
+    float: left;
+    width: 482px;
+    margin-top: 4px;
+    line-height: 35px;
+    text-align: right;
+}
+#km_title_left span{
+    padding-right: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+#km_title_right{
+    float: left;
+    width: 482px;
+    margin-top: 4px;
+    line-height: 35px;
+    text-align: left;
+}
+#km_title_right span{
+    padding-left: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+#km_mienphi{
+    float: left;
+    width: 964px;
+    height: 100px;
+}
+#km_mienphi_left{
+     float: left;
+     height:100px;
+     width: 482px;
+
+ }
+#km_mienphi_left p{
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+#km_mienphi_right{
+    float: left;
+    height:100px;
+    width: 482px;
+
+}
+#km_mienphi_right p{
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+#km_mota{
+    float: left;
+    width: 964px;
+    height: 150px;
+}
+#km_mota_left{
+    float: left;
+    height:150px;
+    width: 482px;
+
+}
+#km_mota_left_2{
+    float: right;
+    height:150px;
+    width: 160px;
+    margin-right: 152px;
+    padding-left: 170px;
+    margin-top: 20px;
+}
+#km_mota_right{
+    float: left;
+    height:150px;
+    width: 482px;
+
+}
+#km_mota_right_2{
+    float: left;
+    height:150px;
+    width: 160px;
+    margin-right: 152px;
+    padding-left: 170px;
+    margin-top: 20px;
+}
+#km_title2{
+    float: left;
+    width: 964px;
+    height: 35px;
+    margin-top: 71px;
+}
+#km_title_left2{
+    float: left;
+    width: 482px;
+    height: 35px;
+}
+#km_title_left2 span{
+    float: right;
+    padding-top: 9px;
+    padding-right: 120px;
+}
+#km_title_right2{
+    float: left;
+    width: 482px;
+    height: 35px;
+}
+#km_title_right2 span{
+    float: left;
+    padding-top: 9px;
+    padding-left: 120px;
+}
+#km_mienphi2{
+    float: left;
+    width: 964px;
+    height: 160px;
+}
+#km_mienphi_left2{
+    float: left;
+    width: 482px;
+    height: 160px;
+}
+#km_mienphi_right2{
+    float: left;
+    width: 482px;
+    height: 160px;
+}
+p.km_left{
+    font-size: 20px;
+    float: right;
+    padding-right: 120px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 0;
+}
+p.km_right{
+    font-size: 20px;
+    float: left;
+    padding-left: 120px;
+    text-transform: uppercase;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    margin: 0;
+}
+p.km_title{
+    padding-top: 30px;
+}
+#km_left_ct{
+    padding-right: 120px;
+    float: right;
+    text-align: right;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+#km_right_ct{
+    padding-left: 120px;
+    float: left;
+    text-align: left;
+    padding-top: 16px;
+    padding-right: 50px;
+}
+#km_foot{
+    background: url("image/2.png");
+    width: 984px;
+    height: 72px;
+    float: left;
+    margin-left: 7px;
+}
+#tuvan{
+    width: 1000px;
+    float: left;
+    background-color: white;
+}
+.tuvan_top{
+    height: 68px;
+    background: url("image/4.jpg");
+}
+.tuvan_top_left{
+    width: 400px;
+    height: 68px;
+    float: left;
+}
+.tuvan_top_left p{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.tuvan_top_left p a{
+    color: white;
+    text-decoration: none;
+}
+.tuvan_top_right{
+    width: 600px;
+    height: 68px;
+    float:right;
+}
+.tuvan_top_right p{
+    float: left;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    margin-top:20px ;
+    text-transform: uppercase;
+}
+#tuvan_img{
+    padding-left: 44px;
+    padding-top: 15px;
+}
+#chitiettuvan{
+    height: 38px;
+    margin-left: 395px;
+    margin-top: -15px;
+    float: left;
+}
+#tuvan_content{
+    width: 917px;
+    padding-left: 44px;
+}
+#tuvan_content p{word-spacing: 2px;}
+#tuvan_foot{
+    width: 77px;
+    height: 70px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -45px;
+    background: url("image/tuvan_foot.png") no-repeat ;
+    background-position: right bottom;
+}
+#tieuchuan{
+  /*  float: left;
+    padding-top: 20px;
+    width: 1000px;
+    height: 1000px;
+    background: white;*/
+    float: left;
+    padding-top: 20px;
+    width: 1000px;
+    height: 1185px;
+    background: white;
+}
+#tieuchuan_img{
+    margin-left: 40px;
+}
+#sdt{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -168px;
+    text-align: center;
+}
+#sdt p{color: #003865;}
+#sdt span{
+    color: #003865;
+    font-weight: bold;
+
+}
+.baiviet{
+    /*float: left;
+    background: white;
+    width: 1000px;*/
+    /*float: left;
+    width: 1000px;
+    position: relative;*/
+    float: left;
+    width: 1000px;
+    position: relative;
+    margin-top: -200px;
+    background: white;
+}
+.baiviet_title{
+    background: url("image/baiviet_title.png") no-repeat;
+    width: 949px;
+    height:42px; ;
+    margin-left: 27px;
+}
+.baiviet_title h2{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.baiviet_title a{
+    line-height: 42px;
+    margin-left: 46px;
+    text-decoration: none;
+    color: black;
+}
+.baiviet_title a:hover{
+    text-decoration: underline;
+}
+.click_tuvan{
+    background: url("image/click_tuvan.png") no-repeat;
+    float: right;
+    width: 189px;
+    height: 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.baiviet_content{
+    float: left;
+    width: 948px;
+    margin-left: 27px;
+}
+.bv_content_left{
+    float: left;
+    width: 470px;
+    background: #c7a85a;
+}
+div.bv_img{
+    width: 176px;
+    float: left;
+}
+.bv_content_right{
+    float: right;
+    width: 470px;
+    background: #c7a85a;
+}
+.bv_list{
+  float: left;
+  margin-top: 10px;
+  width: 282px;
+    padding-bottom: 10px;
+}
+.bv_list a{
+    text-transform: none;
+    text-decoration: none;
+    padding-top: 13px;
+    float: left;
+    font-size: 16px;
+    color: black;
+}
+.bv_list a:hover{
+    text-decoration: underline;
+}
+.content_foot{
+    background: url("image/content_footer2.png") no-repeat center;
+    width: 100%;
+    height: 157px;
+    float: left;
+    margin-top: -79px;
+}
+.footer{ width: 100%;
+    overflow: hidden;
+    background: #e3e3e3;
+    margin-top: 23px;
+    float: left;
+}
+.footer_left{
+    float: left;
+    width: 49%;
+}
+.f_left{
+    margin-left: 240px;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    float: right;
+}
+.f_left img{
+    text-align: center;
+}
+.f_left p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #0056b5;
+    font-weight: 800;
+    margin: 0;
+    font-size: 22px;
+    padding-top: 25px;
+}
+.f_left span{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.footer_right{
+    float: right;
+    width: 49%;
+}
+.f_right{
+    float: left;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ico_f{
+    float: left;
+}
+.ico_f img{ margin-right: 10px;}
+.footer_right p{
+    font-weight: bold;
+    text-decoration: inherit;
+    float: left;
+    font-size: 35px;
+    margin: 0;
+}
+#main_footer{
+    width: 1000px;
+    height: 25px;
+    float: left;
+    background-color: white;
+}
+.footer_right span{
+    float: left;
+    font-size: 15px;
+    margin: 0;
+}
+.clr{width: 100%;
+float: left;
+height: 2px;}
+@media screen  and (max-width: 1387px) {
+    #main { margin-top: 0px!important; }
+}
+@media screen  and (min-width: 1388px) {
+    #main { top: 500px; }
+}

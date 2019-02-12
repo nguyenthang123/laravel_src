@@ -1,0 +1,407 @@
+<?php
+
+require_once('../../define.php');
+
+$domain=domain;
+
+$link_gioithieu=link_gioithieu;
+
+$link_thietbi=link_thietbi;
+
+$link_kythuat=link_kythuat;
+
+$link_diachi=link_diachi;
+
+$link_tuvan=link_tuvan;
+
+$link_skype=link_skype;
+
+$phone1=phone1;
+
+$phone2=phone2;
+
+$line_chat=line_chat();
+$ico_shortcut=ico_shortcut;
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Chào mứng Quốc khánh</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://phukhoa168.com/public/frontend/img/home/logo.png" />
+
+<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/wow.js"></script>
+
+    <?= $ico_shortcut;?>
+
+<script>
+
+ new WOW().init();
+
+</script>
+
+</head>
+
+<body>
+
+<div id="background">
+
+	<div id="menu-bar">
+
+    	<ul id="menu">
+
+        	<a href="<?= $domain;?>"><li class="menu-item">Trang chủ</li></a>
+
+            <a href="<?= $link_gioithieu;?>"><li class="menu-item">Giới thiệu</li></a>
+
+            <a href="<?= $link_kythuat;?>"><li class="menu-item">Kỹ thuật</li></a>
+
+            <a href="<?= $link_diachi;?>"><li class="menu-item">Địa Chỉ</li></a>
+
+            <a href="<?= $link_tuvan;?>"><li class="menu-item">Đăng ký khám</li></a>
+
+        </ul>
+
+    </div>
+
+    <div class="clear"></div>
+
+	<div id="header" style="margin-top: 42px;">
+
+    	<div id="banner-bg">
+
+            <div id="banner-img-bg"><img src="images/banner-bg.png" width="1900px" height="675px"></div>
+
+            <div id="banner">
+
+                <div id="banner-text1" class="rollIn wow" data-wow-delay="0.5s"><img src="images/banner-text1.png"></div>
+
+                <div id="banner-tim" class="zoomIn wow"><img src="images/banner-tim.png"></div>
+
+                <div id="banner-1" class="wow zoomInRight" data-wow-delay="0.1s"><img src="images/banner-1.png"></div>
+
+                <div id="banner-2" class="wow zoomInRight" data-wow-delay="0.3s"><img src="images/banner-2.png"></div>
+
+                <div id="banner-3" class="wow zoomInRight" data-wow-delay="0.5s"><img src="images/banner-3.png"></div>
+
+                <div id="banner-text2" class="wow fadeInLeft" data-wow-delay="0.3s"><img src="images/banner-text2.png" /></div>
+
+                <div id="banner-text3">
+
+                    <!--<h3>Thời gian áp dụng từ ngày 30 - 8 -2016 đến hết ngày: 20 - 9 - 2016</h3>-->
+
+                   <h3><script src="http://phongkham168.com/cd/js/date.js"></script></h3>
+
+                </div>
+
+               <div id="banner-text4" class="wow fadeInLeft" data-wow-delay="0.3s"><img src="images/banner-text4.png" /></div>
+
+                <div id="banner-sao" class="zoomIn wow"><img src="images/banner-sao.png"></div>
+
+                <div id="banner-bot" class="lightSpeedIn wow" data-wow-delay="1s"><img src="images/banner-bot.png"></div>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div id="banner2" class="wow fadeInUp" data-wow-delay="1s">
+
+        	<div id="banner2-text">
+
+            	<p>Cảm ơn bạn và người thân đã luôn tin tưởng phòng khám của chúng tôi, chúng tôi luôn nỗ lực vì sức khỏe của cộng đồng. Nhân dịp Quốc khánh, phòng khám đa khoa 168 Hà Nội tổ chức hoạt động <span style="color:red">"Mừng Quốc Khánh - Tặng Sức Khỏe"</span>, một người khỏe mạnh, cả gia đình hạnh phúc. Trên con đường sức khỏe, phòng khám đa khoa 168 Hà Nội luôn đồng hành cùng bạn. Bạn có thể tư vấn trực tuyến hoặc gọi điện vào số điện thoại: <?= $phone1;?> - <?= $phone2;?> để đăng ký tới khám, hoạt động này chỉ áp dụng đối với những bệnh nhân đăng ký qua điện thoại và qua mạng.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end header -->
+
+    <div id="main">
+
+    	<div id="section1-bg" class="wow fadeInUp" data-wow-delay="1s">
+
+        	<div id="section1">
+
+            	<div id="s1-title"><img src="images/s1-title.png"></div>
+
+                <div id="s1-line"><img src="images/s1-line.png"></div>
+
+                <div id="s1-sdt">
+
+                	<?= $phone1;?><br />
+
+					<?= $phone2;?>
+
+                </div>
+
+            	<div id="s1-img" class="wow fadeInDown" data-wow-delay="0.4s"><img src="images/s1-img.png"></div>
+
+                <div id="s1-item1" class="s1-item wow fadeInLeftBig" data-wow-delay="0.3s">
+
+                	<div class="s1-item-title1">QUÀ TẶNG ƯU ĐÃI</div>
+
+                    <div class="s1-item-text1">Bệnh nhân chỉ cần hẹn khám qua mạng hoặc qua điện thoại đều được miễn phí phí đăng ký khám.</div>
+
+                </div>
+
+                <div id="s1-item2" class="s1-item wow fadeInLeftBig" data-wow-delay="0.4s">
+
+                	<div class="s1-item-title2">QUÀ TẶNG ƯU ĐÃI</div>
+
+                    <div class="s1-item-text2">Phòng khám có phòng xét nghiệm tiêu chuẩn, nhân viên xét nghiệm chuyên nghiệp, kết quả kiểm tra chính xác, kịp thời, thuận tiện. </div>
+
+                </div>
+
+                <div id="s1-item3" class="s1-item wow fadeInLeftBig" data-wow-delay="0.5s">
+
+                	<div class="s1-item-title3">QUÀ TẶNG ƯU ĐÃI</div>
+
+                    <div class="s1-item-text3">Thủ thuật do các bác sỹ có nhiều năm kinh nghiệm trực tiếp tiến hành, đảm bảo liệu quả điều trị và an toàn trong thủ thuật. </div>
+
+                </div>
+
+                <div id="s1-item4" class="s1-item wow fadeInLeftBig" data-wow-delay="0.6s">
+
+                	<div class="s1-item-title4">QUÀ TẶNG ƯU ĐÃI</div>
+
+                    <div class="s1-item-text4">Thiết bị điều trị đầy đủ và chuyên nghiệp giúp bạn phục hồi nhanh hơn, điều trị hiệu quả tốt hơn.</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- end section1 -->
+
+        <div id="section2-bg" data-800="opacity:0; margin-top:500px" data-1500="opacity:1; margin-top:-13px;">
+
+        	<div id="section2">
+
+                <div id="s2-title"><img src="images/s2-title.png"></div>
+
+            	<div id="s2-item1" class="s2-item">
+
+                	<div class="s2-item-img"><img src="images/s2-1.png"></div>
+
+                    <div class="s2-item-title">GIÁM SÁT GIÁ CẢ</div>
+
+                    <div class="s2-item-text">Phòng khám đa khoa 168 Hà Nội yêu cầu nghiêm khắc, tất cả chi phí giá cả được niêm yết công khai, các hạng mục thu phí rõ ràng minh bạch,  không tồn tại thu phí trùng</div>
+
+                </div>
+
+            	<div id="s2-item2" class="s2-item">
+
+                	<div class="s2-item-img"><img src="images/s2-2.png"></div>
+
+                    <div class="s2-item-title">GIÁM SÁT DỊCH VỤ</div>
+
+                    <div class="s2-item-text">Tư vân cho bệnh nhân trong quá trình thăm khám, hướng dẫn..., phòng khám được giám sát chặt chẽ, bệnh nhân có bất cứ vấn đề gì có thể phản hồi mọi lúc..</div>
+
+                </div>
+
+            	<div id="s2-item3" class="s2-item">
+
+                	<div class="s2-item-img"><img src="images/s2-3.png"></div>
+
+                    <div class="s2-item-title">DỊCH VỤ TÁI KHÁM</div>
+
+                    <div class="s2-item-text">Với thái độ trách nhiệm cho sức khỏe của bệnh nhân đến điều trị tại phòng khám các bác sĩ triển khai dịch vụ tái khám miễn phí 1 bác sĩ 1 bệnh nhân</div>
+
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="but"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan.png"></a></div>
+
+                <div class="but2"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan2.png"></a></div>
+
+                <div class="sdt"><?= $phone1;?> - <?= $phone2;?></div>
+
+            </div>
+
+        </div>
+
+        <!-- end  -->
+
+        <div id="section3-bg">
+
+        	<div id="section3">
+
+            	<div id="s3-text">
+
+                	<div id="height"></div>
+
+                	<div id="text"><p>Bác sỹ phụ khoa với hơn 30 năm thăm khám,tiến hành đưa ra các phương án điều trị và các hạng mục kiểm tra cho các chị em.Bác sỹ phụ khoa Phòng Khám 168 Hà Nội tiến hành hội chẩn đối với những bệnh lý nản giải phức tạp,làm cho nhưng gia đình sống tại Hà Nội không cần phải đi xa mới có thể tìm thấy bác sỹ giỏi,mọi người được hưởng dịch vụ y tế chất lượng cao.</p></div>
+
+                </div>
+
+                <div class="but"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan.png"></a></div>
+
+                <div class="but2"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan2.png"></a></div>
+
+                <div class="sdt"><?= $phone1;?> - <?= $phone2;?></div>
+
+            </div>
+
+        </div>
+
+        <!-- end section3 -->
+
+       	<div id="section4-bg">
+
+        	<div id="section4">
+
+            	<div id="s4-title"><img src="images/s4-title.png"></div>
+
+            	<div id="s4-1-2">
+
+                	<div class="s4-item-left" id="s4-item1" data-2300="opacity:0; margin-left:-500px;" data-3000="opacity:1; margin-left:0px;">
+
+                    	<div id="s4-item1-title1">ĐẢM BẢO VỀ CHẤT LƯỢNG</div>
+
+                        <div id="s4-item1-title2">Là phòng khám chất lượng tại khu vực</div>
+
+                        <div class="s4-content">- Là phòng khám đa khoa được Sở y tế thành phố Hà Nội cấp phép<br />-Liên tiếp 3 năm được đánh giá là “phòng khám uy tín về chi phí”</div>
+
+                    </div>
+
+                    <div class="s4-item-right" id="s4-item2" data-2300="opacity:0; margin-right:-500px;" data-3000="opacity:1; margin-right:0px;">
+
+                    	<div id="s4-item2-title1">THIẾT BỊ KỸ THUẬT ĐẢM BẢO</div>
+
+                        <div id="s4-item2-title2">Toàn diện và uy tín</div>
+
+                        <div class="s4-content">- Phòng thủ thuật vô khuẩn tuyệt đối, độ sạch không khí đạt 99,98%<br />- Thiết bị xâm lấn tối thiểu hiện đại, an toàn đảm bảo</div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <div id="s4-3-4">
+
+                	<div class="s4-item-left" id="s4-item3" data-2400="opacity:0; margin-left:-500px;" data-3100="opacity:1; margin-left:0px;">
+
+                    	<div id="s4-item3-title1">PHÒNG KHÁM CHUYÊN NGHIỆP HÀNG ĐẦU</div>
+
+                        <div id="s4-item3-title2">An toàn - chất lượng</div>
+
+                        <div class="s4-content">- Phòng khám liên tiếp trong 3 năm được người bệnh và lãnh đạo các cấp đánh giá là tốt nhất.<br />- Phòng khám thực hiện thành công hàng vạn ca thủ thuật không sự cố, là đơn vị tiên tiến trong điều trị chẩn đoán sức khỏe ở Hà Nội </div>
+
+                    </div>
+
+                    <div class="s4-item-right" id="s4-item4" data-2400="opacity:0; margin-right:-500px;" data-3100="opacity:1; margin-right:0px;">
+
+                    	<div id="s4-item4-title1">CHI PHÍ Y TẾ THẤP</div>
+
+                        <div id="s4-item4-title2">Hưởng ứng quy định quốc gia</div>
+
+                        <div class="s4-content">- Luôn nghĩ tới lợi ích của người bệnh, luôn tuân thủ chi phí thấp của 	sở y tế.<br />- Triển khai nhiều nhiều hoạt khám miễn phí, luôn là phòng khám có chi phí thấp nhất so với những phòng khám khác.</div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <div class="but"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan.png"></a></div>
+
+                <div class="but2"><a href="<?= $link_tuvan;?>"><img src="images/but-tuvan2.png"></a></div>
+
+                <div class="sdt"><?= $phone1;?> - <?= $phone2;?></div>
+
+            </div>
+
+        </div>
+
+        <!-- end section4 -->
+
+    </div>
+
+    <!-- end main -->
+
+    <div id="footer-bg">
+
+    <div id="footer">
+
+    	<a href="<?= $link_tuvan;?>"><div id="tuvan"></div></a>
+
+        <a href="<?= $link_tuvan;?>"><div id="henkham"></div></a>
+
+        <a href="skype:bacsy_tuvan168?chat"><div id="skype"></div></a>
+
+        <a href="http://phongkhamdakhoa168.com/"><div id="trangchu"></div></a>
+
+        <div id="footer-text">
+
+        	KM 1 2 - Ngọc Hồi - Thanh Trì - Hà Nội<br />
+
+        	Điện thoại: <?= $phone1;?> - <?= $phone2;?> <br />
+
+            Email: phongkhamdakhoa168@gmail.com<br />
+
+			<span>Thông tin trên website mang tính chất tham khảo không là căn cứ y tế và chẩn đoán</span>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+<script>
+
+	$(document).ready(function(e) {
+
+        setInterval(function(){
+
+			 if($('.but2').css('display')=='none'){
+
+				$('.but').css({'display':'none'});
+
+				$('.but2').css({'display':'block'});}
+
+			else{
+
+				$('.but').css({'display':'block'});
+
+				$('.but2').css({'display':'none'});}
+
+			},1000)
+
+    });
+
+</script>
+
+</body>
+
+<script type="text/javascript" src="js/skrollr.js"></script>
+
+<script>
+
+    var s = skrollr.init({forceHeight: false});
+
+</script>
+<?= $line_chat;?>
+</html>
+

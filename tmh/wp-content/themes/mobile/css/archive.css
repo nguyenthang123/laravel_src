@@ -1,0 +1,181 @@
+.archive .tai-mui-hong,.page .page article .entry-header .tai-mui-hong{
+	margin-top: 15px;padding:0px 3px;
+}
+.archive .tai-mui-hong .w33,.page .page article .entry-header .tai-mui-hong .w33{
+	height: 38px;
+	line-height: 38px;
+	color: #fff;
+}
+.archive .tai-mui-hong .w33 >div,.page .page article .entry-header .tai-mui-hong .w33>div{
+	border-radius: 3px;
+	text-align: center;
+}
+.archive .tai-mui-hong .w33 >div.mui,.page .page article .entry-header .tai-mui-hong .w33>div.mui{
+	margin-right: 5px;
+}
+.archive .tai-mui-hong .w33 >div.tai,.page .page article .entry-header .tai-mui-hong .w33>div.tai{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.archive .tai-mui-hong .w33 >div.hong,.page .page article .entry-header .tai-mui-hong .w33>div.hong{
+	margin-left: 5px;
+}
+.archive .tai-mui-hong .tai,.page .page article .entry-header .tai-mui-hong .tai{
+	background-color: #ff5649;
+}
+.archive .tai-mui-hong .mui,.page .page article .entry-header .tai-mui-hong .mui{
+	background-color: #008c56;
+}
+.archive .tai-mui-hong .hong,.page .page article .entry-header .tai-mui-hong .hong{
+	background-color: #ffab49;
+}
+.archive .tai-mui-hong h2,.page .page article .entry-header .tai-mui-hong h2{
+	font-size: 3.5vw;
+	margin:0px auto;
+	/*text-transform: uppercase;*/
+	font-weight: normal;
+}
+.archive .tai-mui-hong h2 a,.page .page article .entry-header .tai-mui-hong h2 a{
+	display: block;
+}
+.archive table{
+	border: 1px dashed  #ff5649;
+	border-spacing: 0;
+    border-collapse: collapse;
+    color: #ff5649;
+    text-align: center;
+    margin-top: 20px;
+}
+.archive table td
+{
+	border: 1px dashed  #ff5649;
+	padding: 10px 5px;
+	width: 25%;
+}
+.archive table td.active{
+	background-color: #ff5649;
+	color: #fff;    outline: 1px solid #ff5649;border:none;
+}
+.archive .trieu-chung .w20{
+	padding: 0px 2px;
+	text-align: center;
+}
+.archive .trieu-chung .w20 a{
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	color: #444;
+}
+.archive .trieu-chung .w20 a:nth-child(2){
+	margin-top: 10px;
+}
+.archive .trieu-chung {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.archive .trieu-chung2{
+	margin-top: 20px;
+}
+.archive .trieu-chung2 .w33{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 5px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 13px;
+}
+.archive .trieu-chung2 .w33 a{
+	display: block;
+}
+.archive .trieu-chung2 .w33 .trieu-trung{
+	background-color: #b693ed;
+	border-radius: 5px;
+}
+.archive .trieu-chung2 .w33 .nguyen-nhan{
+	background-color: #f7c485;
+	border-radius: 5px;
+}
+.archive .trieu-chung2 .w33 .nguy-hai{
+	background-color: #f49488;
+	border-radius: 5px;
+}
+.archive .trieu-chung2 .w33 .dieu-tri{
+	background-color: #ff97cc;
+	border-radius: 5px;
+}
+.archive .trieu-chung2 .w33 .chi-phi{
+	background-color: #75a2fd;
+	border-radius: 5px;
+}
+.archive .trieu-chung2 .w33 .kiem-tra{
+	background-color: #62ae91;
+	border-radius: 5px;
+}
+.archive .border{
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.archive .entry-header{
+	border-bottom: 1px solid #ddd;
+}
+.archive article{
+}
+.archive article .entry-title{
+	font-size: 15px;
+	color: #008c56;
+	background-image: url('images/archive-6.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 4px;
+	padding-left: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.archive .entry-content p{
+	font-size: 14px;
+	padding: 0px 8px;
+	line-height: 20px;
+	text-align: justify;
+}
+.archive .entry-content p a.xem-them{
+	color: #ff5649;
+}
+.archive .entry-content .row{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.archive .entry-content .row a{
+	color: #ff5649;
+	font-size: 13px;
+	display: inline-block;
+	margin-right: 10px;
+} 
+/*fix*/
+.archive .benh .tieu-de h2{
+	padding-left: 5px;
+}
+.archive .benh .tieu-de i
+{
+	font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 3px;
+}
+
+@media only screen and (orientation: landscape) {
+    .archive .tai-mui-hong h2{
+    	font-size: 15px;
+    }
+}
+@media only screen and (min-width: 360px)
+{
+	.archive .tai-mui-hong h2{
+    	font-size: 13px;
+    }
+}

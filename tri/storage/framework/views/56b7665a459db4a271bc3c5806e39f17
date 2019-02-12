@@ -1,0 +1,78 @@
+<?php echo $__env->make('site.head', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<link rel="stylesheet" href="<?php echo asset('public/css/list.css');; ?>">
+<div class="w1000 main">
+   <div class="left w277">
+<?php echo $__env->make('site.sitebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+   </div>
+   <div class="left w822 home">
+            <div class="row  btn-breadcrumb-s">
+            <div id="bc1" class="btn-group btn-breadcrumb">
+			<p>Ví trị hiện tại của bạn: </p>
+               <a href="/" class="">
+                  <div>Trang chủ</div> 
+               </a> 
+               <?php
+                  if(count($cat_parent_breadcrumb)) {
+                  	?>
+               <a href="/<?php echo e($cat_parent_breadcrumb->cat_alias); ?>" class="">
+                  <div><?php echo e($cat_parent_breadcrumb->name); ?></div>
+               </a> >
+               <?php
+                  }
+                  ?>
+               <a href="/<?php echo e($cat->cat_alias); ?>" class=" active">
+                  <div><?php echo e($cat->name); ?></div>
+               </a> 
+            </div>
+         </div>
+      <div class="article_list2">
+         <div style=" height:auto;">
+            <ul>
+            <?php if($errors->has()): ?>
+            <p style="color:red;">
+               <?php foreach($errors->all() as $error): ?>
+               <?php echo $error; ?><br />		
+               <?php endforeach; ?>
+            </p>
+            <?php endif; ?>
+            <?php
+               if(count($products)==0) {
+               	echo "<h2 class='text-center' style='    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;'> Không có bài viết nào </h2>";
+               }
+               ?>
+            <?php foreach( $products as $product ): ?>
+			    <li>
+                  <div class="list_nr">
+                     <div class="nr_bt"><span class="ztbt"><a href="<?php echo e(asset('')); ?><?php echo e($product->product_alias); ?>" target="_blank" title=""><?php echo e($product->name); ?></a></span><span class="zxzj"><a  href="<?= link_tuvan;?>" target="_blank">Bác sĩ tư vấn</a></span></div>
+					 						<?php
+							$content1 = $product->content;
+							$str=trim($content1); 
+							$text = strip_tags($str, "");
+							 if(strlen($text)<150){
+							 echo $str;
+							 }
+							 else {
+							$str =substr($text,0,350);
+							$count_vitri=strrpos($str,' ');
+							$str =substr($str,0,$count_vitri);
+							echo "<p>".$str.'...'."</p>";
+							}
+						?>	
+                  </div>
+               </li>
+            <?php endforeach; ?>
+            <div class="row" style="    text-align: center;    clear: both;">
+               <?php 
+                  //$products->setPath('pha-thai');
+                  echo $products->render(); 
+                  ?>
+            </div>
+		   </ul>
+         </div>
+      </div>
+<?php echo $__env->make('site.single-bottom', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+   </div>
+</div>
+<?php echo $__env->make('site.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
